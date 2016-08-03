@@ -1,0 +1,379 @@
+/*................................reset...........................................*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*................................clearfix...........................................*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/*.........GLOBLE......*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #959595;
+	font-weight: 300;
+}
+#banner{
+	background:url(images/banner.jpg) no-repeat center center;
+	padding:55px 0 380px;
+	text-align:left;	
+	background-size:cover;
+}
+#banner header img{display:block;}
+#banner header{margin-bottom:345px;}
+#banner h1{font-size:60px; color:#fff; line-height:100%; margin-bottom:15px;}
+#banner p{font-size:13px; color:#fff;}
+#new{padding:110px 0 60px;}
+#new img{
+	display:block;
+	margin-top:-750px;	
+	margin-bottom: 80px;
+	width:100%;
+}
+#new h2{color:#222626; font-size:35px; line-height:100%; margin-bottom:27px;}
+#new p{margin-bottom:25px;}
+#rightsidedata{color:#fff; padding-bottom:90px;}
+.col2{
+	width:20%;
+	float:left;	
+}
+.col10{
+	width:80%;
+	float:left;	
+}
+.width25{
+	width:25%;
+	float:left;	
+	padding:50px 40px;
+	min-height:280px;
+	
+}
+.width50{width:50%; float:left; padding:50px 40px; min-height:280px;}
+.width25.magento{background:#f5989d;}
+.width25.purplu{background:#615f7d;}
+.width25.green{background:#82ca9c;}
+.width25.red{background:url(images/1.png) no-repeat center center; background-size:cover;}
+.width25.thirdimg{background:url(images/3.jpg) no-repeat center center; background-size:cover;}
+.width25.pink{background:#bd8cbf;}
+
+.width50.second{background:url(images/2.jpg) no-repeat center center; background-size:cover;}
+#rightsidedata h2{font-size:30px; margin-bottom:20px; line-height:100%;}
+#rightsidedata p{font-size:13px; margin-bottom:35px;}
+#rightsidedata a{color:#fff; font-weight:700;}
+#rightsidedata a i , #car a i{margin-left:15px;}
+#details{padding-bottom:150px;}
+#details h2{
+	margin-bottom:60px;
+	font-size:35px;
+	line-height:100%;
+	color:#222626;	
+}
+#details h3{font-weight:600; margin-bottom:25px; font-size:13px;}
+
+
+#reasons{
+	padding:150px 0;
+	color:#fff;
+	background:#82ca9c;	
+}
+
+#reasons h2{
+	margin-bottom:60px;
+	font-size:35px;
+	line-height:100%;
+	color:#fff;	
+}
+#reasons h3{font-weight:600; margin-bottom:25px; font-size:13px;}
+#car{
+	background:url(images/car.jpg) no-repeat center center;
+	padding:445px 0 130px;
+	background-size:cover;
+	color:#fff;	
+}
+#car h2{
+	font-size:60px;
+	line-height:100%;
+	color:#fff;
+	margin-bottom:25px;	
+}
+#car a{color:#fff; margin-top:20px; font-weight:700; display:block;}
+#car a:hover{ color:#82ca9c; transition:all 0.5s;}
+
+#plan{padding:105px 0 135px; background:#f6f7fa;}
+.boxwhite{
+	
+}
+
+.nocolor{padding:43px 50px;}
+.nocolor:hover{
+		background:#fff;	
+	padding:43px 50px;
+	-webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.10);
+-moz-box-shadow:    0px 0px 25px 0px rgba(0, 0, 0, 0.10);
+box-shadow:         0px 0px 25px 0px rgba(0, 0, 0, 0.10);
+transition:all 0.5s;
+}
+.nocolor:hover span{
+	background:#bb8dc2 !important;
+	-webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.10);
+-moz-box-shadow:    0px 0px 25px 0px rgba(0, 0, 0, 0.10);
+box-shadow:         0px 0px 25px 0px rgba(0, 0, 0, 0.10);
+transition:all 0.5s;
+}
+#plan span{
+	text-transform:uppercase;
+	padding:0px 15px;
+	border-radius:4px;
+	background:#e1e1e1;
+	font-size:11px;
+	display:inline-block;
+	color:#fff;	
+	font-weight:700;
+}
+#plan h2{font-size:30px; line-height:40px; color:#2e3b4e; margin:15px 0;}
+#plan p{color:#8297a7; margin-bottom:15px;}
+a.buy{
+	width:150px;
+	height:40px;
+	font-size:13px;
+	background:#82ca9c;
+	border-radius:3px;
+	color:#fff;
+	display:block;
+	text-align:center;
+	line-height:40px;
+	letter-spacing:1px;
+	font-weight:700;
+	margin-bottom:15px;	
+}
+a.buy:hover{background:#192431; color:#82ca9c; transition:all 0.5s;}
+#plan a i{ color:#c5c5c5; font-size:24px; margin-right:20px;}
+#plan a i:hover{ color:#82ca9c; transition:all 0.5s;}
+footer{
+	background:#192431;
+	padding:130px 0;
+	font-size:13px;
+	color:#fff;	
+}
+footer h2{margin-bottom:20px; font-weight:600;}
+footer p{margin-bottom:70px;}
+footer a{display:block; color:#fff;}
+footer a:hover{color:#82ca9c; transition:all 0.5s;}
+footer input{width:84%; padding:13px; border:0; display:inline-block; border-radius:3px; outline:0; color:#000;}
+footer a.send{width:15%;margin-left:-6px; padding:8px 0 13px; text-align:center; color:#fff; background:#82ca9c; display:inline-block; border-radius:3px;}
+footer span{color:#57697f; font-size:12px; margin-top:10px; display:block;}
+p.free{margin-bottom:0;}
+p.free a{display:inline-block; margin-top:25px;}
+
+/* New */
+
+.os-animation {
+	opacity: 0;
+}
+.os-animation.animated {
+	opacity: 1;
+}
+.staggered-animation {
+	opacity: 0;
+}
+.staggered-animation.animated {
+	opacity: 1;
+}
+/*LOADER EFFECT*/
+/*Paste this css to your style sheet file or under head tag*/
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 9998;
+ background: #82ca9c;
+}
+
+
+.wrapper {
+	padding-left: 1em;
+	padding-right: 1em;
+	margin: auto;
+	display: block;
+	width: 195px;
+	top:45%;
+	position:relative;
+}
+
+.cssload-loader {
+	width: 49px;
+	height: 49px;
+	border-radius: 50%;
+	margin: 3em;
+	
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+}
+
+.cssload-loader {
+	width: 49px;
+	height: 49px;
+	border-radius: 50%;
+	margin: 3em;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+}
+.cssload-loader,
+.cssload-loader:before,
+.cssload-loader:after {
+	animation: 1.15s infinite ease-in-out;
+		-o-animation: 1.15s infinite ease-in-out;
+		-ms-animation: 1.15s infinite ease-in-out;
+		-webkit-animation: 1.15s infinite ease-in-out;
+		-moz-animation: 1.15s infinite ease-in-out;
+}
+.cssload-loader:before,
+.cssload-loader:after {
+	width: 100%; 
+	height: 100%;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.cssload-loader:before,
+.cssload-loader:after {
+		content: "";
+}
+
+.cssload-loader {
+		animation: cssload-animation1 1.73s infinite linear;
+		-o-animation: cssload-animation1 1.73s infinite linear;
+		-ms-animation: cssload-animation1 1.73s infinite linear;
+		-webkit-animation: cssload-animation1 1.73s infinite linear;
+		-moz-animation: cssload-animation1 1.73s infinite linear;
+}
+.cssload-loader:before,
+.cssload-loader:after {
+		content:"";
+		margin: -24px 0 0 -24px;
+		top: 50%;
+		left: 50%;
+		background-color: rgba(30,30,30,0.7);
+		animation-name: cssload-animation2;
+		-o-animation-name: cssload-animation2;
+		-ms-animation-name: cssload-animation2;
+		-webkit-animation-name: cssload-animation2;
+		-moz-animation-name: cssload-animation2;
+}
+.cssload-loader:after { animation-direction: reverse;
+		-o-animation-direction: reverse;
+		-ms-animation-direction: reverse;
+		-webkit-animation-direction: reverse;
+		-moz-animation-direction: reverse; }
+
+
+
+
+
+@keyframes cssload-animation1 {
+	0% {	 transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+@-o-keyframes cssload-animation1 {
+	0% {	 -o-transform: rotate(0deg); }
+	100% { -o-transform: rotate(360deg); }
+}
+
+@-ms-keyframes cssload-animation1 {
+	0% {	 -ms-transform: rotate(0deg); }
+	100% { -ms-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes cssload-animation1 {
+	0% {	 -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes cssload-animation1 {
+	0% {	 -moz-transform: rotate(0deg); }
+	100% { -moz-transform: rotate(360deg); }
+}
+
+@keyframes cssload-animation2 {
+	0%	 { transform: scale(0.2); left:	 0%; }
+	50%	{ transform: scale(1.0); left:	50%; }
+	100% { transform: scale(0.2); left: 100%; }
+}
+
+@-o-keyframes cssload-animation2 {
+	0%	 { -o-transform: scale(0.2); left:	 0%; }
+	50%	{ -o-transform: scale(1.0); left:	50%; }
+	100% { -o-transform: scale(0.2); left: 100%; }
+}
+
+@-ms-keyframes cssload-animation2 {
+	0%	 { -ms-transform: scale(0.2); left:	 0%; }
+	50%	{ -ms-transform: scale(1.0); left:	50%; }
+	100% { -ms-transform: scale(0.2); left: 100%; }
+}
+
+@-webkit-keyframes cssload-animation2 {
+	0%	 { -webkit-transform: scale(0.2); left:	 0%; }
+	50%	{ -webkit-transform: scale(1.0); left:	50%; }
+	100% { -webkit-transform: scale(0.2); left: 100%; }
+}
+
+@-moz-keyframes cssload-animation2 {
+	0%	 { -moz-transform: scale(0.2); left:	 0%; }
+	50%	{ -moz-transform: scale(1.0); left:	50%; }
+	100% { -moz-transform: scale(0.2); left: 100%; }
+}

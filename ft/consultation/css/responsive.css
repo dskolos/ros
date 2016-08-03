@@ -1,0 +1,223 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	nav ul li {
+    padding: 10px 4px;
+    margin-left: 24px;
+}
+.rightdata, .leftdata1 {
+    padding: 50px 50px 50px 80px;
+}
+.leftdata1 {
+    padding: 50px 80px 50px 50px;
+}
+.width25 {
+    min-height: 235px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	header img{width:100%; display:block;}
+	nav ul li {
+    padding: 10px 10px;
+    margin-left: 0px;
+	list-style-type:none;
+}
+.rightdata, .leftdata1 {
+    padding: 15px 15px 15px 40px;
+}
+.leftdata1 {
+    padding: 15px 40px 15px 15px;
+}
+nav a.btn1 {
+    padding: 7px 10px;
+    margin-left: 5px;
+}
+nav {
+    padding: 0;
+}
+header {
+    padding: 25px 0;
+}
+.banner {
+    min-height: 450px;
+    margin-top: 94px;
+}
+.banner h2 {
+    padding-top: 140px;
+}
+.redbox {
+    width: 60px;
+    height: 80px;
+    padding-top: 3px;
+    left: -30px;
+    font-size: 16px;
+	top: 30px;
+}
+.redbox1 {
+     width: 60px;
+    height: 80px;
+    padding-top: 3px;
+    right: -30px;
+    font-size: 16px;
+	top: 30px;
+}
+.redbox h1, .redbox1 h1 {
+    font-size: 36px;
+}
+.width25 {
+    min-height: 180px;
+}
+.width25 i {
+    padding: 24px 0 20px;
+}
+
+
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		nav a.btn1{display:none;}
+		nav ul li {
+   padding: 10px 10px 0;
+    margin-left: 0px;
+	list-style-type:none;
+}
+nav ul li {
+    float: none;
+    display: inline-block;
+}
+nav{float:none; text-align:center;padding: 0;}
+header img{margin:0 auto; display:block;}
+header {
+    padding: 20px 0;
+}
+.banner {
+    min-height: 400px;
+   
+}
+.banner h2 {
+    padding-top: 100px;
+}
+.about {
+    padding: 30px 0;
+}
+.approch {
+    padding: 30px 0;
+}
+.leftdata, .rightdata1 {
+    width: 100%;
+	   
+}
+.rightdata{ padding: 70px 25px 30px 25px;}
+.rightdata, .leftdata1 {
+    width: 100%;
+	    
+}
+.leftdata1 {
+    text-align: left;
+	padding: 25px 25px 70px 25px;
+}
+.redbox {
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: -45px auto 0;
+}
+.redbox1 {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto -45px;
+}
+.about p{margin-bottom:20px;}
+.work {
+    padding: 30px 0;
+}
+.width25 {
+    width: 50%;
+    min-height: 225px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 5px;
+}
+.width25 i {
+    padding: 50px 0 20px;
+}
+.arrow {
+    left: 41% !important;
+}
+.box a.close {
+    right: -10px;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.topnav {
+   display:none;
+		}
+		.banner{margin-top:0;}
+		.banner h2 {
+    padding-top: 175px;
+    font-size: 30px;
+    line-height: 37px;
+ }
+ .banner p {
+    font-size: 19px;
+    line-height: 24px;
+ }
+ .banner a {
+    padding: 10px 15px;
+    font-size: 16px;
+ }
+ nav ul li {
+    padding: 10px 1px 0;
+ }
+ nav ul li a {
+    font-size: 12px;
+ }
+ h2.howy , .work h2 , .contact h2{
+    font-size: 28px;
+    line-height: 36px;
+ }
+ h4.howy , .work h4{
+    font-size: 16px;
+ }
+ header.sticky{margin-top:0;}
+ header img {
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: auto;
+}
+.width25 {
+    width: 100%;border:0;}
+	.extra {
+    padding: 15px;
+}
+.arrow {
+    left: 36% !important;
+}
+.contact {
+    padding: 30px 0;
+}
+.touch {
+    padding: 30px 0;
+}
+		}
+

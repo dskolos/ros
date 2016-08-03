@@ -1,0 +1,286 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	#banner {
+    padding: 300px 0 70px;
+	}
+	.twitter aside {
+    padding: 30px 40px;
+	}
+	article.services {
+    padding: 50px 0 50px;
+	}
+	figcaption {
+    padding: 58px;
+}
+.numbers {
+    padding: 50px 0;
+}
+.bx-wrapper .bx-prev {
+    left: 15px;
+}
+.bx-wrapper .bx-next {
+    right: 15px;
+}
+#testimonial {
+    padding: 70px 0;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	header {
+    padding: 40px 0;
+	}
+		#banner {
+    padding: 300px 0 70px;
+	}
+	.twitter aside {
+    padding: 30px 15px;
+	    margin-bottom: 40px;
+	}
+	article.services {
+    padding: 50px 0 50px;
+	}
+	figcaption {
+       padding: 36px 30px;
+}
+.numbers {
+    padding: 50px 0;
+}
+.bx-wrapper .bx-prev {
+    left: 15px;
+}
+.bx-wrapper .bx-next {
+    right: 15px;
+}
+#testimonial {
+    padding: 70px 0;
+}
+.about {
+    padding: 30px 0;
+}
+.about span.line {
+    margin-bottom: 30px;
+}
+p.aboutp {
+    line-height: 28px;
+}
+.about a {
+    margin-top: 25px;
+}
+.twitter aside p {
+    padding: 15px 0;
+}
+.portfoliosec {
+    padding-top: 30px;
+}
+.portfoliosec span.line {
+    margin-bottom: 30px;
+}
+.team {
+    padding: 30px 0;
+}
+.team span.line {
+    margin-bottom: 30px;
+}
+.mainslide {
+    padding: 30px 0;
+}
+.pricing {
+    padding: 30px 0 0 0;
+}
+.contact {
+    padding: 30px 0;
+}
+.boxbalck1 label {
+    margin-right: 20px;
+}
+.map iframe{height:300px;}
+	}
+
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+			header {
+    padding: 30px 0;
+	}
+		#banner {
+     padding: 190px 0 15px;
+	}
+	p.makecenter br{display:none;}
+	h2 {
+    font-size: 38px;
+	}
+	.twitter aside {
+    padding: 30px 15px;
+	    margin-bottom: 40px;
+	}
+	article.services {
+    padding: 50px 0 50px;
+	text-align: center;
+	}
+	article.services h5 {
+    padding: 5px 0 15px;
+    text-align: center;
+}
+	figcaption {
+       padding: 100px 33%;
+}
+article.services span.smallline {
+    margin: 0 auto 25px;
+}
+.imgDescription2 {
+    padding-top: 37px;
+}
+.info span.smallline {
+    margin-bottom: 30px;
+}
+figure img {
+    width: auto;
+    margin: 0 auto;
+}
+#filters {
+    margin: 1% auto 25px;
+}
+.numbers {
+    padding: 50px 0;
+}
+.bx-wrapper .bx-prev {
+    left: 15px;
+}
+.bx-wrapper .bx-next {
+    right: 10px;
+}
+#testimonial {
+    padding: 40px 0;
+}
+.about {
+    padding: 30px 0;
+}
+.about span.line {
+    margin-bottom: 30px;
+}
+p.aboutp {
+    line-height: 28px;
+	    margin-top: 15px;
+}
+.about a {
+    margin-top: 25px;
+}
+.twitter aside p {
+    padding: 15px 0;
+	    font-size: 16px;
+    line-height: 26px;
+}
+.twitter {
+    padding-bottom: 30px;
+}
+.portfoliosec {
+    padding-top: 30px;
+}
+.portfoliosec span.line {
+    margin-bottom: 30px;
+}
+.team {
+    padding: 30px 0;
+}
+.team span.line {
+    margin-bottom: 30px;
+}
+.mainslide {
+    padding: 30px 0;
+}
+.pricing {
+    padding: 30px 0 0 0;
+}
+.contact {
+    padding: 0 0 30px 0;
+}
+.boxbalck1 label {
+    margin-right: 0px;
+}
+.map iframe{height:300px;}
+.cd-primary-nav li {
+    margin: 15px 0;
+}
+.cd-primary-nav {
+    padding: 80px 5%;
+}
+.boxbalck1 {
+    padding: 10px;
+}
+.contact a span {
+    padding: 11px 0;
+}
+footer.endit ul {
+    text-align: center;
+    margin-top: 12px;
+}
+footer.endit ul li {
+    margin: 0 10px;
+}
+.contact span.line {
+    margin-bottom: 30px;
+}
+.map {
+    margin-bottom: 30px;
+}
+.boxbalck {
+    padding: 10px 10px;
+}
+.boxbalck span {
+    display: block;
+}
+#banner h1 {
+    font-size: 80px;
+}
+.numbers span {
+    font-size: 40px;
+}
+.numbers .counter {
+    font-size: 30px;
+    margin: 15px auto 10px;
+}
+.numbers p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#testimonial p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 15px 0 15px;
+}
+.pricing article h3 {
+    width: 100px;
+    height: 100px;
+    margin: -50px auto 10px;
+    font-size: 35px;
+    line-height: 100px;
+}
+.pricing article {
+    margin-bottom: 70px;
+}
+.pricing span.line {
+    margin-bottom: 80px;
+}
+.pricing article p {
+    margin-bottom: 15px;
+}
+.pricing article a {
+    padding: 15px 0;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		
+		}
+

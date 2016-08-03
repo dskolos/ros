@@ -1,0 +1,487 @@
+/*................................reset...........................................*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*................................clearfix...........................................*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/*.........GLOBLE......*/
+
+body {
+	font-size: 18px;
+	line-height: 30px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight: 400;
+	color: #464b4f;
+}
+h2 {
+	font-family: "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 80px;
+}
+header {
+	background: url(images/banner.jpg) no-repeat center center;
+	min-height: 850px;
+	background-size: cover;
+	text-align: center;
+}
+header h1 a img {
+	display: block;
+	margin: 77px auto 180px;
+}
+header h2 {
+	padding-bottom: 60px;
+	color: #fff;
+}
+header p {
+	color: #fff;
+}
+a.arrowbtm i {
+	font-size: 24px;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	color: #fff;
+	padding-top: 8px;
+	margin-top: 170px;
+}
+section {
+	background: url(images/lines.png) no-repeat center center;
+	min-height: 1040px;
+	background-size: cover;
+	padding: 120px 0;
+}
+section p {
+	font-size: 30px;
+	line-height: 42px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+section h2 {
+	padding: 80px 0;
+	text-align: center;
+}
+section h3 {
+	font-weight: 700;
+	line-height: 42px;
+}
+section span {
+	color: #888a8b;
+}
+.work {
+	padding: 120px 0;
+	background: #23232e;
+	text-align: center;
+}
+.work h2 {
+	color: #fff;
+	padding-bottom: 45px;
+}
+.btnbtm a {
+	max-width: 210px;
+	padding: 15px 0;
+	text-align: center;
+	display: block;
+	width: 100%;
+	background: #7b77c9;
+	margin: 70px auto -50px;
+	color: #fff;
+	border-radius: 3px;
+}
+.btnbtm a:hover , .subscribe a:hover{
+	background: #fff;
+	color: #7b77c9;
+	transition: all 0.5s;
+}
+article {
+	background: url(images/lines.png) no-repeat center center;
+	min-height: 1345px;
+	background-size: cover;
+	padding: 120px 0 60px;
+	text-align: center;
+}
+article .btnbtm a {
+	margin: 70px auto 0;
+}
+article h2 {
+	padding-bottom: 40px;
+}
+article p {
+	font-size: 30px;
+	line-height: 42px;
+	padding-bottom: 40px;
+	text-align: center;
+	color: #888a8b;
+}
+article a img {
+	width: 100%;
+	display: block;
+	margin-bottom: 30px;
+}
+article .btnbtm a:hover {
+	background: #23232e;
+	color: #fff;
+}
+.subscribe {
+	background: url(images/d.jpg) no-repeat center center;
+	padding: 260px 0;
+	text-align: center;
+}
+.subscribe p {
+	color: #fff;
+	padding: 45px 0;
+}
+.subscribe input {
+	max-width: 380px;
+	border: 0;
+	border-radius: 5px;
+	width: 100%;
+	padding: 12px 15px;
+}
+.subscribe a {
+	max-width: 210px;
+	padding: 12px 0;
+	text-align: center;
+	color: #fff;
+	background: #7b77c9;
+	display: inline-block;
+	width: 100%;
+	border-radius: 5px;
+}
+footer {
+	background: url(images/lines.png) no-repeat center center;
+	padding: 100px 0 80px;
+	background-size: cover;
+	text-align: center;
+}
+footer p, footer p a {
+	letter-spacing: 0.5px;
+	color: #7c7c7c;
+	padding-bottom:15px;
+}
+footer p a:hover {
+	color: #7b77c9;
+	transition: all 0.5s;
+}
+.social {
+	margin-bottom: 80px;
+}
+.social a i {
+	font-size: 45px;
+	color: #dbdbdb;
+	margin: 0 15px;
+}
+.social a i:hover {
+	color: #7b77c9;
+	transition: all 0.5s;
+}
+.caption-style-4 li {
+	margin-bottom: 30px;
+	padding: 0px;
+	position: relative;
+	overflow: hidden;
+}
+.caption-style-4 li:hover .caption {
+	opacity: 1;
+}
+.caption-style-4 li:hover img {
+	opacity: 1;
+	transform: scale(1.15, 1.15);
+	-webkit-transform: scale(1.15, 1.15);
+	-moz-transform: scale(1.15, 1.15);
+	-ms-transform: scale(1.15, 1.15);
+	-o-transform: scale(1.15, 1.15);
+}
+.caption-style-4 img {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	z-index: 4;
+}
+.caption-style-4 .caption {
+	cursor: pointer;
+	position: absolute;
+	opacity: 0;
+	-webkit-transition: all 0.45s ease-in-out;
+	-moz-transition: all 0.45s ease-in-out;
+	-o-transition: all 0.45s ease-in-out;
+	-ms-transition: all 0.45s ease-in-out;
+	transition: all 0.45s ease-in-out;
+}
+.caption-style-4 img {
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+.caption-style-4 .blur {
+	background-color: rgba(0,0,0,0.65);
+	height: 300px;
+	width: 400px;
+	z-index: 5;
+	position: absolute;
+}
+.caption-style-4 .caption-text h1 {
+	text-transform: uppercase;
+	font-size: 24px;
+}
+.caption-style-4 .caption-text {
+	z-index: 10;
+	color: #fff;
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	text-align: center;
+	top: 100px;
+}
+
+
+/* New */
+
+.os-animation {
+	opacity: 0;
+}
+.os-animation.animated {
+	opacity: 1;
+}
+.staggered-animation {
+	opacity: 0;
+}
+.staggered-animation.animated {
+	opacity: 1;
+}
+/*LOADER EFFECT*/
+/*Paste this css to your style sheet file or under head tag*/
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 9999;
+ background: #7b77c9;
+}
+
+.cssload-shimes{
+	position:relative;
+	display:block;
+	margin: 97px auto;
+	width:107px;
+	top:40%;
+}
+	
+.cssload-shimes, .cssload-shimes * {
+	box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+}
+
+.cssload-shimes span {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	background: rgb(209,140,67);
+	background-clip: padding-box;
+		-o-background-clip: padding-box;
+		-ms-background-clip: padding-box;
+		-webkit-background-clip: padding-box;
+		-moz-background-clip: padding-box;
+	border-radius: 487px;
+	transform-origin: 50% 0%;
+		-o-transform-origin: 50% 0%;
+		-ms-transform-origin: 50% 0%;
+		-webkit-transform-origin: 50% 0%;
+		-moz-transform-origin: 50% 0%;
+	width: 2.5px;
+	height: 29px;
+	margin: 0 2.5px;
+}
+
+.cssload-shimes span:nth-child(1) {
+	animation: cssload-rotateZ 1.15s 0.06s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-o-animation: cssload-rotateZ 1.15s 0.06s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-ms-animation: cssload-rotateZ 1.15s 0.06s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-webkit-animation: cssload-rotateZ 1.15s 0.06s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-moz-animation: cssload-rotateZ 1.15s 0.06s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+}
+.cssload-shimes span:nth-child(2) {
+	animation: cssload-rotateZ 1.15s 0.12s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-o-animation: cssload-rotateZ 1.15s 0.12s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-ms-animation: cssload-rotateZ 1.15s 0.12s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-webkit-animation: cssload-rotateZ 1.15s 0.12s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-moz-animation: cssload-rotateZ 1.15s 0.12s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+}
+.cssload-shimes span:nth-child(3) {
+	animation: cssload-rotateZ 1.15s 0.17s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-o-animation: cssload-rotateZ 1.15s 0.17s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-ms-animation: cssload-rotateZ 1.15s 0.17s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-webkit-animation: cssload-rotateZ 1.15s 0.17s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-moz-animation: cssload-rotateZ 1.15s 0.17s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+}
+.cssload-shimes span:nth-child(4) {
+	animation: cssload-rotateZ 1.15s 0.23s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-o-animation: cssload-rotateZ 1.15s 0.23s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-ms-animation: cssload-rotateZ 1.15s 0.23s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-webkit-animation: cssload-rotateZ 1.15s 0.23s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-moz-animation: cssload-rotateZ 1.15s 0.23s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+}
+.cssload-shimes span:nth-child(5) {
+	animation: cssload-rotateZ 1.15s 0.29s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-o-animation: cssload-rotateZ 1.15s 0.29s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-ms-animation: cssload-rotateZ 1.15s 0.29s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-webkit-animation: cssload-rotateZ 1.15s 0.29s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-moz-animation: cssload-rotateZ 1.15s 0.29s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+}
+.cssload-shimes span:nth-child(6) {
+	animation: cssload-rotateZ 1.15s 0.35s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-o-animation: cssload-rotateZ 1.15s 0.35s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-ms-animation: cssload-rotateZ 1.15s 0.35s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-webkit-animation: cssload-rotateZ 1.15s 0.35s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-moz-animation: cssload-rotateZ 1.15s 0.35s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+}
+.cssload-shimes span:nth-child(7) {
+	animation: cssload-rotateZ 1.15s 0.4s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-o-animation: cssload-rotateZ 1.15s 0.4s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-ms-animation: cssload-rotateZ 1.15s 0.4s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-webkit-animation: cssload-rotateZ 1.15s 0.4s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-moz-animation: cssload-rotateZ 1.15s 0.4s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+}
+.cssload-shimes span:nth-child(8) {
+	animation: cssload-rotateZ 1.15s 0.46s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-o-animation: cssload-rotateZ 1.15s 0.46s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-ms-animation: cssload-rotateZ 1.15s 0.46s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-webkit-animation: cssload-rotateZ 1.15s 0.46s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-moz-animation: cssload-rotateZ 1.15s 0.46s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+}
+.cssload-shimes span:nth-child(9) {
+	animation: cssload-rotateZ 1.15s 0.52s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-o-animation: cssload-rotateZ 1.15s 0.52s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-ms-animation: cssload-rotateZ 1.15s 0.52s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-webkit-animation: cssload-rotateZ 1.15s 0.52s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-moz-animation: cssload-rotateZ 1.15s 0.52s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+}
+.cssload-shimes span:nth-child(10) {
+	animation: cssload-rotateZ 1.15s 0.58s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-o-animation: cssload-rotateZ 1.15s 0.58s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-ms-animation: cssload-rotateZ 1.15s 0.58s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-webkit-animation: cssload-rotateZ 1.15s 0.58s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+		-moz-animation: cssload-rotateZ 1.15s 0.58s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+}
+
+
+
+@keyframes cssload-rotateZ {
+	0% {
+		transform: rotateZ(-20deg);
+	}
+	50% {
+		transform: rotateZ(20deg) scaleY(1.2);
+		background: rgb(235,210,47);
+	}
+	100% {
+		transform: rotateZ(-20deg);
+	}
+}
+
+@-o-keyframes cssload-rotateZ {
+	0% {
+		-o-transform: rotateZ(-20deg);
+	}
+	50% {
+		-o-transform: rotateZ(20deg) scaleY(1.2);
+		background: rgb(235,210,47);
+	}
+	100% {
+		-o-transform: rotateZ(-20deg);
+	}
+}
+
+@-ms-keyframes cssload-rotateZ {
+	0% {
+		-ms-transform: rotateZ(-20deg);
+	}
+	50% {
+		-ms-transform: rotateZ(20deg) scaleY(1.2);
+		background: rgb(235,210,47);
+	}
+	100% {
+		-ms-transform: rotateZ(-20deg);
+	}
+}
+
+@-webkit-keyframes cssload-rotateZ {
+	0% {
+		-webkit-transform: rotateZ(-20deg);
+	}
+	50% {
+		-webkit-transform: rotateZ(20deg) scaleY(1.2);
+		background: rgb(235,210,47);
+	}
+	100% {
+		-webkit-transform: rotateZ(-20deg);
+	}
+}
+
+@-moz-keyframes cssload-rotateZ {
+	0% {
+		-moz-transform: rotateZ(-20deg);
+	}
+	50% {
+		-moz-transform: rotateZ(20deg) scaleY(1.2);
+		background: rgb(235,210,47);
+	}
+	100% {
+		-moz-transform: rotateZ(-20deg);
+	}
+}

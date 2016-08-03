@@ -1,0 +1,580 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {	
+	#conectivity h2{
+		line-height: 60px;
+		padding-top: 40px;
+	}
+	#conectivity article {
+		max-width: 565px;
+		padding-bottom: 0px;
+		padding-left: 20px;
+		width: 100%;
+		min-height: 418px;
+	}
+	.innerright , .innerleft{
+		min-height: 415px;
+	}
+	.innerright	img {
+		max-width: 100%;
+		max-height: 417px;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {	
+	#videoimage{
+		width: 100%;
+	}
+	#banner{
+		padding: 320px 0 240px;
+	}
+	h1 {
+		font-size: 60px;
+		line-height: 77px;
+	}
+	p {
+		font-size: 16px;   
+		line-height: 25px;
+	}
+	h2{
+		padding-top: 35px;
+	}
+	.more{
+		margin-bottom: 86px;
+	}
+	#app img{
+		margin: -60px 0 -2px;
+		width: 100%;
+	}
+	h3 {
+		font-size: 25px;
+	}
+	h4 {
+		font-size: 18px;
+	}
+	#appcontent p{
+		font-size: 12px;
+	}
+	.fa-3x {
+		font-size: 2em;
+	}
+	article p{
+		font-size: 13px;
+		line-height: 23px;
+	}
+	#conectivity h2{
+		font-size: 40px;
+		line-height: 87px;
+	}
+	#conectivity article {
+		max-width: 450px;
+		padding-bottom: 98px;
+		padding-left: 20px;
+	}
+	#conectivity h4 {
+		font-size: 18px;
+		line-height: 30px;
+	}
+	#conectivity p{
+		font-size: 12px;
+	}
+	.innerright	img{
+		min-height: 450px;
+	}
+	.innerright1 {
+		max-width: 487px;
+		padding-left: 30px;
+		padding-right: 68px;
+	}
+	.innercontentleft h4{
+		padding: 30px 0;
+	}
+	.innercontentleft p{
+		line-height: 20px;
+	}
+	.innerlast{
+		padding: 35px;
+	}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 991px) {
+	#videoimage{
+		width: 100%;
+	}
+	.cd-header img{
+		width: 50px;
+		height: auto;
+	}
+	.menu-item{
+		padding-top: 0px;
+	}
+	h1 {
+		font-size: 50px;  
+		line-height: 66px;
+	}
+	p {
+		font-size: 15px;   
+		line-height: 25px;
+	}
+	h2 {
+		font-size: 36px;
+		padding-top: 30px;
+	}
+	.more{
+		margin-bottom: 37px;
+	}
+	#app img{
+		width: 100%;
+		margin: 12px 0 -2px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 15px;
+		padding: 25px 0;
+	}
+	#appcontent{
+		padding: 80px 0 80px;
+	}
+	#appcontent p{
+		font-size: 12px;
+	}
+	.nextslide{
+		width: 100%;
+	}
+	.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+		left: -45% !important;
+	}
+	#service{		
+		padding: 60px 0 120px;
+	}
+	#service article{
+		padding-top: 25px;
+	}
+	article p{
+		line-height: 22px;
+		font-size: 14px;
+	}
+	#conectivity article{
+		max-width: 400px;
+		padding-bottom: 85px;
+		padding-left: 20px;
+	}
+
+	#conectivity h4{
+		font-size: 17px;    
+		line-height: 24px;
+		padding: 20px 0;
+	}
+	.innerright	img{
+		min-height: 426px;
+	}
+	.innerright1 {
+		max-width: 487px;
+		padding-left: 30px;
+		padding-right: 68px;
+	}
+	.innercontentleft p{
+		line-height: 21px;
+	}
+	.innerlast{
+		padding: 35px;
+	}
+	footer input{
+		padding: 15px 70px 15px 10px;
+	}
+
+
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+	#videoimage{
+		width: 100%;
+	}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.cd-header img{
+		width: 50px;
+		height: auto;
+	}
+	.menu-item {    
+		padding-top: 5px;
+	}
+	h1 {
+		font-size: 50px;  
+		line-height: 68px;
+	}
+	p {
+		font-size: 15px;   
+		line-height: 25px;
+	}
+	h2{
+		font-size: 35px;
+	}
+	#app img{
+		width: 100%;
+		margin: 0;
+	}
+	.more{
+		margin-bottom: 40px;
+	}
+	#app h2{
+		padding-top: 30px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 17px;
+		padding: 20px 0;
+	}
+	#appcontent p{
+		font-size: 12px;
+	}
+	#service{		
+		padding: 60px 0 120px;
+	}
+	#service article{
+		padding-top: 25px;
+	}
+	article p{		
+		line-height: 22px;
+		font-size: 13px;
+	}
+	#conectivity article{
+		max-width: 400px;
+		padding-bottom: 32px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.innerright	img{
+		min-height: 400px;
+	}
+	#conectivity h2{
+		padding-top: 12px;
+	}
+	#conectivity h4{
+		line-height: 27px;
+	}
+	.tminneright h4{
+		font-size: 23px;
+	}
+	.innerright1 {
+		max-width: 487px;
+		padding-left: 20px;
+		padding-right: 25px;
+	}
+	.innercontentleft h4{
+		padding: 20px 0;
+		font-size: 21px;
+	}
+	.innercontentleft p{
+		line-height: 20px;
+		font-size: 15px;
+	}
+	.innercontentleft h5{
+		font-size: 25px;
+	}
+	.innerlast{
+		padding: 35px;
+	}
+	.innerlast h4{
+		font-size: 25px;
+	}
+	footer input{
+		padding: 15px 65px 15px 10px;
+	}
+
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	#banner{
+		padding: 150px 0 50px;
+	}
+	br{
+		display: none;
+	}
+	.c-menu--slide-right img{
+		margin: 15px auto 0;
+	}
+	.innercontentleft, .innercontentright{
+		width: 100%;
+		padding: 0;
+	}
+
+	.menu-item {		
+		padding-top: 5px; 
+	}
+	h1 {
+		font-size: 35px;
+		line-height: 50px;
+	}
+	p {
+		font-size: 15px;
+		line-height: 24px;
+	}
+	.cd-header img{
+		width: 50px;
+		height: auto;
+	}
+	.menu-item button.prize{
+		display: none;		
+	}
+	.menu-item {
+		text-align: center;
+	}
+
+	#app{
+		padding: 0 20px;
+	}
+	#app img{
+		display: none;
+	}
+	.more {
+		margin-bottom: 80px;
+	}
+	h2{
+		padding-top: 0;
+	}
+	#appcontent{
+		text-align: left;
+		padding: 30px 0 0;
+	}
+	#design p{
+		padding-bottom: 40px;
+	}
+	h4 {
+		padding: 20px 0;
+	}
+	h3{
+		padding-top: 0;
+	}
+	button.more{
+		margin-top: 20px;
+		margin-bottom: 60px;
+	}
+	#appcontent .col-lg-4 {
+		/*border-bottom: 1px solid #72767c;*/
+	}
+	#appcontent .col-lg-4:last-child{
+		/*border:none;*/
+	}
+	article h4{
+		padding: 10px 0;
+	}
+	#service{
+		padding: 40px 0 40px;
+	}
+	#service article{
+		padding: 0 0 20px;
+	}
+	.fa{
+		display: block;
+	}
+
+	article i,article h4,article p{
+		text-align: center;		
+	}
+	#service article p{
+		border-bottom: 1px solid #ffffff;
+		padding-bottom: 20px;
+	}
+	.innerright{
+		display: none;
+	}
+	.tminnerleft{
+		width: 100%;
+		min-height: 
+	}
+
+	.innerleft{
+		width: 100%;
+	}
+	#conectivity article{
+		max-width: auto;
+		padding:10px 30px 50px;   
+	}
+	#conectivity h2{
+		padding-top: 0;
+		line-height: 50px;
+	}
+	.innerleft article h4,.innerleft article p,.tminneright h4{
+		text-align: left;
+	}
+	.tminneright{
+		width: 100%;
+	}
+	#testimonial article{
+		max-width: 100%; 
+		padding: 35px 15px 10px; 
+		min-height: auto; 
+		text-align: left; 
+	}
+	.latestnews{
+		width: auto;
+	}
+	.innerright1{
+		width: 100%;
+		max-width: 100%; 
+		text-align: left; 
+		padding: 10px 20px 25px 10px; 
+	}
+	.innercontentright{
+		display: none;
+	}
+	#testimoniallast{
+		background: none;
+		background-color: #835fa8;
+		min-height: 300px;
+	}
+	.innerlast{
+		width: 100%;
+		padding: 10px 20px 0 20px;
+	}
+	.innerlast h4{
+		font-size: 25px;
+	}
+	.firstp{
+		padding-top: 30px;
+	}
+	.lastp {
+		padding-bottom: 0px;
+	}
+	footer{
+		padding: 30px 0 90px;
+	}
+	.bxslider img{
+		height: 300px;
+	}
+	.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+		left: -43% !important;
+	}
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#testimoniallast{
+		min-height: 270px;
+	}
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	input[type="search"]{
+		display: none;
+	}
+	#conectivity article {   
+		padding: 10px 15px 40px;
+	}
+	.menu-item {
+		text-align: right;
+		padding-top: 10px;
+	}
+	h1 {
+		font-size: 28px;
+		line-height: 40px;
+	}
+	p {
+		font-size: 15px;
+		line-height: 24px;
+	}
+	#app h2 {
+		font-size: 24px;
+		padding-top: 0;
+	}
+	h2 {
+		font-size: 27px;
+	}
+	#app{
+		padding: 0;
+	}
+	.padimg {
+		position: relative;
+		bottom: 100px;
+	}
+	button.more{	
+		margin-bottom: 30px;
+	}
+	h3 {
+		font-size: 27px;
+	}
+	#appcontent p{
+		font-size: 13px;
+	}
+	#videoimage{
+		min-height: 250px;
+	}
+	#videoimage iframe{
+		min-height: 250px;
+	}
+	.padimg {
+		position: relative;	
+		top: 90px;
+	}
+	.imagecoloroverlay a {
+
+		margin:  0;
+	}
+	#conectivity h4{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.innerright1{
+		padding: 10px 20px 25px 20px;
+	}
+	article p{		
+		font-size: 13px;
+	}
+	.tminneright h4{
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.innerlast h4{
+		line-height: 32px;
+	}
+	.innerlast{
+		padding: 20px 10px 0 20px;
+	}
+	.cd-primary-nav-trigger{
+		right:0;
+	}
+	footer input{
+		width: 70%;
+		height: 57px;
+		padding: 0;
+	}
+	.cd-primary-nav li{
+		font-size: 0.875rem !important;
+	}
+	.sticky #o-wrapper{
+		top: 10px;
+	}
+	footer {
+		padding: 30px 0 30px;
+	}
+	.footerlink {	
+		font-size: 17px;
+	}
+	.innercontentleft{
+		min-height: auto;
+		padding-bottom: 20px
+	}
+	.bxslider img{
+		height: 200px;
+	}
+	.innercontentleft h4{
+		line-height: 28px;
+		font-size: 20px;
+	}
+
+}
+

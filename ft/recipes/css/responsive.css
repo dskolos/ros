@@ -1,0 +1,118 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.banner {
+    padding: 250px 0 150px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.navigation {
+    width: 33%;
+	}
+	.banner {
+    padding: 250px 0 150px;
+	}
+	section h3 {
+    margin-top: 0px;
+	}
+	.width2 span {
+    font-size: 26px;
+	}
+	article {
+    padding: 50px 0;
+	}
+	section {
+    padding: 50px 0 0;
+}
+.recepe {
+    padding: 50px 0 0;
+}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.navigation {
+    width: 100%;
+	text-align:left;
+	padding-top:0;
+	}
+	.logo{width:100%; margin:0 auto;}
+	.banner {
+    padding: 150px 0 50px;
+	}
+	.banner h2 {
+    font-size: 60px;
+	}
+	.banner h3 {
+    font-size: 30px;
+    line-height: 100%;
+	}
+	a.login {
+    display: none;
+}
+article {
+    padding: 30px 0;
+	}
+	section {
+    padding: 30px 0 0;
+}
+.recepe {
+    padding:30px 0 0;
+}
+article p{margin-bottom:15px;}
+section h3 {
+    margin-top: 30px;
+}
+section a{display: inline-block;
+    margin-bottom: 20px;}
+	.mainslide h3 {
+    font-size: 22px;
+    line-height: 30px;
+	}
+	.mainslide p {
+    font-size: 17px;
+    line-height: 29px;
+	}
+	.mainslide {
+    padding-top: 25px;
+}
+.img1 {
+    width: 100%;
+}
+.width2 {
+    width: 100%;
+    float: left;
+    margin: 20px auto;
+}
+.numbers {
+    padding: 30px 0;
+}
+p.right {
+    text-align: center;
+}
+footer{text-align:center;}
+.cd-stretchy-nav.nav-is-visible {
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    right: 2%;
+    background: #000;
+    opacity: 0.8;
+    border-radius: 17%;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		
+		}
+

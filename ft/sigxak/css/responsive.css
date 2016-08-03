@@ -1,0 +1,405 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.imagehover i{
+		font-size: 24px;
+	}
+	.imagehover h4{
+		font-size: 24px;
+		padding-bottom: 15px;
+	}
+	.imagehover {
+		padding: 25px 0;
+	}
+	address{
+		font-size: 15px;
+		margin-left: 0px; 
+		width: 32%;
+	}
+	.no-touch .cs-style-7 figure:hover figcaption, .cs-style-7 figure.cs-hover figcaption{
+		min-height: 176%;
+	}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 991px) {
+	h1 {
+		font-size: 87px;
+		padding-bottom: 40px;
+	}
+	h2 {
+		font-size: 40px;
+	}
+	#about p{
+		font-size: 15px;
+		padding: 25px 0px 50px 0;
+	}
+	#about p.content{
+		line-height: 28px;
+		padding: 0;
+	}
+	#service p.content,#blog p.content{
+		font-size: 14px;		
+	}
+	#service h4 {
+		font-size: 25px;
+	}
+	#service .toppad {
+		padding-top: 45px;
+	}
+
+	.no-touch .cs-style-7 figure:hover figcaption, .cs-style-7 figure.cs-hover figcaption{
+		opacity: 0.9;
+		min-height: 80%;
+		box-shadow: 0 0 0 0 #00a388;
+	}
+	.cs-style-7 figcaption{
+		height: 82.5%;
+	}
+	.cs-style-7 figcaption h4{
+		margin-top: 0%; 
+		padding-top: 0px;
+	}
+	.cs-style-7 figure img{
+		z-index: 0;
+	}
+	.grid figure h4 {
+		padding: 20px 0;
+	}
+	.grid li{
+		padding: 0 0 20px 0;
+	}
+	.grid figcaption p{
+		font-size: 18px !important;
+	}
+	#about{
+		padding-bottom: 0;
+	}
+	#filters li span{
+		padding: 5px 10px;
+		font-size: 17px;
+	}
+	#portfoliolist .portfolio{
+		width: 50%;
+	}
+	.innerblog{
+		min-height: 290px;
+		margin-bottom: 30px;
+	}
+	.innerblog h4 {
+		font-size: 23px;
+	}
+	#blog .toppad{
+		padding: 0;
+	}
+	#blog{
+		padding-bottom: 100px;
+	}
+	footer{
+		padding: 90px 0 60px;
+	}
+	.socialicon{
+		padding-top: 50px;
+	}
+
+
+}
+
+/* Smaller than standard 960 (devices and browsers) 
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.imagehover{
+		padding: 60px 0;
+	}
+	h1{
+		font-size: 85px;   
+		padding-bottom: 25px;
+	}
+	h2 {
+		font-size: 40px;
+	}
+	header p {
+		font-size: 16px;
+	}
+	#about p{
+		font-size: 14px;
+		padding: 25px 0px 50px 0;
+		line-height: 25px;
+	}
+	#about p.content{
+		padding: 0;
+	}
+	#service p.content,#blog p.content{
+		font-size: 14px;		
+	}
+	#service h4 {
+		font-size: 25px;
+	}
+	#service .toppad {
+		padding-top: 45px;
+	}
+	.no-touch .cs-style-7 figure:hover figcaption, .cs-style-7 figure.cs-hover figcaption{
+		opacity: 0.9;
+		min-height: 80%;
+		box-shadow: 0 0 0 0 #00a388;
+	}
+	.cs-style-7 figcaption{
+		height: 82.5%;
+	}
+	.cs-style-7 figcaption h4{
+		margin-top: 0%; 
+		padding-top: 0px;
+	}
+	.cs-style-7 figure img{
+		z-index: 0;
+	}
+	.grid figure h4 {
+		padding: 20px 0;
+	}
+	.grid li{
+		padding: 0 0 20px 0;
+	}
+	.grid figcaption p{
+		font-size: 18px !important;
+	}
+	#about{
+		padding-bottom: 0;
+	}
+	#filters li span{
+		padding: 5px 10px;
+		font-size: 17px;
+	}
+	#portfoliolist .portfolio{
+		width: 50%;
+	}
+	.innerblog{
+		min-height: 290px;
+		margin-bottom: 30px;
+	}
+	.innerblog h4 {
+		font-size: 23px;
+	}
+	#blog .toppad{
+		padding: 0;
+	}
+	#blog{
+		padding-bottom: 100px;
+	}
+	footer{
+		padding: 90px 0 60px;
+	}
+	.socialicon{
+		padding-top: 50px;
+	}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	h1{
+		font-size: 60px;   
+		padding-bottom: 25px;
+	}
+	h2 {
+		font-size: 35px;
+	}
+	header p {
+		font-size: 16px;
+	}
+	header{
+		padding: 300px 0 280px;
+	}
+	#about {
+		padding-top: 100px;
+		padding-bottom: 0;
+	}
+	nav ul li{
+		padding-bottom: 15px;
+	}
+	nav{
+		padding: 28px 0 13px;
+	}
+
+	#about p{
+		padding: 0 0 60px 0;
+		line-height: 25px;
+	}
+	#about p.content, #service p.content, #blog p.content{
+		line-height: 25px;
+	}
+	.no-touch .cs-style-7 figure:hover figcaption, .cs-style-7 figure.cs-hover figcaption{
+		opacity: 0.9;
+		min-height: 75%;
+		box-shadow: 0 0 0 0 #00a388;
+	}
+	.cs-style-7 figcaption{
+		height:79.5%;
+	}
+	.cs-style-7 figcaption h4{
+		margin-top: 0%; 
+		padding-top: 0px;
+	}
+	.cs-style-7 figure img{
+		z-index: 0;
+	}
+	.grid figure h4 {
+		padding: 40px 0;
+	}
+	.grid li{
+		padding: 0 0 20px 0;
+	}
+	.grid figcaption p{
+		font-size: 18px !important;
+	}
+	#filters li span{
+		padding: 5px 10px;
+		font-size: 17px;
+	}
+	#portfoliolist .portfolio{
+		width: 100%;
+	}
+	#filters li{
+		float: none;
+	}
+	#service i{
+		float: none;
+	}
+	#service h4{
+		text-align: center;
+	}
+	#service p.innerservice{
+		line-height: 25px;
+		margin-bottom: 60px;
+	}
+	#service .toppad {
+		padding-top: 0px; 
+	}
+	.innerblog{
+		min-height: 240px;
+		margin-bottom: 30px;
+	}
+	.innerblog h4 {
+		font-size: 23px;
+	}
+	#blog .toppad{
+		padding: 0;
+	}
+	#contactus {
+		padding-bottom: 100px;
+	}
+	#blog{
+		padding-bottom: 100px;
+	}
+	address{
+		font-size: 15px;
+		text-align: center;
+		width: 32%;
+		margin-left: 0px;
+	}
+	.footermenu ul li a{
+		font-size: 13px;
+		padding: 5px;
+
+	}
+	footer{
+		padding: 90px 0 60px;
+	}
+	.socialicon{
+		padding-top: 50px;
+	}
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+	h1 {
+		font-size: 35px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	h3 {		
+		font-size: 45px;
+	}
+	header {
+		padding: 170px 0 120px;
+	}
+	header p {
+		font-size: 15px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+	#about{
+		padding-top: 0;
+	}
+	#about p.content, #service p.content, #blog p.content{
+		text-align: justify;
+	}
+	.no-touch .cs-style-7 figure:hover figcaption, .cs-style-7 figure.cs-hover figcaption{
+		opacity: 0.9;
+		min-height: 75%;
+		box-shadow: 0 0 0 0 #00a388;
+	}
+	.cs-style-7 figcaption{
+		height:82%;
+	}
+	.cs-style-7 figcaption h4{
+		margin-top: 0%; 
+		padding-top: 0px;
+	}
+	.cs-style-7 figure img{
+		z-index: 0;
+	}
+	.grid figure h4 {
+		padding: 17px 0 10px;
+	}
+	.grid li{
+		padding: 0 0 20px 0;
+	}
+	.grid figcaption p{
+		font-size: 14px !important;
+		padding: 0px 0 0 0 !important;
+		line-height: 18px !important;
+	}
+	figure span{
+		margin-bottom: 20px;
+		display: block;
+	}
+	#filters li span{
+		margin:0; 
+	}
+	.imagehover{
+		padding: 55px 0;
+	}
+	address {    
+		text-align: left;
+		width: 49%;
+		margin-bottom: 10px;
+	}
+	address:last-child{
+		display: none;
+	}
+	footer {
+		padding: 60px 0;
+	}
+	nav ul li a{
+		padding: 5px;
+	}
+	nav ul li {
+		padding-bottom: 10px;
+	}
+	.footermenu{
+		display: none;
+	}
+
+}
+

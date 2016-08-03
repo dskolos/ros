@@ -1,0 +1,197 @@
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+.banner h3 {
+	padding-top: 500px;
+}
+.banner {
+	min-height: 800px;
+}
+#skills h4 {
+	padding: 10px 0 0px;
+}
+.imgDescription2 {
+	padding: 30px 0;
+}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.banner h3 {
+	padding-top: 370px;
+	font-size: 50px;
+}
+.banner {
+	min-height: 600px;
+}
+#skills h4 {
+	padding: 0px 0 0px;
+	font-size: 16px;
+	line-height: 25px;
+}
+.banner h2 {
+	font-size: 100px;
+	line-height: 140px;
+}
+.who {
+	padding: 50px 0;
+}
+.who h3 {
+	font-size: 20px;
+	line-height: 24px;
+}
+.slidemain {
+	padding: 50px 0;
+}
+.whatwedo {
+	padding: 50px 0;
+}
+.team {
+	padding: 50px 0;
+}
+#m1, #m2, #m3, #m4 {
+	margin: 0 auto 30px;
+}
+.ourwork {
+	padding: 30px 0;
+}
+.imgDescription2 {
+	padding: 2px 0;
+}
+.contact {
+	padding: 30px 0;
+}
+#map-canvas {
+	width: 100%;
+	height: 400px;
+}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+nav {
+	text-align: center;
+}
+header.sticky {
+	padding: 5px 0;
+}
+.banner h3 {
+	padding-top: 200px;
+	font-size: 25px;
+}
+.banner {
+	min-height: 350px;
+}
+#skills h4 {
+	padding: 0px 0 0px;
+	font-size: 16px;
+	line-height: 25px;
+}
+.banner h2 {
+	font-size: 40px;
+	line-height: 60px;
+}
+.who img {
+	margin-bottom: 15px;
+}
+.who p {
+	font-size: 16px;
+	line-height: 24px;
+	padding-bottom: 20px;
+}
+.who a {
+	max-width: 215px;
+	padding: 15px 0;
+	font-size: 20px;
+	margin: 33px auto 0;
+}
+.who {
+	padding: 30px 0;
+}
+.who h3 {
+	font-size: 20px;
+	line-height: 24px;
+}
+.slidemain h2 {
+	font-size: 22px;
+}
+.slidemain {
+	padding: 50px 0;
+}
+.whatwedo .bullet {
+	margin-bottom: 25px;
+}
+.whatwedo p {
+	margin-bottom: 15px;
+}
+.slidemain p {
+	font-size: 16px;
+	line-height: 28px;
+	padding: 15px 0 30px;
+}
+.whatwedo {
+	padding: 30px 0;
+}
+.team {
+	padding: 30px 0;
+}
+.team .bullet {
+	margin-bottom: 30px;
+}
+#m1, #m2, #m3, #m4 {
+	margin: 0 auto 10px;
+	text-align: center;
+}
+.leftdata h3, .leftdata p {
+	text-align: center;
+}
+.max1 img {
+	width: 150px;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+.max1 h3 {
+	padding-top: 15px;
+}
+.ourwork {
+	padding: 30px 0;
+}
+.img1 {
+	width: 100%;
+}
+.imgDescription2 {
+	padding: 50px 0;
+}
+.imgDescription2 h3 {
+	font-size: 16px;
+	margin: 5px 0;
+}
+.contact {
+	padding: 30px 0;
+}
+#map-canvas {
+	width: 100%;
+	height: 250px;
+}
+.social a i {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding-top: 10px;
+	font-size: 20px;
+}
+footer {
+	padding: 30px 0;
+}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+}

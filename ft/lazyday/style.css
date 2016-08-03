@@ -1,0 +1,669 @@
+/*................................reset...........................................*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*................................clearfix...........................................*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/*.........GLOBLE......*/
+
+body {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	color:#333333;
+	font-weight:400;
+}
+
+h2,h3,h4{font-family: 'Raleway', sans-serif; font-size:30px;
+font-weight:700; color:#333333; line-height:40px;}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	padding: 25px 0;
+	width: 100%;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+header.sticky {
+	position: fixed;
+	width: 100%;
+	background: #9b7e3c;
+	box-shadow: 3px 1px 0.99px 0.01px rgba(0, 0, 0, 0.05);
+	padding: 15px 0;
+}
+.logo {
+	width: 30%;
+	float: left;
+}
+nav {
+	width: 70%;
+	float: left;
+	text-align: right;
+}
+nav{text-align:right;padding-top: 10px;}
+nav ul li{display:inline-block; text-transform:uppercase; padding:10px;}
+nav ul li a{color:#fff; font-size:12px; font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;}
+nav ul li a:hover{border-bottom:2px solid #fff;}
+.banner{
+	background:url(images/banner.jpg) no-repeat center center;
+	background-size:cover;
+	min-height:	990px;
+	position:relative;
+	text-align:center;
+}
+.banner h3{padding-top:655px; color:#fff; font-size:59px;}
+.banner h2{ color:#fff; font-size:150px; line-height:152px;}
+.banner a i{
+	width:68px;
+	height:68px;
+	border-radius:50%;
+	background:#9b7e3c;
+	color:#fff;
+	font-size:40px;
+	padding-top:15px;
+	position:absolute;
+	bottom:0;	
+	margin: 0 auto -30px;
+	left: 0;
+    right: 0;
+}
+
+.who{padding:125px 0;}
+.who h2{
+	text-align:center;	
+}
+.who p{
+	text-align:center;	
+	font-size:18px;
+	line-height:33px;
+	color:#999999;
+	padding-bottom:65px;
+}
+.bullet span{width:7px; height:7px; border-radius:50%; background:#9b7e3c; display:inline-block; margin:0 2px;}
+.who img{display:block; width:100%;}
+.bullet{text-align:center;}
+
+.who a{
+	max-width:270px;
+	width:100%;
+	background:#9f7a40;
+	padding:22px 0;	
+	font-family: 'Raleway', sans-serif; font-size:24px;
+	display:block;
+	text-align:center;
+	margin:80px auto 0;
+	color:#fff;
+	font-weight:700;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.14);
+	box-shadow: 3px 4px 0px 0px rgba(0, 0, 0, 0.22);
+}
+.who a:hover{
+	background:#333;
+}
+
+progress {
+    background-color: #f3f3f3;
+    height: 23px;
+	border:1px solid #dcd9ae;
+    width: 100%;
+}
+.who h3{font-size:24px; line-height:26px;}
+#skills h4{
+	padding:20px 0 5px;
+	text-align:left;	
+	font-size:18px;
+	line-height:33px;
+	color:#999999;
+}
+progress::-webkit-progress-bar {
+    background-color: #fff;
+}
+
+progress::-webkit-progress-value {
+    background-color: #dcd9ae;
+}
+
+progress::-moz-progress-bar {
+    background-color: #329ad1;
+}
+
+
+.slidemain{
+	text-align:center;
+	background:url(images/sidesec.jpg) no-repeat center center;
+	background-size:cover;
+	padding:110px 0;	
+}
+.slidemain h2{
+	font-size:62px;
+	color:#fff;
+	text-transform:uppercase;
+	line-height:100%;	
+}
+.slidemain p{
+	font-size:36px;
+	line-height:44px;
+	color:#fff;
+	padding:25px 0 65px;	
+}
+
+.whatwedo{
+	padding:130px 0;
+	text-align:center;	
+}
+.whatwedo h2{ 
+	font-size:30px;
+	color:#333333;
+}
+.whatwedo .bullet{margin-bottom:60px;}
+.whatwedo i{
+	width:110px;
+	height:110px;
+	border-radius:50%;
+	background:#f7f7f7;
+	color:#9b7e3c;
+	font-size:34px;
+	padding-top:40px;
+	box-shadow: 3px 4px 0px 0px rgba(0, 0, 0, 0.1);
+	cursor:pointer;	
+}
+.whatwedo i:hover{
+	background:#9b7e3c;
+	color:#f7f7f7;
+	transition:all 0.5s;	
+	box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.whatwedo h3{font-size:18px; line-height:24px; color:#333; margin:25px 0 10px; text-transform:uppercase;cursor:pointer;	display:block;}
+ .whatwedo h3:hover{
+	color:#9b7e3c;	
+}
+.team{
+	background:url(images/teamback.jpg) no-repeat center center;
+	display:block;
+	background-size:cover;
+	padding:130px 0;	
+}
+.team h2{text-align:center;}
+.team .bullet{margin-bottom:60px;}
+.max1{max-width:600px; margin:0 auto 60px; display:block; width:100%;}
+.max1 h3{padding-top:50px; font-size:18px; line-height:24px; color:#333; text-transform:uppercase;}
+.max1 p{padding-bottom:20px;}
+.leftdata h3, .leftdata p{text-align:right;}
+#m1 {
+    margin: 0 16% 60px;
+}
+#m2 {
+    margin: 0 30% 60px;
+}
+#m3 {
+    margin: 0 20% 60px;
+}
+#m4 {
+    margin: 0 16% 60px;
+}
+
+.ourwork{
+	padding:60px 0;
+	background:#9b7e3c;
+	text-align:center;
+	
+}
+.ourwork h3{color:#fff;	}
+.ourwork .bullet span{background:#fff;}
+.img1{width:33.33%; float:left; position:relative;}
+.img1 img{width:100%; height:auto; display:block;}
+
+.imgDescription2 {
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	left: 0px;
+	right: 0;
+	background: rgba(155,126,60,.9);
+	color: #fff;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	visibility: hidden;
+	opacity: 0;
+	border:15px solid #dcd9ae;
+	padding: 120px 0;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+.img1:hover .imgDescription2 {
+	visibility: visible;
+	opacity: 1;
+}
+.imgDescription2 i {
+	width:67px;
+	height:67px;
+	border-radius:50%;
+	background:#dcd9ae;
+	color:#9b7e3c;
+	font-size:24px;
+	padding-top:20px;
+}
+.imgDescription2 h3 {
+	font-size:18px;
+	line-height:100%;
+	color:#fff;
+	text-transform:uppercase;
+	margin:15px 0;
+}
+.contact{padding:130px 0 80px; text-align:center;}
+#map-canvas {
+	width: 100%;
+	height: 575px;
+}
+footer{
+	padding:65px 0 50px;
+	text-align:center;
+	margin-bottom:15px;	
+	background:#dcd9ae;
+}
+.social{margin-bottom:25px;}
+.social a i{
+	width:67px;
+	height:67px;
+	text-align:center;
+	background:#9b7e3c;
+	color:#dcd9ae;	
+	border-radius:50%;
+	padding-top:20px;
+	font-size:28px;
+	margin-right:5px;
+}
+.social a i:hover{
+	background:#333;
+	color:#fff;
+	transition:all 0.5s;	
+}
+footer p , footer p a{font-size:10px; color:#999999; line-height:18px;}
+footer p a:hover{color:#9b7e3c;}
+
+/* New */
+
+.os-animation {
+	opacity: 0;
+}
+.os-animation.animated {
+	opacity: 1;
+}
+.staggered-animation {
+	opacity: 0;
+}
+.staggered-animation.animated {
+	opacity: 1;
+}
+/*LOADER EFFECT*/
+/*Paste this css to your style sheet file or under head tag*/
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 9999;
+ background: #9b7e3c;
+}
+
+
+
+.cssload-main {
+	position: absolute;
+	content: '';
+	left: 50%;
+	top:50%;
+	transform: translate(-100%, -240%);
+		-o-transform: translate(-100%, -240%);
+		-ms-transform: translate(-100%, -240%);
+		-webkit-transform: translate(-100%, -240%);
+		-moz-transform: translate(-100%, -240%);
+}
+
+.cssload-main *{
+	font-size:62px;
+}
+
+.cssload-heart {
+	animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-o-animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-ms-animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-webkit-animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-moz-animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+	top: 50%;
+	content: '';
+	left: 50%;
+	position: absolute;
+}
+
+.cssload-heartL {
+	width: 1em;
+	height: 1em;
+	border: 1px solid rgb(220,217,174);
+	background-color: rgb(220,217,174);
+	content: '';
+	position: absolute;
+	display: block;
+	border-radius: 100%;
+	animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-o-animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-ms-animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-webkit-animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-moz-animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+	transform: translate(-28px, -27px);
+		-o-transform: translate(-28px, -27px);
+		-ms-transform: translate(-28px, -27px);
+		-webkit-transform: translate(-28px, -27px);
+		-moz-transform: translate(-28px, -27px);
+}
+
+.cssload-heartR {
+	width: 1em;
+	height: 1em;
+	border: 1px solid rgb(220,217,174);
+	background-color: rgb(220,217,174);
+	content: '';
+	position: absolute;
+	display: block;
+	border-radius: 100%;
+	transform: translate(28px, -27px);
+		-o-transform: translate(28px, -27px);
+		-ms-transform: translate(28px, -27px);
+		-webkit-transform: translate(28px, -27px);
+		-moz-transform: translate(28px, -27px);
+	animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-o-animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-ms-animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-webkit-animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-moz-animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+}
+
+.cssload-square {
+	width: 1em;
+	height: 1em;
+	border: 1px solid rgb(220,217,174);
+	background-color: rgb(220,217,174);
+	position: relative;
+	display: block;
+	content: '';
+	transform: scale(1) rotate(-45deg);
+		-o-transform: scale(1) rotate(-45deg);
+		-ms-transform: scale(1) rotate(-45deg);
+		-webkit-transform: scale(1) rotate(-45deg);
+		-moz-transform: scale(1) rotate(-45deg);
+	animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-o-animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-ms-animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-webkit-animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-moz-animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+}
+
+.cssload-shadow {
+	top: 97px;
+	left: 50%;
+	content: '';
+	position: relative;
+	display: block;
+	bottom: -.5em;
+	width: 1em;
+	height: .24em;
+	background-color: rgb(215,215,215);
+	border: 1px solid rgb(215,215,215);
+	border-radius: 50%;
+	animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-o-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-ms-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-webkit-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+		-moz-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+}
+
+
+
+
+
+
+
+@keyframes cssload-square {
+	50% {
+		border-radius: 100%;
+		transform: scale(0.5) rotate(-45deg);
+	}
+	100% {
+		transform: scale(1) rotate(-45deg);
+	}
+}
+
+@-o-keyframes cssload-square {
+	50% {
+		border-radius: 100%;
+		-o-transform: scale(0.5) rotate(-45deg);
+	}
+	100% {
+		-o-transform: scale(1) rotate(-45deg);
+	}
+}
+
+@-ms-keyframes cssload-square {
+	50% {
+		border-radius: 100%;
+		-ms-transform: scale(0.5) rotate(-45deg);
+	}
+	100% {
+		-ms-transform: scale(1) rotate(-45deg);
+	}
+}
+
+@-webkit-keyframes cssload-square {
+	50% {
+		border-radius: 100%;
+		-webkit-transform: scale(0.5) rotate(-45deg);
+	}
+	100% {
+		-webkit-transform: scale(1) rotate(-45deg);
+	}
+}
+
+@-moz-keyframes cssload-square {
+	50% {
+		border-radius: 100%;
+		-moz-transform: scale(0.5) rotate(-45deg);
+	}
+	100% {
+		-moz-transform: scale(1) rotate(-45deg);
+	}
+}
+
+@keyframes cssload-heart {
+	50% {
+		transform: rotate(360deg);
+	}
+	100% {
+		transform: rotate(720deg);
+	}
+}
+
+@-o-keyframes cssload-heart {
+	50% {
+		-o-transform: rotate(360deg);
+	}
+	100% {
+		-o-transform: rotate(720deg);
+	}
+}
+
+@-ms-keyframes cssload-heart {
+	50% {
+		-ms-transform: rotate(360deg);
+	}
+	100% {
+		-ms-transform: rotate(720deg);
+	}
+}
+
+@-webkit-keyframes cssload-heart {
+	50% {
+		-webkit-transform: rotate(360deg);
+	}
+	100% {
+		-webkit-transform: rotate(720deg);
+	}
+}
+
+@-moz-keyframes cssload-heart {
+	50% {
+		-moz-transform: rotate(360deg);
+	}
+	100% {
+		-moz-transform: rotate(720deg);
+	}
+}
+
+@keyframes cssload-heartL {
+	60% {
+		transform: scale(0.4);
+	}
+}
+
+@-o-keyframes cssload-heartL {
+	60% {
+		-o-transform: scale(0.4);
+	}
+}
+
+@-ms-keyframes cssload-heartL {
+	60% {
+		-ms-transform: scale(0.4);
+	}
+}
+
+@-webkit-keyframes cssload-heartL {
+	60% {
+		-webkit-transform: scale(0.4);
+	}
+}
+
+@-moz-keyframes cssload-heartL {
+	60% {
+		-moz-transform: scale(0.4);
+	}
+}
+
+@keyframes cssload-heartR {
+	40% {
+		transform: scale(0.4);
+	}
+}
+
+@-o-keyframes cssload-heartR {
+	40% {
+		-o-transform: scale(0.4);
+	}
+}
+
+@-ms-keyframes cssload-heartR {
+	40% {
+		-ms-transform: scale(0.4);
+	}
+}
+
+@-webkit-keyframes cssload-heartR {
+	40% {
+		-webkit-transform: scale(0.4);
+	}
+}
+
+@-moz-keyframes cssload-heartR {
+	40% {
+		-moz-transform: scale(0.4);
+	}
+}
+
+@keyframes cssload-shadow {
+	50% {
+		transform: scale(0.5);
+		border-color: rgb(228,228,228);
+	}
+}
+
+@-o-keyframes cssload-shadow {
+	50% {
+		-o-transform: scale(0.5);
+		border-color: rgb(228,228,228);
+	}
+}
+
+@-ms-keyframes cssload-shadow {
+	50% {
+		-ms-transform: scale(0.5);
+		border-color: rgb(228,228,228);
+	}
+}
+
+@-webkit-keyframes cssload-shadow {
+	50% {
+		-webkit-transform: scale(0.5);
+		border-color: rgb(228,228,228);
+	}
+}
+
+@-moz-keyframes cssload-shadow {
+	50% {
+		-moz-transform: scale(0.5);
+		border-color: rgb(228,228,228);
+	}
+}

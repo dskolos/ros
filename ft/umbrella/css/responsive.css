@@ -1,0 +1,725 @@
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 1024px) {
+		.logo {
+			float:none;
+		}
+		.logo a {
+			margin:0 auto;
+		}
+		nav ul li {
+			display:block;
+		}
+		#amazing article .timer {
+ 			 padding-left: 45px;
+		}
+		#amazing article {
+ 			 margin: 17px 0;
+  			 padding: 5px;
+		}
+		img.iphone {
+ 			 width: 100%;
+  			 height: 70%;
+		}
+		.download {
+  			 margin: 60px 0 0 10px;
+ 			 width: 375px;
+		}
+		#mainintro .flexslider .slides img {
+			width:100%;
+		}
+		.iphone5s {
+			  height: 439px;
+			  width: 325px;
+			  background-size: 100%;
+		}
+		.sucribe {
+			width:180px;
+		}
+		.enter {
+			left:115px;
+		}
+		
+		aside.explore ul li {
+			font-size:12px;
+		}
+		footer article p {
+			font-size:12px;
+		}
+		footer aside p {
+			font-size:12px;
+		}
+		aside.copyright p {
+			font-size:12px;
+		}
+		#featured ul li {
+ 			display: inline-block;
+  			margin: 0 20px;
+  			line-height: 62px;
+		}
+		footer aside span{
+			font-size: 12px;
+			line-height: 24px;
+			padding-left: 0px;
+		}
+		}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		.introducing h2 {
+ 			 font-size: 30px;
+  			 line-height: 40px;
+		}
+		.introducing h3 {
+			font-size:18px;
+		}
+		.introducing {
+			margin-top:30px;
+		}
+		.download {
+  			 margin: 33px 0 0 10px;
+ 			 width: 100%;
+		}
+		.download a.download1{
+			padding:6px;
+			font-size:18px;
+		}
+		.download a.download2{
+			padding:6px;
+			font-size:18px;
+		}
+		.umbrella {
+			padding-top:85px;
+		}
+		#amazing {
+			padding:50px 0;
+		}
+		#amazing p {
+			margin:50px;
+		}
+		#screenshot {
+			padding:50px 0;
+		}
+		#screenshot{
+			padding:50px 0;
+		}
+		#screenshot p{
+			margin:50px;
+		}
+		.jcarousel img {
+			width:90%;
+		}
+		.effects .img img {
+			width:100%;
+		}
+		#people figure p{
+			
+			font-size:12px;
+			line-height:16px;
+		}
+		figure .overlay p {
+			padding-bottom:0;
+		}
+		#people {
+			padding:50px 0;
+		}
+		#testimonial {
+			padding:100px 0 50px 0;
+		}
+		#testimonial {
+			margin-top:50px;
+		}
+		#people p {
+			margin:50px 0;
+		}
+		#testimonial p {
+			margin:0 50px 50px;
+		}
+		#featured{
+			padding:50px 0;
+		}
+		#featured ul {
+			margin-top:50px;
+		}
+		#getintouch {
+			padding:50px 0 0;
+		}
+		#getintouch p {
+			margin:50px 0;
+		}
+		.iphone5s {
+			width:230px;
+		}
+		#getintouch h3 {
+  			margin: 25px 0 30px;
+		}
+		.social {
+			margin-top:50px;
+		}
+		footer {
+			padding:50px 0;
+		}
+		.sucribe {
+			width:150px;
+		}
+		.enter {
+			left:90px;
+		}
+		aside.explore ul li {
+			width:0;
+			float:none;
+		}
+		footer article img{
+			width:90%;
+		}
+		#cd-nav ul{
+			max-width:160px;
+			text-align:center;
+		}
+		#cd-nav ul li{
+			padding:5px 0;
+		}
+		aside .video1 {
+ 			 background: #f8e514;
+  			 min-height: 600px;
+		}
+		#videocontainer img {
+			  text-align: center;
+			  display: block;
+			  margin: 240px auto 0;
+			  cursor: pointer;	 
+		}
+		#videocontainer iframe{
+			margin-top:20%;
+			
+		}
+	}
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.download{
+			width:300px;;
+		}
+		.flexslider .slides img {
+			display:none;
+		}
+		.umbrella {
+			padding:0;
+		}
+		.flex-control-nav {
+ 			 bottom: 0;
+  			 margin-top: 20px;
+		}
+		#cd-nav ul{
+			max-width:280px;
+			text-align:center;
+		}
+		#cd-nav ul li{
+			padding:3px 0;
+		}
+		.effects .img img {
+			width:267px !important;
+			height:267px !important;
+			margin:0 auto !important;
+			display:block !important;
+		}
+		.overlay {
+			  width: 267px !important;
+			  height: 267px !important;
+		}
+		#people figcaption h4 {
+ 			 text-align: center;
+		}
+		#people figure figcaption p {
+			text-align:center;
+		}
+		#people figure .overlay p {
+			  margin: 15px !important;
+			  font-size: 16px;
+			  line-height: 22px;
+			  padding-bottom: 50px;
+		}
+		.social{
+			margin:40px 0;
+		}
+		.social ul li{
+			display:inline-block;
+			padding:0 10px;
+		}
+		.iphone5s {
+  			margin:0 auto; 
+		}
+		#mainintro {
+			min-height:500px;
+		}
+		.flex-control-nav {
+  			bottom: -54px;
+		}
+		img.iphone {
+			height:50%;
+			width:50%;
+			margin: 0 auto;
+			display: block;
+		}
+		footer article img {
+			  width: 30%;
+		}
+				
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 640px) {
+		.logo {
+			float:none;
+			display:block;
+			margin-left:0;
+		}
+		.logo a {
+			margin:0 auto
+		}
+		nav ul{
+			text-align:center;
+			margin:0 auto;
+			float:none !important;
+		}
+		header {
+  			padding: 5px 0;
+  			margin-top: 20px;
+		}
+		.umbrella {
+			padding-top:10px;
+		}
+		.download{
+			width:300px;;
+		}
+		#mainintro .flexslider .slides img {
+			display:none;
+		}
+		.flex-control-nav {
+			bottom:0;
+			margin-top:20px;
+		}
+		.flexslider {
+			padding-bottom:50px;
+		}
+		.flexslider {
+			width:80%;
+		}
+		#amazing h2 {
+			font-size:20px;
+		}
+		#amazing p {
+ 			 margin: 20px;
+			 font-size:15px;
+			 line-height:28px;
+		}
+		img.iphone {
+			  width: 50%;
+			  height: 100%;
+			  margin: 0 auto;
+			  display: block;
+		}
+		#screenshot h2 {
+			font-size:20px;
+		}
+		#screenshot p {
+			margin:20px;
+			font-size:15px;
+			line-height:28px;
+		}
+		#people h2 {
+			font-size:19px;
+		}
+		#people p {
+			margin:20px;
+			font-size:15px;
+			line-height:28px;
+		}
+		.effects .img img {
+			width:267px !important;
+			height:267px !important;
+			margin:0 auto !important;
+			display:block !important;
+		}
+		.overlay {
+			width:267px !important;
+			height:267px !important;
+		}
+		#people figure .overlay p {
+ 		 margin: 15px !important;
+  		font-size: 16px;
+  		line-height: 22px;
+  		padding-bottom: 50px;
+		}
+		#people figure{
+			margin-bottom:15px;	
+		}
+		#people figure figcaption p {
+			text-align:center;
+		}
+		#people figcaption h4 {
+			text-align:center;
+		}
+		#testimonial p {
+			margin:20px;
+		}
+		#testimonial p{
+			font-size:15px;
+			line-height:28px;
+		}
+		.flexslider{
+			margin:0 auto;
+			width:auto;
+		}
+			#featured {
+			padding:50px 0;
+		}
+		#featured h2 {
+			font-size:20px;
+		}
+		#featured h2 span {
+			display:none;
+		}
+		#featured ul {
+			margin-top:50px;
+		}
+		#featured ul li {
+ 			 margin: 20px 35px;
+  			 line-height: 10px;
+			 display:block;
+		}
+		#getintouch h2 {
+			font-size:20px;
+		}
+		#getintouch p {
+			margin:20px;
+			font-size:15px;
+			line-height:28px;
+		}
+		.social{
+			margin:40px 0;
+		}
+		.social ul li{
+			display:inline-block;
+			padding:0 10px;
+		}
+		.iphone5s {
+			display:none;
+		}
+		footer {
+			padding:50px 0;
+		}
+		.sucribe {
+ 			 width: 230px;
+		}
+		.enter {
+  			left: 165px;
+		}
+		footer aside h4 {
+			margin:20px 0;
+		}
+		aside.copyright p {
+			margin:20px 0 0 0;
+			border:none;
+			text-align:center;	
+			padding-left:0;
+		}
+		aside.copyright p {
+			border:none;
+		}	
+		footer article img{
+			width:auto;
+		}
+		footer aside span{
+			text-align:center;
+			display:block;
+			font-size:12px;
+		}
+		aside .video1 {
+ 			 background: #f8e514;
+  			 min-height: 350px !important;
+		}
+		#videocontainer img {
+			  text-align: center;
+			  display: block;
+			  margin: 150px auto 0;
+			  cursor: pointer;	  
+		}
+		.video1 iframe {
+			width:100%;
+			height:300px;
+		}
+		#videocontainer iframe{
+			margin-top:5%;	
+		}
+		footer aside.copyright p {
+			  margin: 20px 0 20px;
+		}
+	}
+		
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.umbrella{
+			padding:0px;
+		}
+		.introducing h2{
+ 			 font-size: 26px;
+  			 line-height: 45px;
+		}
+		.introducing h3 {
+			  font-size: 16px;
+			  line-height: 24px;
+			  margin-bottom: 20px;
+		}
+		.introducing {
+			  margin-top: 30px;
+			  padding-left: 0px;
+			  margin-bottom:60px;
+		}
+		.introducing ul li {
+		  font-size: 15px;
+		  line-height: 30px;
+		}
+		.logo {
+			float:none;
+			margin:0;
+		}
+		.logo a {
+			margin:0 auto;
+		}
+		nav ul li {
+			padding: 0 2px;
+			font-size: 11px;
+		}
+		nav ul{
+			text-align:center;
+			margin:0 auto;
+			float:none !important;
+		}
+		header {
+			margin-top:0;
+			padding:5px 0;
+		
+		}
+		.download{
+			margin:0 auto;
+			padding-top:20px;
+			width:160px;
+		}
+		.download a{
+			display:block;
+			margin:0 auto;
+		}
+		.mobile img {
+			display:none;
+		}
+		.download a.download1{
+			float:none;
+			margin-bottom:10px;
+			padding: 5px;
+		}
+		.download a.download2{
+			float:none;
+			padding: 5px;
+		}
+		#amazing{
+			padding:35px 0;
+		}
+		#amazing h2{
+			font-size:20px;
+		}
+		#amazing h2 span {
+			display:none;
+		}
+		#amazing p {
+			margin: 15px 0;
+			font-size:14px;
+			line-height:24px;
+		}
+		#amazing article {
+			  margin: 30px 0;
+	  		  padding: 8px;
+		}
+		img.iphone {
+			  width: 100%;
+ 			  height: 50%;
+		}
+		#screenshot {
+			padding:30px 0;
+		}
+		#screenshot h2 {
+			font-size:20px;
+		}
+		#screenshot h2 span {
+			display:none;
+		}
+		#screenshot p {
+			font-size:14px;
+			line-height:24px;
+			margin:15px 0 30px 0;
+		}
+		#people {
+			padding:35px 0;
+		}
+		#people h2 {
+			font-size:19px;
+		}
+		#people h2 span {
+			display:none;
+		}
+		#people p {
+			margin:15px 0 30px 0;
+			font-size:14px;
+			line-height:24px;
+		}
+		#people figure{
+			margin-bottom:35px;
+		}
+		#people figure figcaption{
+			text-align:center;
+		}
+		#people figure figcaption p {
+			text-align:center;
+		}
+		#people figure .overlay p {
+ 		 margin: 15px !important;
+  		font-size: 16px;
+  		line-height: 22px;
+  		padding-bottom: 50px;
+		}
+		#testimonial {
+			padding:100px 0 20px 0;
+			margin-top:20px
+		}
+		#testimonial p {
+			margin:15px 0;
+			font-size:14px;
+			line-height:24px;
+		}
+		#featured {
+			padding:35px 0;
+		}
+		#featured h2 {
+			font-size:20px;
+		}
+		#featured h2 span {
+			display:none;
+		}
+		#featured ul {
+			margin-top:35px;
+		}
+		#featured ul li {
+			margin:10px 35px;
+			line-height:10px;
+		}
+		#getintouch {
+			padding:35px 0 0;
+		}
+		#getintouch h2 {
+			font-size:20px;
+		}
+		#getintouch h2 span{
+			display:none;
+		}
+		#getintouch p {
+			margin:15px 0;
+			font-size:14px;
+			line-height:24px;
+		}
+		#getintouch h3 {
+ 			font-size: 24px;
+  			margin: 40px 0 15px;
+		}
+		.contact input[type="text"] {
+			margin-bottom:5px;
+			padding:5px 0;
+		}
+		.social{
+			margin:40px 0;
+		}
+		.social ul li{
+			display:inline-block;
+			padding:0 10px;
+		}
+		.iphone5s {
+			display:none;
+		}
+		footer {
+			padding:50px 0;
+		}
+		footer article img {
+ 			 width: auto;
+		}
+		footer aside input.sucribe {
+			width:190px;
+		}
+		footer aside h4 {
+			margin:20px 0;
+		}
+		.enter {
+ 		 left: 127px;
+		}
+		aside.copyright p {
+			margin:20px 0 0 0;
+			border:none;
+			text-align:center;	
+			padding-left:0;
+		}
+		aside.explore h4 {
+			margin: 20px 0 20px;
+		}
+		aside.explore ul li {
+ 			font-size: 12px;
+  			line-height: 25px;
+		}
+		footer aside span{
+			text-align:center;
+			display:block;
+			font-size:12px;
+		}
+		aside .video1 {
+ 			 background: #f8e514;
+  			 min-height: 300px !important;
+		}
+		#videocontainer img {
+			  text-align: center;
+			  display: block;
+			  margin: 120px auto 0;
+			  cursor: pointer;
+			  width:100%;	  
+		}
+		#videocontainer iframe{
+			margin-top:5%;
+			height:280px;
+			width:100%;
+		}
+		.flex-control-nav {
+			bottom:0px;
+		}
+		footer aside.copyright p {
+			  margin: 20px 0 20px;
+		}
+	}
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,139 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+.imgDescription2 {
+    padding: 50px 0;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+nav ul li {
+    padding: 0px 15px;
+}
+.imgDescription2 {
+    padding: 80px 0;
+}
+.imageteam {
+    margin-bottom: 20px;
+}
+header {
+    padding: 25px 0 25px;
+}
+#banner {
+    padding: 270px 0 100px;
+}
+#about {
+    padding: 50px 0;
+}
+.team {
+    padding-bottom: 50px;
+}
+#portfoliosec {
+    padding: 0px 0 50px;
+}
+.one{margin-bottom:20px;}
+.pricing {
+   padding-bottom: 30px;
+}
+	}
+
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+.nav-collapse li {
+    text-align: center;
+}
+.backcolor{background: #000;}
+nav ul li {
+    padding: 0px 15px;
+}
+.imgDescription2 {
+    padding: 80px 0;
+}
+.imageteam {
+    margin-bottom: 20px;
+}
+header {
+    padding: 25px 0 10px;
+}
+.nav-collapse a:active, .nav-collapse .active a {
+    color: #1dde85;
+    border-bottom: 0;
+}
+.logo a img{padding-top:5px;}
+#banner h1 {
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+#banner p {
+    font-size: 16px;
+    line-height: 30px;
+}
+header.sticky {
+    padding: 14px 0px 10px;
+}
+#banner {
+    padding: 180px 0 70px;
+}
+
+
+h2 {
+    font-size: 22px;
+    line-height: 30px;
+}
+#about {
+    padding: 30px 0;
+}
+.team {
+    padding-bottom: 30px;
+}
+#portfoliosec {
+    padding: 0px 0 30px;
+}
+p.titles {
+    padding: 10px 0 25px;
+    font-size: 16px;
+}
+#about article {
+    margin-bottom: 20px;
+}
+.team h2 {
+    margin-bottom: 15px;
+}
+.pricing h2 {
+    margin-bottom: 15px;
+}
+.one h4 {
+    padding: 15px 0 10px;
+}
+.box1, .box2 {
+    width: 100%;
+    margin-right: 0;
+}
+.one{margin-bottom:20px;}
+.pricing {
+   padding-bottom: 30px;
+}
+.aboutfooter h3 {
+    margin-top: 20px;
+}
+.aboutfooter {
+    padding: 10px 0 20px;
+
+}
+
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		
+		}
+

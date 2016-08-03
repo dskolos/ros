@@ -1,0 +1,442 @@
+/*................................reset...........................................*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*................................clearfix...........................................*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/*.........GLOBLE......*/
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	letter-spacing: 0.5px;
+}
+header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	width: 100%;
+	z-index: 9997;
+}
+.logo {
+	width: 30%;
+	float: left;
+}
+.navigation {
+	width: 63%;
+	float: left;
+	text-align: right;
+	padding-top: 35px;
+}
+a.login {
+	padding: 0 10px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+}
+.banner {
+	background: url(images/banner.jpg) no-repeat center center;
+	display: block;
+	background-size: cover;
+	padding: 350px 0 240px;
+	position: relative;
+	text-align: center;
+}
+.banner h3 {
+	font-family: "Times New Roman", Cambria, "Hoefler Text", "Liberation Serif", Times, serif;
+	font-size: 36px;
+	font-weight: 700;
+	font-style: italic;
+	letter-spacing: 0.5px;
+	color: rgba(255,255,255,.70);
+	text-shadow: -1px 0px 40px rgba(1, 1, 1, 0.55);
+}
+.banner h2 {
+	font-size: 100px;
+	font-weight: 700;
+	line-height: 120%;
+	letter-spacing: 0.5px;
+	color: #fff;
+	text-shadow: -1px 0px 40px rgba(1, 1, 1, 0.55);
+	margin-bottom: 15px;
+}
+a.started {
+	max-width: 280px;
+	padding: 20px 0;
+	border: 3px solid #fff;
+	letter-spacing: 0.25px;
+	font-weight: 700;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 2px;
+}
+a.started:hover {
+	background: #fff;
+	color: #000;
+	transition: all 0.5s;
+}
+.banner p {
+	letter-spacing: 0.5px;
+	color: #fff;
+	font-size: 14px;
+	text-shadow: -1px 0px 40px rgba(1, 1, 1, 0.55);
+	margin-top: 38px;
+}
+.banner p a {
+	text-decoration: underline;
+	color: #fff;
+	font-weight: 700;
+}
+article {
+	padding: 100px 0;
+	text-align: center;
+}
+article i {
+	width: 105px;
+	height: 105px;
+	border-radius: 50%;
+	border: 2px solid #000;
+	text-align: center;
+	color: #f57365;
+	font-size: 50px !important;
+	padding-top: 27px;
+	cursor: pointer;
+}
+article i:hover {
+	background: #000;
+	transition: all 0.5s;
+}
+article h3 {
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	margin-top: 15px;
+	line-height: 26px;
+}
+span.line {
+	width: 100px;
+	height: 1px;
+	background: #f57365;
+	display: block;
+	margin: 0 auto 15px;
+}
+section {
+	background: #f7f7f7;
+	padding: 100px 0 0;
+}
+section span.line {
+	margin: 0;
+	margin-bottom: 15px;
+}
+section h3 {
+	margin-top: 80px;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+}
+section p {
+	margin-bottom: 30px;
+}
+img.mobile {
+	width: 100%;
+	display: block;
+}
+.mainslide {
+	background: url(images/slider.jpg) no-repeat center center;
+	min-height: 430px;
+	background-size: cover;
+	text-align: center;
+	padding-top: 80px;
+}
+.mainslide h3 {
+	font-size: 30px;
+	line-height: 36px;
+	color: #867b85;
+	font-weight: 300;
+	margin: 10px 0px;
+}
+.mainslide p {
+	font-size: 18px;
+	line-height: 36px;
+	color: #867b85;
+	font-weight: 300;
+	margin: 10px 0;
+}
+.recepe {
+	padding: 100px 0 0;
+	text-align: center;
+}
+.recepe h2 {
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	margin-top: 15px;
+	line-height: 26px;
+}
+.images{margin-top:30px;}
+.img1 {
+	width: 20%;
+	float: left;
+}
+.img1 img {
+	width: 100%;
+	display: block;
+}
+.caption-style-4 li {
+	/*float: left;*/
+	padding: 0px;
+	position: relative;
+	overflow: hidden;
+}
+.caption-style-4 li:hover .caption {
+	opacity: 1;
+}
+.caption-style-4 li:hover img {
+	opacity: 1;
+	transform: scale(1.15, 1.15);
+	-webkit-transform: scale(1.15, 1.15);
+	-moz-transform: scale(1.15, 1.15);
+	-ms-transform: scale(1.15, 1.15);
+	-o-transform: scale(1.15, 1.15);
+}
+.caption-style-4 img {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	z-index: 4;
+}
+.caption-style-4 .caption {
+	cursor: pointer;
+	position: absolute;
+	opacity: 0;
+	-webkit-transition: all 0.45s ease-in-out;
+	-moz-transition: all 0.45s ease-in-out;
+	-o-transition: all 0.45s ease-in-out;
+	-ms-transition: all 0.45s ease-in-out;
+	transition: all 0.45s ease-in-out;
+}
+.caption-style-4 img {
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+.caption-style-4 .blur {
+	background-color: rgba(0,0,0,0.65);
+	height: 300px;
+	width: 400px;
+	z-index: 5;
+	position: absolute;
+}
+.numbers{
+	padding:60px 0;	
+}
+.width2{
+	width:20%;
+	float:left;
+	margin:0 auto;
+	text-align:center;	
+}
+.width2 span{
+	display:block;
+	font-size:36px;
+	line-height:40px;
+	font-weight:700;	
+}
+footer{
+	background:#f7f7f7;
+	padding:40px 0;
+	border-top:1px solid #e2e2e2;
+	font-size:14px;
+	color:#8b8b8b;	
+}
+footer a{
+	color:#000;
+	font-weight:600;	
+} 
+p.right{text-align:right;}
+
+/* New */
+
+.os-animation {
+	opacity: 0;
+}
+.os-animation.animated {
+	opacity: 1;
+}
+.staggered-animation {
+	opacity: 0;
+}
+.staggered-animation.animated {
+	opacity: 1;
+}
+/*LOADER EFFECT*/
+/*Paste this css to your style sheet file or under head tag*/
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 9999;
+ background: #f57365;
+}
+
+.cssload-piano {
+	margin:0 auto;
+	width: 39px;
+	height: 10px;
+	font-size: 10px;
+	top:50%;
+	position:absolute;
+	left:0;
+	right:0;
+}
+.cssload-piano > div {
+	height: 100%;
+	width: 100%;
+	display: block;
+	margin-bottom: 0.6em;
+	animation: stretchdelay 1.38s infinite ease-in-out;
+		-o-animation: stretchdelay 1.38s infinite ease-in-out;
+		-ms-animation: stretchdelay 1.38s infinite ease-in-out;
+		-webkit-animation: stretchdelay 1.38s infinite ease-in-out;
+		-moz-animation: stretchdelay 1.38s infinite ease-in-out;
+}
+.cssload-piano .cssload-rect2 {
+	animation-delay: -1.15s;
+		-o-animation-delay: -1.15s;
+		-ms-animation-delay: -1.15s;
+		-webkit-animation-delay: -1.15s;
+		-moz-animation-delay: -1.15s;
+}
+.cssload-piano .cssload-rect3 {
+	animation-delay: -0.92s;
+		-o-animation-delay: -0.92s;
+		-ms-animation-delay: -0.92s;
+		-webkit-animation-delay: -0.92s;
+		-moz-animation-delay: -0.92s;
+}
+
+
+
+@keyframes stretchdelay {
+	0%, 40%, 100% {
+		transform: scaleX(0.8);
+		background-color: rgb(46,88,101);
+		box-shadow: 0 0 0 rgba(10,10,10,0.1);
+	}
+	20% {
+		transform: scaleX(1);
+		background-color: rgb(255,255,255);
+		box-shadow: 0 5px 6px rgba(10,10,10,0.4);
+	}
+}
+
+@-o-keyframes stretchdelay {
+	0%, 40%, 100% {
+		-o-transform: scaleX(0.8);
+		background-color: rgb(46,88,101);
+		box-shadow: 0 0 0 rgba(10,10,10,0.1);
+	}
+	20% {
+		-o-transform: scaleX(1);
+		background-color: rgb(255,255,255);
+		box-shadow: 0 5px 6px rgba(10,10,10,0.4);
+	}
+}
+
+@-ms-keyframes stretchdelay {
+	0%, 40%, 100% {
+		-ms-transform: scaleX(0.8);
+		background-color: rgb(46,88,101);
+		box-shadow: 0 0 0 rgba(10,10,10,0.1);
+	}
+	20% {
+		-ms-transform: scaleX(1);
+		background-color: rgb(255,255,255);
+		box-shadow: 0 5px 6px rgba(10,10,10,0.4);
+	}
+}
+
+@-webkit-keyframes stretchdelay {
+	0%, 40%, 100% {
+		-webkit-transform: scaleX(0.8);
+		background-color: rgb(46,88,101);
+		box-shadow: 0 0 0 rgba(10,10,10,0.1);
+	}
+	20% {
+		-webkit-transform: scaleX(1);
+		background-color: rgb(255,255,255);
+		box-shadow: 0 5px 6px rgba(10,10,10,0.4);
+	}
+}
+
+@-moz-keyframes stretchdelay {
+	0%, 40%, 100% {
+		-moz-transform: scaleX(0.8);
+		background-color: rgb(46,88,101);
+		box-shadow: 0 0 0 rgba(10,10,10,0.1);
+	}
+	20% {
+		-moz-transform: scaleX(1);
+		background-color: rgb(255,255,255);
+		box-shadow: 0 5px 6px rgba(10,10,10,0.4);
+	}
+}

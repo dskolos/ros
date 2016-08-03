@@ -1,0 +1,273 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.oneslide img {
+    height: 750px;
+}
+.caption-style-4 .bordrmaincon {
+    padding: 60px 80px;
+}
+.extra h3 {
+    margin: 0px 0 10px;
+}
+.extra span {
+    margin: 10px 0;
+}
+.extra p {
+    margin-bottom: 10px;
+}
+.radiosbtn input[type=radio] + label {
+    margin-top: 20px;
+}
+.treding {
+    min-height: 800px;
+}
+.blog .bx-wrapper .bx-prev {
+    left: -21px;
+}
+.blog .bx-wrapper .bx-next {
+    right: -21px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.oneslide img {
+    height: 700px;
+}
+.slidecon h2 {
+    font-size: 41px;
+    line-height: 53px;
+    margin-bottom: 25px;
+}
+.slidecon p, .slidecon span {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+nav ul li {
+    padding: 10px 15px;
+}
+.products {
+    padding: 30px 0;
+}
+.products h2 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+.bordrmain h6 {
+    padding: 92px 0;
+}
+.caption-style-4 .bordrmain {
+    margin: 18px;
+}
+.bordrmaincon h4 {
+    font-size: 28px;
+    line-height: 34px;
+}
+.treding h2 {
+    font-size: 40px;
+    margin: 18px 0;
+}
+.caption-style-4 .bordrmaincon {
+    padding: 60px 80px;
+}
+.extra h3 {
+    margin: 0px 0 10px;
+	font-size: 23px;
+}
+.extra span {
+    margin: 10px 0;
+}
+.extra a {
+    padding: 14px 30px;
+    margin-top: 17px;
+    margin-right: 5px;
+}
+.extra p {
+    margin-bottom: 10px;
+}
+.radiosbtn input[type=radio] + label {
+   margin-top: 10px;
+    margin-right: 5px;
+}
+.treding {
+    min-height: 730px;
+	    padding: 30px 0;
+}
+.blog .bx-wrapper .bx-prev {
+    left: -21px;
+}
+.blog {
+    padding: 30px 0;
+}
+.blog h2 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+.newsletter a {
+    margin-top: 66px;
+}
+footer {
+    padding: 30px 0;
+}
+.blog .bx-wrapper .bx-next {
+    right: -21px;
+}
+	}
+
+
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+header {
+    padding: 15px 0;
+}
+.logo {
+    padding-top: 12px;
+}
+header.sticky {
+    padding: 7px 0;
+}
+.oneslide img {
+    height: 400px;
+}
+.slidecon h2 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.slidecon p, .slidecon span {
+    font-size: 18px;
+	    letter-spacing: 0px;
+    margin-bottom: 15px;
+}
+.slidecon {
+    top: 28%;
+}
+.slidecon a {
+    padding: 8px 0;
+}
+nav ul li {
+    padding: 10px 15px;
+	text-align: center;
+}
+.products {
+    padding: 30px 0;
+}
+.products h2 {
+    font-size: 28px;
+    margin: 5px 0;
+}
+.bordrmain h6 {
+    padding: 92px 0;
+}
+.caption-style-4 li {
+    margin-bottom: 20px;
+}
+.bordrmaincon span.whiteline {
+    width: 120px;
+}
+.caption-style-4 .bordrmain {
+    margin: 18px;
+}
+.bordrmaincon h4 {
+    font-size: 18px;
+    line-height: 27px;
+}
+.treding h2 {
+    font-size: 40px;
+    margin: 18px 0;
+}
+.caption-style-4 .bordrmaincon {
+        padding: 33px 50px;
+}
+.extra h3 {
+    margin: 5px 0 5px;
+    font-size: 20px;
+}
+.extra span {
+    margin: 10px 0;
+}
+.extra a {
+   padding: 8px 18px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+   .extra p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.treding .bx-wrapper .bx-pager, .treding .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: 0;
+}
+.extra {
+    padding: 30px 0 60px;
+}
+.radiosbtn input[type=radio] + label {
+   margin-top: 10px;
+    margin-right: 5px;
+	
+	width: 50px;
+    height: 45px;
+}
+.treding {
+   min-height: auto;
+	    padding: 30px 0;
+}
+.blog .bx-wrapper .bx-prev {
+    left: -0px;
+}
+.blog {
+    padding: 30px 0;
+}
+.blog h2 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+.newsletter a {
+       margin-top: 15px;
+}
+footer {
+    padding: 30px 0;
+}
+.blog .bx-wrapper .bx-next {
+    right: 0px;
+}
+.blog h3 {
+    margin: 15px 0;
+    font-size: 18px;
+}
+.blog span.lineone {
+    margin: 10px 0;
+}
+.blog p{
+font-size: 16px;
+}
+.blog a.readmore {
+    margin-top: 7px;
+}
+}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.treding {
+    min-height: 700px;
+    padding: 30px 0;
+}
+.caption-style-4 .bordrmain {
+    margin: 30px;
+}
+.caption-style-4 .bordrmaincon {
+    padding: 75px 50px;
+}
+
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+	
+		
+		}
+

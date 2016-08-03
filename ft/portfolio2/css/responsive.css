@@ -1,0 +1,165 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	header {
+    min-height: 650px;
+	}
+	header h1 a img {
+    margin: 77px auto 120px;
+}
+a.arrowbtm i {
+    margin-top: 60px;
+}
+.subscribe {
+    padding: 160px 0;
+}
+}
+
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 991px) {
+		header {
+    min-height: 650px;
+	}
+	header h1 a img {
+    margin: 77px auto 120px;
+}
+a.arrowbtm i {
+    margin-top: 60px;
+}
+.subscribe {
+    padding: 160px 0;
+}
+section {
+    padding: 50px 0;
+	    min-height: 980px;
+}
+section h2 {
+    padding: 35px 0;
+}
+.work {
+    padding: 50px 0;
+}
+.btnbtm a {
+    margin: 70px auto 0;
+}
+article {
+    min-height: 1100px;
+    padding: 50px 0;
+}
+footer {
+    background: url(images/lines.png) no-repeat center center;
+    padding: 50px 0;
+}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		header {
+    min-height: 450px;
+	}
+	header h1 a img {
+    margin:20px auto 30px;
+}
+a.arrowbtm i {
+    margin-top: 60px;
+}
+.subscribe {
+    padding: 30px 0;
+}
+section {
+    padding: 30px 0;
+	   min-height: auto;
+}
+section h2 {
+    padding: 15px 0;
+}
+.work {
+    padding: 30px 0;
+}
+.btnbtm a {
+    margin: 50px auto 0;
+}
+article {
+    min-height: auto;
+    padding: 30px 0;
+}
+footer {
+    background: url(images/lines.png) no-repeat center center;
+    padding: 30px 0;
+}
+h2 {
+    font-size: 28px;
+    line-height: 34px;
+}
+header h2 {
+    padding-bottom: 15px;
+}
+section p {
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+.work h2 {
+    padding-bottom: 15px;
+}
+#filters li {
+    margin-bottom: 0px;
+    padding: 5px 5px;
+}
+.imgDescription2 h1 {
+    font-size: 16px;
+    margin: 0px 0 0px;
+    line-height: 24px;
+	min-height:50px;
+}
+.btnbtm a {
+    padding: 8px 0;
+}
+.btnbtm a {
+    margin: 35px auto 0;
+}
+article h2 {
+    padding-bottom: 15px;
+}
+article p {
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+article .btnbtm a {
+    margin: 20px auto 0;
+}
+.subscribe p {
+    padding: 15px 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+.subscribe input {
+    margin-bottom: 10px;
+}
+.social a i {
+    font-size: 39px;
+}
+.social {
+    margin-bottom: 25px;
+}
+footer p, footer p a {
+    padding-bottom: 0px;
+    font-size: 16px;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		
+		}
+

@@ -1,0 +1,170 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	nav ul li {
+    padding: 0px 10px;
+}
+#banner {
+    padding: 240px 0 40px;
+}
+#banner p {
+    margin-bottom: 130px;
+}
+#about , #portfoliosec , #brand , #testimonials , #services , #skillssec , #contactus{
+    padding: 70px 0;
+}
+#noused h3 {
+    font-size: 41px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.logo {
+    width: 25%;
+	}
+	nav {
+    width: 65%;
+	}
+	nav ul li {
+    padding: 0px 4px;
+}
+#banner {
+    padding: 240px 0 40px;
+}
+#banner p {
+    margin-bottom: 130px;
+}
+#about , #portfoliosec , #brand , #testimonials , #services , #skillssec , #contactus{
+    padding: 50px 0;
+}
+#noused h3 {
+    font-size: 30px;
+}
+span.line {
+    margin: 35px auto;
+}
+.width20 img{width:100%; display:block;}
+	}
+
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+nav#topmenu {
+    display: none;
+}
+.menuside {
+    width: 50%;
+}
+.logo {
+    width: 50%;
+	}
+	.c-menu--push-left .c-menu__link, .c-menu--push-right .c-menu__link, .c-menu--slide-left .c-menu__link, .c-menu--slide-right .c-menu__link {
+    padding: 8px 24px;
+	}
+	#banner {
+    padding: 150px 0 20px;
+}
+#banner p {
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 27px;
+}
+#banner p br{display:none;}
+#about , #portfoliosec , #brand , #testimonials , #services , #skillssec , #contactus{
+    padding: 30px 0;
+}
+#noused h3 {
+    font-size: 22px;
+	    margin-top: 0;
+}
+#noused p {
+    font-size: 18px;
+    margin-top: 9px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+#noused img {
+    margin: 30px auto 0;
+}
+#filters li span {
+    font-size: 17px;
+    padding: 5px 5px;
+}
+#filters {
+    margin: 1% auto 25px;
+}
+span.line {
+    margin: 20px auto;
+}
+.width20{width:100%;}
+.width20 img{width: auto;
+    display: block;
+    margin: 0 auto;}
+#banner h1 {
+    font-size: 23px;
+    line-height: 30px;
+}
+#banner a {
+    width: 70px;
+    height: 70px;
+    line-height: 99px;
+}
+#banner span.line {
+    margin: 20px auto;
+}
+h2 {
+    font-size: 26px;
+}
+body {
+    font-size: 18px;
+    line-height: 26px;
+}
+a.loadmore {
+    width: 250px;
+    margin: 40px auto 0;
+}
+#testimonials h3 {
+    font-size: 24px;
+    line-height: 35px;
+}
+#services h3 {
+    margin: 5px 0;
+}
+#countersec {
+    padding: 30px 0;
+}
+#countersec h3 {
+    font-size: 45px;
+    line-height: 145%;
+}
+#skillssec h3 {
+    font-size: 18px;
+    margin-bottom: 9px;
+}
+#skillssec p {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+.fsocial {
+    margin-bottom: 25px;
+}
+#contactus input {
+    width: 100%;
+    margin-right: 0;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		
+		}
+

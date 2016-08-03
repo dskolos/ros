@@ -1,0 +1,541 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.imagehover {
+		padding: 70px 0;
+	}
+	.allimage .imagehover {
+		padding: 140px 0;
+	}
+	.menu{
+		text-align: center;
+	}
+	h3{
+		font-size: 58px;
+	}
+	.banner{
+		min-height: 900px;
+	}
+	.banner h4{
+		font-size: 100px;
+	}
+	.content textarea{
+		line-height: 26px;
+		height: 105px;
+	}
+	.servicesection{
+		padding: 7px;
+	}
+	.clogo{
+		display: none;
+	}
+	.uniqdesign img{
+		margin-left: 70px;
+	}
+	.imageradius img{
+		margin-left: 20px;
+	}
+	.date{
+		margin-top: 105px;
+	}
+	footer h3{
+		display: block;
+		padding: 0 0 15px 0;
+	}
+	.subscribe {
+		padding: 20px 0;
+	}
+	.subscribe input{
+		width: 100%;
+		margin: 0 0 10px 0;
+	}
+	footer p{
+		padding: 15px 0;
+	}
+	.blogfooterh2{
+		padding-bottom: 50px;
+	}
+	.footerblogcontent{
+		width: 50%;
+		padding: 0;
+	}
+	.footerblog{
+		width: 50%;
+	}
+	.footerblogcontent h2{
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.blogdiv{
+		padding-bottom: 15px;
+	}
+	.imagehover{
+		font-size: 17px;
+	}
+
+	.social{
+		width: 50px;
+		height: 50px;
+		font-size: 20px;
+
+	}
+	.teamhover .imagehover {
+		padding: 155px 48px;
+	}
+	.image4,.image2{
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 991px) {
+	.imagehover {
+		padding: 50px 0;
+	}
+	.allimage .imagehover {
+		padding: 140px 0;
+	}
+	nav ul li a{
+		font-size: 14px;
+		padding: 10px 0px 10px 20px !important;
+	}
+	.clogo{
+		display: none;
+	}
+	.banner{
+		min-height: 870px;
+	}
+	.banner h4{
+		font-size: 100px;
+	}
+	h3{
+		font-size: 50px;
+	}
+	.number{
+		min-height: 200px;
+	}
+	.innernumber{
+		min-height: 200px;
+	}
+	.innernumber h3{
+		padding-top: 50px;
+	}
+	.innernumber p {
+		padding-top: 15px;
+		font-size: 12px;
+	}
+	.uniqdesign img{
+		margin-left: 0;
+	}
+	.positionimg{
+		padding-left: 200px;
+	}
+	.serviceimage {
+		display: none;
+	}
+	.bslider p{
+		font-size: 17px;		    
+		line-height: 23px;
+	}
+	.date{
+		margin-top: 60px;
+	}
+	.blogfooterh2{
+		display: block;		
+		padding-top: 15px;
+		padding-bottom: 40px;
+	}
+	.clientinner1 img{
+		width: 100%;
+	}
+	.bslider img{
+		width: 100%;
+	}
+	.imagehover{
+		font-size: 17px;
+	}
+	
+	.social{
+		width: 40px;
+		height: 40px;
+		font-size: 20px;
+		padding:10px; 
+
+	}
+	.teamhover .imagehover {
+		padding: 124px 30px;
+	}
+	.image4,.image2{
+		width: 100%;
+	}
+
+
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {	
+	.allimage .imagehover {
+		padding: 100px 0;
+	}
+	.imagehover {
+		padding: 50px 0;
+	}
+	nav ul li a{
+		font-size: 13px;
+	}
+	.clogo{
+		display: none;
+	}
+	.menu ul li{
+		margin-left: 12px;
+	}
+	.menu {
+		text-align: center;
+	}
+	h3{
+		font-size: 50px;
+		padding-top:175px;
+	}
+	.banner h4{
+		font-size: 100px;
+	}
+	.banner{
+		min-height: 850px;
+	}
+	.number{
+		min-height: 200px;
+	}
+	.innernumber{
+		min-height: 200px;
+	}
+	.innernumber h3{
+		padding-top: 50px;
+	}
+	.innernumber p {
+		padding-top: 15px;
+		font-size: 12px;
+	}
+	.uniqdesign img{
+		margin-left: 0px;
+		margin-right: 20px;
+	}
+	.positionimg{
+		padding-left: 200px;
+	}
+	.serviceimage {
+		display: none;
+	}
+	.clientinner1 img{
+		width: 100%;
+	}
+	.bslider img{
+		width: 100%;
+	}
+	.bslider p{
+		font-size: 17px;		    
+		line-height: 23px;
+	}
+	.date{
+		margin-top: 60px;
+	}
+	
+	.imagehover{
+		font-size: 17px;
+	}
+	.social{
+		width: 40px;
+		height: 40px;
+		font-size: 17px;
+		padding: 10px;
+	}
+	.teamhover .imagehover {
+		padding: 134px 20px;
+	}
+	.image4,.image2{
+		width: 100%;
+	}
+	.allimage .imagehover img{
+		margin: 0px auto 10px auto;
+	}
+	.clientinner1{
+		width: 25%;
+	}
+	.clientinner2{
+		width: 75%;
+	}
+	.clientinner2 span{
+		margin: 8px 0;
+		height: 2px;
+	}
+	.clientinner2 p{
+		line-height: 18px;
+	}
+	.clientteam{
+		min-height: 750px;
+	}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	.imagehover {
+		padding: 116px 0;
+	}
+	#sticky.sticky1 header{
+		padding: 5px 0;
+	}
+	header{
+		padding-top: 5px;
+	}
+	.logo{
+		font-size: 25px;
+	}
+	.clogo{
+		display: none;
+	}
+	.uniqdesign{
+		display: none;
+	}
+	.serviceimage {
+		display: none;
+	}
+	
+	header h1 a{
+		font-size: 24px;
+	}
+	.logo{
+		padding-top: 12px;
+	}
+
+	h3{
+		font-size: 50px;
+		padding-top:175px;
+	}
+	.banner h4{
+		font-size: 80px;
+	}
+	.banner{
+		min-height: 720px;
+	}
+	.innernumber{
+		min-height: 150px;
+	}
+	.number{
+		min-height: 150px;
+	}	
+	.innernumber h3{
+		padding-top: 40px;
+		font-size: 32px;
+	}
+	.innernumber p {
+		padding-top: 10px;
+		font-size: 12px;
+	}
+	.icon{
+		text-align: center;
+	}
+	.servicecontent{
+		border: none;
+		padding: 70px 0 20px 0;
+	}
+	.servicecontent .col-xs-12, .servicecontent2 .col-xs-12{
+		border-bottom: 1px solid #e5e5e5;
+		margin: 0px 0 20px 0;
+	}
+	.servicecontent .col-xs-12:last-child { 
+		margin:0; 
+	}
+	.servicecontent2 .col-xs-12:last-child { 
+		/*border: none;*/
+		margin:0; 
+	}
+	.servicecontent2{
+		padding: 0;
+	}
+	.scontent p{
+		line-height: 20px;
+		padding: 10px 0px;
+	}
+	.bslider p{
+		width: 100%;
+		font-size: 17px;
+		text-align: center;
+		line-height: 30px;
+		padding: 0 25px 16px 25px;
+	}
+	.bslider img{
+		padding: 0;
+	}
+	.bslider span{
+		margin: 0 auto;
+		float: none;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.bslider h3{
+		float: none;
+		margin:0; 
+		font-size: 18px;
+	}
+	.teamhover .imagehover {
+		padding: 250px 111px;
+	}
+	.image4,.image2{
+		width: 100%;
+	}
+	.allimage .imagehover img{
+		margin: 50px auto 10px auto;
+	}
+	.allimage .imagehover {
+		padding: 50px 0;
+	}
+	.cinner {
+		padding-top: 40px;
+	}
+	.clientteam{
+		padding-bottom: 50px;
+	}
+	.date{
+		margin-top: 200px;
+	}
+	.blogteam .col-lg-4{
+		padding-bottom: 50px;
+	}
+	.blogteam{
+		padding-bottom: 20px;
+	}
+	.map img {
+		padding-top: 28px;
+	}
+	.map{
+		min-height: 150px;
+	}
+	.subscribe input{
+		width: 70%;
+	}
+	footer p {
+		padding: 15px 0;
+	}
+	.blogfooterh2{
+		padding: 35px 0 30px 0;		
+	}
+	.footerblog{
+		width: 30%;
+	}
+	.footerblogcontent{
+		width: 70%;
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+	.allimage .imagehover {
+		padding: 25px 0;
+	}
+	
+	.banner {
+		min-height: 620px;
+	}
+	h3{
+		font-size: 35px;
+		padding-top: 130px;
+	}
+	.banner h4{
+		font-size: 50px;
+	}
+	.innernumber h3{
+		font-size: 23px;
+		padding-top: 25px;
+	}
+	.innernumber p {
+		font-size: 10px;
+	}
+	.innernumber{
+		min-height: 100px;
+	}
+	.number{
+		min-height: 100px;
+		margin-top: 40px;
+	}
+	.about h4, .service h4, .uniqdesign h4, .compnyservices h4, .meetteam h4, .work h4, .clientteam h4, .blogteam h4, .map h4{
+		font-size: 24px;  
+		padding: 18px 0px;
+	}
+	.about h3, .service h3, .uniqdesign h3, .compnyservices h3, .meetteam h3, .work h3, .clientteam h3, .blogteam h3{
+		padding-top: 55px;
+	}
+	.social{
+		width: 40px;
+		height: 40px;
+		font-size: 17px;
+		padding: 10px;
+	}
+	.teamhover .imagehover {
+		padding: 174px 65px;
+	}
+	.meetteam h5{
+		padding-bottom: 25px;
+	}
+	.bslider{
+		padding: 80px 0px 20px 0px;
+	}
+	.bslider p{
+		line-height: 22px;
+	}
+	.allimage{
+		width: 100%;
+	}
+	.allimage .imagehover img{
+		margin: 0px auto 10px auto;
+	}
+	.imagehover{    
+		padding: 60px 0;
+	}
+	.imageradius img{
+		margin:0; 
+	}
+	.clientinner2{
+		width: 100%;
+		text-align: center;		
+	}
+	.clientinner1{
+		width: 100%;
+
+	}
+	.clientinner2 span{
+		margin: 15px auto;
+	}
+	.date {
+		margin-top: 90px;
+	}
+	footer h3{
+		display: block;
+		padding: 0 0 15px 0;
+	}
+	.subscribe {
+		padding: 20px 0;
+	}
+	.subscribe input{
+		width: 100%;
+		margin: 0 0 10px 0;
+	}
+	.footerblog{
+		width: 100%;
+	}
+	.footerblogcontent{
+		width: 100%;
+	}
+	.blogdiv {
+		padding-bottom: 0px; 
+	}
+}
+

@@ -1,0 +1,131 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	nav ul li {
+    padding: 10px 15px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	nav ul li {
+    padding: 10px 10px;
+}
+#banner {
+    padding: 270px 0 70px;
+}
+	}
+
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+.nav-collapse li {
+    text-align: center;
+}
+.backcolor{background: #00a5ff;}
+#banner h1 {
+    font-size: 30px;
+}#banner p {
+    font-size: 18px;
+    padding: 21px 0 30px;
+}
+#banner {
+    padding: 200px 0 70px;
+}
+#banner a , a.loadmore , a.send{
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 26px;
+}
+#brand {
+    padding: 30px 0;
+}
+#brand span.line , #testimonials span.line{
+    margin-bottom: 21px;
+}
+#testimonials {
+    padding: 30px 0;
+}
+span.line {
+    width: 100px;
+    margin: 10px auto;
+}
+#services span.line {
+    margin-bottom: 30px;
+}
+#services {
+    padding: 30px 0;
+}
+#portfoliosec {
+    padding: 30px 0;
+}
+.labels {
+    padding: 10px;
+    font-size: 14px;
+}
+#bx-pager .active img {
+    width: 90px;
+}
+#bx-pager a img {
+    width: 60px;
+}
+#bx-pager a {
+    margin: 0 5px;
+}
+.item p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.contact {
+    padding: 30px 0 60px;
+}
+.contact h2 {
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+.contact p.titlemain {
+    margin-top: 20px;
+    margin-bottom: 9px;
+    font-size: 20px;
+}
+header.sticky {
+    padding: 10px 0px;
+}
+.logo a img{padding-top:10px;}
+.contact ul {
+    display: none;
+}
+.contact form{margin-top:30px;}
+.box1 {
+    width: 100%;
+    margin-bottom: 12px;
+}
+footer p {
+    text-align: center;
+}
+a.maketop {
+    margin: -75px auto 0;
+}
+.social {
+    margin-top: 10px;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		
+		}
+

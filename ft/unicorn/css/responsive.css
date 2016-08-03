@@ -1,0 +1,201 @@
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+#banner {
+	padding: 272px 0 80px;
+}
+.bx-wrapper .bx-next {
+	right: 0;
+}
+#feturesaticles .bx-wrapper .bx-controls-direction a {
+	top: -12%;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+#banner {
+	padding: 180px 0 50px;
+}
+.bx-wrapper .bx-next {
+	right: 0;
+}
+#feturesaticles .bx-wrapper .bx-controls-direction a {
+	top: -12%;
+}
+#banner h1 {
+	font-size: 50px;
+}
+#about, #fetures, #feturesaticles, #clients, #portfoliosec, #testimonials, #team, #countersec, #blog, #blogslide, #twitter {
+	padding: 50px 0;
+}
+#portfoliosec p.top br, #testimonials p br, #team p.top br {
+	display: none;
+}
+span.linered {
+	margin: 20px auto;
+}
+#filters {
+	margin: 1% auto 30px;
+}
+#blog span {
+	margin-top: 0px;
+}
+#blog p {
+	padding: 0 0px;
+}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+nav#topmenu {
+	display: none;
+}
+.logo {
+	width: 50%;
+}
+.menuside {
+	width: 50%;
+}
+#banner {
+	padding: 100px 0 50px;
+	background-position: right center;
+	text-align:center;
+}
+.bx-wrapper .bx-next {
+	right: 0;
+}
+#feturesaticles .bx-wrapper .bx-controls-direction a {
+	top: -12%;
+}
+#banner h1 {
+	font-size: 24px;
+}
+#about, #fetures, #feturesaticles, #clients, #portfoliosec, #testimonials, #team, #countersec, #blog, #blogslide, #twitter {
+	padding: 30px 0;
+}
+#portfoliosec p.top br, #testimonials p br, #team p.top br , #contact p br{
+	display: none;
+}
+span.linered {
+	margin: 20px auto;
+}
+#filters {
+	margin: 1% auto 30px;
+}
+#blog span {
+	margin-top: 10px;
+}
+#blog p {
+	padding: 0 0px;
+	margin-bottom: 20px;
+}
+#banner .line {
+    margin: 0px auto 10px;
+}
+header {
+    padding: 20px 0;
+}
+#about h3 {
+    font-size: 24px;
+    margin: 10px 0 10px;
+}
+#about p {
+    line-height: 28px;
+}
+#fetures {
+    text-align: center;
+}
+#fetures p{margin-bottom:15px;}
+#fetures h3 {
+    line-height: 26px;
+    margin: 10px 0 0px;
+}
+#feturesaticles h2 {
+    margin-bottom: 0px;
+}
+h2 {
+    font-size: 24px;
+}
+#feturesaticles p.top {
+    margin-bottom: 50px;
+}
+#feturesaticles article{padding:30px;}
+#clients h2 {
+    margin-bottom: 30px;
+}
+#portfoliosec p.top {
+    line-height: 28px;
+}
+#filters li span {
+    padding: 5px 8px;
+}
+#testimonials p {
+    font-size: 18px;
+    line-height: 30px;
+}
+#team h2 {
+    margin-bottom: 9px;
+}
+
+#team p.top {
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+#team h3 {
+    margin-top: 10px;
+}
+#team p , #countersec h2{
+    margin-bottom: 20px;
+}
+.width50 p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+#blog h3 {
+    margin-bottom: 10px;
+}
+#twitter p {
+    font-size: 16px;
+    line-height: 28px;
+}
+#twitter img {
+    margin: 20px auto 20px;
+}
+#contact {
+    padding-top: 30px;
+}
+#contact input , #contact input[type="text"] {
+    width: 100%;
+}
+a.send {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+footer {
+    margin-top: 20px;
+}
+#contact footer ul {
+    text-align: left;
+}
+
+#contact footer ul li {
+    margin-right: 15px;
+	margin-left:0;
+}
+.c-menu--push-left .c-menu__link, .c-menu--push-right .c-menu__link, .c-menu--slide-left .c-menu__link, .c-menu--slide-right .c-menu__link {
+    padding: 8px 24px;
+}
+nav ul li a {
+    line-height: 24px;
+}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+}

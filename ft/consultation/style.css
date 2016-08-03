@@ -1,0 +1,756 @@
+/*................................reset...........................................*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*................................clearfix...........................................*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/*.........GLOBLE......*/
+
+body {
+	font-family: "Helvetica Neue", Gotham, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #5b5b5b;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #5c5c5c;
+}
+.topnav {
+	background: #f0f2f4;
+	border-bottom: 1px solid #e2e2e2;
+}
+.rightside {
+	text-align: right;
+}
+.rightside a {
+	padding: 12px 15px;
+	display: inline-block;
+	color: #4e4e4e;
+}
+.rightside a i {
+	font-size: 18px;
+}
+.rightside a:first-child {
+	border-right: 1px solid #e2e2e2;
+}
+.rightside a:last-child i {
+	width: 26px;
+	padding: 5px 8px;
+	background: #1287bf;
+	border-radius: 3px;
+	color: #fff;
+}
+header {
+	padding: 40px 0;
+}
+header {
+	position: absolute;
+	left: 0;
+	right: 0;
+	background:#fff;
+	width: 100%;
+	z-index: 9997;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+header.sticky {
+	position: fixed;
+	width: 100%;
+	background: #fff;
+	box-shadow: 3px 1px 0.99px 0.01px rgba(0, 0, 0, 0.05);
+	padding: 20px 0;
+	margin-top: -54px;
+}
+nav {
+	float: right;
+	padding: 10px 0;
+}
+nav ul li {
+	float: left;
+	padding: 10px 10px;
+	list-style-type: disc;
+	margin-left: 25px;
+}
+nav ul li:last-child{
+	    float: left;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 0;	
+}
+nav ul li a {
+	font-size: 15px;
+	font-weight: 700;
+	color: #424242;
+}
+nav ul li a:hover {
+	color: #de2b24;
+	transition: all 0.5s;
+}
+.active {
+    color: #de2b24;
+}
+nav ul li:first-child {
+	list-style-type: none;
+}
+nav a.btn1 {
+	padding: 10px 30px;
+	color: #fff;
+	background: #de2b24;
+	text-align: center;
+	border-radius: 3px;
+	font-weight: 700;
+	font-size: 15px;
+	display: inline-block;
+	margin-left: 15px;
+}
+nav a.btn1:hover {
+	background: #434343;
+	transition: all 0.5s;
+}
+.banner {
+	background: url(images/banner.jpg) no-repeat center center;
+	min-height: 590px;
+	background-size: cover;
+	text-align: center;
+	margin-top: 140px;
+}
+.banner h2 {
+	padding-top: 175px;
+	font-size: 48px;
+	line-height: 55px;
+	font-weight: 700;
+	color: #fff;
+}
+.banner p {
+	font-size: 30px;
+	line-height: 55px;
+	font-weight: 400;
+	color: #fff;
+	padding-bottom: 15px;
+}
+.banner a {
+	padding: 20px 40px;
+	color: #fff;
+	background: #f8cd53;
+	font-size: 24px;
+	display: inline-block;
+	font-weight: 700;
+	border-radius: 5px;
+}
+.banner a:hover {
+	background: #434343;
+	transition: all 0.5s;
+}
+.about {
+	text-align: center;
+	padding: 100px 0;
+}
+h2.howy {
+	font-size: 36px;
+	line-height: 44px;
+	font-weight: 700;
+	color: #424242;
+	text-align: center;
+}
+h4.howy {
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 300;
+	color: #424242;
+	text-align: center;
+}
+span.line {
+	width: 50px;
+	height: 5px;
+	background: #434343;
+	display: block;
+	margin: 10px auto 40px;
+	text-align: center;
+}
+.about h3 {
+	font-size: 22px;
+	line-height: 44px;
+	font-weight: 700;
+	color: #424242;
+}
+.approch {
+	background: #f3f3f3;
+	padding: 100px 0;
+}
+.maindata {
+	width: 100%;
+	display: block;
+	background: #fff;
+	box-shadow: 0px 0px 5px 0.50px rgba(229, 229, 229, 1);
+	margin-bottom:40px; 
+}
+.leftdata , .rightdata1{
+	width: 30%;
+	float: left;
+}
+.leftdata img , .rightdata1 img{
+	width: 100%;
+	display: block;
+}
+.rightdata , .leftdata1{
+	width: 70%;
+	float: left;
+	padding: 70px 50px 70px 80px;
+	position: relative;
+}
+.leftdata1{text-align:right; padding: 70px 80px 70px 50px;}
+.redbox {
+	width: 100px;
+	height: 100px;
+	border-radius: 3px;
+	border: 2px solid #fff;
+	background: #de2b24;
+	text-align: center;
+	padding-top: 20px;
+	position:absolute;
+	    left: -50px;
+		color:#fff;
+		font-size:20px;
+}
+.redbox1 {
+	width: 100px;
+	height: 100px;
+	border-radius: 3px;
+	border: 2px solid #fff;
+	background: #de2b24;
+	text-align: center;
+	padding-top: 20px;
+	position:absolute;
+	    right: -50px;
+		color:#fff;
+		font-size:20px;
+}
+.redbox h1 , .redbox1 h1{font-size:60px; font-family:  Georgia, "Lucida Bright", "DejaVu Serif", serif; font-weight:bold;}
+.maindata h3{font-size:18px; font-weight:700; color:#424242; line-height:30px;}
+.work{
+	background:#de2b24;
+	padding:100px 0;	
+}
+.work h2 {
+	font-size: 36px;
+	line-height: 44px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+}
+.work h4 {
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+}
+.work span.line {background:#fff;}
+.width25{width:25%; float:left; background:#f35e59; text-align:center; min-height:282px;}
+.width25 img{width:100%; display:block;}
+.width25 i{
+	padding:75px 0 20px;
+	color:#f9afac;
+	font-size:40px;	
+}
+.width25 h3{
+	font-size:26px;
+	color:#fff;
+	line-height:32px;	
+		font-weight:700;
+}
+.width25 h5{
+	font-size:16px;
+	font-weight:700;	
+	color:#fff;
+}
+
+.contact{
+	background:#1287bf;
+	padding:100px 0 60px;	
+}
+.contact h2 {
+	font-size: 36px;
+	line-height: 44px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+}
+.contact h4 {
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+}
+
+.touch{
+	padding:88px 0;
+	background:#2a2a2a;	
+	text-align:center;
+}
+.touch h2{
+	font-size:29px;
+	font-weight:700;
+	color:#fff;	
+	padding-bottom:15px;
+}
+.touch a i{
+	border:2px solid #515151;
+	color:#fff;
+	width:45px;
+	height:45px;
+	font-size:24px;
+	margin:10px;
+	padding-top:7px;
+}
+.touch a i:hover{border:2px solid #de2b24; transition:all 0.5s;}
+.touch p{padding:30px 0; color:#cecece;}
+.touch input{max-width:685px; width:100%; padding:15px; background:#515151; border:0; color:#fff; outline:0;}
+.touch input:focus{box-shadow: -1px 0px 5px 0px rgba(255, 255, 255, 1)}
+a.subscribe{
+	display:block;
+	padding:10px 15px;
+	border:2px solid #515151;
+	width:149px;
+	margin:20px auto 0;
+	color:#fff;	
+}
+a.subscribe:hover{border:2px solid #de2b24; transition:all 0.5s;}
+footer{
+	background:#515151;
+	text-align:center;
+	padding:25px 10px;
+}
+footer p , footer p a{	color:#fff;	
+}
+footer p a:hover{color:#de2b24; transition:all 0.5s;}
+
+
+
+
+/* New */
+
+.os-animation {
+	opacity: 0;
+}
+.os-animation.animated {
+	opacity: 1;
+}
+.staggered-animation {
+	opacity: 0;
+}
+.staggered-animation.animated {
+	opacity: 1;
+}
+/*LOADER EFFECT*/
+/*Paste this css to your style sheet file or under head tag*/
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 9998;
+ background: #f35e59;
+}
+
+
+#cssload-global {
+	width: 68px;
+	margin: auto;
+	margin-top: 49px;
+	position: relative;
+	cursor: pointer;
+	height: 58px;
+	top:40%;
+}
+
+.cssload-mask {
+	position: absolute;
+	border-radius: 2px;
+	overflow: hidden;
+	perspective: 1000;
+		-o-perspective: 1000;
+		-ms-perspective: 1000;
+		-webkit-perspective: 1000;
+		-moz-perspective: 1000;
+	backface-visibility: hidden;
+		-o-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+}
+
+.cssload-plane {
+	background: rgb(255,255,255);
+	width: 400%;
+	height: 100%;
+	position: absolute;
+	z-index: 100;
+	transform: translate3d(0px, 0, 0);
+		-o-transform: translate3d(0px, 0, 0);
+		-ms-transform: translate3d(0px, 0, 0);
+		-webkit-transform: translate3d(0px, 0, 0);
+		-moz-transform: translate3d(0px, 0, 0);
+	perspective: 1000;
+		-o-perspective: 1000;
+		-ms-perspective: 1000;
+		-webkit-perspective: 1000;
+		-moz-perspective: 1000;
+	backface-visibility: hidden;
+		-o-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+}
+
+#cssload-top .cssload-plane {
+	z-index: 2000;
+	animation: cssload-trans1 1.5s ease-in infinite	0s backwards;
+		-o-animation: cssload-trans1 1.5s ease-in infinite	0s backwards;
+		-ms-animation: cssload-trans1 1.5s ease-in infinite	0s backwards;
+		-webkit-animation: cssload-trans1 1.5s ease-in infinite	0s backwards;
+		-moz-animation: cssload-trans1 1.5s ease-in infinite	0s backwards;
+}
+
+#cssload-middle .cssload-plane {
+	background: rgb(0,0,0);
+	transform: translate3d(0px, 0, 0);
+		-o-transform: translate3d(0px, 0, 0);
+		-ms-transform: translate3d(0px, 0, 0);
+		-webkit-transform: translate3d(0px, 0, 0);
+		-moz-transform: translate3d(0px, 0, 0);
+	animation: cssload-trans2 1.5s linear infinite	0.35s	backwards;
+		-o-animation: cssload-trans2 1.5s linear infinite	0.35s	backwards;
+		-ms-animation: cssload-trans2 1.5s linear infinite	0.35s	backwards;
+		-webkit-animation: cssload-trans2 1.5s linear infinite	0.35s	backwards;
+		-moz-animation: cssload-trans2 1.5s linear infinite	0.35s	backwards;
+}
+
+#cssload-bottom .cssload-plane {
+	z-index: 2000;
+	animation: cssload-trans3 1.5s ease-out infinite	0.81s backwards;
+		-o-animation: cssload-trans3 1.5s ease-out infinite	0.81s backwards;
+		-ms-animation: cssload-trans3 1.5s ease-out infinite	0.81s backwards;
+		-webkit-animation: cssload-trans3 1.5s ease-out infinite	0.81s backwards;
+		-moz-animation: cssload-trans3 1.5s ease-out infinite	0.81s backwards;
+}
+
+#cssload-top {
+	width: 52px;
+	height: 19px;
+	left: 19px;
+	transform: skew(-15deg, 0);
+		-o-transform: skew(-15deg, 0);
+		-ms-transform: skew(-15deg, 0);
+		-webkit-transform: skew(-15deg, 0);
+		-moz-transform: skew(-15deg, 0);
+	z-index: 100;
+}
+
+#cssload-middle {
+	width: 32px;
+	height: 19px;
+	left: 19px;
+	top: 15px;
+	transform: skew(-15deg, 40deg);
+		-o-transform: skew(-15deg, 40deg);
+		-ms-transform: skew(-15deg, 40deg);
+		-webkit-transform: skew(-15deg, 40deg);
+		-moz-transform: skew(-15deg, 40deg);
+}
+
+#cssload-bottom {
+	width: 52px;
+	height: 19px;
+	top: 29px;
+	transform: skew(-15deg, 0);
+		-o-transform: skew(-15deg, 0);
+		-ms-transform: skew(-15deg, 0);
+		-webkit-transform: skew(-15deg, 0);
+		-moz-transform: skew(-15deg, 0);
+}
+
+
+
+
+
+
+
+
+
+@keyframes cssload-trans1 {
+	from {
+		transform: translate3d(52px, 0, 0);
+	}
+	to {
+		transform: translate3d(-244px, 0, 0);
+	}
+}
+
+@-o-keyframes cssload-trans1 {
+	from {
+		-o-transform: translate3d(52px, 0, 0);
+	}
+	to {
+		-o-transform: translate3d(-244px, 0, 0);
+	}
+}
+
+@-ms-keyframes cssload-trans1 {
+	from {
+		-ms-transform: translate3d(52px, 0, 0);
+	}
+	to {
+		-ms-transform: translate3d(-244px, 0, 0);
+	}
+}
+
+@-webkit-keyframes cssload-trans1 {
+	from {
+		-webkit-transform: translate3d(52px, 0, 0);
+	}
+	to {
+		-webkit-transform: translate3d(-244px, 0, 0);
+	}
+}
+
+@-moz-keyframes cssload-trans1 {
+	from {
+		-moz-transform: translate3d(52px, 0, 0);
+	}
+	to {
+		-moz-transform: translate3d(-244px, 0, 0);
+	}
+}
+
+@keyframes cssload-trans2 {
+	from {
+		transform: translate3d(-156px, 0, 0);
+	}
+	to {
+		transform: translate3d(52px, 0, 0);
+	}
+}
+
+@-o-keyframes cssload-trans2 {
+	from {
+		-o-transform: translate3d(-156px, 0, 0);
+	}
+	to {
+		-o-transform: translate3d(52px, 0, 0);
+	}
+}
+
+@-ms-keyframes cssload-trans2 {
+	from {
+		-ms-transform: translate3d(-156px, 0, 0);
+	}
+	to {
+		-ms-transform: translate3d(52px, 0, 0);
+	}
+}
+
+@-webkit-keyframes cssload-trans2 {
+	from {
+		-webkit-transform: translate3d(-156px, 0, 0);
+	}
+	to {
+		-webkit-transform: translate3d(52px, 0, 0);
+	}
+}
+
+@-moz-keyframes cssload-trans2 {
+	from {
+		-moz-transform: translate3d(-156px, 0, 0);
+	}
+	to {
+		-moz-transform: translate3d(52px, 0, 0);
+	}
+}
+
+@keyframes cssload-trans3 {
+	from {
+		transform: translate3d(52px, 0, 0);
+	}
+	to {
+		transform: translate3d(-214px, 0, 0);
+	}
+}
+
+@-o-keyframes cssload-trans3 {
+	from {
+		-o-transform: translate3d(52px, 0, 0);
+	}
+	to {
+		-o-transform: translate3d(-214px, 0, 0);
+	}
+}
+
+@-ms-keyframes cssload-trans3 {
+	from {
+		-ms-transform: translate3d(52px, 0, 0);
+	}
+	to {
+		-ms-transform: translate3d(-214px, 0, 0);
+	}
+}
+
+@-webkit-keyframes cssload-trans3 {
+	from {
+		-webkit-transform: translate3d(52px, 0, 0);
+	}
+	to {
+		-webkit-transform: translate3d(-214px, 0, 0);
+	}
+}
+
+@-moz-keyframes cssload-trans3 {
+	from {
+		-moz-transform: translate3d(52px, 0, 0);
+	}
+	to {
+		-moz-transform: translate3d(-214px, 0, 0);
+	}
+}
+
+@keyframes cssload-animColor {
+	from {
+		background: red;
+	}
+	25% {
+		background: yellow;
+	}
+	50% {
+		background: green;
+	}
+	75% {
+		background: brown;
+	}
+	to {
+		background: blue;
+	}
+}
+
+@-o-keyframes cssload-animColor {
+	from {
+		background: red;
+	}
+	25% {
+		background: yellow;
+	}
+	50% {
+		background: green;
+	}
+	75% {
+		background: brown;
+	}
+	to {
+		background: blue;
+	}
+}
+
+@-ms-keyframes cssload-animColor {
+	from {
+		background: red;
+	}
+	25% {
+		background: yellow;
+	}
+	50% {
+		background: green;
+	}
+	75% {
+		background: brown;
+	}
+	to {
+		background: blue;
+	}
+}
+
+@-webkit-keyframes cssload-animColor {
+	from {
+		background: red;
+	}
+	25% {
+		background: yellow;
+	}
+	50% {
+		background: green;
+	}
+	75% {
+		background: brown;
+	}
+	to {
+		background: blue;
+	}
+}
+
+@-moz-keyframes cssload-animColor {
+	from {
+		background: red;
+	}
+	25% {
+		background: yellow;
+	}
+	50% {
+		background: green;
+	}
+	75% {
+		background: brown;
+	}
+	to {
+		background: blue;
+	}
+}

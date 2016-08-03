@@ -1,0 +1,677 @@
+/*................................reset...........................................*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*................................clearfix...........................................*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;	
+}
+/*menu css*/
+.cd-header {
+	padding-top: 50px;  
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	left: 0;
+	top: 0;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	border-top: 10px solid #d11f2d;
+}
+.cd-header.sticky {
+	border-top: 3px solid #d11f2d;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;	
+	padding:10px 0; 
+	background: rgba(0,0,0,1);
+}
+
+/*.cd-header.sticky{
+	padding-top: 10px;
+}*/
+.menu-item{
+	text-align: right;
+}
+.cd-header.sticky .menu-item{
+	padding-top: 0px;
+}
+#o-wrapper{
+	display: inline-block;
+	position: relative;
+}
+#c-button--slide-right{
+	border: none;
+	background:none;
+	outline: 0;	
+	margin-left: 20px;
+}
+#c-button--slide-right i{
+	font-size: 30px;
+	color: #fff;
+}
+#banner{
+	background: url(../img/banner.jpg) no-repeat top center;	
+	background-size: cover;  
+	padding: 400px 0 50px;
+	color: #e9e9e9;
+	text-align: center;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: 800;
+	text-transform: uppercase;
+	line-height: 60px;
+}
+p.headerp{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+}
+#banner span{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 14px;
+	display: block;
+	letter-spacing: 3px;
+	line-height: 35px;
+	margin-top: 260px;
+}
+#banner a i{
+	color: #e9e9e9;
+	font-size: 25px;
+	line-height: 35px;
+}
+#introduction{
+	text-align:center; 
+	padding: 110px 0;
+	color: #222222;
+}
+h2{
+	font-size:40px ;
+	font-weight:400;
+	padding-bottom:90px;
+}
+p.innerp{
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 35px;
+}
+#download{
+	background: url(../img/banner2.jpg) no-repeat center center;	
+	background-size: cover;  
+	padding: 120px 0 120px;
+	color: #ffffff;
+	text-align: center;
+}
+button.btnfree{
+	border:3px solid #ffffff;
+	background: transparent;
+	font-size: 30px;
+	font-weight: 400;
+	padding: 20px 80px;
+	margin-top: 70px;
+	outline: 0;
+}
+#download button.btnfree:hover{
+	color:#252525; 	
+	background-color:#fff;	
+	transition: all 0.5s;
+}
+#about{
+	background: url(../img/about.png) no-repeat;
+	padding: 110px 0 60px;
+	background-color: #232323;
+	color: #ffffff;
+	background-position: right 140%;
+}
+#about h2{	
+	text-align:center;
+	color: #ffffff; 
+}
+p.aboutp{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+}
+
+#about i{
+	width: 65px;
+	height: 65px;
+	text-align: center;
+	background-color: #ffffff;
+	color: #232323;
+	border-radius: 50%;
+	font-size: 40px;
+	line-height: 65px;
+}
+h3{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	padding-top: 12px;
+}
+.innerabouttop{
+	padding-bottom:50px;
+}
+#about .col-lg-6 .row{
+	padding:21px 0; 
+}
+#service{
+	text-align: center;
+	background-color:#d11f2d;
+	color: #fff;
+	padding: 100px 0;
+}
+#service h2{
+	padding: 0;
+}
+#service h3{
+	display: inline-block;
+}
+#service article{
+	text-align: left;
+	padding-top: 90px;
+}
+#service article i{
+	width: 42px;
+	height: 42px;
+	text-align: center;
+	background-color: #ffffff;
+	color: #232323;
+	border-radius:3px;
+	font-size: 20px;
+	line-height: 43px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+}
+
+#service article p{
+	font-size: 13px;
+	line-height: 23px;
+}
+#work{
+	background-color:#252525;
+	text-align: center;
+	color: #fff;
+	display: block;
+	padding: 100px 0 0;
+}
+
+#filters {
+	list-style:none;	
+}
+
+#filters li {
+	float:left;
+	display: inline-block;
+	background: transparent;
+	border:2px solid #d11f2d;
+	margin-left:10px; 
+}
+
+#filters li span {
+	display: inline-block;
+	padding: 10px 40px;
+	text-decoration:none;
+	color:#fff;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 300;		
+}
+#filters li span.active{
+	background-color: #d11f2d;
+}
+#filters li span:hover{
+	background-color: #d11f2d;
+	transition:all 0.5s; 
+}
+#portfoliolist .portfolio {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	width:25%;
+	display:none;
+	float:left;
+	overflow:hidden;
+}
+.portfolio img{
+	width: 100%;
+	display: block;
+}
+#portfoliolist{
+	padding-top: 45px;
+}
+.imagehover{    
+	position: absolute;
+	width: 100%;	
+	margin: 0 auto;
+	background: rgba(0,0,0,0.5);	
+	color: #ffffff;
+	bottom: 0;	
+	top: 0;
+	right: 0;
+	left: 0;
+	visibility: hidden; 
+	opacity: 0;    
+	transition: all 0.5s;
+	cursor: pointer;	
+	padding: 25px;	
+}
+.portfoliohover:hover .imagehover{
+	visibility: visible;
+	opacity: 1;
+}
+.imagehover .border{
+	border:2px solid #fff;
+	padding: 110px;
+}
+.border h3{
+	font-size: 14px;
+	letter-spacing: 3px;
+	padding-bottom: 12px;
+}
+.border p{
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+.portfoliohover{
+	position: relative;
+}
+#aboutus{
+	text-align: center;
+	padding: 100px 0;
+}
+#aboutus img{
+	width: 100%;
+	display:block;
+}
+.teamhover{
+	position: relative;
+}
+.teamhover .imagehover{
+	padding: 0;
+}
+.teamhover:hover .imagehover{
+	visibility: visible;
+	opacity: 1;
+}
+#aboutus h4{
+	padding-top: 90%;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 40px;
+}
+.teamhover p{
+	font-size: 16px;
+	line-height: 30px;
+}
+#aboutus .apply h4{
+	padding-top:0;
+	line-height: 35px;
+}
+.apply{
+	border: 1px solid #333333;
+	padding: 93px 0 50px;
+}
+#aboutus button.btnfree{
+	border: 3px solid #333333;
+	padding: 17px 50px;
+	font-weight: 700;
+	font-size: 24px;
+}
+#aboutus button.btnfree:hover{
+	color: #fff;
+	background-color: #333333;
+	transition:all 0.5s; 
+}
+.toppad{
+	padding-top: 100px;
+}
+#client{
+	background-color:#f4f4f4;
+	text-align: center;
+	padding: 100px 0;
+}
+#client img{
+	margin: 0 20px;
+}
+#contact{
+	background-color: #d11f2d;
+	padding: 160px 0;
+	text-align: center;
+	color: #ffffff;
+}
+#contact button.btnfree{
+	background-color: #ffffff;
+	border: 3px solid #ffffff;
+	padding: 17px 50px;
+	color: #252525;
+	font-weight: 700;
+	font-size: 24px;
+	border-radius: 3px;
+}
+#contact button.btnfree:hover{
+	color: #fff;
+	background-color: #252525;
+	transition:all 0.5s; 
+}
+
+footer{
+	background-color: #252525;
+	color: #fff;
+	font-size: 14px;	
+	padding: 55px 0 40px;
+	border-bottom: 3px solid #323232;
+}
+footer p{
+	line-height: 25px;
+}
+footer p a{
+	text-decoration: none;
+	color:#fff; 
+}
+footer p a:hover{	
+	transition:all 0.5s; 
+	color: #d11f2d;
+}
+.footersocial i{
+	width: 50px;
+	height: 50px;
+	color: #ffffff; 
+	text-align: center;
+	line-height: 50px;
+	margin-left: 5px;
+	cursor: pointer;
+	font-size: 23px;
+}
+.footersocial i.fa-behance{
+	background-color: #00aeef;
+	border:2px solid #00aeef;
+}
+.footersocial i.fa-facebook{
+	background-color: #3c5a98;
+	border:2px solid #3c5a98;
+}
+.footersocial i.fa-pinterest-p{
+	background-color: #d13f3f;
+	border:2px solid #d13f3f;
+}
+.footersocial i.fa-dribbble{
+	background-color: #e95c93;
+	border:2px solid #e95c93;
+}
+
+.footersocial i.fa-behance:hover{color:#00aeef; transition: all 0.5s;background-color:#fff;border:2px solid #00aeef;}
+.footersocial i.fa-facebook:hover{color:#3c5a98; transition: all 0.5s;background-color:#fff;border:2px solid #3c5a98;}
+.footersocial i.fa-pinterest-p:hover{color:#d13f3f; transition: all 0.5s;background-color:#fff;border:2px solid #d13f3f;}
+.footersocial i.fa-dribbble:hover{color:#e95c93; transition: all 0.5s;background-color:#fff;border:2px solid #e95c93;}
+
+.footersocial{
+	text-align: right;
+}
+
+/*EFFECT*/
+.os-animation {
+  opacity: 0;
+}
+.os-animation.animated {
+  opacity: 1;
+}
+.staggered-animation {
+  opacity: 0;
+}
+.staggered-animation.animated {
+  opacity: 1;
+}
+
+/*LOADER EFFECT*/
+/*Paste this css to your style sheet file or under head tag*/
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: #333333;
+}
+
+#cssload-loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 171px;
+	height: 171px;
+	margin: auto;
+}
+#cssload-loader .cssload-dot {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 85.5px;
+	height: 100%;
+	margin: auto;
+}
+#cssload-loader .cssload-dot:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 85.5px;
+	height: 85.5px;
+	border-radius: 100%;
+	transform: scale(0);
+		-o-transform: scale(0);
+		-ms-transform: scale(0);
+		-webkit-transform: scale(0);
+		-moz-transform: scale(0);
+}
+#cssload-loader .cssload-dot:nth-child(7n+1) {
+	transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+}
+#cssload-loader .cssload-dot:nth-child(7n+1):before {
+	background: rgb(0,255,128);
+	animation: cssload-load 0.92s linear 0.12s infinite;
+		-o-animation: cssload-load 0.92s linear 0.12s infinite;
+		-ms-animation: cssload-load 0.92s linear 0.12s infinite;
+		-webkit-animation: cssload-load 0.92s linear 0.12s infinite;
+		-moz-animation: cssload-load 0.92s linear 0.12s infinite;
+}
+#cssload-loader .cssload-dot:nth-child(7n+2) {
+	transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+}
+#cssload-loader .cssload-dot:nth-child(7n+2):before {
+	background: rgb(0,255,234);
+	animation: cssload-load 0.92s linear 0.23s infinite;
+		-o-animation: cssload-load 0.92s linear 0.23s infinite;
+		-ms-animation: cssload-load 0.92s linear 0.23s infinite;
+		-webkit-animation: cssload-load 0.92s linear 0.23s infinite;
+		-moz-animation: cssload-load 0.92s linear 0.23s infinite;
+}
+#cssload-loader .cssload-dot:nth-child(7n+3) {
+	transform: rotate(135deg);
+		-o-transform: rotate(135deg);
+		-ms-transform: rotate(135deg);
+		-webkit-transform: rotate(135deg);
+		-moz-transform: rotate(135deg);
+}
+#cssload-loader .cssload-dot:nth-child(7n+3):before {
+	background: rgb(0,170,255);
+	animation: cssload-load 0.92s linear 0.35s infinite;
+		-o-animation: cssload-load 0.92s linear 0.35s infinite;
+		-ms-animation: cssload-load 0.92s linear 0.35s infinite;
+		-webkit-animation: cssload-load 0.92s linear 0.35s infinite;
+		-moz-animation: cssload-load 0.92s linear 0.35s infinite;
+}
+#cssload-loader .cssload-dot:nth-child(7n+4) {
+	transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+}
+#cssload-loader .cssload-dot:nth-child(7n+4):before {
+	background: rgb(0,64,255);
+	animation: cssload-load 0.92s linear 0.46s infinite;
+		-o-animation: cssload-load 0.92s linear 0.46s infinite;
+		-ms-animation: cssload-load 0.92s linear 0.46s infinite;
+		-webkit-animation: cssload-load 0.92s linear 0.46s infinite;
+		-moz-animation: cssload-load 0.92s linear 0.46s infinite;
+}
+#cssload-loader .cssload-dot:nth-child(7n+5) {
+	transform: rotate(225deg);
+		-o-transform: rotate(225deg);
+		-ms-transform: rotate(225deg);
+		-webkit-transform: rotate(225deg);
+		-moz-transform: rotate(225deg);
+}
+#cssload-loader .cssload-dot:nth-child(7n+5):before {
+	background: rgb(42,0,255);
+	animation: cssload-load 0.92s linear 0.58s infinite;
+		-o-animation: cssload-load 0.92s linear 0.58s infinite;
+		-ms-animation: cssload-load 0.92s linear 0.58s infinite;
+		-webkit-animation: cssload-load 0.92s linear 0.58s infinite;
+		-moz-animation: cssload-load 0.92s linear 0.58s infinite;
+}
+#cssload-loader .cssload-dot:nth-child(7n+6) {
+	transform: rotate(270deg);
+		-o-transform: rotate(270deg);
+		-ms-transform: rotate(270deg);
+		-webkit-transform: rotate(270deg);
+		-moz-transform: rotate(270deg);
+}
+#cssload-loader .cssload-dot:nth-child(7n+6):before {
+	background: rgb(149,0,255);
+	animation: cssload-load 0.92s linear 0.69s infinite;
+		-o-animation: cssload-load 0.92s linear 0.69s infinite;
+		-ms-animation: cssload-load 0.92s linear 0.69s infinite;
+		-webkit-animation: cssload-load 0.92s linear 0.69s infinite;
+		-moz-animation: cssload-load 0.92s linear 0.69s infinite;
+}
+#cssload-loader .cssload-dot:nth-child(7n+7) {
+	transform: rotate(315deg);
+}
+#cssload-loader .cssload-dot:nth-child(7n+7):before {
+	background: magenta;
+	animation: cssload-load 0.92s linear 0.81s infinite;
+		-o-animation: cssload-load 0.92s linear 0.81s infinite;
+		-ms-animation: cssload-load 0.92s linear 0.81s infinite;
+		-webkit-animation: cssload-load 0.92s linear 0.81s infinite;
+		-moz-animation: cssload-load 0.92s linear 0.81s infinite;
+}
+#cssload-loader .cssload-dot:nth-child(7n+8) {
+	transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+}
+#cssload-loader .cssload-dot:nth-child(7n+8):before {
+	background: rgb(255,0,149);
+	animation: cssload-load 0.92s linear 0.92s infinite;
+		-o-animation: cssload-load 0.92s linear 0.92s infinite;
+		-ms-animation: cssload-load 0.92s linear 0.92s infinite;
+		-webkit-animation: cssload-load 0.92s linear 0.92s infinite;
+		-moz-animation: cssload-load 0.92s linear 0.92s infinite;
+}
+
+
+
+@keyframes cssload-load {
+	100% {
+		opacity: 0;
+		transform: scale(1);
+	}
+}
+
+@-o-keyframes cssload-load {
+	100% {
+		opacity: 0;
+		-o-transform: scale(1);
+	}
+}
+
+@-ms-keyframes cssload-load {
+	100% {
+		opacity: 0;
+		-ms-transform: scale(1);
+	}
+}
+
+@-webkit-keyframes cssload-load {
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(1);
+	}
+}
+
+@-moz-keyframes cssload-load {
+	100% {
+		opacity: 0;
+		-moz-transform: scale(1);
+	}
+}
+
+

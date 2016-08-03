@@ -1,0 +1,229 @@
+
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+	
+@media only screen and (max-width: 1079px) {
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1079px) {
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+.ft_banner {
+	height: 550px;
+}
+.ft_banner h2 {
+	padding-top: 200px;
+}
+.ft_contact {
+	width: 100%;
+}
+#map {
+	width: 100%;
+}
+.continue {
+	bottom: 10px;
+}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+.ft_banner h2 {
+	padding-top: 160px;
+}
+.ft_copyright {
+	float: none;
+	text-align: center;
+	display: block;
+}
+.footer_logo {
+	float: none;
+	text-align: center;
+}
+.ft_footer_label {
+	display: none;
+}
+.ft_social {
+	float: none;
+	margin-left: 0px;
+	text-align: center;
+	margin: 10px 0;
+}
+.ft_reguler {
+	margin: 30px auto;
+	max-width: 390px;
+	float: none;
+}
+.ft_hot {
+	margin: 30px auto;
+	max-width: 390px;
+	float: none;
+}
+#ft_brand_logo a {
+	  width: 33%;
+	  margin-bottom: 5px;
+}
+#map {
+	height:400px;	
+}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+body {
+	line-height: 170%;
+}
+header {
+	padding: 10px 0 5px;
+}
+.ft_pad1 {
+	padding: 50px 0 50px;
+}
+.ft_banner h2 {
+	padding-top: 90px;
+	margin-bottom: 10px;
+	font-size: 22px;
+	line-height: 30px;
+}
+.ft_banner p {
+	font-size: 14px;
+	line-height: 24px;
+}
+.ft_banner {
+	height: 420px;
+}
+.fe_services_content .col-xs-6 {
+	width: 100%;
+}
+.fe_services_content .fa {
+	height: 90px;
+	width: 90px;
+	line-height: 90px;
+	font-size: 40px;
+	margin: 0 auto 20px;
+}
+blockquote, blockquote p {
+	font-size: 14px;
+	line-height: 22px;
+}
+.ft_contact_form {
+	width: 280px;
+}
+.ft_contact_form input[type="text"], .ft_contact_form textarea {
+	width: 190px;
+}
+.ft_reguler {
+	margin: 30px auto;
+	max-width: 280px;
+	float: none;
+}
+.ft_hot {
+	margin: 30px auto;
+	max-width: 280px;
+	float: none;
+}
+a.ft_btn1 {
+	padding: 10px 15px;
+}
+.continue-btn {
+	font-size: 30px;
+}
+.continue-btn .fa {
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+}
+header.sticky {
+	padding:0;	
+}
+#ft_brand_logo a {
+	  width: 50%;
+}
+#ft_team figcaption {
+	  padding: 15px 10px;
+}
+.ft_pad2 {
+  padding: 50px 0 30px;
+}
+#map {
+	height:300px;	
+}
+.ft_pricing_content {
+	  padding: 20px 0;
+}
+.ft_pricing_header {
+	  padding: 20px 0;
+}
+.ft_pricing_content li {
+	font-size: 14px;
+  	line-height: 30px;
+}
+.ft_pricing_header .ft_price {
+	  font-size: 32px;	
+}
+.ft_pricing_header span {
+	font-size:12px;	
+}
+.ft_pricing_header h3 {
+	font-size:18px;	
+}
+.continue {
+  bottom: 10px;
+}
+.mouse {
+	  margin: 0 auto 5px;
+	  width: 26px;
+  		height: 40px;
+
+}
+}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/

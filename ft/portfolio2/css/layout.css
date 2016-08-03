@@ -1,0 +1,60 @@
+#filters {
+	margin: 1%;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+#filters li {
+	display: inline-block;
+	margin-bottom: 30px;
+	padding: 5px 20px;
+}
+#filters li span {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	line-height: 36px;
+	cursor: pointer;
+	font-weight: 300;
+}
+#filters li span.active {
+	border-bottom: 2px solid #7b77c9;
+}
+#portfoliolist .portfolio {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	width: 31%;
+	margin: 1%;
+	display: none;
+	float: left;
+	overflow: hidden;
+}
+.portfolio-wrapper {
+	overflow: hidden;
+	position: relative !important;
+	background: #23232e;
+	cursor: pointer;
+}
+.portfolio img {
+	max-width: 100%;
+	position: relative;
+}
+.imgDescription2 h1{
+	color:#fff;
+	font-size:21px;
+	margin:10px 0 5px;	
+}
+.imgDescription2 p{
+	color:#818baa;
+	font-size:14px;
+}
+
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+#portfoliolist .portfolio {
+	width: 48%;
+	margin: 1%;
+}
+}
