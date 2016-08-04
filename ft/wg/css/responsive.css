@@ -1,0 +1,180 @@
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		#mainpart h2 {
+    font-size: 40px;
+    line-height: 58px;
+    margin-top: 30px;
+}
+#mainpart h3 {
+    font-size: 40px;
+    line-height: 58px;
+		}
+		#mainpart{
+			min-height: 650px;
+			    padding-top: 40px;
+		}
+		.secondpart img{
+		width:85%;
+		}
+		.heading {
+    padding: 70px 50px;
+		}
+		.heading1 img{
+			width:85%;
+		}
+		.heading1 {
+    padding: 0px 0;
+}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.logo a{
+			height: 200px;
+    		width: 200px;
+			background-size: 60%;
+		}
+		#mainpart{
+			min-height:560px;
+			padding-top:25px;
+		}
+		#mainpart h2 {
+    font-size: 28px;
+    line-height: 40px;
+	margin-top: 30px;
+		}
+		#mainpart h3 {
+    font-size: 28px;
+    line-height: 40px;
+	}
+	.twocolpadding {
+    padding: 30px 0 10px;
+}
+.heading {
+    padding: 70px 10px;
+    min-height: 600px;
+}
+.heading h3{
+	    padding-top: 10px;
+}
+.heading1 h3{
+	padding-top:10px;
+}
+.heading1 img{
+	width:50%;
+}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 550px) and (max-width: 767px) {
+		.heading1 img{
+			width:100%;
+		}
+		.leftimage{
+			width:100%;
+			float:none;
+			text-align:center;
+		}
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.logo a{
+			height: 150px;
+    		width: 150px;
+			background-size: 50%;
+		}
+		#mainpart{
+			min-height:500px;
+			padding-top:10px;
+		}
+		#mainpart h2 {
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+#mainpart h3 {
+    font-size: 19px;
+    line-height: 30px;
+}
+.middleform{
+	    width: 100%;
+		margin-top: -250px;
+}
+.middleform input[type="text"]{
+	width:90%;
+}
+.middleform img{
+	width:100%;
+}
+.middleform p {
+    padding: 10px;
+}
+.middleform a{
+	    font-size: 20px;
+}
+.leftimage {
+    width: 100%;
+    float: none;
+    display: block;
+    text-align: center;
+}
+.rightside {
+    width: 100%;
+    float: none;
+    display: block;
+    text-align: center;
+}
+.rightside h3 {
+    font-size: 20px;
+}
+.twocolpadding {
+    padding: 25px 0 20px;
+}
+.heading img{
+	width:50%;
+}
+.heading {
+    padding: 30px 10px;
+}
+.heading h3 {
+    font-size: 26px;
+    line-height: 32px;
+	margin-top:20px;
+}
+.heading p{
+	padding-top:15px;
+}
+.heading1 h3 {
+    font-size: 26px;
+    line-height: 32px;
+	margin-top:20px;
+	text-align:center;
+}
+.heading1 p{
+	padding-top:15px;
+}
+.steps {
+    height: 280px;
+    width: 280px;
+}	
+.navigation_container ul{
+top: 285px;
+}
+#map iframe{
+	height:400px;
+}
+.steps{
+	    top: 90px;
+}
+	
+		}
+

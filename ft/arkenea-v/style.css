@@ -1,0 +1,524 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack*/ 
+
+
+/*----FONTS----*/
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('fonts/montserrat-bold.eot');
+    src: url('fonts/montserrat-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-bold.woff2') format('woff2'),
+         url('fonts/montserrat-bold.woff') format('woff'),
+         url('fonts/montserrat-bold.ttf') format('truetype'),
+         url('fonts/montserrat-bold.svg#montserratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratlight';
+    src: url('fonts/montserrat-light.eot');
+    src: url('fonts/montserrat-light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-light.woff2') format('woff2'),
+         url('fonts/montserrat-light.woff') format('woff'),
+         url('fonts/montserrat-light.ttf') format('truetype'),
+         url('fonts/montserrat-light.svg#montserratlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat-regular.eot');
+    src: url('fonts/montserrat-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-regular.woff2') format('woff2'),
+         url('fonts/montserrat-regular.woff') format('woff'),
+         url('fonts/montserrat-regular.ttf') format('truetype'),
+         url('fonts/montserrat-regular.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.eot?v=4.3.0');
+  src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+.fa-heart:before {
+  content: "\f004";
+}
+
+
+/*----GLOBAL----*/
+html {
+	width: 100%;
+	height: 100%;
+}
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0 none;
+}
+body {
+	font-family: 'montserratregular', sans-serif;
+	font-weight: normal;
+	color: #999797;
+	font-size: 18px;
+	line-height: 24px;
+	-webkit-font-smoothing: antialiased;
+}
+a {
+	color: #507cbe;
+}
+.wrapper {
+	position: relative;
+	width: 100%;
+	display: block;
+	clear: both;
+}	
+
+h1, h2, h3, h4, h5 {
+	font-size:24px;
+	line-height:125%;
+}
+
+/*----HEADER----*/
+header{
+	position:fixed;
+	width:100%;
+	padding:120px 0 20px;
+	z-index: 9998;
+	
+	 // set animation
+            -webkit-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+}
+  header.sticky {
+            position: fixed;
+            width: 100%;
+            background: #2a3038;
+			padding:20px 0;
+        }
+.logo{
+	float:left;
+	display:block;
+	width:20%;
+}
+nav{
+	float:right;
+	display:block;
+	width:80%;
+	text-align:right;
+}
+nav ul li{
+	display:inline-block;
+	text-transform:uppercase;
+	font-size:20px;
+	line-height:24px;
+	margin-left:20px;
+}
+nav ul li a{
+	color:#f3f3f3;
+}
+nav ul li a:hover{
+	color:#f7564b;
+	transition:all 0.5s;
+}
+
+
+/*----BANNER----*/
+#banner{
+	background:url(images/banner.jpg) no-repeat center center;
+	display:block;
+	min-height:900px;
+	background-size:cover;
+}
+.bannertext{
+	margin-top:320px;
+	width:820px;
+}
+.bannertext h2{
+	font-weight:bold;
+	font-size:60px;
+	line-height:60px;
+	color:#f3f3f3;
+	text-transform:uppercase;
+	margin-bottom:20px;
+}
+.bannertext p{
+	font-family: 'montserratlight';
+	font-size:24px;
+	line-height:30px;
+	color:#f3f3f3;
+	margin: 0 250px 20px 0;
+}
+.request {
+	padding-top:10px;
+}
+.email{
+	width:280px;
+	height:50px;
+	padding:0 10px;
+	color:#383838;
+	background:#ededed;
+	font-size:14px;
+	border-radius:5px;
+	border:none;
+	border-bottom:2px solid #bebebe;
+	float:left;
+}
+.email:focus{
+	border-bottom:2px solid #f7564b;
+}
+.request a{
+	width:180px;
+	height:50px;
+	text-align:center;
+	color:#ecf0f1;
+	background:#f7564b;
+	display:inline-block;
+	border-radius:5px;
+	border-bottom:2px solid #d0493f;
+	margin-left:20px;
+	padding:11px 0;
+	font-size:16px;
+}
+.request a:hover{
+	background:#d0493f;
+	border-bottom:2px solid #f7564b;
+	transition:all 0.5s;
+}
+
+/*----OUR SUCCESS STORIES----*/
+#success{
+	padding:100px 0;
+}
+#success h3{
+	font-size:36px;
+	color:#383838;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.line{
+	width:70px;
+	height:2px;
+	background:#9a9a9a;
+	margin:50px 0;
+}
+article img{
+	width:100%;
+	display:block;
+}
+.shortstory p{
+	margin:20px 0;
+	min-height:72px;
+}
+.shortstory a{
+	color:#383838;
+	font-size:16px;
+}
+.shortstory a:hover{
+	color:#f7564b;
+	transition:all 0.5s;
+}
+
+/*----TESTIMONIAL----*/
+#testimonial{
+	padding:120px 0 0;
+	background:url(images/testimonialbg.jpg) no-repeat center center;
+	min-height:400px;
+	display:block;
+	background-size:cover;
+	text-align:center;
+}
+#testimonial q{
+	color:#f3f3f3;
+	font-size:24px;
+	line-height:30px;
+	font-family: 'montserratlight';
+	margin-bottom:20px;
+	display:block;
+}
+#testimonial p{
+	color:#f3f3f3;
+	font-size:24px;
+	line-height:30px;
+}
+#testimonial span{
+	display:block;
+	color:#f3f3f3;
+	font-size:24px;
+	line-height:30px;
+	font-family: 'montserratlight';
+	text-transform:uppercase;
+}
+
+/*----CONTACT----*/
+#contact{
+	padding:70px 0;
+}
+#contact h3{
+	font-size:30px; 
+	color:#666666;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom:70px;
+}
+#contact h4{
+	font-size:24px;
+	text-transform:uppercase;
+	color:#666666;
+	margin-bottom:20px;
+}
+.contactform{
+	width:380px;
+}
+.c_name{
+	float:left;
+	width:180px;
+	height:50px;
+	font-size:14px;
+	color:#383838;
+	border-radius:5px;
+	border:none;
+	background:#ededed;
+	padding:0 10px;
+}
+.c_email{
+	float:right;
+	width:180px;
+	height:50px;
+	font-size:14px;
+	color:#383838;
+	border-radius:5px;
+	border:none;
+	background:#ededed;
+	padding:0 10px;
+}
+.contactform textarea{
+	width:100%;
+	height:130px;
+	font-size:14px;
+	color:#383838;
+	border-radius:5px;
+	border:none;
+	background:#ededed;
+	padding:0 10px;
+	margin:20px 0;
+}
+.contactform input[type="submit"]{
+	width:180px;
+	height:50px;
+	border-radius:5px;
+	background:#f7564b;
+	border:none;
+	color:#ecf0f1;
+	font-size:16px;
+}
+.contactform input[type="submit"]:hover{
+	background:#d0493f;
+	transition:all 0.5s;
+}
+.rightsidecontact{
+	text-align:right;
+	text-transform:uppercase;
+}
+.rightsidecontact address{
+	margin-bottom:30px;
+	font-size:20px;
+}
+.rightsidecontact a{
+	margin-bottom:30px;
+	display:block;
+	color:#888888;
+	font-size:20px;
+}
+.rightsidecontact a:hover{
+	color:#f7564b;
+	transition:all 0.5s;
+}
+
+/*----FOOTER----*/
+footer{
+	background:#333333;
+	padding:25px 0;
+}
+footer p{
+	font-size:15px;
+	color:#f3f3f3;
+}
+footer a{
+	color:#f7564b;
+}
+footer a:hover{
+	text-decoration:underline;
+}
+footer i{
+	color:#f7564b;
+}
+
+.blog-image  p.imgDescription {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-top: 45%;
+  background: rgba(42,48,56,0.7);
+  opacity:0;
+  color: #ffffff;
+  width:100%;
+  height:100%;
+  font-size:14px !important;
+  line-height:36px;
+  font-weight:600;
+  text-align:center;
+  visibility: hidden;
+  text-align:right;
+  transition:all 0.5s;
+}
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+.blog-image{
+	position:relative;
+}
+.blog-image:hover p.imgDescription {
+  visibility: visible;
+  opacity:1;
+
+ 
+}
+.fa-link:before {
+  content: "\f0c1";
+}
+.blog-image p a{
+	color:#ffffff;
+	text-align:center;
+	font-size:25px;
+	line-height:25px;
+	display:block;
+	margin-top:45%;
+	margin:0 auto;
+	width:40px;
+	height:40px;
+	background: #f7564b;
+    border-radius: 50%;
+	text-align:center;
+	padding:8px;
+}
+.blog-image p a:hover{
+	background:#d0493f;
+	transition:all 0.5s;
+}
+
+
+/* New */
+
+.os-animation {
+	opacity: 0;
+}
+.os-animation.animated {
+	opacity: 1;
+}
+.staggered-animation {
+	opacity: 0;
+}
+.staggered-animation.animated {
+	opacity: 1;
+}
+
+/*Paste this css to your style sheet file or under head tag*/
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 9999;
+ background: url(images/default.svg) center no-repeat #2a3038;
+ 
+}
+
+

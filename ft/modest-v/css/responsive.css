@@ -1,0 +1,439 @@
+
+
+/* #Media Queries
+================================================== */
+
+	@media only screen and (min-width: 960px) and (max-width: 1200px) {
+		header nav ul li {
+			font-size:13px;
+		}
+		header nav ul li a {
+			padding: 5px 0px;
+		}
+		.effects .img img {
+			width:156px;
+		}
+		.effects .img:nth-child(2n-1) {
+ 			 margin-left: 0;
+		}
+		#effect-6 .overlay {
+			  width: 156px;
+			  height: 179px;
+		}
+		#ft_meettheteam figure .overlay a {
+			  font-size: 18px;
+			  height: 40px;
+			  width: 40px;
+			  padding:8px;
+		}
+		#ft_meettheteam figure h4 {
+			font-size:14px;
+		}
+		#ft_meettheteam figure p {
+ 		   font-size: 11px;
+		}
+		figure.effect-zoe h2{
+			font-size:14px;
+		}
+		.ft_textbanner {
+ 			 margin-right: 175px;
+		}
+		.ft_bannertext {
+			top:20%;
+		}
+		.flex-control-nav {
+			right:90px !important;
+		}
+		.effects .img img {
+ 			 width: 100%;
+		}
+		.effects .img {
+ 			 width: 100%;
+		}
+		#effect-6 .overlay {
+ 			 width: 88%;
+  			 height: 79%;
+		}
+		#ft_features img{
+			width:100%;
+		}
+		#ft_contactform form {
+			width:100%;
+		}
+
+	}
+			
+		
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		.ft_textbanner {
+			margin-right:20%;
+		}
+		.flex-control-nav {
+			right:90px !important;
+		}
+		.ft_textbanner {
+ 			 margin-right: 100px;
+		}
+		#ft_wearemodest {
+			padding:50px 0;
+		}
+		#ft_meettheteam {
+			padding:50px 0;
+		}
+		#ft_lovely {
+			padding:50px 0;
+		}
+		#ft_whatwedo {
+			padding:50px 0 0;
+		}
+		#ft_features {
+			padding:50px 0;
+		}
+		#ft_stayintouch {
+  			padding: 50px 0 0;
+		}
+		#ft_contactform {
+ 			 padding: 0 0 50px;
+		}
+
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		header nav ul li a {
+			  padding: 5px 8px;
+		}
+		header {
+			padding: 10px 0;
+		}
+		.ft_bannertext {
+			  top: 25%;
+		}
+		.ft_bannertext h2 {
+			  font-size: 26px;
+			  line-height: 28px;
+		}
+		.flexslider {
+			padding-top:60px !important;
+		}
+		header nav ul li {
+			margin:0;
+		}
+		.flexslider .slides img {
+ 			 height: 330px !important;
+		}
+		.effects .img img {
+			width:100%;
+		}
+		.effects .img {
+ 			 width: 100%;
+		}
+		.effects .img:nth-child(2n-1) {
+ 		  margin-left: 0;
+		}
+		#effect-6 .overlay {
+			width:84%;
+			height:180px;
+		}
+		#ft_meettheteam figure .overlay a {
+			height:35px;
+			width:35px;
+			padding:6px;
+		}
+		#ft_meettheteam figure p {
+			line-height:20px;
+		}
+		
+		#ft_features img{
+			width:100%;
+		}
+		#ft_features figure h4 {
+			line-height:25px;
+		}
+		
+		#ft_contactform form {
+			width:100%;
+			padding:10px;
+		}
+			  
+	}
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		#menu-icon {
+		display:inline-block;
+		}
+		nav{
+		float:right;
+		}
+		nav ul{ 
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		right: 10px;
+		top: 40px;
+		width: 40%;
+		}
+		nav li {
+		text-align:left;
+		width: 100%;
+		margin: 0;
+		border:none;
+		}	
+		header nav ul li a{
+		  border: 2px solid #ffffff;
+		color:#000;
+		padding:0px 10px;
+		}
+		nav:hover ul {
+		display: block;
+		}
+		header {
+			padding: 10px 0;
+		}
+		.flexslider {
+			padding-top:60px !important;
+		}
+		.ft_bannertext {
+			  top: 25%;
+		}
+		.flexslider .slides img {
+ 			 height: 330px !important;
+		}
+		.ft_bannertext {
+			  top: 25%;
+		}
+		.ft_bannertext h2 {
+			  font-size: 26px;
+			  line-height: 28px;
+		}
+		.ft_textbanner {
+ 			 margin-right: 10px;
+		}
+		#ft_wearemodest {
+			padding:30px 0;
+		}
+		#ft_meettheteam {
+			padding:30px 0;
+		}
+		#ft_lovely {
+			padding:30px 0;
+		}
+		#ft_whatwedo {
+			padding:30px 0 0;
+		}
+		#ft_features {
+			padding:30px 0;
+		}
+		#ft_stayintouch {
+  			padding: 30px 0 0;
+		}
+		#ft_contactform {
+ 			 padding: 0 0 30px;
+		}
+		#ft_wearemodest h3 {
+			margin-bottom:20px;
+		}
+		#ft_wearemodest p.ft_modespace {
+			  margin: 20px 0 20px;
+		}
+		.ft_social{
+			margin-bottom:30px;
+		}
+		#ft_wearemodest .ft_rowthree {
+ 			 margin-bottom: 20px;
+		}
+		#ft_meettheteam h3 {
+			margin-bottom:20px;
+		}
+		#ft_meettheteam figure{
+			width:262px;;
+			margin:0 auto 20px;
+			display:block;
+		}
+		#ft_lovely h3 {
+			margin-bottom:20px;
+		}
+		.effects .img:nth-child(2n-1) {
+  			margin-left: 0;
+		}
+		.grid figure {
+			max-width: 360px;
+  			margin: 0 auto;
+		}
+		#ft_whatwedo h3 {
+			margin-bottom:20px;
+		}
+		#ft_whatwedo figure {
+			margin-bottom:40px;
+		}
+		#ft_features h3 {
+			margin-bottom:20px;
+		}
+		#ft_features figure h4 {
+			margin: 10px 0 10px;
+			line-height:18px;
+		}
+		#ft_features figure{
+			margin-bottom:30px;
+		}
+		#ft_stayintouch h3 {
+			margin-bottom:20px;
+		}
+		#ft_contactform form {
+			margin-top:10px;
+			width:100%;
+		}
+		footer {
+			  padding: 20px 0;
+		}
+		footer small{
+			  display: block;
+  			  text-align: center;
+		}
+		footer .ft_footersocial {
+			  text-align: center;
+			  margin: 10px 0;
+		}
+		footer br{
+			display:none;
+		}
+}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.flex-control-nav {
+			right:30px !important;
+			bottom:10px !important;
+		}
+		footer p {
+  			text-align: center;
+		}
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.flexslider .slides img {
+ 			 height: 250px !important;
+		}
+		.ft_bannertext {
+			  top: 10%;
+		}
+		.ft_bannertext h2 {
+			  font-size: 20px;
+			  line-height: 24px;
+		}
+		.ft_textbanner {
+ 			 margin-right: 0px;
+		}
+		.flex-control-nav {
+			right:10px !important;
+			bottom:0px !important;
+		}
+		.ft_bannertext p {
+			  font-size: 13px;
+			  line-height: 17px;
+		}
+		.ft_bannertext input[type="button"] {
+			  font-size: 14px;
+			  line-height: 19px;
+			  width: 100px;
+			  height: 35px;
+		}
+		.ft_bannertext p {
+			  margin: 20px 0 20px;
+		}
+		#ft_wearemodest h3 {
+			font-size:25px;
+			line-height:30px;
+		}
+		#ft_wearemodest .ft_social i {
+			  width: 50px;
+			  height: 50px;
+			  padding: 12px;
+		}
+		#ft_meettheteam h3 {
+			font-size:25px;
+			line-height:30px;
+		}
+		#ft_lovely h3 {
+			font-size:25px;
+			line-height:30px;
+		}
+		.grid {
+ 			 margin-bottom: 20px;
+		}
+		#ft_whatwedo h3 {
+			font-size:25px;
+			line-height:30px;
+		}
+		#ft_whatwedo figure {
+ 			 margin-bottom: 20px;
+		}
+		#ft_features h3 {
+			font-size:25px;
+			line-height:30px;
+		}
+		#ft_features figure img{
+			width:100%;
+		}
+		#ft_stayintouch h3 {
+			font-size:25px;
+			line-height:30px;
+		}
+		#ft_contactform h4 {
+			  margin: 30px 0 20px;
+		}
+		#ft_contactform form {
+			padding:10px;
+		}
+		#ft_contactform form .ft_name {
+ 			 width: 100%;
+ 			 float: none;
+			 margin-bottom:10px;
+		}
+		#ft_contactform form .ft_email {
+ 			 width: 100%;
+  			float: none;
+		}
+		#ft_contactform form .ft_message {
+ 			 margin-top: 10px;
+		}
+		#ft_contactform form .ft_send {
+			margin:20px auto 0;
+			display:block;
+		}
+		header nav ul{  
+		padding: 10px;
+		}
+		footer br{
+			display:none;
+		}
+		#ft_wearemodest p {
+ 			 font-size: 14px;
+  			 line-height: 24px;
+		}
+		#ft_whatwedo p{
+			 font-size: 14px;
+  			 line-height: 24px;
+		}
+		#ft_whatwedo h3 {
+ 			 margin-bottom: 30px;
+		}
+		#ft_features figure p {
+			font-size: 14px;
+  			line-height: 24px;
+			
+		}
+		#ft_contactform p{
+			font-size: 14px;
+  			line-height: 24px;
+		}
+		footer p {
+  			text-align: center;
+		}
+			
+		
+	}
+

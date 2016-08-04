@@ -1,0 +1,286 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+	.container{
+	width:900px;
+}
+header {
+    min-height: 530px;
+    padding-top: 50px;
+}
+.hedscroll {
+    padding-top: 60px;
+}
+#about {
+    padding: 50px 0;
+}
+#services {
+    padding: 50px 0;
+}
+#whatwedo {
+    padding: 50px 0;
+}
+.whatwedoheder h3 {
+    padding-bottom: 52px;
+}
+.img1 {
+    margin: 0 0px 10px 0;
+}
+footer {
+    padding: 50px 0;
+}
+
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.container{
+	width:650px;
+}
+header {
+    min-height: 500px;
+    padding-top: 50px;
+}
+.hedscroll {
+    padding-top: 60px;
+}
+#about {
+    padding: 40px 0;
+}
+#services {
+    padding: 40px 0;
+}
+#whatwedo {
+    padding: 40px 0;
+}
+.aboutsec {
+    min-height: 230px;
+    background-size: 100%;
+}
+.aboutsec h3 {
+    padding-bottom: 0px;
+    line-height: 40px;
+}
+.servicesec {
+    background-size: 100% 100%;
+}
+.servicesec p {
+    padding: 0 70px;
+}
+.whatwedoheder {
+    background-size: 100% 100%;
+}
+.whatwedoheder h3 {
+    padding-bottom: 50px;
+}
+.one p {
+    padding: 0 40px 30px;
+}
+.two p {
+    padding: 0 40px 30px;
+}
+.three p{
+    padding: 0 40px 30px;
+}
+.whatwedoheder {
+    min-height: 800px;
+}
+.img1 {
+    margin: 0 0px 10px 0;
+}
+.img2 {
+    margin: 0 0px 10px 7px;
+}
+footer {
+    padding: 40px 0;
+}
+.contact{background-size:100% 100%;}
+.contact p {
+    padding: 0 40px 30px;
+}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		header {
+       min-height: 400px;
+    padding-top: 50px;
+    background-position: right;
+}
+.hedscroll {
+    padding-top: 30px;
+}
+#about {
+    padding: 30px 0;
+}
+#services {
+    padding: 30px 0;
+}
+#whatwedo {
+    padding: 30px 0;
+}
+.mainhead h2 {
+    font-size: 35px;
+    line-height: 42px;
+}
+.mainhead h1 a img {
+    padding-bottom: 25px;
+}
+br{display:none;}
+.aboutsec {
+    min-height: 250px;
+    background-size: 100% 100%;
+}
+.aboutsec h3 {
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+.aboutsec p {
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.servicesec {
+    background-size: 100% 100%;
+}
+.servicesec p {
+    padding: 0 10px;
+}
+.servicesec h3 {
+    font-size: 28px;
+    padding-bottom: 38px;
+}
+.whatwedoheder {
+    min-height: 600px;
+    background-size: 100% 100%;
+}
+.whatwedoheder h3 {
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+.one p {
+    padding: 0 10px 15px;
+}
+.two p {
+    padding: 0 10px 15px;
+}
+.three p{
+   padding: 0 10px 15px;
+}
+.img1 {
+    width: 100%;
+	margin:0;
+}
+.img3 {
+    width: 100%;
+	margin:0;
+}
+.img2 {
+    width: 100%;
+	margin:0;
+}
+
+.contact {
+    min-height: 225px;
+    background-size: 100% 100%;
+}
+.contact p {
+    padding: 0 10px 15px;
+}
+footer {
+    padding: 50px 0;
+}
+.contact h3 {
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.contact a {
+    padding: 15px 85px;
+}
+.flogo {
+    padding-top: 0px;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.container{
+	width:400px;
+}
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.container{
+	width:280px;
+}
+.mainhead h2 {
+    font-size: 22px;
+    line-height: 28px;
+}
+.mainhead p {
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.hedscroll {
+    padding-top: 15px;
+}
+header {
+    min-height: 370px;
+    padding-top: 15px;
+}
+.aboutsec h3 {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.aboutsec p {
+     padding-bottom: 5px;
+}
+.servicesec h3 {
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+.one h4 {
+    font-size: 18px;
+    padding: 10px 0;
+}
+.two h4 {
+    font-size: 18px;
+    padding: 10px 0;
+}
+.three h4 {
+    font-size: 18px;
+    padding: 10px 0;
+}
+.whatwedoheder h3 {
+    letter-spacing: 1px;
+}
+.contact h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+footer {
+    padding: 30px 0;
+}
+.contact a {
+    padding: 10px 40px;
+}
+.contact {
+    min-height: 250px;
+}
+.flogo img {
+    padding: 10px 5px 0 0;
+}
+.flogo p {
+    font-size: 12px;
+}
+p.last {
+    font-size: 14px;
+}
+		}
+

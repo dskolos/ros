@@ -1,0 +1,379 @@
+
+
+/* #Media Queries
+================================================== */
+
+	@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+		#ft_secondpart .ft_iphone {
+			width:670px;
+		}
+	}
+		
+	@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+			.callbacks img {
+				  width: 300px;
+				  height: auto;
+			}
+			#ft_secondpart .ft_iphone {
+			  height: 341px;
+			  background-size: 100%;
+
+			}
+			#ft_secondpart .ft_iphone {
+			width:100%;
+			}	
+			#ft_subscribe {
+				min-height:720px;
+			}
+			#ft_subscribe h3 {
+				margin: 280px 0 25px 0;
+			}
+	}
+	@media only screen and (min-width: 960px) and (max-width: 1023px) {
+		.callbacks img {
+		  width: 230px;
+		  height: auto;
+		}
+		#ft_fourthpart figure {
+			margin:0;
+		}
+		#ft_fourthpart {
+			padding:100px 0;
+		}
+		#ft_download p {
+			margin:30px 0;
+		}
+		#ft_download {
+			padding:90px 0;
+		}
+		#ft_secondpart .ft_iphone {
+ 			 width: 100%;
+		}
+		#ft_secondpart .ft_iphone {
+			  height: 350px;
+			  background-size: 100%;
+		}
+		.callbacks_nav.next {
+  			right: 86%;
+		}
+		.callbacks_nav {
+			top:113%
+		}
+		#ft_fourthpart .callbacks_nav.next {
+			left:97%;
+		}
+		#ft_main ul li {
+			margin:0 26px;
+		}
+			
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+		#ft_main ul li {
+			  margin: 0 25px;
+		}	
+		h2 {
+  			margin-top: 170px;
+		}
+		#ft_main .social {
+ 			 margin-top: 133px;
+		}
+		#ft_main {
+  			min-height: 620px;
+		}
+		#ft_secondpart {
+  			padding: 50px 0;
+		}
+		#ft_thirdpart {
+ 		    padding: 100px 0 0;
+        }
+		#ft_fourthpart figure {
+ 			text-align: center;
+  			margin: 0px 0 0;
+		}
+		#ft_subscribe h3 {
+  			margin: 240px 0 25px 0;
+		}
+		#ft_subscribe {
+  			min-height: 585px;
+		}
+		#ft_download {
+		    padding: 50px 0 50px;
+		}
+		#ft_download p {
+  			margin: 10px 20px 40px;
+		}
+		#ft_secondpart .ft_iphone {
+			display:none;
+		}
+		#ft_photo {
+			  width: 100%;
+			  text-align: center;
+		}
+		.callbacks img {
+		  width: 230px;
+		  height: auto;
+		}
+		.callbacks_nav.next {
+			right:85%;
+		}
+		.callbacks_container {
+			height:400px;
+		}
+		#ft_fourthpart .callbacks_nav.next {
+			left:97%;
+		}
+		#ft_fourthpart {
+			padding:90px 0;
+		}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		#ft_secondpart .ft_iphone {
+			display:none;
+		}
+		#ft_photo{
+			width:100%;
+			text-align:center;
+		}
+		#ft_secondpart {
+  		  padding: 50px 0;
+		}
+		#ft_thirdpart .ft_iphone5c {
+			display:none;
+		}
+		#ft_thirdpart {
+			padding:30px 0;
+		}
+		#ft_iphone5ccenter{
+			width:100%;
+			text-align:center;
+		}
+		
+		#ft_fourthpart {
+			padding:30px 0;
+		}
+		#ft_fourthpart figure {
+  		    margin: 0 0 20px; 
+		}
+		#ft_download {
+			padding:50px 0;
+		}
+		#ft_download p {
+			margin:20px 0;
+		}
+		.callbacks_nav {
+			left:47%;
+		}
+		.callbacks_nav.next {
+		right:45%;
+		}
+		#ft_main ul li {
+			margin:0 13px;
+		}
+	}
+		@media only screen and (min-width: 640px) and (max-width: 767px) {
+			.callbacks img {
+				  width: 270px;
+  				  height: 230px;
+			}
+			.community-left {
+				margin-left:25px;
+			}
+			.community-info {
+ 				 margin-top: 50px;
+			}
+			#ft_fourthpart .callbacks_nav {
+				top:23%;
+			}
+			
+			
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 639px) {
+	#ft_main ul li.ft_mainlogo{
+			display:none;
+		}
+		#ft_main .ft_logo a {
+			display:none;
+		}
+		#ft_main ul li {
+		  margin: 0 10px;
+		  font-size: 13px;
+		}
+		header {
+ 		   padding-top: 25px;
+		}
+		h2 {
+		   margin-top: 119px;
+		   font-size: 32px;
+		} 
+		#ft_main {
+  		   min-height: 517px;
+		}
+		#ft_main .social {
+ 		   margin-top: 112px;
+		}
+		#ft_thirdpart .bx-wrapper .bx-controls-direction a {
+ 			 margin: 23px 170px;
+		}
+		#ft_fourthpart .bx-wrapper .bx-controls-direction a {
+  			   margin: 26px 180px -50px 189px;
+		}
+		#ft_subscribe {
+ 			 min-height: 500px;
+		}
+		#ft_subscribe h3 {
+		  font-size: 18px;
+		  margin: 170px 0 25px 0;
+		}
+		#ft_subscribe input[type="text"] {
+			  height: 55px;
+			  width: 290px;
+		}
+		#ft_subscribe span a {
+  			padding: 16px;
+		}
+		footer ul{
+			text-align:center;
+		}
+		#footer small {
+			font-size:12px;
+			line-height:20px;
+			padding-left:0px;
+			margin:10px auto 0;
+			display:block;
+			text-align:center;
+		}
+		.ft_foologo{
+			width:100%;
+			text-align:center;
+		}
+		.callbacks img {
+			  width: 210px;
+			  height: auto;
+		}
+		.community-info{
+			margin-top:50px;
+		}
+		#ft_fourthpart .callbacks_nav {
+			top:60px;
+			left: 89%;
+		}
+		.callbacks_nav {
+ 			 left: 44%;
+		}
+		.community-left {
+			margin-left:5px;
+		}
+		
+	}
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		#ft_main ul li.ft_mainlogo{
+			display:none;
+		}
+		#ft_main .ft_logo a {
+			display:none;
+		}
+		#ft_main ul li {
+		  margin: 0 2px;
+		  font-size: 11px;
+		  letter-spacing: 1px;
+		}
+		header {
+ 		   padding-top: 25px;
+		}
+		h2 {
+			  margin-top: 60px;
+			  font-size: 18px;
+		}
+		#ft_main {
+  		   min-height: 445px !important;
+		}
+		#ft_main .social {
+ 		   margin-top: 70px;
+		}
+		#ft_secondpart h3 {
+  		font-size: 16px;
+		}
+		#ft_secondpart p {
+ 		 padding: 25px 0;
+		 line-height:20px;
+		}
+		#ft_thirdpart h3 {
+			font-size:16px;
+		}
+		#ft_thirdpart p {
+			line-height:20px;
+		}
+		#ft_thirdpart p {
+ 		 padding: 25px 0;
+		}
+		#ft_subscribe {
+ 			 min-height: 400px;
+		}
+		#ft_subscribe h3 {
+		  font-size: 18px;
+		  margin: 140px 0 25px 0;
+		}
+		#ft_subscribe input[type="text"] {
+			  height: 46px;
+			  width: 200px;
+		}
+		#ft_subscribe span a {
+  			padding: 11px;
+		}
+		.button {
+			width:278px;
+		}
+		#footer ul{
+			margin-bottom:10px;
+		}
+		#footer ul li {
+			font-size:12px;
+		}
+		#footer small {
+			font-size:12px;
+			line-height:20px;
+			padding-left:0px;
+			margin:10px auto 0;
+			display:block;
+			text-align:center;
+			display:block;
+		}
+		.ft_foologo{
+			width:100%;
+			text-align:center;
+			margin-top:10px;
+		}
+		#ft_download p{
+			line-height:20px;
+		}
+		.callbacks img {
+			  width: 131px;
+			  height: auto;
+		}
+		.callbacks_nav {
+			top:111%;
+		}
+		.callbacks_nav.next {
+ 			 right: 42%;
+		}
+		.callbacks_nav {
+ 			 left: 43%;
+		}
+		.community-info{
+			margin-top:30px;
+		}
+		#ft_fourthpart .callbacks_nav {
+			top:50px;
+			left: 89%;
+		}
+		
+		}
+

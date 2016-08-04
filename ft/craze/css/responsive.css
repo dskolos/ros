@@ -1,0 +1,175 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+	.line1 {
+    width: 270px;
+	}
+	
+
+.oneprice {
+    width: 236px;
+}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+	.line1 {
+    width: 210px;
+	}
+	
+
+.oneprice {
+    width: 182px;
+}
+.about p {
+    padding: 0 15px 15px 0;
+}
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		header {
+    min-height: 433px;
+    padding-top: 35px;
+}
+.mobile img {
+    display: block;
+    width: 100%;
+}
+header h2 {
+    padding-right: 20px;
+}
+.line1 {
+    width: 210px;
+	}
+	.about p {
+    padding: 0 15px 15px 0;
+}
+.about span {
+    padding-left: 10px
+}
+.oneprice {
+    width: 170px;
+}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.mobile img {
+    display: none;
+}
+header h1 a img {
+    margin: 0 auto;
+}
+header {
+    min-height: 400px;
+    padding-top: 20px;
+}
+header h2 {
+    padding-right: 0;
+    text-align: center;
+}
+.apps{text-align:center;}
+.one , .two{
+   border-right: 0;
+}
+.one span, .two span {
+    padding: 20px 0 22px;
+}
+.one p {
+    padding: 25px 0px 0px;
+}
+.two p {
+    padding: 25px 0px 0px;
+}
+.line1 {display:none;}
+.about p {
+    padding: 0 0px 15px 0;
+}
+.fetures {
+    padding: 30px 0;
+}
+.about {
+    padding: 30px 0;
+}
+.about iframe {margin-top:10px;}
+.tesimonial h3 {
+    padding: 0px 0px 25px;
+}
+.tesimonial p {
+    padding-bottom: 25px;
+}
+.tesimonial {
+    padding: 30px 0;
+}
+
+.price {
+    padding: 30px 0;
+}
+.oneprice {
+    margin-bottom: 10px;
+}
+#oneprice {
+    margin-top: 0px;
+}
+.mainprice {
+    margin-bottom: 0px;
+}
+.social {
+    text-align: center;
+    margin-top: 0;
+    padding: 30px 0;
+}
+footer ul li {
+    padding-right: 10px;
+}
+footer {
+    padding: 30px 0;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.head-fetc p {
+    padding: 25px 0 0px;
+    font-size: 14px;
+}
+.one p , .two p {
+    padding: 15px 0px 0px;
+    font-size: 14px;
+}
+.about p {
+    padding: 0 0px 15px 0;
+    font-size: 14px;
+}
+.about span {
+    font-size: 14px;
+}
+.tesimonial h3 {
+    font-size: 18px;
+    line-height: 28px;
+}
+.mainprice {
+    margin-bottom: 0px;
+	display:block;
+}
+.oneprice {
+    width: 100%;
+}
+.social h3 {
+    font-size: 25px;
+}
+.social a i {
+    margin-right: 5px;
+}
+		}
+

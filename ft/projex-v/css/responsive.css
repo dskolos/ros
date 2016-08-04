@@ -1,0 +1,426 @@
+
+
+/* #Media Queries
+================================================== */
+
+	@media only screen and (min-width: 960px) and (max-width: 1200px) {
+		nav ul li {
+  			margin: 0 5px;
+		}
+		nav ul li a {
+			padding: 5px 5px;
+		}
+		.ft_bannerleft {
+ 		  margin-left: 0px; 
+		}
+		#ft_banner img{
+			width:100%;
+		}
+		.ft_bannerleft h2 {
+  			font-size: 65px;
+		}
+		.ft_bannerleft a {
+			padding: 7px 17px 10px;
+		}
+		.ft_bannerleft a.ft_contacthover {
+			padding: 7px 17px 10px;
+		}
+		#ft_banner {
+			min-height: 730px;
+		}
+		#ft_banner {
+			padding: 300px 0 0 0;
+		}
+		#ft_portfolio img {
+			width:100%;
+		}
+		#ft_team img.ft_teamimage {
+			width:100%;
+		}
+		.ft_social a {
+			  margin: 10px 1px;
+		}
+		#ft_news img.ft_newsimage {
+			width:100%;
+		}
+		.ft_contactright a.ft_send {
+			  margin-right: 7px;
+		}
+		.ft_contactright img {
+			right: 143px;
+		}
+		
+		/*Hover Effect*/
+		.smallimage .third-effect a.info {
+			  top: -50px;
+  			  right: 94px;
+		}
+		.smallimage .third-effect a.info1 {
+			  top: -78px;
+  			  right: 60px;
+		}
+		.third-effect a.info1 {
+			top:-56px;
+		}
+		.third-effect a.info {
+			top:-56px;
+			right:2px;
+		}
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		nav ul li {
+  			margin: 0 5px;
+		}
+		nav ul li a {
+			padding: 5px 5px;
+		}
+		.ft_bannerleft {
+ 		  margin-left: 0px; 
+		}
+		#ft_banner img{
+			width:100%;
+		}
+		.ft_bannerleft h2 {
+  			font-size: 60px;
+		}
+		.ft_bannerleft a {
+			padding: 7px 17px 10px;
+		}
+		.ft_bannerleft a.ft_contacthover {
+			padding: 7px 17px 10px;
+		}
+		#ft_banner {
+			min-height: 680px;
+		}
+		#ft_banner {
+			padding: 230px 0 0 0;
+		}
+		.ft_bannerleft span {
+			  font-size: 27px;
+		}
+		#ft_services {
+			padding:50px 0;
+		}
+		#ft_portfolio {
+			padding:50px 0;
+		}
+		#ft_portfolio img {
+			width:100%;
+		}
+		#ft_team img.ft_teamimage {
+			width:100%;
+		}
+		.ft_social a {
+			  margin: 10px 1px;
+		}
+		#ft_news {
+			padding:50px 0;
+		}
+		#ft_news img.ft_newsimage {
+			width:100%;
+		}
+		#ft_news a {
+			display:block;
+		}
+		#ft_contact {
+			padding:50px 0;
+		}
+		.ft_contactright a.ft_send {
+			  margin-right: 5px;
+		}
+		.ft_contactright img {
+			  right: 50px;
+		}
+		
+		/*Hover Effect*/
+		.smallimage .third-effect a.info {
+			  top: -85px;
+  			  right: 127px;
+		}
+		.smallimage .third-effect a.info1 {
+			  top: -113px;
+  			  right: 94px;
+		}
+		.third-effect a.info {
+			  top: -89px;
+  			  right: 32px;
+		}
+		.third-effect a.info1 {
+			top:-118px;
+		}
+		
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		header {
+  			padding: 15px 0;
+		}
+		.ft_bannerleft {
+ 		  margin-left: 0px; 
+		}
+		#ft_banner img{
+			width:100%;
+			margin:50px 0;
+		}
+		.ft_bannerleft h2 {
+  			font-size: 60px;
+		}
+		.ft_bannerleft a {
+			padding: 7px 17px 10px;
+		}
+		.ft_bannerleft a.ft_contacthover {
+			padding: 7px 17px 10px;
+		}
+		#ft_banner {
+			min-height: 800px;
+		}
+		#ft_banner {
+			padding: 165px 0 0 0;
+		}
+		.ft_bannerleft span {
+			  font-size: 27px;
+		}
+		#ft_services {
+			padding:30px 0;
+		}
+		#ft_services img {
+ 		    margin: 10px auto 20px;
+		}
+		#ft_portfolio {
+			padding:30px 0;
+		}
+		#ft_portfolio img {
+			 margin: 10px auto 20px;
+		}
+		#ft_team {
+			padding:30px 0;
+		}
+		#ft_team figure{
+			margin-bottom:20px;
+		}
+		#ft_news {
+			padding:30px 0;
+		}
+		#ft_news img {
+			margin: 10px auto 20px;
+		}
+		#ft_news article{
+			margin-bottom:20px;
+		}
+		
+		#ft_contact {
+			padding:30px 0;
+		}
+		.ft_contactright img {
+			right:120px;
+		}
+		footer {
+			padding:30px 0;
+		}
+		
+		/*Hover Effect*/
+		#ft_portfolio img.ft_gallary {
+			width:auto;
+		}
+		.third-effect a.info {
+			  top: -40px;
+			  right: 18px;
+		}
+		.third-effect a.info1 {
+			top:-39px;
+		}
+		.smallimage .third-effect a.info {
+			top: -35px;
+  			right: 12px;
+		}
+		.smallimage .third-effect a.info1 {
+			top: -36px;
+  			right: 7px;
+		}
+		
+		/*SWAP DIV*/
+		.swapdiv{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* optional */
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
+
+  .swapdiv .leftside{
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .swapdiv .rightside{
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+	margin:0 auto;
+  }
+  
+  #ft_contact img {
+	  display:none;
+  }
+  
+  
+  /*Menu*/
+  nav ul li {
+   margin: 0; 
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.js .nav-collapse-0.opened {
+	width:100%;
+}
+.nav-toggle {
+	position:fixed;
+	right:3%;
+}
+.cd-popup-container {
+	max-width:100%;
+	padding:0 10px;
+	background:none;
+}
+
+
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		#ft_banner {
+ 			 padding: 140px 0 0 0;
+		}
+		.ft_bannerleft h2 {
+ 			 font-size: 50px;
+		}
+		.ft_bannerleft span {
+ 			 font-size: 22px;
+		}
+		.ft_bannerleft a {
+			width:180px;
+			display:block;
+			text-align:center;
+			margin-bottom:15px;
+		}
+		#ft_banner img {
+			margin:30px 0;
+		}
+		img.ft_linewidth {
+			width:100%;
+		}
+		#ft_services h3 {
+			font-size:22px;
+		}
+		#ft_portfolio h3 {
+			font-size:22px;
+		}
+		#ft_team h3 {
+			font-size:22px;
+		}
+		#ft_team img.ft_teamimage {
+			width:70%;
+		}
+		#ft_news img.ft_newsimage {
+			width:100%;
+		}
+		#ft_news article{
+			margin-bottom:20px;
+		}
+		#ft_contact h5 {
+			margin-top:10px;
+		}
+		#ft_contact p {
+ 			 margin: 10px 0 10px;
+		}
+		#ft_contact img {
+			display:none;
+		}
+		.ft_contactright a.ft_send {
+			  display: block;
+  			  width: 190px;
+			  margin-bottom:15px;
+		}
+		.ft_contactright a.ft_map {
+			width:190px;
+			display:block;
+		}
+		
+		#ft_banner a{
+			margin:0 auto 15px;
+			display:block;
+		}
+		#ft_contact a{
+			margin:0 auto 15px;
+			display:block;
+			text-align:center;
+		}
+		.ft_contactright span {
+			text-align:center;
+		}
+		/*Hover Effect*/
+		.third-effect a.info {
+ 			 top: -10px;
+  			right: 66px;
+		}
+		.third-effect a.info1 {
+ 			 top: -39px;
+ 			 right: 30px;
+		}
+		.smallimage .third-effect a.info {
+ 		 top: -34px;
+  		right: 65px;
+		}
+		.smallimage .third-effect a.info1 {
+ 			 top: -62px;
+  			right: 30px;
+		}
+		
+		.cd-popup-container {
+			height:300px !important;
+}
+
+
+		
+		
+		
+		/*For Swap*/
+		.swapdiv{
+		display: flex;
+    	flex-direction: column;
+		}
+		.leftside{
+			order:2;
+		}
+		.rightside{
+			order:1;
+		}
+		
+  
+			
+

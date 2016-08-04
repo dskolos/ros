@@ -1,0 +1,393 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+	#homebanner {
+    min-height: 600px;
+	}
+	header {
+    padding: 40px 0;
+	}
+	.nav-collapse li {
+    padding: 5px 10px;
+}
+.header-content {
+    padding-top: 135px;
+}
+.header-content h2{width:75%;}
+.header-content h3 {
+    font-size: 38px;
+    width: 94%;
+}
+.services {
+    padding: 50px 0;
+}
+#filters li span {
+    display: block;
+    padding: 3px 10px;
+}
+.back-color a i {
+    top: 70px;
+}
+.portfolio:hover .back-color {
+    min-height: 166px;
+}
+.videosection iframe {
+    width: 100%;
+    height: 300px;
+}
+.leftside p {
+    padding: 30px 5px 0 0;
+}
+.portfolio1 {
+    padding: 50px 0;
+}
+.defultsection {
+    padding: 50px 0;
+}
+.twittersection {
+   padding: 50px 0;
+}
+.socialsection {
+    min-height: 450px;
+    padding-top: 55px;
+}
+.testimonialsection {
+    padding: 50px 0;
+}
+contactsection {
+    min-height: 600px;
+    padding-top: 50px;
+}
+.conform input {
+    width: 90%;
+ }
+ .conform textarea {
+    width: 190%;
+ }
+ .conform a {
+    width: 100%;
+ }
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#homebanner {
+    min-height: 500px;
+	}
+	header {
+    padding: 35px 0;
+	}
+	.nav-collapse li {
+    padding: 5px 10px;
+}
+.logo h1{padding: 0 15px;}
+.header-content {
+    padding-top: 135px;
+}
+.header-content h2{width:79%;font-size: 35px;
+    line-height: 57px;}
+.header-content h3 {
+   font-size: 30px;
+    width: 94%;
+    line-height: 55px;
+}
+.services {
+    padding: 40px 0;
+}	
+.ser-top{
+	padding-left:15px;	
+}
+#filters li span {
+    padding: 3px 10px;
+}
+.back-color a i {
+    top: 70px;
+}
+.portfolio:hover .back-color {
+    min-height: 166px;
+}
+.portfolio1 {
+    padding: 40px 0;
+}
+.defultsection {
+    padding: 40px 0;
+}
+.videosection iframe {
+    width: 100%;
+    height: 316px;
+}
+.leftside p {
+    padding: 30px 5px 0 0;
+}
+.twittersection {
+    padding: 40px 0;
+}
+.socialsection {
+    min-height: 450px;
+    padding-top: 50px;
+}
+.testimonialsection {
+    padding: 40px 0;
+}
+.contactsection {
+    min-height: 550px;
+    padding-top: 40px;
+}
+.contacttop{padding-left:15px;}
+.contactcontent {
+    padding: 15px;
+}
+.conform input {
+    width: 90%;
+    height: 50px;
+    margin-bottom: 30px;
+    outline: 0;
+}
+.conform textarea {
+    width: 180%;
+    margin-bottom: 20px;
+    outline: 0;
+	height:120px;
+}
+.con-detail p {
+    padding-bottom: 10px;
+}
+.conform a {
+    width: 100%;
+    height: 50px;
+}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		#portfoliolist .portfolio {
+	width: 48%;
+	margin: 1%;
+}
+#ads {
+	display: none;
+}
+header {
+    padding: 25px 0;
+}
+header.sticky {
+    padding: 20px 0;
+}
+.logo {
+    width: 100%;
+    float: none;
+}
+.logo h1{width:30%;padding: 0 15px;}
+.nav-collapse ul {
+	text-align:center;
+	padding-top:15px;
+}
+.nav-collapse li {
+    margin-bottom: 10px;
+}
+.nav-collapse li:last-child { margin-bottom: 0px;}
+#homebanner {
+    min-height: 400px;
+}
+.header-content {
+    padding-top: 100px;
+}
+.header-content h2{width:79%;font-size: 21px;
+    line-height: 44px;}
+.header-content h3 {
+   font-size: 17px;
+    width: 90%;
+    line-height: 44px;
+}
+.services {
+    padding: 30px 0;
+}
+.ser-top{padding-left:15px;}
+.portfolio1 {
+    padding: 30px 0;
+}
+.hed-title {
+    width: 100%;
+    float: none;
+}
+.port-nav {
+    width: 100%;
+    float: none;
+    text-align: center;
+	padding-top:10px;
+}
+#filters li span {
+    display: block;
+    padding: 3px 5px;
+}
+.hed-port {
+    padding-bottom: 30px;
+}
+.back-color a i {
+    top: 90px;
+}
+.portfolio:hover .back-color {
+    min-height: 209px;
+}
+#filters li span.active {
+    padding: 3px 5px;
+}
+.defultsection {
+    padding: 30px 0;
+}
+.leftside p {
+    padding: 15px 0px 0 0;
+}
+.videosection iframe {
+    width: 100%;
+    height: 316px;
+    margin-top: 10px;
+}
+.twittersection {
+    padding: 30px 0;
+}
+.twit-text p {
+    font-size: 22px;
+    line-height: 38px;
+}
+.socialsection {
+    min-height: 350px;
+    padding-top: 30px;
+}
+.socialsection p {
+    padding-top: 10px;
+}
+.socialsection ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.testimonialsection {
+    padding: 30px 0;
+}
+.test-text p {
+    font-size: 22px;
+    line-height: 34px;
+}
+.contactsection {
+    min-height: 500px;
+    padding-top: 30px;
+}
+.conform {
+    width: 100%;
+    float: none;
+}
+.con-detail {
+    width: 100%;
+    float: none;
+}
+.contactcontent {
+    padding: 15px;
+}
+.contacttop{padding-left:15px;}
+.conform input {
+    width: 100%;
+    height: 50px;
+}
+.conform textarea {
+    width: 100%;
+    height: 100px;
+	    margin-bottom: 10px;
+}
+.conform a {
+    width: 100%;
+    height: 50px;
+	    margin-bottom: 10px;
+}
+p.fright {
+    text-align: left;
+}
+footer {
+    padding: 30px 0;
+}
+		}
+		
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#ads {
+	display: none;
+}
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		.header-content {
+    padding-top: 65px;
+}
+#homebanner {
+    min-height: 300px;
+}
+.header-content h2 {
+    width: 79%;
+    font-size: 14px;
+    line-height: 32px;
+}
+.header-content h3 {
+    font-size: 14px;
+    width: 90%;
+    line-height: 24px;
+}
+.ser-top span {
+    width: 20%;
+}
+.services p {
+    padding-top: 10px;
+}
+.services img {
+    margin: 15px 0 10px;
+}
+.back-color a i {
+    top: 60px;
+}
+.portfolio:hover .back-color {
+    min-height: 130px;
+}
+.leftside h3 {
+    font-size: 24px;
+}
+.videosection iframe {
+    height: auto;
+	    margin-top: 30px;
+}
+.twit-text p {
+    font-size: 18px;
+    line-height: 28px;
+}
+.twit-head a i {
+    bottom: 24px;
+}
+.twit-head span {
+    width: 20%;
+ }
+ .test-head span {
+    width: 20%;
+ }
+ .test-text p {
+    font-size: 18px;
+    line-height: 28px;
+}
+.test-head a i {
+    bottom: 23px;
+}
+.contacttop span {
+    width: 20%;
+}
+.fnav a {
+    padding: 0 4px;
+		}
+.socialsection ul li {
+    padding: 0 0px;
+}
+	}
+

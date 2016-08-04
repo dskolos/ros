@@ -1,0 +1,777 @@
+/*................................reset...........................................*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*................................clearfix...........................................*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/*.........GLOBLE......*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	/*    font-family: 'Lato', sans-serif;*/
+	font-size: 13px;
+	line-height: 24px;
+	background: #ffffff;
+	color: #000000;
+	font-weight: 400;
+}
+.banner {
+	background: url(images/1.jpg) no-repeat center center;
+	min-height: 800px;
+	display: block;
+	text-align: center;
+}
+.banner p {
+	padding-top: 250px;
+	padding-bottom: 20px;
+}
+.banner span {
+	height: 1px;
+	width: 70px;
+	background: #000;
+	display: inline-block;
+}
+.banner h2 {
+	font-size: 45px;
+	line-height: 60px;
+	font-weight: 700;
+	padding-top: 20px;
+}
+a:hover {
+	transition: all 0.5s;
+}
+.banner a {
+	width: 230px;
+	height: 60px;
+	background: none;
+	border: 1px solid #000;
+	display: inline-block;
+	line-height: 60px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+	margin-top: 35px;
+}
+.banner a:hover {
+	color: #fff;
+	border: 1px solid #fff;
+}
+.download {
+	padding: 50px 0;
+	background: #000000;
+	text-align: center;
+}
+.download p {
+	color: #fff;
+	display: inline-block;
+	margin-right: 100px;
+}
+.download a {
+	background: #fff;
+	width: 200px;
+	height: 55px;
+	line-height: 55px;
+	border-radius: 30px;
+	font-size: 13px;
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid #fff;
+}
+.download a:hover {
+	border: 1px solid #fff;
+	color: #fff;
+	background: #000;
+}
+.our-beg {
+	padding: 75px 70px 75px 0;
+}
+.our-beg h3 {
+	font-size: 23px;
+	padding-bottom: 15px;
+}
+.our-beg h4 {
+	font-size: 13px;
+	color: #777777;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+}
+.our-beg span {
+	height: 1px;
+	width: 25px;
+	background: #000;
+	display: inline-block;
+}
+.our-beg p {
+	color: #777777;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	padding-top: 22px;
+	letter-spacing: 1px;
+}
+.our-beg a {
+	border: 1px solid #000;
+	width: 195px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	color: #000;
+	background: none;
+	text-decoration: none;
+	margin-top: 55px;
+	display: inline-block;
+}
+.our-beg a:hover {
+	border: 1px solid #000;
+	color: #fff;
+	background: #000;
+}
+.beginning img {
+	width: 100%;
+	display: block;
+}
+#videoimage {
+	background: url(images/video.jpg) no-repeat center center;
+	display: block;
+	width: 100%;
+	min-height: 580px;
+	background-size: cover;
+	text-align: center;
+}
+#videoimage p {
+	font-size: 23px;
+	color: #fff;
+	padding-bottom: 20px;
+	padding-top: 13%;
+}
+#videoimage iframe {
+	width: 100%;
+	height: 550px;
+	float: left;
+	display: block;
+}
+.imagecoloroverlay a {
+	display: block;
+	cursor: pointer;
+	width: 77px;
+	height: 77px;
+	border-radius: 50%;
+	background: #fff;
+	color: #000;
+	margin: 30px auto 0;
+}
+.imagecoloroverlay a i {
+	font-size: 30px;
+	color: #000;
+	line-height: 80px;
+}
+.portfoliosec {
+	padding: 77px 0;
+	text-align: center;
+}
+.porttitle h3 {
+	font-size: 23px;
+	font-weight: 700;
+}
+.porttitle {
+	text-align: center;
+}
+.porttitle h4 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #777777;
+	letter-spacing: 1px;
+	padding: 10px 0 0;
+}
+.porttitle span {
+	height: 1px;
+	width: 130px;
+	background: #000;
+	display: inline-block;
+}
+.porttitle p {
+	padding: 50px 250px 60px;
+	color: #777777;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+/*.............PORTFOLIO CSS.................*/
+
+#filters {
+	margin: 1% auto 1%;
+	padding: 0;
+	list-style: none;
+}
+#filters li {
+	display: inline-block;
+}
+#filters li span {
+	display: block;
+	padding: 12px 30px;
+	text-decoration: none;
+	color: #000;
+	border: 1px solid #000;
+	cursor: pointer;
+	margin: 0 14px 50px 14px;
+}
+#filters li span.active, #filters li span:hover {
+	background: #000;
+	border: 1px solid #000;
+	color: #fff;
+}
+#portfoliolist .portfolio {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	width: 30%;
+	margin: 18px;
+	display: none;
+	float: left;
+	overflow: hidden;
+}
+.portfolio-wrapper {
+	overflow: hidden;
+	position: relative !important;
+	cursor: pointer;
+}
+.portfolio img {
+	max-width: 100%;
+	position: relative;
+}
+
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+#portfoliolist .portfolio {
+	width: 48%;
+	margin: 1%;
+}
+}
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.endportbutton a {
+	display: inline-block;
+	width: 170px;
+	height: 50px;
+	line-height: 50px;
+	text-decoration: none;
+	color: #000;
+	border: 1px solid #000;
+	margin-top: 40px;
+}
+.endportbutton a:hover {
+	border: 1px solid #000;
+	color: #fff;
+	background: #000;
+}
+/*TESTIMONIAL SECTION*/
+.testimonial {
+	background: url(images/beans.jpg) no-repeat center center;
+	display: block;
+	width: 100%;
+	min-height: 400px;
+	text-align: center;
+}
+.testimonial i {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 30px;
+	line-height: 60px;
+	background: #fff;
+	border-radius: 50%;
+	color: #000;
+	margin: 80px 0;
+}
+.testimonial p {
+	font-size: 17px;
+	line-height: 25px;
+	color: #fff;
+	padding-bottom: 40px;
+	letter-spacing: 1px;
+}
+.testimonial span {
+	font-size: 13px;
+	color: #fff;
+}
+.aboutus {
+	padding: 78px 0;
+}
+.teamimage {
+	position: relative;
+}
+.teamimage img {
+	width: 100%;
+	display: block;
+}
+.teambootm {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.7);
+	height: 70px;
+	line-height: 70px;
+	font-size: 13px;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	text-align: CENTER;
+}
+.deatilabout {
+	padding-top: 70px;
+}
+.deatilabout h3 {
+	padding-bottom: 30px;
+	font-size: 17px;
+	font-weight: 400;
+}
+.deatilabout p {
+	padding: 0 20px 0 0;
+	color: #777777;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 25px;
+	letter-spacing: 1px;
+}
+.newletter {
+	padding: 75px 0;
+	background: #000;
+}
+.newletter p {
+	font-size: 17px;
+	color: #fff;
+	padding-bottom: 20px;
+}
+.innnernews {
+	padding-left: 100px;
+}
+.innnernews input {
+	width: 770px;
+	height: 50px;
+	line-height: 50px;
+	background: none;
+	border: 1px solid #fff;
+	outline: 0;
+	margin-right: 30px;
+	color: #fff;
+	font-size: 13px;
+	padding-left: 30px;
+}
+.innnernews a {
+	width: 170px;
+	text-align: center;
+	text-decoration: none;
+	height: 50px;
+	line-height: 50px;
+	color: #000;
+	background: #fff;
+	font-size: 13px;
+	display: inline-block;
+	border: 1px solid #fff;
+}
+.innnernews a:hover {
+	border: 1px solid #fff;
+	color: #fff;
+	background: #000;
+}
+/*input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+	margin-right: 30px;
+}*/
+ .innnernews input::-webkit-input-placeholder::before {
+ font-family: 'FontAwesome';
+content: "\f003";
+color:red;
+font-size:20px;
+padding-right: 30px;
+}
+.innnernews input::-moz-placeholder::before {
+font-family: 'FontAwesome';
+content: "\f003";
+color:red;
+padding-right: 30px;
+}
+.innnernews input:-ms-input-placeholder::before {
+font-family: 'FontAwesome';
+content: "\f003";
+color:#fff;
+padding-right: 30px;
+}
+.innnernews input:-moz-placeholder::before {
+font-family: 'FontAwesome';
+content: "\f003";
+color:#fff;
+padding-right: 30px;
+}
+.contactus {
+	padding: 77px 0;
+}
+.middlecontact {
+	text-align: center;
+	padding-bottom: 70px;
+}
+.middlecontact i {
+	font-size: 30px;
+	color: #000;
+	margin-bottom: 15px;
+}
+.middlecontact address {
+	color: #777777;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 25px;
+	letter-spacing: 1px;
+}
+.ctn-forms input[type="text"] {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 28px;
+	padding-left: 20px;
+	outline: 0;
+}
+.text-forms textarea {
+	width: 100%;
+	height: 207px;
+	padding: 10px 20px;
+	outline: 0;
+}
+.ctn-forms input[type="text"]:focus , .text-forms textarea:focus{
+    box-shadow: 1px 0px 4px 1px rgba(51, 51,51, 5);
+}
+.text-forms a {
+	float: right;
+	width: 170px;
+	height: 50px;
+	line-height: 50px;
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 25px;
+	border:1px solid #000;	
+}
+.text-forms a:hover{
+	background: #fff;
+	color: #000;
+	border:1px solid #000;	
+}
+.ctn-forms input[type="text"]::-webkit-input-placeholder, .text-forms textarea::-webkit-input-placeholder {
+color:#777777;
+font-family: 'Lato', sans-serif;
+font-size: 13px;
+font-weight: 400;
+}
+.ctn-forms input[type="text"]::-moz-placeholder, .text-forms textarea::-moz-placeholder {
+color:#777777;
+font-family: 'Lato', sans-serif;
+font-size: 13px;
+font-weight: 400;
+}
+.ctn-forms input[type="text"]:-ms-input-placeholder, .text-forms textarea:-ms-input-placeholder {
+color:#777777;
+font-family: 'Lato', sans-serif;
+font-size: 13px;
+font-weight: 400;
+}
+.ctn-forms input[type="text"]:-moz-placeholder, .text-forms textarea:-moz-placeholder {
+color:#777777;
+font-family: 'Lato', sans-serif;
+font-size: 13px;
+font-weight: 400;
+}
+footer {
+	padding: 80px 0;
+	background: #000;
+	text-align: center;
+	color: #fff;
+}
+footer ul li {
+	display: inline-block;
+	margin: 35px 0;
+}
+footer ul li a i {
+	font-size: 20px !important;
+	color: #fff;
+	margin: 0 15px;
+}
+footer ul li a i:hover {
+	color:#A0D723;
+	transition:all 0.5s;	
+}
+footer p a{
+	text-decoration:none;
+	color:#fff;	
+}
+footer p a:hover{text-decoration:underline;}
+header {
+	z-index: 9990;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+header.sticky {
+	position: fixed;
+	width: 100%;
+	background: #fff;
+	box-shadow: 1px 1px 0.99px 0.01px rgba(0, 0, 0, 0.05);
+}
+
+/* New */
+
+.os-animation {
+	opacity: 0;
+}
+.os-animation.animated {
+	opacity: 1;
+}
+.staggered-animation {
+	opacity: 0;
+}
+.staggered-animation.animated {
+	opacity: 1;
+}
+/*LOADER EFFECT*/
+/*Paste this css to your style sheet file or under head tag*/
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 9998;
+ background: #000;
+}
+
+.cssload-container{
+	display: block;
+	margin:49px auto;
+	width:97px;
+}
+
+.cssload-container *, .cssload-container *:before, .cssload-container *:after {
+	box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+}
+
+.cssload-circle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border-radius: 50%;
+	z-index: 1;
+	transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+	transition: all 320ms ease;
+		-o-transition: all 320ms ease;
+		-ms-transition: all 320ms ease;
+		-webkit-transition: all 320ms ease;
+		-moz-transition: all 320ms ease;
+}
+.cssload-circle:nth-child(1) {
+	z-index: 2;
+	background: rgb(231,76,60);
+	animation-name: cssload-explode;
+		-o-animation-name: cssload-explode;
+		-ms-animation-name: cssload-explode;
+		-webkit-animation-name: cssload-explode;
+		-moz-animation-name: cssload-explode;
+	animation-duration: 1.6s;
+		-o-animation-duration: 1.6s;
+		-ms-animation-duration: 1.6s;
+		-webkit-animation-duration: 1.6s;
+		-moz-animation-duration: 1.6s;
+	animation-timing-function: ease;
+		-o-animation-timing-function: ease;
+		-ms-animation-timing-function: ease;
+		-webkit-animation-timing-function: ease;
+		-moz-animation-timing-function: ease;
+	animation-delay: 0;
+		-o-animation-delay: 0;
+		-ms-animation-delay: 0;
+		-webkit-animation-delay: 0;
+		-moz-animation-delay: 0;
+	animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+}
+.cssload-circle:nth-child(2) {
+	background: rgb(93,110,122);
+	animation-name: cssload-explode;
+		-o-animation-name: cssload-explode;
+		-ms-animation-name: cssload-explode;
+		-webkit-animation-name: cssload-explode;
+		-moz-animation-name: cssload-explode;
+	animation-duration: 1.6s;
+		-o-animation-duration: 1.6s;
+		-ms-animation-duration: 1.6s;
+		-webkit-animation-duration: 1.6s;
+		-moz-animation-duration: 1.6s;
+	animation-timing-function: ease;
+		-o-animation-timing-function: ease;
+		-ms-animation-timing-function: ease;
+		-webkit-animation-timing-function: ease;
+		-moz-animation-timing-function: ease;
+	animation-delay: 0.8s;
+		-o-animation-delay: 0.8s;
+		-ms-animation-delay: 0.8s;
+		-webkit-animation-delay: 0.8s;
+		-moz-animation-delay: 0.8s;
+	animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+}
+
+
+
+@keyframes cssload-explode {
+	0% {
+		width: 0;
+		height: 0;
+		z-index: 1;
+	}
+	50% {
+		width: 10em;
+		height: 10em;
+		z-index: 1;
+	}
+	100% {
+		display: none;
+	}
+}
+
+@-o-keyframes cssload-explode {
+	0% {
+		width: 0;
+		height: 0;
+		z-index: 1;
+	}
+	50% {
+		width: 10em;
+		height: 10em;
+		z-index: 1;
+	}
+	100% {
+		display: none;
+	}
+}
+
+@-ms-keyframes cssload-explode {
+	0% {
+		width: 0;
+		height: 0;
+		z-index: 1;
+	}
+	50% {
+		width: 10em;
+		height: 10em;
+		z-index: 1;
+	}
+	100% {
+		display: none;
+	}
+}
+
+@-webkit-keyframes cssload-explode {
+	0% {
+		width: 0;
+		height: 0;
+		z-index: 1;
+	}
+	50% {
+		width: 10em;
+		height: 10em;
+		z-index: 1;
+	}
+	100% {
+		display: none;
+	}
+}
+
+@-moz-keyframes cssload-explode {
+	0% {
+		width: 0;
+		height: 0;
+		z-index: 1;
+	}
+	50% {
+		width: 10em;
+		height: 10em;
+		z-index: 1;
+	}
+	100% {
+		display: none;
+	}
+}

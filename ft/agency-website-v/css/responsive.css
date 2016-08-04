@@ -1,0 +1,532 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+.logo {
+	width: 46%;
+}
+#backimage {
+	min-height: 450px;
+}
+.emplooy img {
+	width: 100%;
+}
+.emplooy a img {
+	width: 50%;
+}
+.emplooy-1 img {
+	width: 100%;
+}
+.emplooy-1 a img {
+	width: 50%;
+}
+.emplooy-2 img {
+	width: 100%;
+}
+.emplooy-2 a img {
+	width: 50%;
+}
+.line1 {
+	top: 64%;
+	left: 12%;
+}
+.line2 {
+	top: 64%;
+	left: 78%;
+}
+.line3 {
+	left: 18%;
+}
+.line4 {
+	top: 86%;
+	left: 72%;
+}
+}
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+.logo {
+	width: 46%;
+}
+#backimage {
+	min-height: 450px;
+}
+.emplooy img {
+	width: 100%;
+}
+.emplooy-1 img {
+	width: 100%;
+}
+.emplooy-2 img {
+	width: 100%;
+}
+.line1 {
+	top: 64%;
+	left: 12%;
+}
+.line2 {
+	top: 64%;
+	left: 78%;
+}
+.line3 {
+	left: 18%;
+}
+.line4 {
+	top: 86%;
+	left: 72%;
+}
+}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+.logo {
+	width: 38%;
+}
+.menu li {
+	padding: 0 10px;
+}
+#backimage {
+	min-height: 400px;
+}
+.ornere h3 {
+	font-size: 25px;
+	margin: 20px 0 20px;
+}
+.ornere h2 {
+	font-size: 34px;
+}
+.filde {
+	padding: 30px 30px;
+}
+.filde figcaption {
+	font-size: 15px;
+}
+.lib {
+	padding: 30px 30px;
+}
+.lib figcaption {
+	font-size: 15px;
+}
+.quis {
+	padding: 30px 30px;
+}
+.quis figcaption {
+	font-size: 15px;
+}
+.tempor {
+	padding: 30px 30px;
+}
+.tempor figcaption {
+	font-size: 15px;
+}
+.line1 {
+	display: none;
+}
+.line2 {
+	display: none;
+}
+.line3 {
+	display: none;
+}
+.line4 {
+	display: none;
+}
+.team p {
+	margin: 20px 0 25px;
+}
+.emplooy {
+	width: 80%;
+	text-align: center;
+	display: block;
+	margin: 15px auto;
+	padding: 30px 30px;
+}
+.emplooy-1 {
+	width: 80%;
+	text-align: center;
+	display: block;
+	margin: 15px auto;
+	padding: 30px 30px;
+}
+.emplooy-2 {
+	width: 80%;
+	text-align: center;
+	display: block;
+	margin: 15px auto;
+	padding: 30px 30px;
+}
+.textbox-1 {
+	margin-bottom: 15px;
+	text-align: center;
+}
+.textbox-2 {
+	text-align: center;
+}
+.textarea {
+	text-align: center;
+	margin-top: 15px;
+}
+}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 640px) and (max-width: 766px) {
+.logo {
+	width: 38%;
+}
+.menu li {
+	padding: 0 10px;
+}
+#backimage {
+	min-height: 400px;
+}
+.ornere h3 {
+	font-size: 25px;
+	margin: 20px 0 20px;
+}
+.ornere h2 {
+	font-size: 34px;
+}
+.filde {
+	padding: 30px 30px;
+}
+.filde figcaption {
+	font-size: 15px;
+}
+.lib {
+	padding: 30px 30px;
+}
+.lib figcaption {
+	font-size: 15px;
+}
+.quis {
+	padding: 30px 30px;
+}
+.quis figcaption {
+	font-size: 15px;
+}
+.tempor {
+	padding: 30px 30px;
+}
+.tempor figcaption {
+	font-size: 15px;
+}
+.line1 {
+	display: none;
+}
+.line2 {
+	display: none;
+}
+.line3 {
+	display: none;
+}
+.line4 {
+	display: none;
+}
+.team p {
+	margin: 20px 0 25px;
+}
+.emplooy {
+	width: 80%;
+	text-align: center;
+	display: block;
+	margin: 15px auto;
+	padding: 30px 30px;
+}
+.emplooy-1 {
+	width: 80%;
+	text-align: center;
+	display: block;
+	margin: 15px auto;
+	padding: 30px 30px;
+}
+.emplooy-2 {
+	width: 80%;
+	text-align: center;
+	display: block;
+	margin: 15px auto;
+	padding: 30px 30px;
+}
+.textbox-1 {
+	margin-bottom: 15px;
+	text-align: center;
+}
+.textbox-2 {
+	text-align: center;
+}
+.textarea {
+	text-align: center;
+	margin-top: 15px;
+}
+.site {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.site a {
+	float: none;
+}
+.social {
+	text-align: center;
+	width: 100%;
+}
+.mumber {
+	width: 100%;
+	text-align: center;
+	margin: 15px 0;
+}
+#border {
+	margin: 10px 0 10px;
+}
+.websitename {
+	width: 50%;
+}
+#footerpart {
+	padding: 20px 0 20px;
+}
+}
+ @media only screen and (min-width: 480px) and (max-width: 639px) {
+.menu li {
+	padding: 0 5px;
+}
+#backimage {
+	min-height: 350px;
+}
+.ornere h3 {
+	font-size: 18px;
+	margin: 20px 0 20px;
+}
+.ornere h2 {
+	font-size: 22px;
+	margin-top: 130px;
+}
+#fourfilde {
+	margin-top: -50px;
+}
+.filde {
+	width:100%;
+	padding: 20px 20px;
+}
+.filde h3 {
+	font-size: 20px;
+}
+.filde figcaption {
+	font-size: 15px;
+}
+.lib {
+	width:100%;
+	padding: 20px 20px;
+}
+.lib h3 {
+	font-size: 20px;
+}
+.lib figcaption {
+	font-size: 15px;
+}
+.quis {
+	width:100%;
+	padding: 20px 20px;
+}
+.quis h3 {
+	font-size: 20px;
+}
+.quis figcaption {
+	font-size: 15px;
+}
+.tempor {
+	width:100%;
+	padding: 20px 20px;
+}
+.tempor h3 {
+	font-size: 20px;
+}
+.tempor figcaption {
+	font-size: 15px;
+}
+.line1 {
+	display: none;
+}
+.line2 {
+	display: none;
+}
+.line3 {
+	display: none;
+}
+.line4 {
+	display: none;
+}
+#canterpart {
+	padding: 0 0 15px;
+}
+.textbox-1 input {
+	width: 100%;
+}
+.textbox-2 input {
+	width: 100%;
+}
+.textarea textarea {
+	width: 100%;
+}
+.site {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.site a {
+	float: none;
+}
+.social {
+	text-align: center;
+	width: 100%;
+}
+.mumber {
+	width: 100%;
+	text-align: center;
+	margin: 15px 0;
+}
+#border {
+	margin: 10px 0 10px;
+}
+.websitename {
+	width: 50%;
+}
+#footerpart {
+	padding: 20px 0 20px;
+}
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+header {
+	padding: 30px 0 20px;
+}
+header.sticky {
+	padding: 10px 0;
+}
+.menu {
+	float: none;
+	text-align: center;
+}
+.menu li {
+	padding: 10px 6px;
+}
+.logo {
+	width: 100%;
+	text-align: center;
+}
+.ornere h3 {
+	font-size: 18px;
+}
+.ornere h2 {
+	font-size: 23px;
+}
+.ornere img {
+	width: 30%;
+}
+#backimage {
+	min-height: 350px;
+}
+#fourfilde {
+	margin-top: -30px;
+}
+.filde {
+	width:100%;
+	padding: 15px 15px;
+}
+.filde h3 {
+	font-size: 18px;
+}
+.filde figcaption {
+	font-size: 15px;
+}
+.lib {
+	width:100%;
+	padding: 15px 15px;
+}
+.lib h3 {
+	font-size: 18px;
+}
+.lib figcaption {
+	font-size: 15px;
+}
+.quis {
+	width:100%;
+	padding: 15px 15px;
+}
+.quis h3 {
+	font-size: 18px;
+}
+.tempor {
+	width:100%;
+	padding: 15px 15px;
+}
+.tempor h3 {
+	font-size: 18px;
+}
+.team {
+	margin-top: 50px;
+}
+.emplooy {
+	width: 100%;
+}
+.emplooy figcaption {
+	line-height: 26px;
+	margin: 26px 0 26px;
+}
+.emplooy-1 {
+	width: 100%;
+}
+.emplooy-1 figcaption {
+	line-height: 26px;
+	margin: 26px 0 26px;
+}
+.emplooy-2 {
+	width: 100%;
+}
+.emplooy-2 figcaption {
+	line-height: 26px;
+	margin: 26px 0 26px;
+}
+.contact h3 {
+	margin: 15px 0 15px;
+}
+.contact {
+	padding: 35px 0 15px;
+}
+.textbox-1 input {
+	width: 100%;
+}
+.textbox-2 input {
+	width: 100%;
+}
+.textarea textarea {
+	width: 100%;
+}
+#canterpart {
+	padding: 0px 0 10px;
+}
+.site {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.site a {
+	float: none;
+}
+.social {
+	text-align: center;
+	width: 100%;
+}
+.mumber {
+	width: 100%;
+	text-align: center;
+	margin: 15px 0;
+}
+#border {
+	margin: 10px 0 10px;
+}
+.websitename {
+	width: 50%;
+}
+#footerpart {
+	padding: 20px 0 20px;
+}
+}

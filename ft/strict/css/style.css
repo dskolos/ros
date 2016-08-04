@@ -1,0 +1,594 @@
+@charset "utf-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+
+/*----------GLOBAL--------*/
+
+html {
+	width: 100%;
+	height: 100%;
+}
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0 none;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #999999;
+	line-height: 22px;
+	font-size: 15px;
+	-webkit-font-smoothing: antialiased;
+}
+.wrapper {
+	position: relative;
+	width: 100%;
+	display: block;
+	clear: both;
+}	
+h1, h2, h3, h4, h5 {
+	font-size:41px;
+	line-height: 125%;
+}
+
+/*----------HEADER--------*/
+
+header{
+	padding:30px 0;
+	position: fixed;
+	width: 100%;
+	z-index:9;
+	top: 0;
+	left: 0;
+	background:#ffffff;
+	}
+header nav ul{
+	float:right;
+	margin-top:5px;
+}
+header nav ul li{
+	display:inline-block;
+	padding:0 10px;
+}
+header nav ul li a{
+	color:#2c364b;
+	font-weight:700;
+	text-decoration:none;
+	transition:all;
+	transition-duration:0.5s;
+}
+header nav ul li a:hover{
+	color:#48baff;
+}
+
+header .ft_logo {
+	float:left;
+	}
+header .ft_logo a {
+	height: 37px;
+	width: 154px;
+	background:url(../img/ft_logo.png) no-repeat 0 0;
+	display:block;
+	text-indent: -999em;
+}
+
+
+/*----------MAIN PART--------*/
+
+#ft_mainpart{
+	background:url(../img/ft_mainbg.jpg) no-repeat center;
+	display:block;
+	min-height:897px;
+	background-size:cover;
+	text-align:center;
+}
+#ft_mainpart H2{
+	font-size:120px;
+	color:#ffffff;
+	font-weight:700;
+	margin:283px 0 5px;
+}
+#ft_mainpart span.ft_line{
+	line-height:2px;
+	background:#15a4fa;
+	display:block;
+	width:600px;
+	margin:0 auto;
+}
+#ft_mainpart p{
+	font-size:20px;
+	line-height:47px;
+	color:#ffffff;
+	margin:25px 0 55px;
+	font-family: 'Lato', sans-serif;
+}
+#ft_mainpart .ft_callbtn{
+	background:none;
+	border: 1px solid #15a4fa;
+	color:#ffffff;
+	font-size:18px;
+	height:55px;
+	width:180px;
+	border-radius:3px;
+}
+#ft_mainpart .ft_callbtn:hover{
+	background:#2d3950;
+	border: 1px solid #fff;
+	color:#fff;
+	font-size:18px;
+	height:55px;
+	width:180px;
+	border-radius:3px;
+	transition:all;
+	transition-duration: 1s;
+}
+
+/* EFFECT */
+@-webkit-keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+@keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+/* ARROW EFFECT */
+@-webkit-keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.hvr-wobble-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
+  -webkit-animation-name: hvr-wobble-vertical;
+  animation-name: hvr-wobble-vertical;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+
+/*----------SIMPLE & PURE DESIGN-------*/
+
+#ft_mainpart a.ft_arrow{
+	display:block;
+	margin-top:173px;
+}
+
+#ft_simple{
+	padding:70px 0 100px;
+	text-align:center;
+	background:#f6f9f9;
+}
+#ft_simple h3{
+	font-size:41px;
+	color:#2d3950;
+}
+#ft_simple p{
+	font-size:20px;
+	line-height:32px;
+	margin:17px 30px 0;
+}
+/*----------THREE COLOUMN--------*/
+
+#ft_threecol{
+	padding:65px 0;
+}
+#ft_threecol figure {
+	text-align:center;
+}
+#ft_threecol figure figcaption h4 {
+	font-size:22px;
+	color:#2d3950;
+	margin:20px 0 10px;
+}
+#ft_threecol figure figcaption p {
+	font-size:15px;
+	line-height:22px;
+	margin:0 25px;
+}
+
+/*----------GALLARY--------*/
+#ft_gallary{
+	padding:75px 0 115px;
+	background:#f6f9f9;
+	text-align:center;
+}
+#ft_gallary .ft_threeimg{
+	margin-bottom:30px;
+}
+#ft_gallary h3{
+	font-size:41px;
+	color:#2d3950;
+}
+#ft_gallary p{
+	font-size:15px;
+	line-height:23px;
+	color:#909090;
+	margin:15px 0 75px;
+}
+
+/* -------gallary effect----- */
+#effect-6 .overlay1 {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  width: 360px;
+  margin: 0 auto 30px;
+  z-index:inherit;
+}
+
+#effect-6 .img.hover .overlay1 {
+  opacity: 1;
+}
+.effects .img img {
+  display: block;
+  width: 360px;
+  height: 260px;
+  margin-bottom:30px;
+}
+.overlay1 {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  background: rgba(44, 172, 247, 0.8);
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all;
+  transition-duration:0.5s;
+}
+.fa-search-plus:before {
+  content: "\f00e";
+}
+.fa-link:before {
+  content: "\f0c1";
+}
+.overlay1 a{
+	color:#ffffff;
+	font-size:18px;
+	border:2px solid #ffffff;
+	height:40px;
+	width:40px;
+	display:inline-block;
+	padding-top:8px;
+	margin:30% 5px auto;
+	border-radius:3px;
+}
+.overlay1 a:hover{
+	color:#2d3950;
+	transition:all;
+	transition-duration:1s;
+	border:2px solid #2d3950;
+}
+	
+				
+/*----------STAY WITH US--------*/
+#ft_contact{
+	background:url(../img/ft_staybg.jpg) no-repeat center;
+	display:block;
+	background-size:cover;
+	min-height:700px;
+	text-align:center;
+	padding:70px 0 105px;
+}
+#ft_contact h3{
+	font-size:41px;
+	color:#ffffff;
+}
+#ft_contact p{
+	font-size:15px;
+	line-height:23px;
+	color:#999999;
+	margin:15px 40px;
+}
+#ft_contact form input[type="text"]{
+	height:60px;
+	width:535px;
+	display:block;
+	margin:0 auto 20px;
+	background:none;
+	border:1px solid #999999;
+	border-radius:3px;
+	padding-left:20px;	
+	transition:all;
+	transition-duration:0.5s;
+}
+#ft_contact form input[type="text"]:hover, #ft_contact form input[type="text"]:focus{
+	border:1px solid #15a4fa;
+}
+#ft_contact form textarea{
+	height:160px;
+	width:535px;
+	background:none;
+	border:1px solid #999999;
+	border-radius:3px;
+	padding-left:20px;
+	padding-top:25px;
+	display:block;
+	margin:0 auto 10px;
+	transition:all;
+	transition-duration:0.5s;
+}
+#ft_contact form textarea:hover, #ft_contact form textarea:focus{
+	border:1px solid #15a4fa;
+}
+#ft_contact .ft_submit{
+	width:535px;
+	margin:0 auto;
+	text-align:left;
+	color:#ffffff;
+}
+#ft_contact .ft_submit input[type="checkbox"]{
+	margin:30px 10px 0 0;
+}
+#ft_contact .ft_submit input[type="submit"]{
+	float:right;
+	height:47px;
+	width:140px;
+	background:none;
+	border:1px solid #15a4fa;
+	margin-top:10px;
+	border-radius:3px;
+}
+#ft_contact .ft_submit input[type="submit"]:hover{
+	border:1px solid #000;
+	background:#fff;
+	color:#000;
+	transition:all;
+	transition-duration: 0.5s;
+}
+
+/*----------FOOTER--------*/
+footer{
+	padding:25px 0;
+}
+/* SOCIAL FONT PATH */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-google-plus:before {
+  content: "\f0d5";
+}
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+
+footer p{
+	margin-top:10px;
+}
+footer p a{
+	color:#999999;
+}
+footer p a:hover{
+	color:#48baff;
+}
+footer .social{
+	text-align:right;	
+}
+footer .social a{
+	height:40px;
+	width:40px;
+	display:inline-block;	
+	background:#15a4fa;
+	font-size:20px;
+	color:#ffffff;
+	text-align:center;
+	border-radius:3px;
+	padding:10px;
+	margin: 0 2px;
+}
+footer .social a:hover{
+	background:#2d3950;
+	transition:all;
+	transition-duration: 0.5s;
+}
+
+
+/*Paste this css to your style sheet file or under head tag*/
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 9999;
+ background: url(../img/cube.svg) center no-repeat #48baff;
+ 
+}
+
+	
+

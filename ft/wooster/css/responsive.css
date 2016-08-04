@@ -1,0 +1,198 @@
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+.banner {
+	min-height: 650px;
+}
+.banner p {
+	padding-top: 160px;
+}
+#videoimage {
+	min-height: 400px;
+}
+#portfoliolist .portfolio {
+	margin: 10px;
+}
+.innnernews input {
+	width: 70%;
+}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+.banner {
+	min-height: 650px;
+}
+.banner p {
+	padding-top: 160px;
+}
+#videoimage {
+	min-height: 400px;
+}
+#portfoliolist .portfolio {
+	margin: 10px;
+}
+.innnernews input {
+	width: 70%;
+}
+.our-beg {
+	padding: 30px 10px 50px 0;
+}
+.porttitle p {
+	padding: 50px 10px 60px;
+}
+.teambootm {
+	height: 50px;
+	line-height: 50px;
+	width: 84%;
+}
+.innnernews {
+	padding-left: 0px;
+}
+footer {
+	padding: 40px 0;
+}
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.banner {
+	min-height: 650px;
+}
+.banner p {
+	padding-top: 160px;
+}
+#videoimage {
+	min-height: 400px;
+}
+#portfoliolist .portfolio {
+	margin: 10px;
+}
+.innnernews input {
+	width: 70%;
+}
+.our-beg {
+	padding: 30px 10px 50px 0;
+}
+.porttitle p {
+	padding: 50px 10px 60px;
+}
+.teambootm {
+	height: 50px;
+	line-height: 50px;
+	width: 84%;
+}
+.innnernews {
+	padding-left: 0px;
+}
+footer {
+	padding: 40px 0;
+}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+.banner {
+	min-height: 400px;
+}
+.banner p {
+	padding-top: 110px;
+}
+.banner h2 {
+	font-size: 25px;
+	line-height: 36px;
+	padding-top: 10px;
+}
+.download p {
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+.download {
+	padding: 20px 0;
+}
+.our-beg a {
+	margin-top: 20px;
+}
+#videoimage {
+	min-height: 300px;
+}
+#portfoliolist .portfolio {
+	margin: 3px;
+}
+.innnernews input {
+	width: 58%;
+	margin-right: 10px;
+}
+.our-beg {
+	padding: 30px 10px 30px 0;
+}
+.porttitle p {
+	padding: 20px 10px 20px;
+}
+.teambootm {
+	height: 50px;
+	line-height: 50px;
+	width: 93%;
+}
+.innnernews {
+	padding-left: 0px;
+}
+footer {
+	padding: 40px 0;
+}
+.portfoliosec {
+	padding: 30px 0;
+}
+#filters li span {
+	padding: 7px 5px;
+	margin: 0 0px 15px 0px;
+	font-size: 12px;
+}
+.testimonial {
+	min-height: 250px;
+}
+.testimonial i {
+	margin: 15px 0;
+}
+.aboutus {
+	padding: 30px 0;
+}
+.teamimage img {
+	margin-bottom: 10px;
+}
+.deatilabout {
+	padding-top: 20px;
+}
+.newletter {
+	padding: 30px 0;
+}
+.deatilabout h3 {
+	padding-bottom: 5px;
+}
+.contactus {
+	padding: 30px 0;
+}
+.middlecontact {
+	padding-bottom: 10px;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	.cd-3d-nav a {font-size:8px;}
+	#portfoliolist .portfolio {
+    width: 100%;
+	}
+	.teambootm {
+    width: 90%;
+}
+}
+

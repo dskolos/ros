@@ -1,0 +1,602 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* close commented backslash hack*/ 
+
+
+/*------GLOBAL------*/
+html {
+	width: 100%;
+	height: 100%;
+}
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0 none;
+}
+body {
+	font-family: 'Arimo', sans-serif;
+	/*font-family: 'PT Sans', sans-serif;*/
+	font-weight: 400;
+	color: #6d6e71;
+	line-height: 24px;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+}
+a {
+	color: #507cbe;
+	text-decoration: none;
+}
+.wrapper {
+	position: relative;
+	width: 100%;
+	display: block;
+	clear: both;
+}
+h1, h2, h3, h4, h5 {
+	font-size: 24px;
+	line-height: 125%;
+	color: #000000;
+}
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../fonts/fontawesome-webfont.eot?v=4.4.0');
+	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'nexa_boldregular';
+	src: url('../fonts/nexa_bold.eot');
+	src: url('../fonts/nexa_bold.eot?#iefix') format('embedded-opentype'), url('../fonts/nexa_bold.woff2') format('woff2'), url('../fonts/nexa_bold.woff') format('woff'), url('../fonts/nexa_bold.ttf') format('truetype'), url('../fonts/nexa_bold.svg#nexa_boldregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'nexa_lightregular';
+	src: url('../fonts/nexa_light.eot');
+	src: url('../fonts/nexa_light.eot?#iefix') format('embedded-opentype'), url('../fonts/nexa_light.woff2') format('woff2'), url('../fonts/nexa_light.woff') format('woff'), url('../fonts/nexa_light.ttf') format('truetype'), url('../fonts/nexa_light.svg#nexa_lightregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+}
+#head {
+	padding: 0px 0 110px;
+	background-color: #ebebeb;
+}
+.logo {
+	display: block;
+	padding: 40px 0;
+	width: 40%;
+	float: left;
+}
+.link {
+	width: 30%;
+	display: block;
+	margin-top: 60px;
+	float: left;
+}
+.link a {
+	color: #c7c7c7;
+	text-decoration: none;
+	font-size: 12px;
+	padding-right: 5px;
+	border-right: 1px solid #c7c7c7;
+	width: 30%;
+	float: left;
+	display: block;
+}
+.link a:hover {
+	color: #58159b;
+}
+.main, .container > header {
+	width: 88%;
+	position: absolute;
+	margin-top: -100px;
+}
+.link a i {
+	font-size: 18px;
+}
+.link li:last-child a {
+	border: 0;
+}
+.fleft {
+	width: 66%;
+	float: right;
+	display: block;
+}
+.searchbox {
+	float: right;
+	width: 30%;
+	display: block;
+	margin-top: 50px;
+}
+.searchbox input {
+	min-height: 45px;
+	width: 82%;
+	font-family: 'nexa_boldregular';
+	font-weight: 700;
+	border-radius: 0;
+	border: none;
+	float: left;
+}
+.inputimage {
+	height: 45px;
+	background-color: #FFF;
+	float: right;
+	width: 52px;
+	margin-left: -1px;
+}
+.inputimage img {
+	text-align: center;
+	margin: 8px auto;
+	display: block;
+}
+#coverimage {
+	background: url(../images/Travler.jpg) no-repeat center center;
+	min-height: 600px;
+	display: block;
+	background-size: cover;
+}
+#map {
+	background-color: #2d2d2d;
+	padding: 80px 0 80px;
+}
+.plasce h3 {
+	font-family: 'nexa_lightregular';
+	font-weight: 100;
+	color: #FFF;
+	text-align: center;
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+.plasce p {
+	font-family: 'nexa_boldregular';
+	font-weight: bold;
+	text-align: center;
+	color: #925ac4;
+	margin-bottom: 25px;
+}
+.savetime img {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+.savetime h3 {
+	font-family: 'nexa_lightregular';
+	font-weight: 100;
+	font-size: 25px;
+	margin-top: 50px;
+	color: #FFF;
+	letter-spacing: 1px;
+}
+.savetime p {
+	margin-top: 20px;
+	font-size: 13px;
+	color: #FFF;
+	line-height: 18px;
+	display: block;
+}
+.line1 {
+	position: absolute;
+	display: inline-block;
+	height: 4px;
+	width: 16%;
+	background: #626262;
+	top: 52%;
+	left: 24%;
+	border-radius: 2px;
+}
+.line2 {
+	position: absolute;
+	display: inline-block;
+	height: 4px;
+	width: 16%;
+	background: #626262;
+	top: 52%;
+	left: 59%;
+	border-radius: 2px;
+}
+.savetime1 img {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+.savetime1 h3 {
+	font-family: 'nexa_lightregular';
+	font-weight: 100;
+	font-size: 25px;
+	margin-top: 78px;
+	color: #FFF;
+	letter-spacing: 1px;
+}
+.savetime1 p {
+	margin-top: 20px;
+	font-size: 13px;
+	color: #FFF;
+	line-height: 18px;
+	display: block;
+}
+.backcover img {
+	width: 100%;
+	background-size: cover;
+	display: block;
+}
+#teamdetails {
+	padding: 80px 0 80px;
+	background-color: #ebebeb;
+}
+.line3 {
+	position: absolute;
+	display: inline-block;
+	height: 2px;
+	width: 21%;
+	background: #BBB8B8;
+	top: 2%;
+	left: 5%;
+	border-radius: 2px;
+}
+.line4 {
+	position: absolute;
+	display: inline-block;
+	height: 2px;
+	width: 21%;
+	background: #BBB8B8;
+	top: 2%;
+	left: 74%;
+	border-radius: 2px;
+}
+.team h3 {
+	font-family: 'nexa_lightregular';
+	font-size: 36px;
+	text-align: center;
+	color: #717171;
+}
+.team p {
+	font-family: 'nexa_boldregular';
+	font-weight: bold;
+	text-align: center;
+	color: #717171;
+}
+.teamimage {
+	position: relative;
+}
+.social a {
+	background-color: #8f33c4;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 18px;
+	right: 75px;
+	color: white;
+	font-size: 20px;
+}
+.social a:hover {
+	color: #FFF;
+}
+.teamname h4 {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	color: #7b7b7b;
+	font-size: 18px;
+}
+.teamname p {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: normal;
+	color: #7b7b7b;
+	font-size: 14px;
+}
+.design {
+	background-color: #FFF;
+	padding: 60px 60px;
+}
+.design i {
+	background-color: #8f33c4;
+	padding: 5px;
+	color: #FFF;
+}
+.design h3 {
+	letter-spacing: 1px;
+	font-size: 28px;
+	font-family: 'nexa_boldregular';
+}
+.p {
+	font-family: 'nexa_boldregular';
+	font-weight: bold;
+	color: #8f33c4;
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 25px;
+}
+.design p {
+	line-height: 22px;
+	margin-top: 25px;
+	font-size: 12px;
+}
+.design1 {
+	margin-top: 20px;
+	background-color: #FFF;
+	padding: 60px 60px;
+}
+.design1 h3 {
+	letter-spacing: 1px;
+	font-size: 28px;
+	font-family: 'nexa_boldregular';
+}
+.pa {
+	font-family: 'nexa_boldregular';
+	font-weight: bold;
+	color: #8f33c4;
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 25px;
+}
+.design1 p {
+	line-height: 22px;
+	margin-top: 25px;
+	font-size: 12px;
+}
+#footerpart {
+	border-top: 4px solid #914dcf;
+	padding: 30px 0 100px;
+	background-color: #373737;
+}
+.info p {
+	color: #FFF;
+	margin-top: 20px;
+	font-size: 12px;
+	line-height: 18px;
+}
+.menunav {
+	text-align: right;
+}
+.menunav li {
+	display: inline-block;
+	border-right: 1px solid #767676;
+	line-height: 10px;
+	padding: 0 20px;
+}
+.menunav li.last {
+	border-right: none;
+}
+.menunav a {
+	font-family: 'nexa_boldregular';
+	color: #FFF;
+	text-decoration: none;
+	font-size: 12px;
+	transition: all 0.3s;
+	padding-bottom: 5px;
+}
+.menunav a:hover {
+	color: #FFF;
+	border-bottom: 4px solid #8f33c4;
+}
+.socialicon {
+	margin: 50px 25px;
+}
+.socialicon li {
+	display: inline-block;
+	padding: 0 15px;
+}
+.socialicon a {
+	font-family: 'nexa_boldregular';
+	color: #FFF;
+	text-decoration: none;
+	font-size: 12px;
+	transition: all 0.3s;
+	padding-bottom: 5px;
+}
+.socialicon a:hover {
+	color: #FFF;
+	border-bottom: 4px solid #8f33c4;
+}
+.socialicon i {
+	margin-right: 8px;
+}
+.site {
+	margin-top: 50px;
+}
+.site a {
+	color: #FFF;
+	font-size: 12px;
+	margin: 0 10px;
+}
+.site a:hover {
+	color: #FFF;
+}
+.site li {
+	display: inline-block;
+}
+.site p {
+	font-size: 11px;
+	margin-top: 15px;
+}
+/*EFFECT*/
+.os-animation {
+	opacity: 0;
+}
+.os-animation.animated {
+	opacity: 1;
+}
+.staggered-animation {
+	opacity: 0;
+}
+.staggered-animation.animated {
+	opacity: 1;
+}
+/*Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader {
+	display: none;
+}
+.js #loader {
+	display: block;
+	position: absolute;
+	left: 100px;
+	top: 0;
+}
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../images/magnify.svg) center no-repeat #605d5d;
+}
+.copy-right p.freetemplates {
+	font-size: 14px;
+	margin: 0;
+}
+.copy-right p.freetemplates a {
+	color: #fed136;
+}
+/*DROPDOWN*/
+
+/* -------------------------------- 
+
+Primary style
+
+
+/* -------------------------------- 
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+.cd-container {
+	width: 90%;
+	max-width: 768px;
+	margin: 2em auto;
+}
+.cd-container::after {
+	/* clearfix */
+	content: '';
+	display: table;
+	clear: both;
+}
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+
+
+main p {
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.6;
+	margin: 2em 0;
+}
+@media only screen and (min-width: 1024px) {
+main p {
+	font-size: 20px;
+	font-size: 1.25rem;
+}
+}
+.cd-top {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	position: fixed;
+	bottom: 40px;
+	right: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	/* image replacement properties */
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	background: rgba(180, 111, 189, 0.8) url(../images/cd-top-arrow.svg) no-repeat center 50%;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity .3s 0s, visibility 0s .3s;
+	-moz-transition: opacity .3s 0s, visibility 0s .3s;
+	transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+	-webkit-transition: opacity .3s 0s, visibility 0s 0s;
+	-moz-transition: opacity .3s 0s, visibility 0s 0s;
+	transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+	/* the button becomes visible */
+	visibility: visible;
+	opacity: 1;
+}
+.cd-top.cd-fade-out {
+	/* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+	opacity: .5;
+}
+.no-touch .cd-top:hover {
+	background-color: #58159b;
+	opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+.cd-top {
+	right: 20px;
+	bottom: 20px;
+}
+}
+@media only screen and (min-width: 1024px) {
+.cd-top {
+	height: 60px;
+	width: 60px;
+	right: 30px;
+	bottom: 30px;
+}
+}

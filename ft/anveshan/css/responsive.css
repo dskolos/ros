@@ -1,0 +1,642 @@
+
+
+/* #Media Queries
+================================================== */
+	@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+		.leftamet{
+			height:600px;
+		}
+		.leftamet img{
+			height:100%;
+		}
+		}
+	@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+			.leftamet{
+			height:550px;
+		}
+		.leftamet img{
+			height:100%;
+		}
+		#banner {
+    		min-height: 750px;
+		}
+		.bannertext a{
+		margin-top: 110px;
+		}
+		.bannertext h2 {
+    font-size: 55px;
+		}
+		.rightamet{
+		padding: 20px 0 0 20px;	
+		}
+		.rightamet h3 {
+    font-size: 55px;
+		}
+		.amettext {
+ 		   width: 100%;
+		}
+		#process {
+ 		   padding: 50px 0;
+		}
+		#process h3{
+			font-size:55px;
+		}
+		.processstep{
+			width:90%;
+		}
+		.metting {
+    height: 200px;
+    width: 200px;
+	line-height:200px;
+	font-size: 16px;
+	    margin-top: 50px;
+		}
+		.planning {
+    height: 250px;
+    width: 250px;
+	line-height:250px;
+	font-size: 16px;
+	    margin-top: 25px;
+		}
+		.execute {
+    height: 300px;
+    width: 300px;
+	line-height:300px;
+	font-size: 16px;
+		}
+		.deliver {	
+    height: 150px;
+    width: 150px;
+	line-height:150px;
+	font-size: 16px;
+	    margin-top: 75px;
+		}
+		#services {
+    padding: 50px 0;
+	    min-height: 850px;
+		}
+		#services h3{
+			font-size:55px;
+		}
+		#nextstep h3{
+			font-size:55px;
+		}
+		.contactinner {
+    padding: 50px 0 50px;
+		}
+		.contactform{
+			width:800px;
+		}
+		footer {
+   		 padding: 50px 0;
+		}
+		.social {
+ 		   margin-bottom: 30px;
+		}
+		#nextstep{
+		    min-height: 900px;
+		}
+		
+	}
+	@media only screen and (min-width: 960px) and (max-width: 1023px) {
+		
+		.bannertext a {
+    		margin-top: 180px;
+		}
+		#banner {
+    		min-height: 800px;
+		}
+		.bannertext h2 {
+    		font-size: 55px;
+		}
+		.bannertext p{
+		margin: 30px 100px 0;
+		}
+		.leftamet{
+			height:550px;
+		}
+		.leftamet img{
+			height:100%;
+		}
+		.rightamet h3 {
+    font-size: 55px;
+		}
+		.rightamet{
+			    padding: 20px 0 0 20px;
+		}
+		.amettext {
+ 		   width: 100%;
+		}
+		.line2{
+		    margin: 20px 0 20px;
+		}
+		#process {
+ 		   padding: 50px 0;
+		}
+		#process h3{
+			font-size:55px;
+		}
+		
+		.metting {
+    height: 150px;
+    width: 150px;
+	line-height:150px;
+	font-size: 16px;
+	    margin-top: 50px;
+		}
+		.planning {
+    height: 200px;
+    width: 200px;
+	line-height:200px;
+	font-size: 16px;
+	    margin-top: 25px;
+		}
+		.execute {
+    height: 250px;
+    width: 250px;
+	line-height:250px;
+	font-size: 16px;
+		}
+		.deliver {	
+    height: 100px;
+    width: 100px;
+	line-height:100px;
+	font-size: 16px;
+	    margin-top: 75px;
+		}
+		.processstep{
+			width:90%;
+		}
+		
+		#services{
+			padding:50px 0;
+			    min-height: 900px;
+		}
+		#services h3{
+			font-size:55px;
+		}
+		#services .col1right p {
+    font-size: 14px;
+    line-height: 20px;
+		}
+		.col1right h5 {
+    font-size: 17px;
+    line-height: 32px;
+		}
+		.col1right{
+	    padding: 10px 0 0 20px;
+		}
+		.col2right h5 {
+    font-size: 17px;
+    line-height: 32px;
+		}
+		.col2right{
+	    padding: 10px 0 0 20px;
+		}
+		#services .col2right p{
+			font-size:14px;
+			line-height:20px;
+		}
+		.col3right h5 {
+    font-size: 17px;
+    line-height: 32px;
+		}
+		.col3right{
+	    padding: 10px 0 0 20px;
+		}
+		#services .col3right p{
+			font-size:14px;
+			line-height:20px;
+		}
+		.col1left{
+			padding-top:20%;
+		}
+		.col2left{
+			padding-top:20%;
+		}
+		.col3left{
+			padding-top:20%;
+		}
+		#nextstep h3 {
+    font-size: 55px;
+		}
+		.contactform{
+			width:100%;
+		}
+		.contactinner {
+    		padding: 50px 0 50px;
+		}
+		#nextstep{
+		    min-height: 900px;
+		}
+		footer{
+			padding:50px 0;
+		}
+		.social {
+ 		   margin-bottom: 30px;
+		}
+	}
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.bannertext a {
+    		margin-top: 85px;
+		}
+		#banner {
+    		min-height: 700px;
+		}
+		.bannertext h2 {
+    		font-size: 40px;
+		}
+		.bannertext p{
+		margin: 30px 100px 0;
+		}
+		.leftamet{
+			height:550px;
+		}
+		.leftamet img{
+			height:100%;
+		}
+		.rightamet h3 {
+    font-size: 40px;
+		}
+		.rightamet{
+			    padding: 20px 0 0 20px;
+		}
+		.amettext {
+ 		   width: 100%;
+		}
+		.line2{
+		    margin: 20px 0 20px;
+		}
+		#process {
+ 		   padding: 50px 0;
+		}
+		#process h3{
+			font-size:40px;
+		}
+		#process p {
+    		font-size: 20px;
+		}
+		
+		.metting {
+    height: 150px;
+    width: 150px;
+	line-height:150px;
+	font-size: 16px;
+	    margin-top: 50px;
+		}
+		.planning {
+    height: 200px;
+    width: 200px;
+	line-height:200px;
+	font-size: 16px;
+	    margin-top: 25px;
+		}
+		.execute {
+    height: 250px;
+    width: 250px;
+	line-height:250px;
+	font-size: 16px;
+		}
+		.deliver {	
+    height: 100px;
+    width: 100px;
+	line-height:100px;
+	font-size: 16px;
+	    margin-top: 75px;
+		}
+		.processstep{
+			width:90%;
+		}
+		
+		#services{
+			padding:50px 0;
+			    min-height: 900px;
+		}
+		#services h3{
+			font-size:40px;
+		}
+		#services p{
+			font-size:20px;
+		}
+		#services{
+		    min-height: 850px;
+		}
+		#services .col1right p {
+    font-size: 14px;
+    line-height: 20px;
+		}
+		.col1right h5 {
+    font-size: 17px;
+    line-height: 32px;
+		}
+		.col1right{
+	    padding: 10px 0 0 20px;
+		}
+		.col2right h5 {
+    font-size: 17px;
+    line-height: 32px;
+		}
+		.col2right{
+	    padding: 10px 0 0 20px;
+		}
+		#services .col2right p{
+			font-size:14px;
+			line-height:20px;
+		}
+		.col3right h5 {
+    font-size: 17px;
+    line-height: 32px;
+		}
+		.col3right{
+	    padding: 10px 0 0 20px;
+		}
+		#services .col3right p{
+			font-size:14px;
+			line-height:20px;
+		}
+		.col1left{
+			padding-top:20%;
+		}
+		.col2left{
+			padding-top:20%;
+		}
+		.col3left{
+			padding-top:20%;
+		}
+		#nextstep h3 {
+    font-size: 40px;
+		}
+		
+#nextstep p {
+    font-size: 20px;
+}
+		.contactform{
+			width:100%;
+		}
+		.contactinner {
+    		padding: 50px 0 50px;
+		}
+		#nextstep{
+		    min-height: 880px;
+		}
+		footer{
+			padding:50px 0;
+		}
+		.social {
+ 		   margin-bottom: 30px;
+		}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.logo{
+		    padding-left: 20px;
+		}
+		.logo h1 a{
+			    width: 220px;
+				background-size:100%;
+		}
+		header{
+		    padding: 15px 0 15px;
+		}
+		.hamburger {
+ 		   margin: 15px 10px;
+		}
+		.hamburger{
+		    margin: 25px 10px;
+		}
+		.bannertext h2{
+		margin-top: 150px;	
+		font-size: 28px;
+		}
+		.bannertext p{
+		margin: 30px 0;
+		font-size: 18px;
+		}
+		.bannertext a {
+    margin-top: 150px;
+		}
+		#banner {
+    min-height: 650px;
+		}
+		.leftamet {
+    float: none;
+    display: block;
+    width: 100%;
+		}
+		.rightamet {
+    float: none;
+    display: block;
+    width: 100%;
+    padding: 20px 10px;
+		}
+		.rightamet h3 {
+    font-size: 28px;
+		}
+		.amettext {
+ 		   width: 100%;
+		}
+		#process {
+ 		   padding: 30px 0;
+		}
+		#process h3 {
+    		font-size: 28px;
+		}
+		#process p {
+    font-size: 18px;
+    line-height: 30px;
+		}
+		.metting{
+			float:none;
+			margin:0 auto;
+			margin-top:0;
+			font-size:16px;
+		}
+		.planning{
+			float:none;
+			margin:0 auto;
+			margin-top:-20px;
+			height: 250px;
+    		width: 250px;
+			line-height:250px;
+			font-size:16px;
+		}
+		.execute{
+			float:none;
+			margin:0 auto;
+			margin-top:-20px;
+			height: 300px;
+    		width: 300px;
+			line-height:300px;
+			font-size:16px;
+		}
+		.deliver{
+			float:none;
+			margin:0 auto;
+			margin-top:-20px;
+			font-size:16px;
+		}
+		#process .forcol p{
+			margin-bottom:20px;
+		}
+		.forcol h4{
+		    margin-bottom: 5px;
+		}
+		#services{
+			padding:30px 0 100px;
+		}
+		#services h3 {
+    font-size: 28px;
+		}
+		#services p {
+    font-size: 20px;
+    line-height: 30px;
+		}
+		.col1 {
+    width: 100%;
+    float: none;
+    display: block;
+}
+.termspadding {
+    margin-top: 50px;
+}
+#nextstep h3 {
+    font-size: 28px;
+}
+#nextstep p {
+    font-size: 20px;
+    line-height: 30px;
+}
+.contactform{
+	width:100%;
+}
+.contactinner {
+    padding: 50px 0 50px;
+    width: 90%;
+}
+.contactinner input[type="submit"]{
+    margin: 10px auto 0;
+}
+#nextstep{
+    min-height: 800px;
+}
+footer {
+    padding: 30px 0;
+	}
+	.social {
+    margin-bottom: 30px;
+}
+.processstep {
+    padding: 40px 0 50px;
+	}
+			
+			
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.bannertext h2 {
+   			 margin-top: 130px;
+ 		   font-size: 20px;
+		}
+		.bannertext{
+		    margin: 0 0px;
+		}
+		.logo h1 a {
+    width: 200px;
+		}
+		.hamburger {
+    margin: 15px 10px;
+}
+.bannertext p{
+	font-size:16px;
+}
+.bannertext a {
+    margin-top: 90px;
+}
+#banner {
+    min-height: 530px;
+}
+.amettext p {
+    font-size: 16px;
+    line-height: 28px;
+}
+.videoleft {
+    float: none;
+    display: block;
+    width: 100%;
+}
+.videoright{
+width: 100%;
+}
+#process p {
+    font-size: 16px;
+    line-height: 28px;
+}
+.metting{
+	height:150px;
+	width:150px;
+	line-height:150px;
+}
+.planning{
+	height:200px;
+	width:200px;
+	line-height:200px;
+}
+.execute{
+	height:250px;
+	width:250px;
+	line-height:250px;
+}
+#services p {
+    font-size: 16px;
+    line-height: 28px;
+}
+.f-logo img{
+	width:40%;
+}
+#nextstep p {
+    font-size: 16px;
+    line-height: 28px;
+}
+#nextstep p{
+    margin-bottom: 30px;
+}
+.contactinner {
+    padding: 30px 0 30px;
+    width: 90%;
+}
+.contactinner input[type="text"]{
+    margin-bottom: 30px;
+}
+.contactinner input[type="submit"] {
+    height: 50px;
+    width: 200px;
+}
+#nextstep {
+    min-height: 700px;
+}
+.social {
+    margin-bottom: 20px;
+}
+        .wrap ul.wrap-nav > li a{
+            font-size: 20px;
+        }
+        .navcontainer {
+    padding: 22% 0;
+}
+        .wrap h3{
+                font-size: 24px;
+    margin: 15px 0;
+        }
+        #nav-icon4{
+            right: 5%;
+        }
+		}
+

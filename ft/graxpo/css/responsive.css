@@ -1,0 +1,477 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+	.homebanner {min-height:600px;}
+	.homebanner h2 {
+    padding-top: 250px;
+}
+.caption-style-4 .blur {
+    height: 190px;
+    width: 310px;
+}
+.caption-style-4 .textdetail {
+    top: 100px;
+    left: 100px;
+}
+.innerone ,.innerone1 {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.one p {
+    width: 90%;
+}
+.insideimage p.imgDescription {
+    height: 73%;
+}
+.sidetwo {
+    padding: 70px 40px 108px 25px;
+    height: 312px;
+}
+.pricemain {
+    width: 300px;
+}
+.contactus textarea {
+    width: 100%;
+}
+	
+}
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+	.homebanner {min-height:600px;}
+	.homebanner h2 {
+    padding-top: 250px;
+
+}
+.logo {
+    width: 28%;
+}
+.about p {
+    padding-right: 10px;
+}
+.wwd-hed p {
+    padding: 0 100px;
+}
+.whatone {
+    padding: 9px;
+}
+.rightside {
+    width: 65%;
+}
+.leftside {
+    width: 35%;
+}
+.line1 , .line2 {
+    top: 19%;
+    left: 72%;
+	width:245px;
+}
+.caption-style-4 .blur {
+    height: 190px;
+    width: 290px;
+}
+.caption-style-4 .textdetail {
+    top: 100px;
+    left: 100px;
+}
+.innerone ,.innerone1 {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.one p {
+    width: 90%;
+}
+.update input {
+    width: 215px;
+}
+.insideimage p.imgDescription {
+    height: 73%;
+	line-height: 15px;
+    padding: 15px 10px 15px;
+}
+.sidetwo {
+        padding: 30px 5px 27px 10px;
+    height: auto;
+}
+.pricemain {
+    width: 240px;
+}
+.contactus textarea {
+    width: 100%;
+}
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+			.homebanner {min-height:600px;}
+	.homebanner h2 {
+    padding-top: 250px;
+}
+.logo {
+    width: 25%;
+}
+nav{width:75%;}
+.about img{width:100%;}
+.about {
+    padding: 50px 0;
+}
+.statics {
+    min-height: 250px;
+    padding-top: 60px;
+}
+.whatwedo {
+    padding: 10px 0 50px;
+}
+.about p {
+    padding-right: 10px;
+}
+.threesteps {
+    padding: 50px 0;
+}
+.insidethree p {
+    padding: 0 10px;
+}
+.feturedwork {
+    padding: 50px 0;
+}
+.wwd-hed p {
+    padding: 0 100px;
+}
+.whatone {
+    padding: 9px;
+}
+.rightside {
+    width: 65%;
+}
+.leftside {
+    width: 35%;
+}
+.line1 , .line2 {
+    top: 19%;
+    left: 72%;
+	width:245px;
+}
+.caption-style-4 .blur {
+       height: 140px;
+    width: 225px;
+}
+.caption-style-4 .textdetail {
+    top: 80px;
+    left: 70px;
+}
+.innerone ,.innerone1 {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.expoler h4 {
+    font-size: 28px;
+    padding-top: 60px;
+}
+.expoler {
+    min-height: 250px;
+}
+.one p {
+    width: 90%;
+	font-size: 12px;
+    line-height: 18px;
+}
+.update input {
+    width: 215px;
+}
+.update {
+    min-height: 250px;
+    padding-top: 50px;
+}
+.portmain h3 {
+    padding-top: 50px;
+}
+.wwd-hed {
+    padding-bottom: 30px;
+}
+.insideimage p.imgDescription {
+    height: 73%;
+	line-height: 15px;
+    padding: 15px 10px 15px;
+}
+.sidetwo {
+        padding: 30px 5px 27px 10px;
+    height: auto;
+}
+.pricemain {
+    width: 240px;
+}
+.team {
+    padding: 50px 0 50px;
+}
+.testimonials {
+    min-height: 500px;
+    padding-top: 30px;
+}
+.testimonials h4 {
+    padding: 15px 0 15px;
+}
+.pricing {
+    padding-bottom: 50px;
+}
+.contactus textarea {
+    width: 100%;
+}
+.slidertest p {
+    padding: 15px 30px;
+}
+.blog {
+    padding: 50px 0;
+}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.logo {
+    width: 100%;
+    float: none;
+}
+nav {
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+.nav-toggle {
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+}
+.homebanner {min-height:450px;}
+	.homebanner h2 {
+      padding-top: 177px;
+    font-size: 25px;
+}
+.homebanner p {
+    line-height: 28px;
+}
+.homebanner .hedscroll {
+    padding-top: 80px;
+}
+.about {
+    padding: 20px 0;
+}
+.about p {
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.about img{width:100%; display:block; margin-top:10px;}
+.wwd-hed p {
+    padding: 0 10px;
+}
+.wwd-hed {
+    padding-bottom: 20px;
+}
+.whatone {
+    padding: 15px;
+}
+.whatwedo {
+    padding: 20px 0 20px;
+}
+.statics {
+    padding-top: 10px;
+    text-align: center;
+}
+.threesteps {
+    padding: 20px 0;
+}
+.wwd-hed span {
+    margin: 20px 0 0px;
+}
+.line1, .line2{display:none;}
+.maincircle {
+    margin: 10px auto 0;
+}
+.feturedwork {
+    padding: 20px 0;
+}
+.oneleftside ,.oneleftside1 {
+    width: 100%;
+    float: none;
+}
+.onerightside ,.onerightside1 {
+    width: 100%;
+    float: none;
+}
+.innerone , .innerone1 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.one p {
+    width: 100%;
+}
+.expoler h4 {
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.expoler {
+    min-height: 250px;
+}
+.portmain h3 {
+    padding-top: 20px;
+}
+.filter_wrapper {
+    padding: 0px 0px;
+}
+.filter_padder {
+    padding: 0px 0px;
+}
+.filter {
+    margin-right: 12px;
+}
+.update {
+    min-height: 240px;
+    padding-top: 20px;
+}
+.team {
+    padding: 20px 0;
+}
+.fm1 {
+    width: 100%;
+    float: none;
+}
+.caption-style-4 .blur {
+    height: 276px;
+    width: 420px;
+}
+.caption-style-4 .textdetail {
+    top: 160px;
+    left: 160px;
+}
+.insideimage p.imgDescription {
+    height: 30%;
+	    left: 20px;
+}
+.slidertest p {
+    padding: 15px 15px;
+}
+.testimonials h4 {
+    padding: 10px 0 10px;
+}
+.testimonials {
+    min-height: 560px;
+    padding-top: 50px;
+}
+.blog {
+    padding: 20px 0;
+}
+.sideone {
+    width: 100%;
+    float: none;
+}
+.sidetwo {
+    width: 100%;
+    float: none;
+    background: #e84c3d;
+    padding: 30px 40px 30px 25px;
+	height:auto;
+	margin-bottom:10px;
+}
+.pricemain {
+    margin: 0 auto 10px;
+}
+.contactus input {
+    width: 100%;
+	margin-right:0;
+}
+.contactus textarea {
+    width: 100%;
+}
+.location p {
+    padding-right: 10px;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.homebanner h2 {
+    padding-top: 177px;
+    font-size: 18px;
+}
+.homebanner {
+    min-height: 400px;
+}
+.homebanner p {
+    line-height: 20px;
+	letter-spacing: 1px;
+    font-size: 13px;
+}
+		.leftside i {
+    height: 70px;
+    width: 70px;
+    font-size: 32px;
+    line-height: 70px;
+		}
+		.insidethree p {
+    padding: 0 5px;
+}
+.caption-style-4 .blur {
+    height: 172px;
+    width: 270px;
+}
+.caption-style-4 .textdetail {
+    top: 100px;
+    left: 100px;
+}
+.one p {
+    font-size: 13px;
+}
+.expoler h4 {
+    font-size: 18px;
+}
+.update input {
+    width: 70%;
+	margin-bottom:10px;
+}
+.update a {
+    width: 30%;
+}
+.update p {
+    padding-right: 0;
+}
+.insideimage p.imgDescription {
+    height: 46%;
+	left: 13px;
+}
+.testimonials {
+    min-height: 560px;
+    padding-top: 15px;
+}
+.pricemain {
+    width: 100%;
+}
+.pricemain h3 {
+    padding: 15px 0;
+}
+.pricemain p {
+    padding: 5px 0;
+}
+.pricemain a {
+    margin: 10px 0;
+}
+.pricing {
+    padding-bottom: 20px;
+}
+.contactus {
+    padding-bottom: 20px;
+}
+.filter:hover, .filter.selected {
+    border-bottom: 0;
+}
+.homebanner .hedscroll {
+    padding-top: 50px;
+}
+		}
+

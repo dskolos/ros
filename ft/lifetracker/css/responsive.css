@@ -1,0 +1,480 @@
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+.emplooy-one {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.teamtitle {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.application img {
+    float: right;
+}
+.flexslider .slides p {
+
+    top: 174px !important;
+  
+    width: 51% !important;
+ 
+}
+#links {
+    padding: 40px 0;
+}
+
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.emplooy-one {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.teamtitle {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.application img {
+    float: right;
+    width: 100%;
+}
+.lifetracke p {
+    margin: 30px 0 10px 0;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.lifetracke span {
+    font-size: 13px;
+
+}
+#backgrownd {
+    height: 561px;
+}
+#tools {
+    padding: 60px 0;
+}
+.toolsicon {
+    padding: 60px 0 0 0;
+}
+center img{
+	width:80%;
+}
+#helping {
+   padding: 160px 0px 40px 0px;
+}
+#team {
+    padding: 50px 0 50px 0;
+}
+.menu li {
+    margin: 0 25px 0 0;
+}
+.menu a {
+	font-size:18px;
+}
+#container {
+    padding: 0px 0px !important;
+}
+.flexslider .slides img {
+  
+    height: 300px !important;
+}
+.flexslider .slides p {
+
+    top: 120px !important;
+  
+    width: 65% !important;
+ 
+}
+.footerlogo{
+	text-align:center;
+}
+.menu{
+	text-align:center;
+	padding:10px 0;
+}
+.social{
+	text-align:center;
+}
+#links {
+    padding: 28px 0;
+}
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 640px) and (max-width: 766px) {
+.emplooy-one {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.teamtitle {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.application img {
+  display:none;
+}
+#container {
+    padding: 0px 0px !important;
+}
+.flexslider .slides img {
+  
+    height: 300px !important;
+}
+.lifetracke p {
+    margin: 30px 0 10px 0;
+    font-size: 30px;
+    line-height: 36px;
+}
+.download{
+	text-align:center;
+	margin:0 auto;
+	display:block;
+}
+.lifetracke span {
+    font-size: 13px;
+    color: aliceblue;
+}
+#backgrownd {
+    height: 450px;
+}
+#tools {
+    padding: 60px 0;
+}
+.toolsicon {
+    padding: 60px 0 0 0;
+}
+center {
+    top: 110px;
+}
+center img{
+	width:80%;
+}
+#helping {
+    padding: 110px 0px 10px 0px;
+}
+.helpingtools p {
+    margin: 10px 0 50px 0;
+}
+.lifetracke {
+    padding: 50px 0 27px 0;
+    text-align: center;
+}
+#team {
+    padding: 50px 0 20px 0;
+}
+.menu li {
+    margin: 0 25px 0 0;
+}
+.menu a {
+	font-size:18px;
+}
+.teamimage {
+    padding-top: 40px;
+}
+.teamtitle h3 {
+     padding-top: 0px; 
+}
+#links {
+    padding: 25px 0;
+}
+.footerlogo{
+	text-align:center;
+}
+.menu {
+    text-align: center;
+    padding: 12px;
+}
+.social{
+	text-align:center;
+}
+.flexslider .slides p {
+
+    top: 120px !important;
+  
+    width: 65% !important;
+ 
+}
+
+}
+ @media only screen and (min-width: 480px) and (max-width: 639px) {
+.emplooy-one {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.teamtitle {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding:10px 0;
+}
+.application img {
+  display:none;
+}
+.toolsicon p {
+    font-size: 14px;
+}
+.toolsicon i {
+    font-size: 100px;
+}
+.toolsicon h3 {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+}
+.lifetracke p {
+    margin: 30px 0 10px 0;
+    font-size: 30px;
+    line-height: 36px;
+}
+.download{
+	text-align:center;
+	margin:0 auto;
+	display:block;
+}
+.lifetracke span {
+    font-size: 13px;
+    color: aliceblue;
+}
+.application {
+    padding: 20px 0 0 0;
+}
+.toolstitle h2 {
+    font-size: 30px;
+}
+#mobileshow {
+    height: 350px;
+}
+#backgrownd {
+    height: 350px;
+}
+#tools {
+    padding: 33px 0;
+}
+.helpingtools h2 {
+    font-size: 27px;
+}
+.toolsicon {
+    padding: 15px 0 0 0;
+}
+center {
+    top: 90px;
+}
+center img{
+	width:70%;
+}
+#helping {
+    padding: 50px 0px 10px 0px;
+}
+.helpingtools p {
+    margin: 6px 0 30px 0;
+}
+.lifetracke {
+    padding: 50px 0 27px 0;
+    text-align: center;
+}
+#team {
+    padding: 30px 0 15px 0;
+}
+.menu li {
+    margin: 0 25px 0 0;
+}
+.menu a {
+	font-size:18px;
+}
+.teamimage {
+    padding-top: 40px;
+}
+.teamtitle h3 {
+     padding-top: 0px; 
+}
+#links {
+    padding: 25px 0;
+}
+.footerlogo{
+	text-align:center;
+}
+.menu {
+    text-align: center;
+    padding: 12px;
+}
+.social{
+	text-align:center;
+}
+#container {
+    padding: 0px 0px !important;
+}
+.flexslider .slides img {
+  
+    height: 200px !important;
+}
+
+.flexslider .slides p {
+
+    top: 120px !important;
+  
+    width: 75% !important;
+ 
+}
+.free p {
+    font-size: 18px;
+    text-align: center;
+    padding: 0px 0 0 0;
+}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+.emplooy-one {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.teamtitle {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding:10px 0;
+}
+.application img {
+  display:none;
+}
+.toolsicon i {
+    font-size: 70px;
+}
+.toolsicon h3 {
+    font-size: 20px;
+    margin: 10px 0 4px 0;
+}
+.lifetracke p {
+    margin: 15px 0 10px 0;
+    font-size: 21px;
+    line-height: 31px;
+}
+.download{
+	text-align:center;
+	margin:0 auto;
+	display:block;
+}
+.lifetracke span {
+    font-size: 13px;
+    color: aliceblue;
+}
+.application {
+    padding: 20px 0 0 0;
+}
+.toolstitle h2 {
+    font-size: 24px;
+}
+.toolstitle p {
+    font-size: 16px;
+}
+#mobileshow {
+    height: 250px;
+}
+#backgrownd {
+    height: 320px;
+}
+#tools {
+    padding: 33px 0;
+}
+.helpingtools h2 {
+    font-size: 22px;
+}
+.toolsicon {
+    padding: 15px 0 0 0;
+}
+center {
+    top: 36px;
+}
+center img{
+	width:70%;
+}
+.helpingicon h3 {
+    font-size: 14px;
+}
+.helpingicon {
+    padding: 10px 0 20px 0;
+}
+.helpingicon p {
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 3px;
+}
+#helping {
+    padding: 40px 0px 10px 0px;
+}
+.helpingtools p {
+    margin: 6px 0 20px 0;
+    font-size: 14px;
+}
+.lifetracke {
+    padding: 40px 0 27px 0;
+    text-align: center;
+}
+#team {
+    padding: 30px 0 15px 0;
+}
+.menu li {
+    margin: 0 25px 0 0;
+	display:block;
+}
+.menu a {
+	font-size:18px;
+}
+.teamimage {
+    padding-top: 20px;
+}
+.teamname p {
+    font-size: 16px;
+}
+.teamtitle h3 {
+     padding-top: 0px; 
+}
+#links {
+    padding: 25px 0;
+}
+.footerlogo{
+	text-align:center;
+}
+.menu {
+    text-align: center;
+    padding: 12px;
+}
+.social{
+	text-align:center;
+}
+.download img {
+    width: 40%;
+}
+#container {
+    padding: 0px 0px !important;
+}
+.flexslider .slides img {
+  
+    height: 200px !important;
+}
+.flexslider .slides p {
+
+    top: 35px !important;
+   
+    font-size: 15px !important;
+  
+    width: 70% !important;
+}
+.teamname h2 {
+    font-size: 33px;
+}
+.free p {
+    font-size: 16px;
+   
+    padding: 0px 0 0 0;
+}
+}
+
+	

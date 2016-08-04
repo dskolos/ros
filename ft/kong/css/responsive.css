@@ -1,0 +1,729 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+	#back {
+    height: 650px;
+	}
+	.progress-bar {
+    height: 160px;
+    width: 160px;
+}
+.progress-bar div span {
+    line-height: 110px;
+    height: 110px;
+    width: 110px;
+}
+.progress-bar div {
+    position: absolute;
+    height: 140px;
+    width: 140px;
+}
+#skills {
+    height: 550px;
+}
+.bubble {
+     width: 100%;
+}
+.bubble:after {
+    left: 118px;
+}
+.isotope .isotope-item .entry-thumbnail img {
+    max-width: 100%;
+}
+.isotope .isotope-item .entry-header .entry-title a {
+    line-height: 100%;
+}
+#process {
+    margin-top: -56px;
+}
+.procces-icon li {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.procces-icon img {
+    top: -50px;
+}
+.procces-icon h2 {
+    padding-top: 17px;
+}
+.blog-img {
+    width: 100%;
+}
+.blog-img img {
+    display: block;
+    width: 100%;
+}
+.comment {
+    width: 100%;
+}
+.text-message textarea {
+    width: 100%;
+}
+.text-box input {
+    width: 46%;
+}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+	#back {
+    height: 650px;
+	}
+	.progress-bar {
+    height: 160px;
+    width: 240px;
+    margin: 0 auto;
+}
+.progress-bar div span {
+    line-height: 110px;
+    height: 110px;
+    width: 110px;
+}
+.progress-bar div {
+    position: absolute;
+    height: 140px;
+    width: 140px;
+}
+#skills {
+    height: 690px;
+}
+.bubble {
+     width: 100%;
+}
+.bubble:after {
+    left: 118px;
+}
+.isotope .isotope-item .entry-thumbnail img {
+    max-width: 100%;
+}
+.isotope .isotope-item .entry-header .entry-title a {
+    line-height: 100%;
+}
+#process {
+    margin-top: -56px;
+}
+.procces-icon li {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.procces-icon img {
+    top: -50px;
+}
+.procces-icon h2 {
+    padding-top: 17px;
+}
+.blog-img {
+    width: 100%;
+}
+.blog-img img {
+    display: block;
+    width: 100%;
+}
+.comment {
+    width: 100%;
+}
+.text-message textarea {
+    width: 100%;
+}
+.text-box input {
+    width: 46%;
+}
+.bubble h4 {
+    font-size: 16px;
+}
+.details {
+    padding: 10px;
+}
+.ser-img img {
+    width: 100%;
+}
+.ser-details h2 {
+    font-size: 20px;
+}
+.flex-direction-nav .flex-next {
+    right: 22px;
+}
+.date {
+    width: 30%;
+}
+.text-box input {
+    width: 47%;
+	    margin: 0 10px 0 0;
+}
+.city-address p {
+    padding-bottom: 10px;
+}
+.city-address span {
+    padding-bottom: 10px;
+}
+.download-link a {
+    width: 30%;
+}
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		.isotope .isotope-item .entry-header .entry-title a {
+    line-height: 100%;
+}
+		}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		#back {
+    height: 550px;
+		}
+		.title-img img {
+    padding: 180px 0 0 0;
+}
+.name {
+    padding: 180px 0 0 0;
+}
+.name h2 {
+    letter-spacing: 10px;
+}
+.name h3 {
+    font-size: 40px;
+}
+#about {
+    padding: 50px 0 0 0;
+}
+.line2 , .line1 {
+    top: 16%;
+}
+.progress-bar {
+    height: 160px;
+    width: 240px;
+    margin: 0 auto;
+}
+.progress-bar div span {
+    line-height: 110px;
+    height: 110px;
+    width: 110px;
+}
+.progress-bar div {
+    position: absolute;
+    height: 140px;
+    width: 140px;
+}
+.skill {
+    padding: 100px 0 0 0;
+}
+#education {
+    padding: 50px 0;
+}
+.bubble {
+    width: 100%;
+	    height: 115px;
+}
+.bubble h4 {
+    font-size: 16px;
+    padding: 15px 0 2px 0;
+    width: 100%;
+}
+.details {
+    padding: 10px;
+}
+
+.bubble:after {
+    left: 81px;
+}
+#service {
+    padding: 50px 0;
+}
+.ser-img img {
+    width: 100%;
+}
+.ser-details h2 {
+    padding: 10px 0;
+    font-size: 20px;
+}
+.ser-details p {
+    font-size: 16px;
+}
+.potfolio-title {
+    padding-top: 50px;
+}
+.line11 , .line12 {
+    top: 38%;
+}
+.details-potf p {
+    font-size: 16px;
+}
+#potfolio {
+    height: 1100px;
+}
+#process {
+    padding: 50px 0;
+}
+.procces-icon li {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.procces-icon i {
+    font-size: 38px;
+    line-height: 60px;
+    padding-top: 10px;
+}
+.procces-icon h2 {
+    font-size: 16px;
+    padding-top: 10px;
+}
+.procces-icon img {
+    margin: 0 15px;
+    top: -50px;
+}
+#test {
+    padding: 50px 0;
+}
+#blogs {
+    padding: 50px 0;
+}
+.blog-img {
+    width: 100%;
+}
+.blog-img img {
+    width: 100%;
+}
+.date {
+    width: 30%;
+}
+.comment {
+    width: 100%;
+}
+.blog-detail h3 {
+    line-height: 26px;
+    margin: 5px 0 0 0;
+    font-size: 18px;
+}
+
+.blog-detail {
+    padding: 45px 5px 10px;
+}
+footer {
+    padding: 50px 0;
+}
+.text-message textarea {
+    height: 180px;
+    width: 100%
+}
+.text-box input {
+    width: 100%;
+    margin: 0 0px 10px 0;
+	
+}
+.city-address address {
+    margin-top: 45px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+.city-address p {
+    padding-bottom: 15px;
+}
+.city-address span {
+    padding-bottom: 15px;
+}
+#download {
+    padding: 30px 0;
+}
+.download-link a {
+    width: 35%;
+}
+.text-box {
+    padding: 50px 0 0px 0;
+}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		#back {
+    height: 500px;
+		}
+		.title-img img {
+    padding: 100px 0 0 0;
+    width: 35%;
+}
+.name {
+    padding: 10px 0 0 0;
+}
+.name h2 {
+    letter-spacing: 7px;
+}
+.name h3 {
+    font-size: 36px;
+}
+.about-titile h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+#about {
+    padding: 30px 0 0 0;
+}
+.line1 , .line2  {
+    top: 10%;
+}
+.title-line {
+    padding: 10px 0;
+}
+.about-titile p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.social a {
+    margin-left: 9px;
+}
+.skill {
+    padding: 100px 0 0 0;
+}
+.line3 , .line4 {
+    top: 88%;
+}
+.progress-bar {
+    height: 160px;
+    width: 143px;
+    margin: 0 auto;
+}
+.progress-bar div span {
+    line-height: 110px;
+    height: 110px;
+    width: 110px;
+}
+.progress-bar div {
+    position: absolute;
+    height: 140px;
+    width: 140px;
+}
+#skills {
+    height: 600px;
+}
+.skill h2 {
+    letter-spacing: 5px;
+}
+.edu-titile h2 {
+    letter-spacing: 5px;
+}
+.bubble {
+    width: 100%;
+}
+.bubble:after {
+    left: 43%;
+}
+.heading {
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+.work-title h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.line5 ,.line6 {
+    top: 74%;
+}
+.work-details {
+    margin-bottom: 10px;
+}
+#education {
+    padding: 30px 0;
+}
+.service-title h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+#service {
+    padding: 30px 0;
+}
+.ser-details h2 {
+    padding: 10px 0;
+}
+.potfolio-title {
+    padding-top: 30px;
+}
+.potfolio-title h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.line11 {
+    top: 23%;
+    left: 38%;
+}
+.line12 {
+    top: 23%;
+    right: 38%;
+}
+.isotope .isotope-item .entry-thumbnail {
+    width: 100%;
+}
+.entry-title:hover {
+     background-color: rgba(61,201,179, 0.75);
+}
+#isotope-filter a {
+    font-size: 14px;
+    padding: 7px 5px;
+}
+#potfolio {
+    height: 2569px;
+}
+.process-title h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+#process {
+    padding: 30px 0;
+}
+.procces-icon img {
+    display: none;
+}
+.procces-icon li {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.procces-icon h2 {
+    font-size: 14px;
+}
+.test-title h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.flexslider .slides img {
+    width: 100%;
+}
+#test {
+    padding: 30px 0;
+}
+.blog-title h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+#blogs {
+    padding: 30px 0;
+}
+.blog-img {
+    width: 100%;
+}
+.blog-img img {
+    width: 100%;
+}
+.date {
+    width: 16%;
+}
+.blog-detail h3 {
+    margin: 5px 0 0 0;
+    font-size: 17px;
+}
+.comment {
+    width: 100%;
+}
+footer {
+    padding: 30px 0;
+}
+.city-address address {
+    margin-top: 10px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+.city-address p {
+    padding-bottom: 10px
+}
+.city-address span {
+    padding-bottom: 10px;
+}
+.text-box {
+    padding: 15px 0 0px 0;
+}
+.text-box input {
+    width: 100%;
+    margin: 0 0px 10px 0;
+}
+.text-message textarea {
+    height: 100px;
+    width: 100%;
+}
+.download-link a {
+    width: 55%;
+}
+#download {
+    padding: 30px 0;
+}
+.wrap ul.wrap-nav > li a {
+    font-size: 14px;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.name h2 {
+    font-size: 24px;
+    letter-spacing: 4px;
+		}
+		.name h3 {
+    font-size: 26px;
+}
+#back {
+    height: 400px;
+}
+.about-titile h2 {
+    font-size: 24px;
+}
+.line1, .line2 {
+    top: 6%;
+}
+.social a {
+    margin: 10px;
+}		
+.progress-bar {
+    height: 150px;
+    width: 135px;
+    margin: 0 auto;
+}
+.progress-bar div span {
+    line-height: 100px;
+    height: 100px;
+    width: 100px;
+}
+.progress-bar div {
+    position: absolute;
+    height: 130px;
+    width: 130px;
+}
+#skills {
+    height: 710px;
+}
+.bubble h4 {
+    font-size: 16px;
+    line-height: 26px;
+    width: 100%;
+}
+.details {
+    padding: 10px;
+}
+.bottam-line {
+    margin: 30px auto;
+    width: 60%;
+}
+.work-title h2 {
+    font-size: 20px;
+}
+.subject h2 {
+    padding-top: 10px;
+}
+.subject p {
+    line-height: 27px;
+    font-size: 16px;
+    width: 95%;
+    margin: 10px auto;
+}
+.ser-details p {
+    line-height: 24px;
+    font-size: 16px;
+}
+.ser-details {
+    margin-bottom: 10px;
+}
+.line11 {
+    top: 20%;
+    left: 36%;
+}
+.line12 {
+    top: 20%;
+    right: 36%;
+}
+.details-potf p {
+    font-size: 16px;
+    line-height: 26px;
+}
+#isotope-filter li {
+    margin-bottom: 10px;
+}
+#isotope-filter {
+    padding: 10px 0 10px;
+ }
+ .line15 {
+    width: 10%;
+    top: 66%;
+    left: 35%;
+}
+.line16 {
+    width: 10%;
+    top: 66%;
+    right: 35%;
+}
+
+.flex-direction-nav .flex-next {
+    opacity: 1;
+    right: 0;
+    top: 60%;
+}
+.flex-direction-nav .flex-prev {
+    opacity: 1;
+    left: 0;
+    top: 60%;
+}
+.date {
+    width: 25%;
+}
+.blog-detail h3 {
+    font-size: 15px;
+    line-height: 26px;
+}
+.line17 {
+    width: 10%;
+    top: 70%;
+    left: 33%;
+}
+.line18 {
+    width: 10%;
+    top: 70%;
+    right: 33%;
+}
+.city-address h2 {
+    line-height: 30px;
+    width: 60%;
+}
+send-button {
+    margin-top: 10px;
+    font-size: 18px;
+	width:50%;
+}
+.download-link a {
+    width: 90%;
+}
+.line19 {
+    width: 12%;
+    top: 28%;
+    left: 32%;
+}
+.line20 {
+    width: 12%;
+    top: 28%;
+    right: 32%;
+}
+
+
+.message h2 {
+    width: 75%;
+}
+.isotope .isotope-item .entry-inner {
+    margin-top: 30px;
+    min-height: 250px;
+}
+#potfolio {
+    height: 2300px;
+}
+.ft_logo {
+    height: 49px;
+    width: 185px;
+}
+		}
+

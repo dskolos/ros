@@ -1,0 +1,611 @@
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+.grid li {
+    width: 300px;
+    padding: 0;
+    margin: 0;
+}
+.grid figure {
+    width: 95%;
+	display:block;
+}
+.bx-wrapper {
+    position: relative;
+    margin: 0 auto 60px;
+    padding: 0;
+    max-width: 70% !important;
+}
+.problem-title a {
+    width: 5%;
+}
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+#banner {
+    min-height: 670px;
+}
+.grid li {
+    width: 230px;
+    padding: 0;
+    margin: 0;
+}
+.grid figure {
+    width: 90%;
+}
+.problem-title a {
+    width: 7%;
+}
+#protofol {
+    padding: 70px 0;
+}
+.border-line {
+    padding: 30px 0 50px 0;
+}
+.doted-line {
+    top: 17%;
+}
+.doted-line1{
+	top:17%;
+}
+#works {
+    padding: 70px 0;
+}
+.work-info h4 {
+    padding: 30px 0 0 0;
+}
+.bootam-line {
+    margin: 20px auto 20px;
+}
+.slider {
+    float: none;
+    width: 100%;
+    display: block;
+}
+.slider-info {
+    width: 100%;
+    float: none;
+    display: block;
+}
+.bx-wrapper {
+    max-width: 80% !important;
+}
+.slider-title {
+    padding-top: 70px;
+}
+.bx-wrapper .bx-viewport {
+    height: 240px !important;
+}
+#portfolio {
+    padding: 70px 0;
+}
+.button-title a {
+    width: 34%;
+}
+#team {
+    padding: 70px 0;
+}
+#mail {
+
+    padding: 70px 0 90px;
+}
+.mail-box input[type=text] {
+    width: 40%;
+}
+.foot-title {
+    padding: 80px 0 0 0;
+}
+.contact-details {
+    margin: 50px 0;
+	display:block;
+}
+.foo-icon {
+    padding-top: 40px;
+}
+.navbar-toggle {
+    right: 7%;
+}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	.navbar-toggle {
+    right: 7%;
+}
+	#banner {
+    min-height: 600px;
+}
+.proto-info p {
+width:100%;
+}
+.title-text h2 {
+    padding: 220px 0 20px;
+}
+
+.problem-title a {
+    width: 7%;
+}
+#protofol {
+    padding: 50px 0;
+}
+.border-line {
+    padding: 30px 0;
+}
+.doted-line {
+    top: 17%;
+}
+.doted-line1{
+	top:17%;
+}
+#works {
+    padding: 50px 0;
+}
+.work-info h4 {
+    padding: 30px 0 0 0;
+}
+.bootam-line {
+    margin: 20px auto 20px;
+}
+.slider {
+    float: none;
+    width: 100%;
+    display: block;
+}
+.slider-info {
+    width: 100%;
+    float: none;
+    display: block;
+}
+.bx-wrapper {
+    max-width: 80% !important;
+}
+.slider-title {
+    padding-top: 50px;
+}
+.bx-wrapper .bx-viewport {
+    height: 240px !important;
+}
+#portfolio {
+    padding: 70px 0;
+}
+.button-title a {
+    width: 34%;
+	font-size:12px;
+	padding:12px 0;
+}
+#team {
+    padding: 50px 0;
+}
+#mail {
+
+    padding: 70px 0 90px;
+}
+.mail-box input[type=text] {
+    width: 40%;
+}
+.foot-title {
+    padding: 80px 0 0 0;
+}
+.contact-details {
+    text-align: center;
+    margin:30px auto;
+    display: block;
+}
+.foo-icon {
+    padding-top: 40px;
+}
+.work-info p {
+    margin-bottom: 20px;
+}
+.pro-title p {
+ margin-bottom:20px;
+}
+.bootam-line1 {
+    margin: 10px auto 20px;
+}
+.social{
+	margin-bottom:20px;
+}
+.border-line1 {
+    padding: 20px 0;
+}
+.team img {
+    margin-bottom: 20px;
+}
+.team-title p {
+    padding-bottom: 20px;
+}
+.flex-control-nav {
+    top: 25px;
+}
+.effects .img {
+    margin-bottom: 20px;
+}
+.grid figure {
+    margin: 0 0 25px 0px;
+}
+.blog-link{
+	width:100%;
+	text-align:center;
+}
+.author p {
+	width:100%;
+	text-align:center;
+		line-height:28px;
+}
+.author h4{
+	text-align:center;
+	line-height:28px;
+}
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.navbar-toggle {
+    right: 7%;
+}
+	#banner {
+    min-height: 500px;
+}
+.proto-info p {
+width:100%;
+}
+.title-text h2 {
+	font-size:30px;
+    padding: 170px 0 20px;
+}
+.btn {
+    cursor: pointer;
+    padding: 20px 40px;
+}
+.problem-title a {
+    width: 10%;
+}
+#protofol {
+    padding: 50px 0;
+}
+.border-line {
+    padding: 30px 0;
+}
+.doted-line {
+    top: 17%;
+}
+.doted-line1{
+	top:17%;
+}
+#works {
+    padding: 50px 0;
+}
+.work-info h4 {
+    padding: 30px 0 0 0;
+}
+.bootam-line {
+    margin: 20px auto 20px;
+}
+.slider {
+    float: none;
+    width: 100%;
+    display: block;
+}
+.slider-info {
+    width: 100%;
+    float: none;
+    display: block;
+}
+.bx-wrapper {
+    max-width: 80% !important;
+}
+.slider-title {
+    padding-top: 50px;
+}
+.bx-wrapper .bx-viewport {
+    height: 240px !important;
+}
+#portfolio {
+    padding: 50px 0;
+}
+.button-title a {
+    width: 50%;
+	font-size:12px;
+	padding:12px 0;
+}
+#team {
+    padding: 50px 0;
+}
+#mail {
+
+    padding: 50px 0 70px;
+}
+.mail-box input[type=text] {
+    width: 60%;
+}
+.foot-title {
+    padding: 80px 0 0 0;
+}
+.contact-details {
+    text-align: center;
+    margin:30px auto;
+    display: block;
+}
+.foo-icon {
+    padding-top: 40px;
+}
+.work-info p {
+    margin-bottom: 20px;
+}
+.pro-title p {
+ margin-bottom:20px;
+}
+.bootam-line1 {
+    margin: 10px auto 20px;
+}
+.social{
+	margin-bottom:20px;
+}
+.border-line1 {
+    padding: 20px 0;
+}
+.team img {
+    margin-bottom: 20px;
+}
+.team-title p {
+    padding-bottom: 20px;
+}
+.flex-control-nav {
+    top: 25px;
+}
+.effects .img {
+    margin-bottom: 20px;
+}
+.grid figure {
+    margin: 0 0 25px 0px;
+}
+.blog-link{
+	width:100%;
+	text-align:center;
+}
+.author p {
+	width:100%;
+	text-align:center;
+		line-height:28px;
+}
+.author h4{
+	text-align:center;
+	line-height:28px;
+}
+.problem-title h2 {
+    font-size: 25px;
+    padding-top: 60px;
+}
+.problem-title p {
+    font-size: 18px;
+    padding: 20px 0 30px 0;
+}
+#problem {
+    height: 250px;
+}
+#link-button {
+    padding: 30px 0;
+}
+#cssload-loader {
+	top:350px;
+}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+.title-text p {
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+	.navbar-toggle {
+    right: 7%;
+}
+	#banner {
+    min-height:400px;
+}
+.proto-info p {
+    width: 100%;
+    line-height: 22px;
+}
+.title-text h2 {
+	font-size:30px;
+	letter-spacing:6px;
+    padding: 130px 0 20px;
+}
+.btn {
+    padding: 15px 26px;
+}
+.problem-title a {
+    width: 16%;
+}
+#protofol {
+    padding: 30px 0;
+}
+.border-line {
+    padding: 15px 0;
+}
+.doted-line {
+    top: 17%;
+	left:23%
+}
+.doted-line1{
+	top: 17%;
+	right:23%
+}
+#works {
+    padding: 30px 0;
+}
+.work-info h4 {
+    padding: 20px 0 0 0;
+}
+.bootam-line {
+    margin: 10px auto 10px;
+}
+.slider {
+    float: none;
+    width: 100%;
+    display: block;
+}
+.slider-info {
+    width: 100%;
+    float: none;
+    display: block;
+}
+.slider-title h3 {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.slider img {
+    height: 300px;
+    width: 100%;
+}
+.bx-wrapper {
+    max-width: 80% !important;
+}
+.slider-title {
+    padding-top: 30px;
+}
+.bx-wrapper .bx-viewport {
+    height: 240px !important;
+}
+#portfolio {
+    padding: 50px 0;
+}
+.button-title a {
+    width: 80%;
+	font-size:12px;
+	padding:12px 0;
+}
+#team {
+    padding: 50px 0;
+}
+.doted-line3 {
+    top: 48%;
+    left: 25%;
+}
+.doted-line4 {
+	top: 48%;
+    right: 25%;
+}
+#mail {
+    padding: 30px 0 50px;
+}
+.mail-box input[type=text] {
+    width: 60%;
+}
+.foot-title {
+    padding: 50px 0 0 0;
+}
+.contact-details {
+    text-align: center;
+    margin:30px auto;
+    display: block;
+}
+.foo-icon {
+    padding-top: 0;
+}
+.work-info p {
+    margin-bottom: 20px;
+}
+.pro-title p {
+ margin-bottom:20px;
+}
+.bootam-line1 {
+    margin: 10px auto 10px;
+}
+.social{
+	margin-bottom:20px;
+}
+.border-line1 {
+    padding: 20px 0;
+}
+.team img {
+    margin-bottom: 20px;
+}
+.team-title p {
+    padding-bottom: 20px;
+}
+.flex-control-nav {
+    top: 10px;
+}
+.effects .img {
+    margin-bottom: 20px;
+}
+.grid figure {
+    margin: 0 0 25px 0px;
+}
+.blog-link{
+	width:100%;
+	text-align:center;
+}
+.author p {
+	width:100%;
+	text-align:center;
+		line-height:28px;
+}
+.author h4{
+	text-align:center;
+	line-height:28px;
+}
+.problem-title h2 {
+    font-size: 20px;
+    padding-top: 46px;
+    letter-spacing: 4px;
+}
+.problem-title p {
+    font-size: 15px;
+    padding: 20px 0 30px 0;
+    letter-spacing: 4px;
+}
+#problem {
+    height: 230px;
+}
+#link-button {
+    padding: 30px 0;
+}
+.grid li {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.mail-box h2{
+	font-size:14px;
+margin:20px 0;
+}
+.mail-box input[type=text]{
+	padding:11px;
+}
+.cs-style-1 figcaption {
+    width: 98%
+}
+.mail-box input[type=submit]{
+	padding:11px;
+}
+nav ul li a {
+    font-size: 22px;
+    color: inherit;
+    font-weight: bolder;
+    text-decoration: none;
+    line-height: 37px;
+    text-decoration: none !important;
+}
+#cssload-loader {
+	top:250px;
+}
+nav ul {
+    display: block;
+    padding: 150px 0;
+}
+.bxslider li {
+    font-size: 12px;
+    color: #8c9398;
+    line-height: 16px;
+}
+}

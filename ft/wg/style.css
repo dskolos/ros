@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack*/ 
+
+
+/*----GLOBAL----*/
+html {
+	width: 100%;
+	height: 100%;
+}
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0 none;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #4f4e4e;
+	font-size: 14px;
+	line-height: 23px;
+	-webkit-font-smoothing: antialiased;
+}
+a {
+	color: #507cbe;
+}
+.wrapper {
+	position: relative;
+	width: 100%;
+	display: block;
+	clear: both;
+}	
+h1, h3, h4, h5 {
+	font-size:24px;
+	line-height:125%;
+}
+
+/*----MAIN PART----*/
+
+#mainpart{
+	background:url(images/banner.jpg) no-repeat center center;
+	min-height:730px;
+	display:block;
+	background-size:cover;
+	padding-top:70px;
+	text-align:center;
+}
+.logo a{
+	background:#000000 url(images/logo.png) no-repeat center center;
+	height:270px;
+	width:270px;
+	display:block;
+	text-align:center;
+	margin:0 auto;
+	border-radius:50%;
+	display:block;
+	text-indent:-999em;
+}
+#mainpart h2{
+	font-size:50px;
+	line-height:62px;
+	color:#ffffff;
+	text-transform:uppercase;
+	margin-top:60px;
+}
+#mainpart h3{
+	font-size:50px;
+	line-height:62px;
+	font-weight:700;
+	color:#ffffff;
+	text-transform:uppercase;
+}
+.middleform{
+	width:335px;
+	margin:0 auto;
+	background:#ffffff;
+	border-radius:3px;
+	padding:30px 0 25px;
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.28);
+	margin-top: -220px;
+}
+.middleform input[type="text"]{
+	height:40px;
+	width:265px;
+	border:1px solid #e5e5e5;
+	color:#b4adad;
+	font-size:16px;
+	margin:0 auto 20px; 
+	display:block;
+	padding:10px;
+	box-sizing:border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+.middleform input[type="text"]:focus{
+	border:1px solid #227dd3;
+}
+.middleform p{
+	text-align:center;
+	padding:20px 50px;
+}
+.middleform a{
+	height:45px;
+	width:190px;
+	background:#227dd3;
+	color:#ffffff;
+	font-weight:600;
+	font-size:25px;
+	line-height:45px;
+	text-align:center;
+	display:block;
+	text-decoration:none;
+	margin:0 auto;
+}
+.middleform a:hover{
+	background:#000000;
+	transition:all 0.5s;
+}
+.leftimage{
+	width:28%;
+	float:left;
+	display:block;
+}
+.rightside{
+	width:72%;
+	float:right;
+	display:block;
+}
+.rightside h3{
+	font-size:27px;
+	line-height:40px;
+	color:#000000;
+	font-weight:600;
+}
+.twocolpadding{
+	padding:50px 0 100px;
+}
+
+/*----MIDDLE CONTENT----*/
+#middlecontent{
+	background:url(images/bigimage2.jpg) no-repeat center center;
+	display:block;
+	min-height:1400px;
+	background-size:cover;
+}
+.heading{
+	padding:70px 100px;
+	min-height: 720px;
+}
+.heading h3{
+	font-size:40px;
+	line-height:62px;
+	color:#ffffff;
+	font-weight:600;
+	text-align:center;
+	padding-top:20px;
+}
+.heading img{
+	margin:0 auto;
+	display:block;
+	text-align:center;
+}
+.heading p{
+	color:#ffffff;
+	padding-top:30px;
+}
+.heading1{
+	padding:70px 0;
+	
+}
+.heading1 h3{
+	font-size:40px;
+	line-height:62px;
+	color:#ffffff;
+	font-weight:600;
+}
+.heading1 img{
+	margin:0 auto;
+	display:block;
+	text-align:center;
+}
+.heading1 p{
+	color:#ffffff;
+	padding-top:30px;
+}
+.heading1 a{
+	font-size:28px;
+	line-height:50px;
+	width:200px;
+	height:50px;
+	text-align:center;
+	display:block;
+	border:3px solid #ffffff;
+	color:#ffffff;
+	font-weight:600;
+	text-decoration:none;
+	border-radius:10px;
+	margin-top:35px;
+}
+.heading1 a:hover{
+	background:#ffffff;
+	color:#44a36f;
+	transition:all 0.5s;
+}
+
+/*----	MAP ----*/
+#map{
+/*	background:url(images/map.jpg) no-repeat center center;
+	min-height:635px;
+	background-size:cover;
+	padding:140px 0 0;
+	box-sizing: border-box;*/
+	position:relative;
+}
+#map iframe{
+ pointer-events: none;
+     margin-bottom: -5px;
+	 width:100%;
+	 height:630px;
+}
+.steps textarea{
+	width: 70%;
+    height: 22px;
+    padding: 15px 20px;
+	border: 1px solid #d0d7e1;
+	    font-size: 14px;
+    line-height: 22px;
+    color: #515860;
+    background: #ffffff;
+    margin: 0 auto;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.steps textarea:hover{
+	border: 1px solid #5fc18b;
+}
+.steps textarea:focus{
+	border: 1px solid #5fc18b;
+}
+
+.steps ul{
+	padding-top:30%;
+}
+/*----	FOOTER ----*/
+footer{
+	padding:15px 0;
+	text-align:center;
+	background:#43a06d;
+}
+footer p{
+	color:#ffffff;
+	font-size:14px;
+	line-height:22px;
+}
+footer a{
+	color:#ffffff;
+}
+
+
+
+
+/* New */
+
+.os-animation {
+	opacity: 0;
+}
+.os-animation.animated {
+	opacity: 1;
+}
+.staggered-animation {
+	opacity: 0;
+}
+.staggered-animation.animated {
+	opacity: 1;
+}
+
+/*Paste this css to your style sheet file or under head tag*/
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 9999;
+ background: url(images/flickr.svg) center no-repeat #5fc18b;
+ 
+}	
+	

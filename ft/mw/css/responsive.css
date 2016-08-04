@@ -1,0 +1,171 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+	header {
+   background-position:left;
+    min-height: 500px;
+}
+.hedcontent {
+    top: 160px;
+}
+.middlesection {
+    padding: 50px 0;
+}
+.scoleft {
+    margin-left: 0px;
+}
+.cloudright {
+    margin-right: 0px;
+}
+.responsivesec {
+    padding: 25px;
+}
+.cloud, .sco {
+    padding: 36px;
+}
+.lastfooter {
+    min-height: 450px;
+}
+.lastfooter h3 {
+    margin-top: 150px;
+}
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		.scoleft {
+    margin-left: 0px;
+}
+.cloudright {
+    margin-right: 0px;
+}
+		}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		header {
+   background-position:15%;
+    min-height: 500px;
+}
+.logonav {
+    width: 90%;
+}
+.hedcontent {
+    top: 160px;
+	width: 50%;
+    left: 42%;
+}
+.middlesection {
+    padding: 40px 0;
+}
+.cloud, .sco,.responsivesec{
+    padding: 15px;
+	width:33.33%;
+}
+.lastfooter {
+    min-height: 400px;
+}
+.lastfooter h3 {
+    margin-top: 120px;
+}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		header {
+   background-position:15%;
+    min-height: 400px;
+}
+.logo {
+    width: 25%;
+}
+.logonav {
+    width: 90%;
+}
+nav {
+    width: 75%;
+}
+nav ul li {
+    padding: 15px 7px;
+}
+nav ul li a{
+	font-size:14px;    
+}
+
+.hedcontent {
+    top: 110px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+.middlesection h3 {
+    font-size: 26px;
+    line-height: 36px;
+}
+.middlesection {
+    padding: 30px 0;
+}
+.cloud, .sco,.responsivesec{
+    padding: 15px;
+	width:100%;
+	float:none;
+}
+.lastfooter {
+    min-height: 350px;
+}
+.lastfooter h3 {
+    margin-top: 100px;
+	font-size: 30px;
+    line-height: 38px;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		header {
+   background-position:0%;
+    min-height: 400px;
+}
+.logo {
+    width: 100%;
+	float:none;
+	text-align:center;
+}
+.logonav {
+    width: 90%;
+}
+nav {
+    width: 100%;
+	float:none;
+	text-align:center;
+}
+	nav ul li {
+    padding: 10px 3px;
+}
+nav ul li a{
+	font-size:14px;    
+}
+.hedcontent {
+    top: 120px;
+}
+.sco p, .responsivesec p, .cloud p {
+    padding: 10px 0 0px 0;
+}
+.lastfooter h3 {
+    margin-top:80px;
+    font-size: 20px;
+    line-height: 30px;
+}
+	
+	.lastfooter {
+    min-height: 300px;
+}
+		}
+

@@ -1,0 +1,443 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+	.headernavigation ul li:first-child {
+    padding-left: 10px;
+}
+.headernavigation ul li {
+    padding: 12px 0px 12px 30px;
+}
+ul.navigation li {
+    padding: 15px 8px;
+}
+.col1 p {
+    padding: 0 5px 15px;
+}
+.macroni {
+    padding-bottom: 50px;
+}
+.quotessentence p {
+    padding: 0 10px 0 30px;
+}
+.allmainhed {
+    padding: 25px 0;
+}
+.menu1 {
+    width: 25%;
+}
+.item, .item-hover, .item-hover .mask, .item-img, .item-info {
+    width: 100%;
+    height: 236px;
+}
+.tm_desg {
+    font-size: 20px;
+    line-height: 26px;
+ }
+ .designation {
+    font-size: 16px;
+    line-height: 22px;
+ }
+ .detailteam {
+    font-size: 16px;
+    line-height: 22px;
+}
+.abteam_info figure figcaption{top:25%;}
+.eventimage {
+        width: 50%;
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+}
+.eventlist {
+    width: 100%;
+    float: none;
+    padding: 0 20px 30px 20px;
+}
+#mainslide .bx-pager.bx-default-pager {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    left: 0;
+}
+.eventlist a {
+    margin: 20px 0 10px;
+}
+.eventlist p {
+    width: 100%;
+}
+}
+/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		.headernavigation{
+			display:none;	
+		}
+		#clickme{
+			display:none;	
+		}
+		.headerinfo {
+    padding-top: 0px;
+}
+#homebanner {
+    min-height: 400px;
+ }
+ .headerinfo h2 {
+    line-height: 25px;
+    font-size: 70px;
+ }
+ 
+.headerinfo h3 {
+    line-height: 50px;
+    font-size: 42px;
+    width: 35%;
+}
+.headerinfo p {
+    width: 36%;
+}
+
+}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+.macronitop h2 {
+    line-height: 58px;
+    font-size: 60px;
+}
+.macronitop h3 {
+    line-height: 54px;
+    font-size: 50px;
+}
+.col1 p {
+    padding: 0 5px 0px
+}
+ul.navigation li {
+    padding: 15px 12px;
+}
+.macroni {
+    padding-bottom: 50px;
+}
+.cakebanner {
+    min-height: 350px;
+    padding-top: 16px;
+}
+.quotessentence p {
+    padding: 0 10px 0 30px;
+}
+.menu1 {
+    width: 25%;
+    float: left;
+    display: block;
+}
+.item, .item-hover, .item-hover .mask, .item-img, .item-info {
+    width: 100%;
+    height: 188px;
+}
+.item-type-double .item-info .date {
+    font-size: 16px;
+}
+.item-type-double .item-info .headline {
+    font-size: 12px;
+    width: 95%;
+    line-height: 18px;
+}
+.allmainhed {
+    text-align: center;
+    padding: 30px 0;
+}
+.eventimage {
+        width: 50%;
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+}
+.eventlist {
+    width: 100%;
+    float: none;
+    padding: 0 20px 50px 20px;
+	text-align:center;
+	border-top:0;
+}
+#mainslide .bx-pager.bx-default-pager {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    left: 0;
+}
+.tm_desg {
+    font-size: 14px;
+    line-height: 20px;
+ }
+ .designation {
+    font-size: 12px;
+    line-height: 18px;
+ }
+ .detailteam {
+    font-size: 12px;
+    line-height: 18px;
+}
+.abteam_info figure figcaption{top:15%;}
+.eventlist h4 {
+    text-align: center;
+}
+.eventlist span{
+	text-align:center;	
+}
+.line2 {
+    display: inherit;
+    margin: 0 auto;
+}
+.eventlist p {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.eventlist a {
+    margin: 20px 0 20px;
+}
+}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.tm_desg {
+    font-size: 20px;
+    line-height: 26px;
+ }
+ .designation {
+    font-size: 16px;
+    line-height: 22px;
+ }
+ .detailteam {
+    font-size: 16px;
+    line-height: 22px;
+}
+.abteam_info figure figcaption{top:25%;}
+#homebanner {
+    min-height: 350px;
+}
+.headerinfo {
+    text-align: center;
+}
+.headerinfo h3 {
+    line-height: 45px;
+    font-size: 30px;
+    width: 57%;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+}
+.headerinfo h2 {
+    line-height: 22px;
+    font-size: 42px;
+}
+.headerinfo p {
+    width: 100%;
+}
+.macronitop h2 {
+    line-height: 40px;
+    font-size: 50px;
+}
+.macronitop h3 {
+    line-height: 52px;
+    font-size: 45px;
+}
+.line{border:0;}
+.macroni {
+    padding-bottom: 50px;
+}
+.sliderhed {
+    padding-bottom: 20px;
+}
+.img1 {
+    width: 100%;
+    float: none;
+ }
+ .mainslide {
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+.cakebanner {
+    min-height: 380px;
+    padding-top: 10px;
+}
+.quotessentence p {
+    padding: 0 10px 0 10px;
+}
+.quotessentence i.fa-quote-left {
+    left: -208px;
+ }
+ .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: -7px;
+ }
+ .quotessentence i.fa-quote-right {
+    right: 17%;
+    bottom: 24px;
+ }
+ .allmainhed {
+    padding: 30px 0;
+}
+.menu1 {
+    width: 50%;
+}
+.item, .item-hover, .item-hover .mask, .item-img, .item-info {
+    width: 100%;
+    height: 231px;
+}
+.team1 {
+    width: 50%;
+}
+.team1 img {
+    height: 330px;
+}
+.eventimage {
+        width: 50%;
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+}
+.eventlist {
+    width: 100%;
+    float: none;
+    padding: 0 20px 40px 20px;
+	text-align:center;
+	border-top:0;
+}
+#mainslide .bx-pager.bx-default-pager {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    left: 0;
+}
+.eventlist p {
+    width: 100%;
+    font-size: 15px;
+    color: #303030;
+    line-height: 22px;
+    padding: 5px 0;
+}
+.eventlist a {
+    margin: 20px 0 0px;
+}
+.dates {
+    width: 100%;
+}
+ul.f-menu li {
+    padding: 10px 3px 0px;
+}
+.nav-collapse li {
+    text-align: left;
+}
+.navlogo{
+	width:25%;	
+}
+.nav-toggle{
+	position:absolute;
+	bottom:-8px;
+	right:0;	
+}
+.sticky {
+    padding: 10px 0;
+}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+.headerinfo h3 {
+    width: 68%;
+}
+.headerlogo {
+    padding: 9px 0 26px;
+}
+.sticky {
+    padding: 5px 0;
+}
+.macronitop h2 {
+    line-height: 26px;
+    font-size: 38px;
+}
+.macronitop h3 {
+    line-height: 45px;
+    font-size: 36px;
+	padding-bottom:10px;
+}
+.col1 p {
+    padding: 0 0 10px 0;
+}
+.macroni {
+    padding-bottom: 20px;
+}
+.sliderhed h3 {
+    font-size: 22px;
+    line-height: 30px;
+}
+.sliderhed p {
+    font-size: 18px;
+    line-height: 24px;
+}
+.quotessentence p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 24px;
+}
+.quotessentence i.fa-quote-left {
+    left: 67%;
+}
+.menu1 {
+    width: 100%;
+    float: none;
+}
+.item, .item-hover, .item-hover .mask, .item-img, .item-info {
+    width: 100%;
+    height: 300px;
+}
+.tm_desg {
+    font-size: 16px;
+    line-height: 26px;
+}
+.detailteam {
+    font-size: 12px;
+    line-height: 18px;
+}
+.allmainhed h3 {
+    font-size: 22px;
+    line-height: 30px;
+}
+.allmainhed p {
+    font-size: 18px;
+    line-height: 24px;
+}
+.allmainhed {
+    padding: 20px 0;
+}
+.eventimage {
+    width: 100%;
+}
+.eventlist span {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px 0;
+ }
+ .eventlist h4 {
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 10px;
+}
+.line2 {
+    margin: 3px 0;
+}
+ul.navigation li {
+    padding: 5px 15px;
+}
+ul.navigation li:first-child{
+	padding-top:10px;	
+}
+	}
+		
+	

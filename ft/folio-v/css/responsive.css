@@ -1,0 +1,255 @@
+
+
+/* #Media Queries
+================================================== */
+	@media only screen and (min-width: 960px) and (max-width: 1200px) {
+		.leftside img{
+			width:100%;
+		}
+		#ft_logo ul li {
+			  margin: 0 8px;
+		}
+		}
+	
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		#ft_banner h2 {
+		  font-size: 75px;
+		  line-height: 62px;
+		  letter-spacing:1px;
+		}
+		#ft_banner h2 {
+			margin-top: 100px;
+		}
+		#ft_banner {
+			  min-height: 460px;
+		}
+		nav ul li a {
+			padding:5px;
+		}
+		.social a {
+			  margin: 0 1px;
+		}
+		#ft_portfolio {
+			padding:50px 0;
+		}
+		.overlay ul li {
+			margin: 0 5px;
+  		    font-size: 23px;
+		}
+		#ft_middleimage blockquote {
+			margin:50px 50px 20px;
+			font-size:30px;
+		}
+		#ft_middleimage {
+			min-height:250px;
+		}
+		#ft_news {
+			padding:50px 0;
+		}
+		.leftside img{
+			width:100%;
+		}
+		.blogimage img{
+			width:90%;
+		}
+		.rightext p {
+			line-height:18px;
+		}
+		#ft_logo {
+			padding:20px 0;
+		}
+		#ft_logo ul li {
+			width: 50%;
+  			float: left;
+  			margin: 10px 0;
+		}
+		#ft_logo img{
+			margin:0 auto;
+			display:block;
+		}
+		#ft_contact a.email {
+		  font-size: 40px;
+		  padding: 12px 84px;
+		}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		#ft_portfolio .row2 {
+  			width: 50%;
+		}
+		#ft_portfolio .row1 {
+		    width: 100%;
+		}
+		#ft_banner {
+			  min-height: 450px;
+		}
+		#ft_banner h2 {
+			 font-size: 60px;
+  			 line-height: 49px;
+			 letter-spacing: 1px;
+			 margin-top: 90px;
+		}
+		nav ul li a {
+			  padding: 3px;
+		}
+		nav ul li {
+			  font-size: 13px;
+			  margin:0;
+			  line-height:13px;
+		}
+		.social a {
+			  height: 25px;
+			  width: 25px;
+			 font-size: 13px;
+			 margin:1px 0;
+		}
+		.social a i {
+			padding:7px;
+		}
+		header h1 a {
+			  font-size: 35px;
+		}
+		header {
+			padding:20px 0;
+		}
+		#ft_portfolio {
+			padding:30px 0;
+		}
+		#ft_middleimage blockquote {
+			  margin: 40px 0 20px;
+			  font-size:24px;
+		}
+		#ft_middleimage {
+			  min-height: 230px;
+		}
+		#ft_news {
+			padding:30px 0;
+		}
+		#ft_news h3 {
+			  margin-bottom: 30px
+		}
+		.leftside img{
+			width:100%;
+		}
+		#ft_logo {
+			padding:30px 0;
+		}
+		#ft_logo ul li {
+		  display: block;
+		  margin: 20px 30px;
+		  text-align: center;
+		}
+		#ft_bio {
+			padding:30px 0;
+		}
+		#ft_bio h3 {
+			margin-bottom:30px;
+		}
+		#ft_bio p.boldfont {
+			margin:30px 0 10px;
+		}
+		#ft_contact h3 {
+			margin:30px 0;
+			font-size:30px;
+		}
+		#ft_contact a {
+  			font-size: 30px;
+		}
+		#ft_contact a.email {
+			font-size: 30px;
+			padding: 5px 55px;
+		}
+		#ft_contact address {
+			font-size:20px;
+		}
+		#ft_contact p {
+			margin-top:50px;
+		}
+		#ft_contact {
+			min-height:410px;
+		}
+		.blogimage img{
+			width:100%;
+		}
+		.rightext p {
+			margin-left:10px;
+		}
+		.rightext span {
+			margin-left:10px;
+		}
+		#ft_banner h3 {
+  			font-size: 20px;
+			letter-spacing:1px;
+			margin-top:10px;
+		}
+  
+			  
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 640px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		#ft_banner h2 {
+		  font-size: 40px;
+		  line-height: 35px;
+		  letter-spacing: 1px;
+		  margin-top: 50px;
+		}
+		#ft_banner {
+ 			 min-height: 300px;
+		}
+		header h1 a {
+ 			 font-size: 25px;
+		}
+		header nav {
+			width:75%;
+		}
+		header .social {
+			width:100%;
+		}
+		header {
+ 			 padding: 10px 0;
+		}
+		.social a {
+			margin:0 3px;
+		}
+		#ft_portfolio .row2 {
+ 			 width: 100%;
+		}
+		#ft_middleimage blockquote {
+		  margin: 40px 0 10px;
+		  font-size: 20px;	
+		}
+		#ft_middleimage span {
+			font-size:20px;
+		}
+		#ft_middleimage span {
+			margin:0;
+			text-align:center;
+		}
+		#ft_news h3 {
+			font-size:30px;
+		}
+		#ft_bio h3 {
+			font-size:30px;
+		}
+		#ft_bio h4 {
+			font-size:30px;
+		}
+		#ft_contact a.email {
+		  font-size: 20px;
+		  padding: 5px 35px;
+		  line-height: 28px;
+		}
+		#ft_contact a {
+ 			 font-size: 25px;
+		}
+		}
+

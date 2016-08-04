@@ -1,0 +1,326 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+	.twopartright{
+		padding: 30px;
+	}
+	.twopartright p{
+		width:auto;
+	}
+
+}
+	@media only screen and (min-width: 960px) and (max-width: 1023px) {
+		nav ul li{
+			margin-left:20px;
+		}
+		.offerright p{
+			margin-right:0px;
+		}
+		.sixoffer {
+ 		   min-height: 160px;
+		}
+		.twopartright{
+			    padding: 50px 20px 0;
+		}
+		.twopartright p{
+			    width: auto;
+		}
+		.bubble{
+			width: 96%;
+    		height: auto;
+		}
+		#fourpart ul li a{
+			    margin-right: 2px;
+		}
+	
+			
+		
+		}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		nav ul li{
+		    margin-left: 20px;
+    		margin-top: 5px;	
+		}
+		
+.bannerslider h2 {
+    font-size: 41px;
+    line-height: 60px;
+	}
+	#banner{
+		    min-height: 480px;
+	}
+	.bannerslider {
+    margin-top: 160px;
+	}
+	#offer{
+		padding:50px 0;
+	}
+	.twopartright{
+		padding: 20px;
+	}
+	.twopartright p{
+		width:auto;
+	}
+	.twopartright a{
+		    margin-top: 35px;
+	}
+	#filter {
+    padding: 50px 0 0;
+	}
+	ul#portfolio-filter a {
+    margin: 0 10px;
+	}
+	.offerright p{
+		margin-right:0px;
+	}
+	.sixoffer {
+ 		   min-height: 160px;
+	}
+	.offerleft {
+    width: 12%;
+	}
+	.offerright {
+    width: 88%;
+	}
+	.twopartleft img{
+	    height: 550px;
+	}
+	.twopartright{
+		min-height:550px;
+	}
+	.twopartright h3{
+	    margin-bottom: 15px;
+	}
+	.twopartright p{
+		    margin-bottom: 15px;
+	}
+	.twopartright {
+    		padding: 10px;
+	}	
+	ul#portfolio-list li {
+		height: 210px;
+	}
+	.caption-style-1 .caption-text{
+	    top: 35px;
+	}
+	ul#portfolio-list {
+    margin: 20px 0 0 0;
+	}
+	#testimonial {
+    padding: 50px 0 40px;
+	}
+	.heading {
+ 		   margin-bottom: 40px;
+	}
+	.bubble{
+			width: 96%;
+    		height: auto;
+		}
+	#fourpart ul li a{
+	    margin-right: 2px;
+	}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		nav ul li{
+			display:block;
+			text-align:center;
+			margin-left:0px;
+			line-height:35px;
+		}
+		.logo{
+			width:50%;
+		}
+		header {
+    padding: 10px 0 10px;
+		}
+		.logo{
+			margin-top:10px;
+		}
+		header.sticky{
+		    padding: 10px 0 10px;
+		}
+		#banner{
+		    min-height: 400px;
+		}
+		
+.bannerslider h2 {
+    font-size: 29px;
+    line-height: 45px;
+}
+.bannerslider {
+    margin-top: 115px;
+}
+.bannerslider p {
+    font-size: 20px;
+}
+#offer {
+    padding: 30px 0;
+}
+.heading {
+    margin-bottom: 40px;
+}
+.offerright p{
+	margin-right:0px;
+}
+.sixoffer {
+    min-height: 130px;
+}
+.twopartleft {
+    width: 100%;
+    float: none;
+}
+.twopartleft img{
+	height:auto;
+	display:block;
+}
+.twopartright{
+	width: 100%;
+    float: none;
+	    min-height: auto;
+    padding: 20px;
+}
+.twopartright p{
+    width: auto;
+	    margin-bottom: 15px;
+}
+.twopartright h3{
+margin-bottom: 20px;
+}
+.twopartright a{
+	    margin-top: 30px;
+}
+#filter {
+    padding: 30px 0 0;
+}
+.heading p {
+    font-size: 14px;
+}
+ul#portfolio-filter a {
+    margin: 0 0px;
+    padding: 10px;
+}
+ul#portfolio-list li {
+    width: 50%;
+    height: 200px;
+}
+.caption-style-1 .caption-text{
+    top: 30px;
+}
+#testimonial {
+    padding: 30px 0;
+}
+.bubble{
+			width: 96%;
+    		height: auto;
+		}
+		.testleft span i{
+			margin-left:0px;
+		}
+#fourpart {
+    padding: 30px 0;
+}
+#fourpart h2 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+footer p{
+	text-align:center;
+}
+footer .social{
+	    text-align: center;
+    margin-top: 10px;
+}
+footer {
+    padding: 20px 0;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.logo h1 a{
+			background-size:100%;
+			height:100%;
+		}
+		.logo {
+ 			   width: 60%;
+			   margin-top:15px;
+		}
+		header.sticky {
+		    padding: 0px 0 10px;
+		}
+		header.sticky {
+ 		   padding: 0px 0 5px;
+		}
+		.bannerslider h2 {
+ 		   font-size: 18px;
+    		line-height: 30px;
+		}
+		.bannerslider p {
+ 		   font-size: 14px;
+		}
+		.bx-wrapper .bx-next {
+    right: 0px;
+	    background-size: 100%;
+		}
+		.bx-wrapper .bx-prev {
+    left: 0px;
+	 background-size: 100%;
+		}
+		.bannerslider a.showbtn {
+    font-size: 14px;
+    line-height: 40px;
+	    height: 40px;
+    width: 130px;
+	    margin: 30px auto 0;
+		}
+		#banner {
+    min-height: 320px;
+}
+.bx-wrapper .bx-controls-direction a{
+	width: 31px;
+    height: 31px;
+}
+.bannerslider {
+    margin-top: 105px;
+}
+.heading h3 {
+    font-size: 24px;
+}
+.offerleft {
+    width: 15%;
+}
+.offerright {
+    width: 85%;
+}
+.sixoffer {
+    min-height: 205px;
+}
+.twopartright p {
+    font-size: 13px;
+    line-height: 20px;
+}
+ul#portfolio-filter a{
+    padding: 5px;
+}
+.testleft {
+    width: 100%;
+    float: none;
+}
+.testleft{
+	margin-bottom:10px;
+}
+
+		}
+

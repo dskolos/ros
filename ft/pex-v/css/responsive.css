@@ -1,0 +1,772 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------RESPONSIVE.CSS--------*/
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+.headingneed img{
+	width:100%;
+}
+
+.headingtext {
+ 
+    width: 55%;
+  
+    padding: 20px 0 25px 0px;
+}
+.headingneed {
+   
+    width: 35%;
+
+}
+.headingtext {
+ 
+    width: 60%;
+   
+    padding: 50px 0 25px 0px;
+}
+.headingtext h2 {
+    font-size: 18px;
+ 
+}	
+.headingtext p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+}
+.headingtext span {
+    width: 100%;
+    font-size: 16px;
+}
+.watchtext {
+    padding: 50px 0 0 33px;
+}
+.watchneed img {
+	width: 100%;
+}
+.watchtext h2 {
+    font-size: 18px;
+}
+.watchtext p {
+   width: 100%;
+  font-size: 16px;
+  line-height: 26px;
+}
+.watchtext span {
+    width: 100%;
+    font-size: 16px;
+   line-height: 30px;
+}
+#titles {
+    width:100%;
+    
+}
+}
+
+
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+.desigen h2 {
+	padding-top:250px;
+}
+.head-section hr {
+  top: 58px;
+}
+#backgrwond {
+    min-height: 750px;
+}
+#titles {
+    padding: 76px 36px;
+}
+#bang {
+    height: 470px;
+}
+.started {
+    padding: 100px 0 40px;
+}
+#back{
+	height: 318px;
+}
+.headingneed img{
+	width:100%;
+}
+.headingtext {
+    width: 55%;
+    padding: 26px 0 10px 0;
+}
+.headingtext h2 {
+    font-size: 16px;
+}
+.headingtext p {
+    margin-top: 12px;
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.headingtext span {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+}
+.watchneed img {
+    width: 100%;
+}
+.watchtext h2 {
+    font-size: 16px;
+}
+.watchtext p {
+    margin-top: 12px;
+    width: 100%;
+    font-size: 14px;
+    
+    line-height: 24px;
+}
+.watchtext span {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 26px;
+    
+}
+#watch {
+    height: 318px;
+}
+.watchtext	{
+	width: 60%;
+    padding: 26px 0 10px 50px;
+}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+#titles {
+    width:100%;
+	padding:50px 0;
+}
+    .head-section hr {
+  top: 48px;
+}
+.heading p {
+    font-size: 16px;
+    padding: 16px 0;
+    width: 100%;
+    line-height: 25px;
+}
+.headingneed img{
+	width:100%;
+	display:block;
+height:400px;
+}
+.headingneed {
+    float: none;
+    width: 100%;
+    display: block;
+}
+.headingtext {
+    float: none;
+    width: 100%;
+   	padding: 26px 0 24px 13px;
+}
+.headingtext p {
+    margin-top: 12px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+}
+.headingtext span {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.desigen h2 {
+	padding-top:150px;
+}
+#backgrwond {
+    min-height: 600px;
+}
+.desigen h2 {
+    text-align: center;
+}
+.button {
+    text-align: center;
+}
+.watchneed {
+    float: none;
+    width: 100%;
+    display: block;
+}
+.watchneed img{
+	width:100%;
+    height:400px;
+	float:none;
+}
+.watchtext {
+    float: none;
+    width: 100%;
+}
+.watchtext {
+    padding: 30px 0 20px 30px;
+}
+.watchtext p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 16px;
+}
+.watchtext span {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 16px;
+    line-height: 28px; 
+}
+.expri {
+    padding: 55px 0;
+}
+.started {
+    padding: 80px 0 40px;
+}
+#bang {
+    height: 440px;
+}
+#rush {
+    min-height: 440px;
+    padding-top: 69px;
+}
+#sit {
+    min-height: 446px;
+}
+.pho {
+    padding: 80px 80px;
+	text-align:center;
+}
+.id {
+    padding: 60px  60px ;
+	text-align:center;
+}
+.free {
+    padding: 60px  60px ;
+	text-align:center;
+}
+.photo img {
+     float: none; 
+     margin-right: 0px; 
+}
+.cd-main-nav input {
+    margin: 16px;
+}
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 640px) and (max-width: 766px) {
+.cd-main-nav input {
+    margin: 16px;
+}
+#titles {
+    padding: 50px 0;
+    width: 100%;
+
+    text-align: center;
+}
+.heading p {
+    padding: 20px 0;
+    width: 100%;
+   
+    text-align: inherit;
+}
+.space {
+    padding-top: 18px;
+}
+#bang {
+ 
+    min-height: 370px;
+}
+.started {
+    padding: 50px 0 20px 0;
+}
+.started p {
+   
+    font-size: 16px;
+   
+}
+.head-section hr {
+  top: 48px;
+}
+
+.heading p {
+    font-size: 16px;
+    padding: 16px 0;
+    width: 100%;
+    line-height: 25px;
+}
+.headingneed img{
+	width:100%;
+	display:block;
+ 	height:300px;
+}
+.headingneed {
+    float: none;
+    width: 100%;
+    display: block;
+}
+.headingtext {
+    float: none;
+    width: 100%;
+   	padding: 26px 0 24px 13px;
+	background:#fff;
+}
+.headingtext p {
+    margin-top: 12px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 28px;
+}
+.headingtext span {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.watchneed {
+    float: none;
+    width: 100%;
+    display: block;
+}
+.watchneed img{
+	width:100%;
+    height:300px;
+	float:none;
+}
+.watchtext {
+    float: none;
+    width: 100%;
+}
+.watchtext {
+    padding: 20px 0 20px 20px;
+	background:#fff;
+}
+.watchtext p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 16px;
+}
+.watchtext span {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 16px;
+    line-height: 28px; 
+}
+.expri {
+    padding: 55px 0;
+}
+.started {
+    padding: 80px 0 40px;
+}
+.exprience p {
+    font-size: 15px;
+	margin-top: 10px;
+}
+#rush {
+    min-height: 337px;
+    padding-top: 0px;
+}
+.pho {
+    padding: 60px 0 0 0;
+    text-align: center;
+}
+.photo img {
+    float: none;
+    margin-right: 0px;
+}
+.photo h2 {
+    font-size: 30px;
+    margin: 28px 0;
+}
+#sit {
+    min-height: 340px;
+}
+.id {
+    padding: 40px  40px ;
+	text-align:center;
+}
+.free {
+    padding: 40px  40px ;
+	text-align:center;
+}
+.desigen h2 {
+	.cd-logo img {
+    display: block;
+    max-width: 100%;
+    margin-left: 10px;
+    }padding-top:140px;
+    
+}
+#backgrwond {
+    min-height: 450px;
+}
+.desigen h2 {
+    font-size: 40px;
+	text-align:center;
+}
+.button {
+    text-align: center;
+    padding-top: 50px;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 639px) {
+.cd-logo img {
+    margin-left: 10px;
+}
+.head-section hr {
+  top: 48px;
+}
+.id {
+    padding: 40px  40px ;
+	text-align:center;
+}
+.free {
+    padding: 40px  40px ;
+	text-align:center;
+}
+.desigen h2 {
+	padding-top:100px;
+}
+#backgrwond {
+    min-height: 450px;
+}
+.desigen h2 {
+    font-size: 40px;
+	text-align:center;
+}
+.button {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.heading p {
+    font-size: 16px;
+    padding: 16px 0;
+    width: 100%;
+    line-height: 25px;
+}
+.headingneed img{
+	width:100%;
+	display:block;
+ 	height:300px;
+}
+.headingneed {
+    float: none;
+    width: 100%;
+    display: block;
+}
+.headingtext {
+    float: none;
+    width: 100%;
+   	padding: 26px 0 24px 13px;
+	background:#fff;
+}
+.headingtext p {
+    margin-top: 12px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 28px;
+}
+.headingtext span {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.watchneed {
+    float: none;
+    width: 100%;
+    display: block;
+}
+.watchneed img{
+	width:100%;
+    height:300px;
+	float:none;
+}
+.watchtext {
+    float: none;
+    width: 100%;
+}
+.watchtext {
+    padding: 20px 0 20px 20px;
+	background:#fff;
+}
+.watchtext p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 16px;
+}
+.watchtext span {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 16px;
+    line-height: 28px; 
+}
+.expri {
+    padding: 30px 0;
+}
+.started {
+    padding: 30px 0 20px;
+}
+.exprience p {
+    font-size: 14px;
+	margin-top: 10px;
+}
+#titles {
+    padding: 50px 0;
+    width: 100%;
+    text-align: center;
+}
+.heading p {
+    padding: 20px 0;
+    width: 100%;
+   
+    text-align: inherit;
+}
+.cd-main-nav input {
+    margin: 16px;
+}
+.started h2 {
+    font-size: 26px;  
+}
+.started-buton a {
+    width: 45%;
+	font-size:15px
+}
+#bang {
+    min-height: 325px;
+}
+.started p {
+    font-size: 16px;
+    margin-top: 14px;
+}
+.pho {
+    padding: 50px 0 0 0px;
+    text-align: center;
+}
+.photo h2 {
+    font-size: 28px;
+}
+.photo img {
+    float: none;
+    margin-right: 0px;
+}
+.exprience h2 {
+    font-size: 24px;
+}
+.button-one {
+    padding-top: 34px;
+}
+.button-one a {
+    font-size: 14px;
+}
+#rush {
+    min-height: 275px;
+    padding-top: 0px;
+}
+#sit {
+    min-height: 320px;
+}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    .cd-logo img {
+    margin-left: 10px;
+}
+.head-section hr {
+  top: 48px;
+}
+.id {
+    padding: 30px 30px;
+    text-align: center;
+}
+.id p {
+    margin: 15px 0;
+}
+.free {
+    padding: 30px  30px ;
+	text-align:center;
+}
+.desigen h2 {
+	padding-top:100px;
+}
+#backgrwond {
+    min-height: 330px;
+}
+.desigen h2 {
+    font-size: 25px;
+    text-align: center;
+	line-height:35px;
+}
+.button {
+    text-align: center;
+    padding-top: 34px;
+}
+.button a {
+    font-size: 13px;
+}
+
+.heading p {
+    font-size: 16px;
+    padding: 16px 0;
+    width: 100%;
+    line-height: 25px;
+}
+.headingneed img {
+    width: 100%;
+    display: block;
+    height: 250px;
+}
+.headingtext h2 {
+    font-size: 15px;
+}
+.headingneed {
+    float: none;
+    width: 100%;
+    display: block;
+}
+.headingtext {
+    float: none;
+    width: 100%;
+   	padding: 26px 0 24px 13px;
+	background:#fff;
+}
+.headingtext p {
+    margin-top: 12px;
+    width: 100%;
+    font-size: 13px;
+    line-height: 22px;
+}
+.headingtext span {
+    width: 100%;
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+.watchneed {
+    float: none;
+    width: 100%;
+    display: block;
+}
+.watchneed img {
+    width: 100%;
+    height: 250px;
+    float: none;
+}
+
+.watchtext h2 {
+    font-size: 15px;
+}
+.watchtext {
+    float: none;
+    width: 100%;
+}
+.watchtext {
+    padding: 20px 0 20px 20px;
+	background:#fff;
+}
+.watchtext p {
+    width: 100%;
+    font-size: 13px;
+    line-height: 22px;
+    margin-top: 15px;
+}
+.watchtext span {
+    width: 100%;
+    font-size: 13px;
+    margin-top: 16px;
+    line-height: 22px;
+}
+.expri {
+    padding: 30px 0;
+}
+.started {
+    padding: 30px 0 20px;
+}
+.exprience p {
+    font-size: 14px;
+	margin-top: 10px;
+}
+#titles {
+    padding: 36px 0;
+    width: 100%;
+    text-align: center;
+}
+.heading h3 {
+    font-size: 18px;
+}
+.heading p {
+    padding: 15px 0;
+    width: 100%;
+    font-size: 13px;
+}
+.space {
+    padding-top: 10px;
+}
+.cd-main-nav input {
+    margin: 16px;
+}
+.started h2 {
+    font-size: 18px;
+}
+.started-buton a {
+    width: 51%;
+    font-size: 12px;
+    padding: 11px 0;
+}
+#bang {
+    min-height: 325px;
+}
+.started p {
+    font-size: 16px;
+    margin-top: 14px;
+}
+.pho {
+    padding: 50px 0 0 0px;
+    text-align: center;
+}
+.photo h2 {
+    font-size: 20px;
+}
+.photo img {
+    float: none;
+    margin-right: 0px;
+}
+.exprience h2 {
+    font-size: 20px;
+}
+.button-one {
+    padding-top: 34px;
+}
+.button-one a {
+    font-size: 13px;
+}
+#rush {
+    min-height: 275px;
+    padding-top: 0px;
+}
+#sit {
+    min-height: 320px;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+	.cd-main-nav{
+		background: #c6556b !important;
+	}
+	}
+

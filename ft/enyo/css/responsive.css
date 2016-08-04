@@ -1,0 +1,290 @@
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+.banner {
+	min-height: 800px;
+}
+.topbannerdata {
+	padding-top: 170px;
+}
+.downloadit img {
+	right: 0;
+	max-width: 550px;
+}
+.downloadit {
+	margin-top: -50px;
+}
+.features img {
+	display: block;
+	width: 100%;
+}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+.banner {
+	min-height: 800px;
+}
+.topbannerdata h1 {
+	font-size: 60px;
+}
+.topbannerdata {
+	padding-top: 170px;
+}
+.downloadit h5 {
+	padding-right: 304px;
+}
+.services span {
+	width: 55px;
+}
+.services {
+	padding: 140px 0;
+}
+.services h3 {
+	color: #25365d;
+	font-size: 20px;
+}
+.white {
+	min-height: 360px;
+}
+.downloadit img {
+	right: 0;
+	max-width: 550px;
+}
+.downloadnow h2 {
+	font-size: 50px;
+}
+.downloadit {
+	margin-top: -50px;
+}
+.features img {
+	display: block;
+	width: 100%;
+}
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.topbannerdata h1 {
+	font-size: 50px;
+}
+.banner {
+	min-height: 700px;
+}
+.topbannerdata {
+	padding-top: 170px;
+}
+.downloadit img {
+	right: 0;
+	max-width: 550px;
+}
+.downloadit h5 {
+	padding-right: 325px;
+}
+.downloadit h2 {
+	margin-bottom: 25px;
+	font-size: 50px;
+}
+.downloadit {
+	margin-top: -50px;
+	padding-bottom: 50px;
+}
+.services {
+	padding-top: 50px;
+}
+.services span {
+	min-height: 180px;
+}
+.features {
+	padding: 50px 0;
+}
+.features h2 {
+	margin-bottom: 35px;
+}
+.features img {
+	width: 100%;
+	display: block;
+}
+h2 {
+	font-size: 50px;
+	line-height: 50px;
+}
+.plan {
+	padding: 50px 0;
+}
+.plan p {
+	padding: 0 10px;
+}
+.white {
+	min-height: 360px;
+}
+footer {
+	min-height: 402px;
+}
+.downloadnow {
+	margin-top: 50px;
+}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+.search {
+	display: none;
+}
+nav {
+	width: 70%;
+}
+nav ul li a {
+	font-size: 16px;
+}
+nav ul li {
+	padding-right: 5px;
+}
+.topbannerdata h1 {
+	font-size: 30px;
+	line-height: 31px;
+}
+.banner {
+	min-height: 700px;
+}
+.topbannerdata {
+	padding-top: 120px;
+}
+.topbannerdata p {
+	font-size: 18px;
+	line-height: 26px;
+	padding: 15px 0 25px;
+}
+.downloadit img {
+    position: relative;
+    width: 100%;
+	right: 0;
+}
+.downloadit h5 {
+    padding-right: 0;
+}
+.downloadit {
+    margin-top: 0;
+    padding-bottom: 30px;
+}
+.downloadit h2 {
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 30px;
+    line-height: 31px;
+}
+.downloadit a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.services span {
+    min-height: 95px;
+}
+.services {
+    padding-top: 30px;
+}
+.services p{margin-bottom:15px;}
+.services h3 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.features {
+    padding: 30px 0;
+}
+.features img{
+    display:block;
+	width:100%;
+}
+.features h2 {
+    margin-bottom: 25px;
+}
+.plan {
+    padding: 30px 0;
+}
+.white {
+    margin: 30px auto;
+    max-width: 350px;
+}
+.plan a {
+    margin: 31px 10px 0;
+    font-size: 18px;
+}
+.downloadnow {
+    margin-top: 30px;
+}
+.downloadnow h2 {
+    margin-bottom: 15px;
+}
+.downloadnow p {
+    margin-bottom: 25px;
+}
+footer {
+    min-height: 400px;
+}
+
+.cssload-loader:before,
+.cssload-loader:after {
+	top: 150%;
+}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	.logo {
+    width: 100%;
+    float: none;
+	margin-bottom: 10px;
+}
+header {
+    padding: 20px 0;
+}
+header.sticky {
+    padding: 10px 0;
+}
+.logo img{margin:0 auto;}
+nav ul li a {
+    font-size: 15px;
+}
+nav{width:100%; float:none; text-align:center;}
+.services p {
+    line-height: 24px;
+}
+.services span {
+    min-height: 120px;
+}
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+}
+.plan h2 {
+    padding-bottom: 15px;
+}
+.plan p{padding:0 10px;}
+.white h2 {
+    padding: 12px 0;
+}
+footer {
+    min-height: 300px;
+}
+footer p {
+    font-size: 16px;
+}
+.downloadit p span {
+    margin-right: 5px;
+}
+.topbannerdata h1 {
+    font-size: 22px;
+    line-height: 28px;
+	letter-spacing:2px;
+}
+}

@@ -1,0 +1,16 @@
+
+/* Content - Portfolio Listing */
+
+ul#portfolio-filter{text-align:center; margin:15px 0;}
+ul#portfolio-filter li{ display: inline; }
+ul#portfolio-filter a{ margin-right: 15px; padding:10px; background: #1bbc9b; color: #ffffff; text-decoration: none; text-transform:uppercase; letter-spacing:1px}
+ul#portfolio-filter a:hover{ color: #ffffff; background:#1bbc9b;}
+ul#portfolio-filter a.current{ background-color: #0a493d; }
+
+ul#portfolio-list{ margin: 36px 0 0 0; padding: 0; list-style: none; }
+ul#portfolio-list li{ width: 25%; height: 220px; display: block; float: left; overflow: hidden; }
+ul#portfolio-list li a{ display: block; width: 180px; height: 180px; overflow: hidden;}
+ul#portfolio-list li p{ font-size: 11px; line-height: 15px; color: #AAA; margin: 5px 0; }
+#portfolio-list img{
+	width:100%;
+}

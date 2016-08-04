@@ -1,0 +1,264 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.slidecon {
+    top: 33%;
+	}
+	.banner .bx-wrapper .bx-prev {
+    left: 50px;
+	}
+	.banner .bx-wrapper .bx-next {
+    right: 50px;
+	}
+	.imgDescription2 {
+    padding-top: 50px;
+	}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 991px) {
+	nav ul li {
+    padding: 10px 10px;
+}
+.slidecon {
+    top: 33%;
+	}
+	.banner .bx-wrapper .bx-prev {
+    left: 50px;
+	}
+	.banner .bx-wrapper .bx-next {
+    right: 50px;
+	}
+	.imgDescription2 {
+    padding-top: 50px;
+	}
+	.services {
+    text-align: center;
+    padding: 55px 0;
+}
+.sunscribe {
+    margin-bottom: 50px;
+}
+.team {
+    padding: 50px 0;
+    text-align: center;
+}
+.team h4 {
+    padding: 0px 50px 50px;
+}
+.testimonilas .bx-wrapper .bx-controls-direction a {
+    top: 95%;
+}
+.testimonilas .bx-wrapper .bx-next {
+    right: 39%;
+}
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		nav ul li {
+    padding: 10px 10px;
+}
+.slidecon {
+    top: 33%;
+	}
+	.banner .bx-wrapper .bx-prev {
+    left: 50px;
+	}
+	.banner .bx-wrapper .bx-next {
+    right: 50px;
+	}
+	.imgDescription2 {
+    padding-top: 30px;
+	}
+	.services {
+    text-align: center;
+    padding: 55px 0;
+}
+.sunscribe {
+    margin-bottom: 50px;
+}
+.team {
+    padding: 50px 0;
+    text-align: center;
+}
+.team h4 {
+    padding: 0px 50px 50px;
+}
+.testimonilas .bx-wrapper .bx-controls-direction a {
+    top: 95%;
+}
+.testimonilas .bx-wrapper .bx-next {
+    right: 39%;
+}
+.testi1 img {
+    padding-top: 80px;
+}
+.testimonilas {
+    min-height: 500px;
+}
+.hoverclss a {
+    max-width: 200px;
+}
+.hoverclss h3 {
+    font-size: 25px;
+}
+.contact {
+    max-width: 700px;
+    padding: 40px 90px 20px;
+}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.search {
+    display:none;
+}
+header {
+    padding: 20px 0;
+}
+header.sticky {
+    padding: 10px 0;
+}
+nav ul li {
+    padding: 5px 0px;
+	text-align:center;
+}
+.banner {
+    padding-top: 94px;
+}
+.slidecon h2 {
+    font-size: 24px;
+    letter-spacing: 5px;
+    padding: 15px 0;
+}
+.slidecon {
+    top: 28%;
+}
+.banner .bx-wrapper .bx-prev {
+    left: 10px;
+}
+.banner .bx-wrapper .bx-next {
+    right: 10px;
+}
+.bx-wrapper .bx-controls-direction a {
+    top: 37%;
+}
+.services {
+    padding: 30px 0;
+}
+.services p {
+    padding-bottom: 20px;
+}
+.sunscribe {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sunscribe a {
+    margin-top: 30px;
+}
+.img1 {
+    width: 100%;
+}
+.team {
+    padding: 30px 0;
+}
+.team h4 {
+    font-size: 20px;
+    padding: 0px 10px 50px;
+}
+.team1 {
+    margin-bottom: 50px;
+}
+.testi1 img {
+    padding-top: 50px;
+}
+.testi1 p {
+    padding-bottom: 40px;
+}
+.testimonilas {
+    min-height: 500px;
+}
+.testimonilas .bx-wrapper .bx-next {
+    right: 34%;
+}
+.testimonilas .bx-wrapper .bx-prev {
+    left: 34%;
+}
+.contact {
+    max-width: 400px;
+    padding: 25px 20px 20px;
+}
+	.oneslide , .oneslide img{min-height:350px;}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.logo h1 a img {
+   width: 180px;
+    height: auto;
+}
+	.logo {
+    padding-top: 15px;
+}
+header {
+    padding: 10px 0;
+}
+header.sticky {
+    padding: 5px 0;
+}
+.banner {
+    padding-top: 74px;
+}
+.bx-wrapper .bx-controls-direction a {
+    top: 64%;
+}
+.imgDescription2 {
+    padding-top: 110px;
+}
+.team h3 {
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+.team h4 {
+    font-size: 18px;
+    padding: 0px 0px 50px;
+}		
+.testi1 h3 {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 21px 0;
+}
+.testimonilas .bx-wrapper .bx-next {
+    right: 28%;
+}
+.testimonilas .bx-wrapper .bx-prev {
+    left: 28%;
+}
+.contact {
+    max-width: 280px;
+    padding: 25px 10px 20px;
+}
+.contact h3 {
+    font-size: 30px;
+}
+.contact address {
+    padding: 15px 0;
+    font-size: 16px;
+}
+.contact input {
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+		}
+

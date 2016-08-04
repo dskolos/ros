@@ -1,0 +1,174 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .aboutsection img{
+        width: 100%;
+        display: block;
+    }
+    .feturesection img {
+    width: 100%;
+}
+	}
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+	nav ul li {
+    padding: 30px 11px 00px;
+}
+    .homebanner{
+        min-height: 450px;
+    }
+    .homebanner h2 {
+    padding-top: 160px;
+    }
+    .aboutsection img{
+        width: 100%;
+        display: block;
+    }
+    .feturesection img {
+    width: 100%;
+}
+    .tab-links a {
+    width: 150px;
+    }
+    .tab-content p {
+    padding-bottom: 10px;
+    }
+    .left h3,.right h3{padding: 0;}
+    .left,.right{padding-bottom: 10px;}
+    .col1 p {
+    font-size: 13px;
+    }
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+        .aboutsection img{
+        width: 100%;
+        display: block;
+    }
+  
+       
+}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		 .homebanner{
+        min-height: 400px;
+    }.homebanner h2 {
+    padding-top: 135px;
+        }
+         nav ul li {
+    padding: 30px 11px 00px;
+}
+        .abouthed {
+    padding: 40px 0;
+        }
+        .tab-links a {
+    width: 155px;
+        }
+        .tab-content p {
+    padding-bottom: 10px;
+    }
+    .left h3,.right h3{padding: 0;}
+    .left,.right{padding-bottom: 10px;}
+    .col1 p {
+    font-size: 13px;
+    }
+        
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.logos {
+    width: 100%;
+    float: left;
+        padding: 15px 0;
+}
+        .nav-toggle {
+    position: absolute;
+    right: 0;
+}
+.homebanner{
+        min-height: 350px;
+    }.homebanner h2 {
+    padding-top: 100px;
+        font-size: 26px;
+        }
+        .abouthed {
+    padding: 15px 0;
+        }
+        .tabs {
+    padding-top: 15px;
+}
+        .tab-content p {
+    padding-bottom: 10px;
+        }
+        .feturesection {
+    padding: 15px 0;
+        }
+        .tab-links li {
+    float: none;
+    display: inline-block;
+}
+        .tab-links{
+            width: 100%;
+            margin: 0 auto;
+            display: inline-block;
+            text-align: center;
+        }
+        .left, .right {
+    text-align: center;
+    padding-bottom: 0px;
+}
+        .left h3,.right h3{padding: 5px 0;}
+        .feturethed {
+    padding-bottom: 10px;
+}
+        .testimonials {
+    padding: 15px 0 40px;
+}
+        .testmain {
+    padding-top: 10px;
+        }
+        .col1{margin-bottom: 15px;}
+        .price {
+    padding-bottom: 15px;
+}
+        .contacthed {
+    padding-bottom: 15px;
+        }
+        .contactus {
+    padding: 15px 0 15px;
+}
+        .contactus h3{padding-bottom: 5px;}
+        .contactus form a{margin-bottom: 15px;}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.homebanner {
+    min-height: 300px;
+}
+        .homebanner h2 {
+    padding-top: 48px;
+    font-size: 22px;
+}
+        .tab-links a {
+    width: 120px;
+        }
+        .feturesection img {
+    width: 100%;
+}
+.contactus input {
+    width: 100%;
+    margin-right: 0;
+        }
+		
+		}
+

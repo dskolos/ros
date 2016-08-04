@@ -1,0 +1,254 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+	#homebanner {
+    min-height: 600px;
+	}
+	.homecontent {
+    margin-top: 200px;
+	}
+	.down {
+    margin-top: 100px;
+}
+.homecontent h2 {line-height:60px;}
+#history {
+    padding: 70px 0;
+}
+.tm_desg {
+     padding-top: 0px;
+	 
+}
+.detailteam {
+    padding: 5px 0; 
+	font-size:13px;
+	line-height:17px;
+}
+.abteam_info figure figcaption {
+    padding: 10px;
+    top: 15%;
+}
+#work {
+    padding: 70px 0;
+}
+#client {
+    padding: 70px 0;
+}
+.about p {
+    padding: 0;
+}
+.about h3 {
+    padding-bottom: 28px;
+}
+.about {
+    padding: 30px 20px 70px;
+}
+.contactinside {
+    padding: 30px 20px 10px;
+}
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		#homebanner {
+    min-height: 550px;
+	}
+	.homecontent {
+    margin-top: 170px;
+	}
+	.down {
+    margin-top: 10px;
+}
+.homecontent h2 {line-height:60px;}
+#history {
+    padding:50px 0;
+}
+.team1 {
+    width: 33.33%;
+    float: left;
+}
+
+
+.abteam_info figure figcaption {
+    padding: 10px;
+    top: 15%;
+}
+#work {
+    padding: 50px 0;
+}
+#client {
+    padding: 50px 0;
+}
+.about p {
+    padding: 0;
+}
+.about h3 {
+    padding-bottom: 28px;
+}
+.about {
+    padding: 30px 20px 70px;
+}
+.contactinside {
+    padding: 30px 20px 10px;
+}
+.topclient p {
+    padding: 30px 90px 20px;
+}
+
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		#homebanner {
+    min-height: 450px;
+	}
+	.homecontent {
+    margin-top: 180px;
+	}
+	.down {
+    margin-top: 50px;
+}
+.homecontent h2 {line-height: 30px;
+    font-size: 24px; padding:10px 0;}
+	.button {
+    min-width: 140px;
+	}
+	#history {
+    padding:40px 0;
+}
+.team1 {
+    width: 33.33%;
+    float: left;
+}
+.abteam_info figure figcaption {
+    padding: 10px;
+    top: 15%;
+}
+#work {
+    padding: 40px 0;
+}
+#client {
+    padding: 40px 0;
+}
+#history h3 {
+    padding-bottom: 20px;
+}
+.tm_desg {
+     padding-top: 0px;
+	 
+}
+.detailteam {
+    padding: 5px 0; 
+	font-size:13px;
+	line-height:17px;
+}
+.abteam_info figure figcaption {
+    padding: 10px;
+    top: 15%;
+}
+.one {
+    background: #fff;
+    padding: 20px 35px 15px;
+	margin-bottom: 20px;
+}
+.topclient p {
+    padding: 20px;
+}
+.topclient {
+    padding-bottom: 30px;
+}
+#client img{margin:10px 0;}
+.about {
+    padding: 30px 20px 20px;
+	margin-bottom: 20px;
+}
+.contactinside {
+    padding: 30px 20px 10px;
+}
+.about h3 {
+    color: #fff;
+    padding-bottom: 0px;
+}
+.about p {
+    padding: 0px 0 10px;
+}
+footer {
+    padding: 30px 0;
+    text-align: center;
+}
+.social {
+    text-align: center;
+}
+.social a i {
+    margin: 20px 20px 0 0;
+}
+nav ul li {
+    padding: 10px 0;
+}
+.one {
+    padding: 20px 5px 15px;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+			#homebanner {
+    min-height: 400px;
+	}
+	.homecontent {
+    margin-top: 150px;
+	}
+	.down {
+    margin-top: 30px;
+}
+.homecontent p {
+    font-size: 11px;
+}
+.homecontent h2 {line-height: 30px;
+    font-size: 24px; padding:10px 0;}
+	.button {
+    min-width: 100px;
+	margin:5px;
+	}
+		
+		.button--winona::after, .button--winona > span {
+    padding: 10px;
+		}
+		.button--winona1::after, .button--winona1 > span {
+    padding: 10px;
+		}
+		#history {
+    padding: 30px 0;
+}
+
+#history p {
+    padding-top: 10px;
+}
+.team1 {
+    width: 50%;
+}
+#client {
+    padding: 30px 0;
+}
+.topclient h3 {
+    padding-bottom: 10px;
+}
+.topclient p {
+    padding: 5px;
+}
+.about {
+    padding: 20px 5px 20px;
+}
+.contactinside {
+    padding: 20px 15px 10px;
+}
+	}

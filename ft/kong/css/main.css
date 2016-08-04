@@ -1,0 +1,342 @@
+
+.gallery-row {
+	padding: 15px 0
+}
+.sidebar {
+	position: fixed;
+	overflow: hidden;
+	height: 100%;
+	top: 0;
+	left: 0;
+	width: 300px;
+	background: #000;
+	display: block;
+	padding: 30px;
+	z-index: -1
+}
+.admin-bar .sidebar {
+	top: 32px
+}
+.sidebar .widget {
+	border-bottom: 1px solid #111;
+	padding: 0 0 20px
+}
+.sidebar .widget_nav_menu ul {
+	margin: 20px 0 0;
+	list-style: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px
+}
+.sidebar .widget-title {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 12px;
+	color: #fff
+}
+.sidebar ul, .sidebar ol {
+	margin: 0 0 0 20px;
+	padding: 0
+}
+.sidebar a:hover, .sidebar a:active, .sidebar a:focus {
+	color: #fff
+}
+.toggle-sidebar i {
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	font-size: 24px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center
+}
+.sidebar-open {
+	right: -300px;
+	overflow: hidden;
+	-webkit-transition: all .5s;
+	transition: all .5s
+}
+.sidebar-open .toggle-sidebar {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: #000;
+	z-index: 9998;
+	opacity: .5;
+	filter: alpha(opacity=50)
+}
+.sidebar-open .toggle-sidebar i {
+	color: #fff
+}
+.sidebar-open .sidebar {
+	overflow: auto
+}
+#isotope-filter {
+	padding:40px 0 55px;
+	text-align: center
+}
+#isotope-filter li{
+	display:inline-block;
+	margin-left:10px;
+}
+#isotope-filter a{
+	color:#fff;
+	display:inline-block;
+	border:2px solid #fff;
+	text-decoration:none;
+	font-size:18px;
+	padding:7px 16px;
+	border-radius:5px;
+}
+#isotope-filter .active {
+	background:#fff;
+	color: #333
+}
+.isotope .isotope-item.col-lg-3, .isotope .isotope-item.col-md-3, .isotope .isotope-item.col-sm-3, .isotope .isotope-item.col-xs-3 {
+	margin-left: -1px
+}
+.isotope .isotope-item .entry-inner {
+    margin-top: 30px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.1) inset;
+    background: #fff;
+    position: relative;
+    min-height: 300px;
+    overflow: hidden;
+  background-color: rgba(61,201,179, 0.75);
+}
+.entry-title h2{
+	color:#fff;
+	font-size:22px;
+	letter-spacing:0.5px;
+}
+.entry-title p {
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 0 0 30px;
+}
+.entry-title a{
+	text-decoration:none;
+	border:2px solid #FFFFFF;
+	border-radius:5px;
+	display:inline-block;
+	color:#fff;
+	padding:10px 40px;
+	font-size:18px;
+	  letter-spacing: 1px;
+	font-weight:bold;
+}
+.entry-title a:hover{
+	background:#FFFFFF;
+	color:#7fc5af;
+	transition:0.5s;
+ 	border:2px solid #7fc5af;
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+.isotope .isotope-item .entry-inner {
+	min-height: 213px
+}
+}
+
+@media(min-width:768px) and (max-width:991px) {
+.isotope .isotope-item .entry-inner {
+	min-height: 220px
+}
+}
+.isotope .isotope-item .entry-header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	z-index: 1
+}
+.isotope .isotope-item .entry-header .entry-title {
+    margin: 0;
+    height: 100%;
+    padding: 70px 0 0 0;
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+.isotope .isotope-item .entry-header .entry-title a {
+	line-height: 213px
+}
+}
+
+@media(min-width:768px) and (max-width:991px) {
+.isotope .isotope-item .entry-header .entry-title a {
+	line-height: 220px
+}
+}
+.isotope .isotope-item .entry-thumbnail {
+	position: absolute;
+	z-index: 2
+}
+.isotope .isotope-item .entry-thumbnail img {
+    /* max-width: 296px; */
+    /* height: auto; */
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    height: 300px;
+    width: 350px;
+}
+@media(min-width:992px) and (max-width:1199px) {
+.isotope .isotope-item .entry-thumbnail img {
+	max-width: 213px
+}
+}
+
+@media(min-width:768px) and (max-width:991px) {
+.isotope .isotope-item .entry-thumbnail img {
+	max-width: 220px
+}
+}
+
+@media(max-width:767px) {
+.isotope .isotope-item .entry-thumbnail img {
+	max-width: 100%;
+	width: 100%
+}
+}
+.isotope .isotope-item:hover .entry-thumbnail {
+	z-index: 0
+}
+
+@media(min-width:768px) {
+.isotope .isotope-item:hover .entry-thumbnail img {
+	max-width: 120%;
+	margin: -10%;
+	opacity: .2;
+	filter: alpha(opacity=20);
+	-webkit-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+	-webkit-transition: all .5s;
+	transition: all .5s
+}
+}
+
+@media(min-width:768px) and (max-width:991px) {
+.isotope .isotope-item:hover .entry-thumbnail img {
+	max-width: 150%;
+	margin: -25%
+}
+}
+.isotope-item {
+	z-index: 2
+}
+.isotope-hidden.isotope-item {
+	pointer-events: none;
+	z-index: 1
+}
+.isotope, .isotope .isotope-item {
+	-webkit-transition-duration: .8s;
+	-moz-transition-duration: .8s;
+	-ms-transition-duration: .8s;
+	-o-transition-duration: .8s;
+	transition-duration: .8s
+}
+.isotope {
+	-webkit-transition-property: height, width;
+	-moz-transition-property: height, width;
+	-ms-transition-property: height, width;
+	-o-transition-property: height, width;
+	transition-property: height, width
+}
+.isotope .isotope-item {
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property: -moz-transform, opacity;
+	-ms-transition-property: -ms-transform, opacity;
+	-o-transition-property: -o-transform, opacity;
+	transition-property: transform, opacity
+}
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+	-webkit-transition-duration: 0s;
+	-moz-transition-duration: 0s;
+	-ms-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	transition-duration: 0s
+}
+.single .hentry header {
+	margin-bottom: 60px
+}
+.single .hentry .entry-title {
+	margin: 0 0 30px;
+	font-size: 50px;
+	text-align: center
+}
+.single .hentry .entry-thumbnail {
+	margin-bottom: 60px
+}
+.single .hentry .entry-thumbnail img {
+	max-width: 100%;
+	height: auto
+}
+.single .hentry .entry-meta {
+	text-align: center
+}
+.single .hentry .entry-content .wp-caption {
+	max-width: 100%
+}
+.single .hentry .entry-content .wp-caption img {
+	display: block
+}
+.single .hentry .entry-content img {
+	max-width: 100%;
+	height: auto
+}
+#comments {
+	border-top: 1px solid #eee;
+	margin: 50px 0 0;
+	padding: 60px 0 0
+}
+#comments>h3 {
+	margin: 0 0 60px
+}
+#comments .avatar {
+	margin-right: 30px
+}
+#comments>.alert {
+	margin-bottom: 0
+}
+#respond {
+	border-top: 1px solid #eee;
+	margin: 50px 0 0;
+	padding: 60px 0 0
+}
+#respond>h3 {
+	margin: 0 0 15px
+}
+.content-info {
+	background: #eee;
+	padding: 60px 0 120px;
+	font-size: 12px
+}
+.content-info .widget-title {
+	font-size: 12px;
+	margin: 0;
+	font-weight: normal;
+	line-height: 1.625
+}
+.aligncenter {
+	display: block;
+	margin: 0 auto
+}
+.alignleft {
+	float: left
+}
+.alignright {
+	float: right
+}
+figure.alignnone {
+	margin-left: 0;
+	margin-right: 0
+}

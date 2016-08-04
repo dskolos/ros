@@ -1,0 +1,1264 @@
+/*................................reset...........................................*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*................................clearfix...........................................*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/*.........GLOBLE......*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000000;
+}
+/*ASIDE SECTION ID TOP*/
+#top {
+	background: #eceef4;
+}
+.buttons {
+	padding: 10px 0 0 20px;
+}
+.buttons ul {
+	text-decoration: none;
+}
+.buttons li {
+	display: inline-block;
+	padding: 5px 0px;
+	background: #ffffff;
+	cursor: pointer;
+	border-radius: 3px;
+	margin-right: 5px;
+	width: 99px;
+	height: 35px;
+}
+.buttons li:hover {
+	background: #000;
+}
+.buttons li:hover, .buttons li:hover a {
+	color: #ffffff;
+}
+.buttons li a {
+	font-size: 12px;
+	line-height: 25px;
+	color: #6d6e71;
+	font-weight: 700;
+	text-decoration: none;
+}
+.buttons ul li a i {
+	margin-left: 10px;
+	margin-right: 15px;
+	font-size: 18px;
+}
+.social ul {
+	float: right;
+}
+.social ul li {
+	float: left;
+	padding: 11px 15px;
+	border-left: 1px solid #dee0e6;
+	border-right: 1px solid #dee0e6;
+}
+.social ul li a i {
+	font-size: 30px;
+}
+.social ul li a.facebook i {
+	color: #2b75b2;
+}
+.social ul li a.twitter i {
+	color: #1faae2;
+}
+.social ul li a.google i {
+	color: #dd4070;
+}
+header {
+	margin: 50px 0;
+}
+.logo h1 a {
+	background: url(../images/logo.png) no-repeat 0 0;
+	width: 403px;
+	height: 93px;
+	display: block;
+}
+.logo h1 {
+	text-indent: -9999px;
+}
+/* Button with Tool tip by Rubayath Rahman
+http://www.techandall.com  */
+
+#facebook li, #twitter li, #google li {
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
+	-ms-transition: all 300ms;
+	transition: all 300ms;
+}
+/* ------------------------------------- Facebook ------------------------------------- */  
+
+#facebook span {
+	display: block;
+	padding: 0px 10px 0 15px;
+	text-align: center;
+	margin: 45px 10px 0 0;
+	text-transform: uppercase;
+	float: right;
+}
+#facebook span:hover {
+	background: #fff !important;
+	color: #5d6365; /*Button hover colors  - Techandall.com*/
+	cursor: pointer;
+}
+/*------------------------------------- Twitter ------------------------------------- */  
+
+#twitter span {
+	display: block;
+	padding: 0px 10px 0 15px;
+	text-align: center;
+	margin: 45px 10px 0 0;
+	text-transform: uppercase;
+	float: right;
+}
+#left_line {
+	border-left: 1px solid #bcbec3;
+	border-right: 1px solid #bcbec3;
+	padding: 0 20px;
+}
+#twitter span:hover {
+	background: #fff !important;
+	color: #5d6365; /*Button hover colors  - Techandall.com*/
+	cursor: pointer;
+}
+/* ------------------------------------- Google Plus ------------------------------------- */  
+
+#google span {
+	display: block;
+	padding: 0px 10px 0 15px;
+	text-align: center;
+	margin: 45px 10px 0 0;
+	text-transform: uppercase;
+	float: right;
+}
+#google span:hover {
+	background: #fff !important;
+	color: #5d6365; /*Button hover colors  - Techandall.com*/
+	cursor: pointer;
+}
+/*PART TWO FOR MAP SECTION*/
+.map-info #facebook span {
+	display:block;
+	padding:0;
+	text-align: center;
+	margin:0;
+	background: #fff;
+	color: #000; 
+	height:50px;
+	width:50px;
+	border: 1px solid #dbdbdb;
+	border-radius:10px;
+	padding-top:10px;
+	
+}
+.map-info #facebook span:hover {
+	background: #1fa9e0 !important;
+	color: #fff; /*Button hover colors  - Techandall.com*/
+	cursor: pointer;
+}
+.map-info #twitter span {
+	display:block;
+	padding:0;
+	text-align: center;
+	margin:0;
+	background: #fff;
+	color: #000; 
+	height:50px;
+	width:50px;
+	border: 1px solid #dbdbdb;
+	border-radius:10px;
+	padding-top:8px;
+}
+.map-info #twitter span:hover {
+	background: #1fa9e0 !important;
+	color: #fff; /*Button hover colors  - Techandall.com*/
+	cursor: pointer;
+}
+.map-info #google span {
+	display:block;	
+	padding:0;
+	text-align: center;
+	margin:0;	
+	background: #fff;
+	color: #000; 
+	height:50px;
+	width:50px;
+	border: 1px solid #dbdbdb;
+	border-radius:10px;
+	padding-top:7px;
+}
+.map-info #google span:hover {
+	background: #1fa9e0 !important;
+	color: #fff; /*Button hover colors  - Techandall.com*/
+	cursor: pointer;
+}
+.map1{
+	float:left;
+	margin-right:5px;	
+}
+
+
+
+
+/*SECTION with NAV*/
+#nav > a {
+	display: none;
+}
+#sec1 {
+	border-top: 1px solid #eceef4;
+}
+#sec1 nav ul {
+	text-decoration: none;
+	list-style-type: none;
+}
+#sec1 nav ul li {
+	cursor: pointer;
+	display: inline-block;
+	border-right: 1px solid #eceef4;
+}
+#sec1 nav ul li:last-child {
+	border: 0;
+}
+#sec1 nav ul li a {
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 23px;
+	color: #6d6e71;
+	font-weight: 700;
+	padding: 25px 15px;
+	display: block;
+}
+#sec1 li a:hover {
+	color: #1faae2;
+	background: url(../images/active.png) no-repeat bottom;
+}
+.serch {
+	float: right;
+	padding: 20px 0;
+}
+.serch a i {
+	color: #6d6e71;
+	margin: -2px 10px 0 0;
+	float: left;
+}
+.inputbox input[type="text"] {
+	border: 0;
+	color: #000;
+}
+.inputbox {
+	float: right;
+}
+/*SECTION 2 SLIDER WITH IMAGE*/
+.had-image {
+	background: url(../images/hed-image.jpg) no-repeat center center;
+	min-height: 892px;
+	background-size: cover;
+	display: block;
+}
+#sec2{position:relative;}
+.main-slider{
+	position:absolute;	
+	left:40%;
+	top:41%;
+}
+
+
+
+
+#left {
+	padding: 0;
+	width: 25%;
+}
+#right {
+	width: 75%;
+	padding: 20px 31px 0 0;
+}
+.left-one {
+	width: 30%;
+	float: left;
+	padding-left: 65px;
+}
+.left-two {
+	padding-top: 20px;
+	width: 70%;
+	float: right;
+	padding-left: 30px;
+}
+.left-two h2 {
+	font-size: 26px;
+	font-weight: 700;
+	color: #6d6e71;
+	line-height: 24px;
+	padding-bottom: 15px;
+}
+.left-two p {
+	font-size: 16px;
+	font-weight: 300;
+	color: #6d6e71;
+	line-height: 24px;
+	text-align: justify;
+}
+#one {
+	padding: 20px 0 80px;
+	border-bottom: 2px solid #eaeced;
+}
+/*section3 SECTION*/
+#sec3 {
+	padding: 70px 0;
+}
+.top-sec3 {
+	margin: 0 auto 50px;
+	width: 50%;
+}
+.top-sec3 img {
+	float: left;
+}
+.t-two {
+	float: right;
+	padding: 20px 0 0 20px;
+}
+.t-two h2 {
+	font-size: 44px;
+	font-weight: 700;
+	color: #6d6e71;
+	line-height: 24px;
+}
+.t-two p {
+	font-size: 17px;
+	font-weight: 300;
+	color: #6d6e71;
+	line-height: 24px;
+	padding: 20px 0;
+}
+#line {
+	border-right: 1px solid #eaeced;
+}
+#soft {
+	margin-bottom: 40px;
+}
+.sub-left1 {
+	width: 20%;
+	float: left;
+}
+.sub-left2 {
+	width: 80%;
+	float: right;
+	padding: 0 20px;
+}
+.main-left {
+	padding: 20px 0 150px 0;
+	padding-left: 20px;
+}
+.sub-left2 h3 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #6d6e71;
+	line-height: 24px;
+	padding-bottom: 15px;
+}
+.sub-left2 p {
+	font-size: 16px;
+	font-weight: 300;
+	color: #6d6e71;
+	line-height: 24px;
+}
+.sub-right1 {
+	width: 25%;
+	float: left;
+	padding-left: 50px;
+}
+#soft .sub-right1 {
+	padding-left: 40px;
+}
+.sub-right2 {
+	width: 75%;
+	float: right;
+	padding: 0 0 0 20px;
+}
+.main-right {
+	padding: 20px 0 150px 0;
+	padding-left: 20px;
+}
+.sub-right2 h3 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #6d6e71;
+	line-height: 24px;
+	padding-bottom: 15px;
+}
+.sub-right2 p {
+	font-size: 16px;
+	font-weight: 300;
+	color: #6d6e71;
+	line-height: 24px;
+}
+/*FilTER SECTION*/
+#sec4 {
+	background: #efefef;
+	padding: 100px 0 100px;
+	position:relative;
+}
+.aside-arrow{
+	position: fixed;
+	right:10px;
+	bottom:10px;	
+}
+.top-sec4 img {
+	float: left;
+}
+.t-two4 {
+	float: right;
+	padding: 50px 0 0 0px;
+	width: 70%;
+}
+.t-two4 h2 {
+	font-size: 44px;
+	font-weight: 700;
+	color: #6d6e71;
+	line-height: 24px;
+}
+.t-two4 p {
+	font-size: 17px;
+	font-weight: 300;
+	color: #6d6e71;
+	line-height: 24px;
+	padding: 20px 0;
+}
+/*-------------------------------------------------------*/
+		/* Portfolio Section */
+/*-------------------------------------------------------*/
+#portfolio {
+	overflow: hidden;
+}
+#portfolio .extra-text {
+	font-size: 20px;
+	padding: 24px 0;
+	border-bottom: 1px solid #ededed;
+	color: #999;
+	margin-bottom: 20px;
+}
+/* Filter menu */
+#portfolio-filter {
+	overflow: hidden;
+	padding: 15px 0;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+}
+#portfolio-filter li {
+	display: inline-block;
+	margin: 0 auto 10px;
+	margin-right: 10px;
+}
+#portfolio-filter li a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #bbbbbb;
+	border: 1px solid #cecece;
+	background: #efefef;
+	border-radius: 5px;
+	padding: 10px 25px;
+	font-weight: 700;
+}
+#portfolio-filter li:hover {
+	background: #fff;
+}
+#portfolio-filter li a:hover {
+	background: #fff;
+	color: #6d6e71;
+	font-weight: 700;
+}
+#portfolio-filter li a.current {
+	color: #6d6e71;
+	background: #fff;
+	border: 0;
+	font-weight: 700;
+}
+/* Images list */
+
+#portfolio-list li {
+	display: block;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	height: 284px;
+	margin:0 10px 10px 0;
+	text-decoration: none;
+	list-style-type: none;
+	width: 24%;
+
+}
+#portfolio-list img {
+	background-color: #FFF;
+	height: 209px;
+	width: 252px;
+}
+#portfolio-list li:hover .title {
+	color: #fff;
+}
+#portfolio-list li .title {
+	font-size: 14px;
+	margin-top: 8px;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+/* adipoli */
+.adipoli-wrapper {
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+.adipoli-wrapper>img {
+	position: absolute;
+	z-index: 1;
+}
+.adipoli-before {
+	position: absolute;
+	z-index: 5;
+}
+.adipoli-after {
+	position: absolute;
+	z-index: 10;
+}
+.adipoli-slice {
+	display: block;
+	position: absolute;
+	z-index: 15;
+	height: 100%;
+}
+.adipoli-box {
+	display: block;
+	position: absolute;
+	z-index: 15;
+}
+/*END OF Portfolio Section */
+/*-------------------------------------------------------*/
+.box {
+	padding: 15px 10px 0px;
+}
+.lefticon i {
+	color: #c7c9ce;
+}
+.righticon i {
+	color: #c7c9ce;
+}
+.lefticon i:hover{
+	color:#333;	
+}
+.righticon i:hover {
+	color: #333;
+}
+.lefticon {
+	width: 50%;
+	float: left;
+	border-right: 1px solid #efefef;
+	line-height:50px;
+	padding-top:10px;
+}
+.righticon {
+	width: 50%;
+	float: right;
+	line-height:50px;
+	padding-top:10px;
+}
+/*SECTION 5*/
+#sec5{ margin: 20px 0 70px;}
+.top-sec5 {
+  margin: 50px auto;
+  width: 60%;
+}
+#person{
+	float: right;
+	padding: 50px 0 0 0px;
+	width: 65%
+}
+.top-sec5-img{ width:30%;
+	float: left;
+}
+.top-sec5-img img{ float:right;} 
+.boxes{
+	background:#f5f5f5;
+	height:394px;
+	width:278px;
+	border-radius:10px;	
+}
+figure img{
+	margin: 0 auto;
+  	display: block;
+	padding:44px 0 35px 0;	
+}
+figcaption h4{
+	font-size:24px;
+	font-weight:700;
+	line-height:24px;
+	color:#6d6e71;
+	text-align:center;
+}
+figcaption p{
+	font-size:17px;
+	font-weight:300;
+	line-height:24px;
+	color:#6d6e71;
+	text-align:center;
+	padding: 5px 0px 40px 0;
+}
+.social-boxes{
+	height:60px;
+	background:#ffffff;	
+	text-align:center;
+	padding:10px 0 0 0;
+}
+.social-boxes .face-boxes i{
+	margin: 5px 10px;
+	color:#cdcdcd;	
+}
+.social-boxes .face-boxes i:hover{color:#2b75b2;}
+/*MAP SECTION*/
+#map{ 
+	margin-top: 30px;
+ 	position:relative;
+}
+.map-info{
+	position: absolute;
+	bottom:10%;
+	left: 45%;
+		
+}
+.map-image iframe{width:100%; height:500px;}
+/*..........Footer section............*/
+footer{
+	background:#2b2c2d;
+	padding: 50px 0 20px;	
+}
+.f-social{ padding-left: 10px;} 
+.f-social li{
+	float:left;
+	padding: 15px 20px;
+	border-left:1px solid #3c3e3f;
+	border-right:1px solid #3c3e3f;	
+
+}
+.f-social li i{	color:#414344;}
+
+.facebook i:hover {
+	color: #2b75b2;
+}
+.twitter i:hover {
+	color: #1faae2;
+}
+.google i:hover {
+	color: #dd4070;
+}
+footer .input-box{
+	float:right;
+	width:590px;
+	background:#393b3c;
+	padding: 5px 5px;
+	border-radius: 10px;
+}
+footer .input-icon{
+	float:left;
+	width:10%;	
+	padding:15px 10px;
+}
+footer .input-info{
+	float:left;
+	width:75%;	
+	padding:15px 10px;
+}
+footer .input-btn{
+	float:right;
+	width:15%;
+	padding:17px 5px;	
+}
+footer .input-info input[type="text"] {
+	border: 0;
+	background:#393b3c;
+	line-height: 20px;
+    font-size: 15px;
+    outline: none;
+    color: #ffffff;
+}
+.input-btn a{
+	background:#494c4d;
+	border-radius:10px;
+	padding:13px 25px;	
+	font-size:14px;
+	color:#6d6e71;
+	font-weight:700;
+}
+.input-btn a:hover{
+	background:#f9f9f9;
+	color:#333;
+	transition:all 0.5s;	
+}
+#last{
+	margin: 30px 0 0;	
+}
+.f-last{
+	float:right;	
+}
+.f-last li{
+	float:left;
+	padding:5px 10px;
+}
+.f-last li a{
+	font-size:13px;
+	font-weight:300;
+	line-height:27px;
+	color:#6d6e71;
+}
+.f-copy p{
+	font-size:13px;
+	font-weight:300;
+	line-height:27px;
+	color:#6d6e71;	
+}
+.f-copy p a{
+	font-size:13px;
+	font-weight:300;
+	line-height:27px;
+	color:#6d6e71;	
+}
+.f-copy p a:hover{
+	text-decoration:underline;
+	color:#f9f9f9;
+}
+.f-last li a:hover{
+	text-decoration:underline;
+	color:#f9f9f9;	
+}
+
+
+
+
+
+/*...........TOOLTIPSTER STRAT FROM HERE...............*/
+
+html {
+	 -webkit-font-smoothing: antialiased;
+}
+
+/* This is the default Tooltipster theme (feel free to modify or duplicate and create multiple themes!): */
+.tooltipster-default {
+	border-radius: 5px; 
+	border: 1px solid #dbdbdb;
+	background: #ffffff;
+	color: #6d6e71;
+	box-shadow: inset 0px 0px 10px 4px rgba(255, 255, 255, 0.5);
+-moz-box-shadow: inset 0px 0px 10px 4px rgba(255, 255, 255, 0.5);
+-webkit-box-shadow: inset 0px 0px 10px 4px rgba(255, 255, 255, 0.5);
+}
+
+/* Use this next selector to style things like font-size and line-height: */
+.tooltipster-default .tooltipster-content {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	padding: 10px 20px;
+	overflow: hidden;
+	width:230px;
+	height:60px;
+}
+
+/* This next selector defines the color of the border on the outside of the arrow. This will automatically match the color and size of the border set on the main tooltip styles. Set display: none; if you would like a border around the tooltip but no border around the arrow */
+.tooltipster-default .tooltipster-arrow .tooltipster-arrow-border {
+	/* border-color: ... !important; */
+}
+
+
+/* If you're using the icon option, use this next selector to style them */
+.tooltipster-icon {
+	cursor: help;
+	margin-left: 4px;
+}
+
+/* This is the base styling required to make all Tooltipsters work */
+.tooltipster-base {
+	padding: 0;
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	z-index: 9999999;
+	pointer-events: none;
+	width: auto;
+	overflow: visible;
+}
+
+.tooltipster-base .tooltipster-content {
+	overflow: hidden;
+}
+
+
+/* These next classes handle the styles for the little arrow attached to the tooltip. By default, the arrow will inherit the same colors and border as what is set on the main tooltip itself. */
+.tooltipster-arrow {
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.tooltipster-arrow span, .tooltipster-arrow-border {
+	display: block;
+	width: 0; 
+	height: 0;
+	position: absolute;
+}
+.tooltipster-arrow-top span, .tooltipster-arrow-top-right span, .tooltipster-arrow-top-left span {
+	border-left: 8px solid transparent !important;
+	border-right: 8px solid transparent !important;
+	border-top: 8px solid;
+	bottom: -8px;
+}
+.tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-top-left .tooltipster-arrow-border {
+	border-left: 9px solid transparent !important;
+	border-right: 9px solid transparent !important;
+	border-top: 9px solid;
+	bottom: -8px;
+}
+
+.tooltipster-arrow-bottom span, .tooltipster-arrow-bottom-right span, .tooltipster-arrow-bottom-left span {
+	border-left: 8px solid transparent !important;
+	border-right: 8px solid transparent !important;
+	border-bottom: 8px solid;
+	top: -8px;
+}
+.tooltipster-arrow-bottom .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+	border-left: 9px solid transparent !important;
+	border-right: 9px solid transparent !important;
+	border-bottom: 9px solid;
+	top: -8px;
+}
+.tooltipster-arrow-top span, .tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-bottom span, .tooltipster-arrow-bottom .tooltipster-arrow-border {
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.tooltipster-arrow-top-left span, .tooltipster-arrow-bottom-left span {
+	left: 6px;
+}
+.tooltipster-arrow-top-left .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+	left: 5px;
+}
+.tooltipster-arrow-top-right span,  .tooltipster-arrow-bottom-right span {
+	right: 6px;
+}
+.tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border {
+	right: 5px;
+}
+.tooltipster-arrow-left span, .tooltipster-arrow-left .tooltipster-arrow-border {
+	border-top: 8px solid transparent !important;
+	border-bottom: 8px solid transparent !important; 
+	border-left: 8px solid;
+	top: 50%;
+	margin-top: -7px;
+	right: -8px;
+}
+.tooltipster-arrow-left .tooltipster-arrow-border {
+	border-top: 9px solid transparent !important;
+	border-bottom: 9px solid transparent !important; 
+	border-left: 9px solid;
+	margin-top: -8px;
+}
+.tooltipster-arrow-right span, .tooltipster-arrow-right .tooltipster-arrow-border {
+	border-top: 8px solid transparent !important;
+	border-bottom: 8px solid transparent !important; 
+	border-right: 8px solid;
+	top: 50%;
+	margin-top: -7px;
+	left: -8px;
+}
+.tooltipster-arrow-right .tooltipster-arrow-border {
+	border-top: 9px solid transparent !important;
+	border-bottom: 9px solid transparent !important; 
+	border-right: 9px solid;
+	margin-top: -8px;
+}
+
+
+/* Some CSS magic for the awesome animations - feel free to make your own custom animations and reference it in your Tooltipster settings! */
+
+.tooltipster-fade {
+	opacity: 0;
+	-webkit-transition-property: opacity;
+	-moz-transition-property: opacity;
+	-o-transition-property: opacity;
+	-ms-transition-property: opacity;
+	transition-property: opacity;
+	
+}
+.tooltipster-fade-show {
+	opacity: 1;
+}
+
+.tooltipster-grow {
+	-webkit-transform: scale(0,0);
+	-moz-transform: scale(0,0);
+	-o-transform: scale(0,0);
+	-ms-transform: scale(0,0);
+	transform: scale(0,0);
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	-ms-transition-property: -ms-transform;
+	transition-property: transform;
+	-webkit-backface-visibility: hidden;
+}
+.tooltipster-grow-show {
+	-webkit-transform: scale(1,1);
+	-moz-transform: scale(1,1);
+	-o-transform: scale(1,1);
+	-ms-transform: scale(1,1);
+	transform: scale(1,1);
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+}
+
+.tooltipster-swing {
+	opacity: 0;
+	-webkit-transform: rotateZ(4deg);
+	-moz-transform: rotateZ(4deg);
+	-o-transform: rotateZ(4deg);
+	-ms-transform: rotateZ(4deg);
+	transform: rotateZ(4deg);
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	-ms-transition-property: -ms-transform;
+	transition-property: transform;
+}
+.tooltipster-swing-show {
+	opacity: 1;
+	-webkit-transform: rotateZ(0deg);
+	-moz-transform: rotateZ(0deg);
+	-o-transform: rotateZ(0deg);
+	-ms-transform: rotateZ(0deg);
+	transform: rotateZ(0deg);
+	-webkit-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 1);
+	-webkit-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4); 
+	-moz-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4); 
+	-ms-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4); 
+	-o-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4); 
+	transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+}
+
+.tooltipster-fall {
+	top: 0;
+	-webkit-transition-property: top;
+	-moz-transition-property: top;
+	-o-transition-property: top;
+	-ms-transition-property: top;
+	transition-property: top;
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+}
+.tooltipster-fall-show {
+}
+.tooltipster-fall.tooltipster-dying {
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-o-transition-property: all;
+	-ms-transition-property: all;
+	transition-property: all;
+	top: 0px !important;
+	opacity: 0;
+}
+
+.tooltipster-slide {
+	left: -40px;
+	-webkit-transition-property: left;
+	-moz-transition-property: left;
+	-o-transition-property: left;
+	-ms-transition-property: left;
+	transition-property: left;
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+}
+.tooltipster-slide.tooltipster-slide-show {
+}
+.tooltipster-slide.tooltipster-dying {
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-o-transition-property: all;
+	-ms-transition-property: all;
+	transition-property: all;
+	left: 0px !important;
+	opacity: 0;
+}
+
+
+/* CSS transition for when contenting is changing in a tooltip that is still open. The only properties that will NOT transition are: width, height, top, and left */
+.tooltipster-content-changing {
+	opacity: 0.5;
+	-webkit-transform: scale(1.1, 1.1);
+	-moz-transform: scale(1.1, 1.1);
+	-o-transform: scale(1.1, 1.1);
+	-ms-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+}
+/*...........TOOLTIPSTER END FROM HERE...............*/
+
+/*................SLIDER SECTION start HERE............*/
+/* Circular Content Carousel Style */
+.ca-container{
+	position:relative;
+	width:900px;
+	height:245px;
+}
+.ca-wrapper{
+	width:73%;
+	height:245px;
+	position:relative;
+}
+.ca-item{
+	position:relative;
+	float:left;
+	width:345px;
+	height:100%;
+	text-align:center;
+}
+
+.ca-item-main{
+	position:absolute;
+	top:5px;
+	left:-10px;
+	right:-10px;
+	bottom:5px;
+	overflow:hidden;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+}
+.ca-icon{
+	width:233px;
+	position:relative;
+	margin:0 auto;
+}
+
+.ca-content-wrapper{
+	background:#b0ccc6;
+	position:absolute;
+	width:0px; /* expands to width of the wrapper minus 1 element */
+	height:440px;
+	top:5px;
+	text-align:left;
+	z-index:10000;
+	overflow:hidden;
+}
+.ca-content{
+	width:660px;
+	overflow:hidden;
+}
+.ca-content-text{
+	font-size: 14px;
+	font-style: italic;
+	font-family: "Georgia","Times New Roman",serif;
+	margin:10px 20px;
+	padding:10px 20px;
+	line-height:24px;
+}
+.ca-content ul{
+	margin:20px 35px;
+	height:30px;
+}
+.ca-content ul li{
+	float:left;
+	margin:0px 2px;
+}
+.ca-content ul li a{
+	color:#fff;
+	background:#000;
+	padding:3px 6px;
+	font-size:14px;
+	font-family: "Georgia","Times New Roman",serif;
+	font-style:italic;
+}
+.ca-content ul li a:hover{
+	background:#fff;
+	color:#000;
+	text-shadow:none;
+}
+.ca-nav span{
+	width: 100px;
+    height: 236px;
+	background: #f4f4f4 url(../images/arrows.png) no-repeat center center;
+	position:absolute;
+	text-indent:-9000px;
+	opacity:1;
+	cursor:pointer;
+}
+.ca-nav span.ca-nav-next{
+
+	left:auto;
+	 right: 145px;
+    top: 5px;
+}
+.ca-nav span:hover{
+	opacity:1.0;
+}
+.slide-image img{ width:100%;}
+.heart-image a img{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:95%;
+}
+
+.maps iframe{
+    pointer-events: none;
+}
+/*SLIDER SECTION END HERE*/
+
+
+
+
+
+
+
+
+
+
+
+/*PLACEHOLDER COLOR*/
+.inputbox input::-webkit-input-placeholder {
+ padding-left:5px;
+ font-family: 'Open Sans', sans-serif;
+ font-size:15px;
+ font-weight:300;
+ color: #6d6e71;
+}
+
+.inputbox input:-moz-placeholder { /* Firefox 18- */
+ font-family: 'Open Sans', sans-serif;
+ font-size:15px;
+ font-weight:300;
+ color: #6d6e71;
+ padding-left:5px;
+}
+
+.inputbox input::-moz-placeholder {  /* Firefox 19+ */
+ font-family: 'Open Sans', sans-serif;
+ font-size:15px;
+ font-weight:300;
+ color: #6d6e71;
+ padding-left:5px;
+}
+
+.inputbox input:-ms-input-placeholder {
+ font-family: 'Open Sans', sans-serif;
+ font-size:15px;
+ font-weight:300;
+ color: #6d6e71;
+ padding-left:5px;
+}
+/*Footer PlaceHolder*/
+.input-info input::-webkit-input-placeholder {
+ padding-left:5px;
+ font-size:15px;
+ font-weight:700;
+ color: #6d6e71;
+}
+
+.input-info input:-moz-placeholder { /* Firefox 18- */
+ font-family: 'Open Sans', sans-serif;
+ font-weight:700;
+ color: #6d6e71;
+ padding-left:5px;
+}
+
+.input-info input::-moz-placeholder {  /* Firefox 19+ */
+ font-family: 'Open Sans', sans-serif;
+ font-weight:700;
+ color: #6d6e71;
+ padding-left:5px;
+}
+
+.input-info input:-ms-input-placeholder {
+ font-family: 'Open Sans', sans-serif;
+ font-weight:700;
+ color: #6d6e71;
+ padding-left:5px;
+}
+
+
+/*LOADER EFFECT*/
+/*Paste this css to your style sheet file or under head tag*/
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 9999;
+ background: url(../images/ball-triangle.svg) center no-repeat #2b75b2;
+}

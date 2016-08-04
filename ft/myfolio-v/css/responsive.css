@@ -1,0 +1,401 @@
+
+
+/* #Media Queries
+================================================== */
+	
+	@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+		.gallaryimage img{
+			height:300px;
+		}
+		.caption-style-4 .caption-text{
+			top: 70px;
+    		padding: 0 10px;	
+		}
+		}
+	@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+		.serviceleft{
+			padding: 20px 10px 0 0;
+		}
+		#aboutme {
+ 		   padding: 50px 0 50px;
+		}
+		.abouttop p{
+			    margin: 50px 50px 0 50px;
+		}
+		.about_four_part {
+ 		   margin-top: 50px;
+		}
+		.servicefirstinner{
+		    width: auto;
+		}
+		.serviceleft p{
+		    margin: 16px 0 25px;
+		}
+		#mywork {
+    		padding: 50px 0 0;
+		}
+		#mywork p{
+			    margin: 16px 50px 0 50px;
+		}
+		.gallary {
+ 		   padding-top: 50px;
+		}
+		.gallaryimage img{
+			height:250px;
+		}
+		.caption-style-4 .caption-text{
+		    top: 50px;
+    		padding: 0 10px;
+		}
+		#conatctme {
+    		padding: 50px 0 0;
+		}
+		#conatctme p{
+			    margin: 16px 50px 50px 50px;
+		}
+	}
+	@media only screen and (min-width: 960px) and (max-width: 1023px) {
+		nav ul li{
+		    margin-left: 37px;
+		}
+		#aboutme {
+ 		   padding: 50px 0 50px;
+		}
+		.abouttop p{
+			    margin: 20px 20px 0 20px;
+		}
+		.about_four_part {
+ 		   margin-top: 50px;
+		}
+		.servicefirstinner{
+		    width: auto;
+		}
+		.serviceleft p{
+		    margin: 10px 0 20px;
+			    line-height: 22px;
+		}
+		#mywork {
+    		padding: 50px 0 0;
+		}
+		#mywork p{
+			    margin: 16px 20px 0 20px;
+		}
+		.gallary {
+ 		   padding-top: 50px;
+		}
+		.gallaryimage img{
+			height:250px;
+		}
+		.caption-style-4 .caption-text{
+		    top: 50px;
+    		padding: 0 10px;
+		}
+		#conatctme {
+    		padding: 50px 0 0;
+		}
+		#conatctme p{
+			    margin: 16px 50px 50px 50px;
+		}
+		.aboutsingle{
+			    padding: 10px;
+		}
+		.serviceleft{
+			    padding: 20px 20px 0 0;
+		}
+		.serviceright img{
+			min-height:530px;
+		}
+		}
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		nav ul li{
+		    margin-left: 37px;
+		}
+		#aboutme {
+ 		   padding: 50px 0 50px;
+		}
+		.abouttop p{
+			    margin: 20px 20px 0 20px;
+		}
+		.about_four_part {
+ 		   margin-top: 50px;
+		}
+		.servicefirstinner{
+		    width: auto;
+		}
+		.serviceleft p{
+		    margin: 10px 0 20px;
+			    line-height: 22px;
+		}
+		#mywork {
+    		padding: 50px 0 0;
+		}
+		#mywork p{
+			    margin: 16px 20px 0 20px;
+		}
+		.gallary {
+ 		   padding-top: 50px;
+		}
+		.gallaryimage img{
+			height:200px;
+		}
+		.caption-style-4 .caption-text{
+		    top: 20px;
+   		 padding: 0 5px;
+		}
+		#conatctme {
+    		padding: 50px 0 0;
+		}
+		#conatctme p{
+			    margin: 16px 50px 50px 50px;
+		}
+		.aboutsingle{
+			    padding: 10px;
+		}
+		.serviceleft{
+			    padding: 20px 20px 0 0;
+		}
+		.serviceright img{
+			min-height:530px;
+		}
+		#mywork .caption-style-4 p{
+			line-height:18px;
+		}
+		#banner{
+		min-height: 660px;
+		}
+		#banner p{
+		    margin-top: 160px;
+		}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		header {
+    		padding: 5px 0 5px;
+		}
+		.logo{
+			margin-top:13px;
+		}
+		nav ul li{
+			margin-left:0px;
+			display:block;
+			line-height: 32px;
+    		font-size: 14px;
+		}
+		.nav-collapse, .nav-collapse ul{
+			text-align:center;
+		}
+		header.sticky{
+		    padding: 0px 0 0px;
+		}
+		#banner{
+		    min-height: 500px;	
+		}
+		#banner p{
+   	 		font-size: 22px;
+	    	margin-top: 130px;
+		}
+		#banner h2 {
+    font-size: 50px;
+    line-height: 60px;
+	letter-spacing:6px;
+		}
+		#banner span{
+		margin-bottom: 30px;
+		}
+		#banner a{
+		    margin: 30px auto 0;
+		}
+		#aboutme {
+ 		   padding: 30px 0 30px;
+		}
+		.abouttop h3 {
+    font-size: 34px;
+		}
+		.abouttop p{
+		    margin: 20px 20px 0;
+			line-height:30px;
+		}
+		.aboutsingle {
+   		 width: 50%;
+		     padding: 30px 10px;
+		}
+		.aboutsingle:nth-child(2){
+ 		   border-right: none;
+		   margin-bottom: 25px;
+		}
+		.serviceleft {
+    width: 100%;
+    float: none;
+    display: block;
+    padding: 20px;
+    text-align: center;
+		}
+		.serviceleft h3{
+			font-size:34px;
+		}
+		.serviceleft p{
+	line-height: 30px;
+		}
+		.servicefirstinner {
+ 		   width: 99%;
+    		text-align: center;
+	}
+	.serviceright {
+    float: none;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#mywork h3{
+	font-size:34px;
+}
+#mywork {
+    padding: 30px 0 0;
+	}
+	#mywork p {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 10px;
+}
+.gallaryimage {
+    width: 50%;
+}
+
+.gallaryimage img {
+	height:250px;
+}
+.caption-style-4 .caption-text{
+	top: 45px;
+    padding: 0 10px;
+}
+#conatctme {
+    padding: 30px 0 0;
+}
+#conatctme h3{
+	font-size:34px;
+}
+#conatctme p{
+	line-height:30px;
+	    margin: 10px 10px 30px;
+	}
+	.contactform input[type="text"]{
+		width:100%;
+		    margin: 30px auto 0;
+	}
+	.contactform input[type="email"]{
+		width:100%;
+		    margin: 30px auto 0;
+	}
+	.contactform textarea{
+	    margin: 30px auto 0;
+	}
+	.underline{
+	margin-top: 70px;
+	}
+	.contactform input[type="submit"]{
+	    margin: 50px auto 0;
+	}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		#banner {
+ 		   min-height: 420px;
+		}
+		#banner p {
+    font-size: 16px;
+    margin-top: 110px;
+}
+#banner h2 {
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+#banner span{
+	font-size: 16px;
+	line-height:22px;
+	    margin-bottom: 20px;
+}
+#banner a {
+    margin: 20px auto 0;
+	    line-height: 40px;
+		    width: 170px;
+    height: 40px;
+}
+.abouttop p {
+    margin: 10px 0px 0;
+    font-size: 14px;
+}
+.abouttop p span {
+    font-size: 20px;
+}
+.aboutsingle {
+    width: 100%;
+    padding: 10px 20px;
+    border-right: none;
+    float: none;
+}
+.aboutsingle:nth-child(2) {
+    border-right: none;
+    margin-bottom: 0;
+}
+.aboutsingle h4{
+	margin:10px 0;
+}
+.about_four_part {
+    margin-top: 30px;
+}
+.serviceleft p {
+    font-size: 14px;
+    margin: 10px 0 25px;
+}
+.serviceleft{
+    padding: 20px 10px;
+}
+.serviceinner {
+    float: none;
+    width: 100%;
+    display: block;
+}
+#mywork p {
+    font-size: 14px;
+    line-height: 30px;
+    margin: 10px 0;
+}
+.gallary {
+    padding-top: 30px;
+}
+.gallaryimage {
+    width: 100%;
+	float:none;
+}
+#conatctme p {
+    margin: 10px 0px 30px;
+    font-size: 14px;
+}
+.abouttop h3 {
+    font-size: 30px;
+}
+.serviceleft h3 {
+    font-size: 30px;
+}
+#mywork h3 {
+    font-size: 30px;
+}
+#conatctme h3{
+	font-size:30px;
+}
+.contactform {
+    padding: 0 0 30px;
+}
+		}
+

@@ -1,0 +1,461 @@
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+#back {
+	height: 700px;
+	padding-top: 215px;
+}
+.app img {
+	width: 100%;
+}
+.member img {
+	width: 100%;
+}
+.member {
+	float: left;
+	width: 26%;
+}
+.custom-dropdown__select {
+	padding-right: 53%;
+	margin-left: 0;
+}
+.text-box textarea {
+	margin-left: 0;
+	width: 100%;
+}
+.text-box input {
+	margin: 10px 0;
+	width: 100%;
+}
+.custom-dropdown {
+	margin-top: 12px;
+}
+.cssload-loader {
+
+	top:350px;
+}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+#back {
+	height: 500px;
+	padding-top: 150px;
+}
+.app-info {
+	margin-top: 30px;
+}
+.app-info p {
+	padding: 20px 0;
+	font-size: 16px;
+	line-height: 28px;
+}
+.more {
+	padding: 10px 20px;
+}
+.now {
+	padding: 10px 20px;
+}
+.about-info p {
+	font-size: 16px;
+	line-height: 28px;
+}
+.app-info h2 {
+	font-size: 24px;
+}
+.app img {
+	width: 100%;
+}
+.member img {
+	width: 100%;
+}
+.member {
+	float: left;
+	width: 26%;
+}
+.custom-dropdown__select {
+	padding-right: 37%;
+	margin-left: 0;
+}
+.text-box textarea {
+	margin-left: 0;
+	width: 100%;
+}
+.text-box input {
+	margin: 10px 0;
+	width: 100%;
+}
+.custom-dropdown {
+	margin-top: 12px;
+}
+.flexslider .slides img {
+    width: 100%;
+}
+.member-title h3 {
+    font-size: 18px;
+    margin: 5px 0;
+  line-height: 24px;
+}
+.site-nav .navBars i {
+    color: #fff;
+    background: #34495e;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+}
+.site-nav .menu a {
+	
+    background: #34495e;
+}
+.site-nav .menu a:hover{
+	 border-bottom:2px solid #1abc9c;
+}
+.cssload-loader {
+	top:350px;
+}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+#back {
+    height: 450px;
+    padding-top: 130px;
+}
+.app-info {
+	margin-top: 30px;
+	text-align:center;
+}
+.app-info p {
+	padding: 20px 0;
+	font-size: 16px;
+	line-height: 28px;
+	text-align:center;
+	width:100%;
+}
+.more {
+	padding: 10px 20px;
+}
+.now {
+	padding: 10px 20px;
+}
+.about-info p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px 0;
+}
+.app-info h2 {
+	font-size: 24px;
+}
+#about {
+    padding: 20px 0;
+}
+
+.app img {
+	display:none;
+}
+.member {
+    float: none;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.member-title {
+    float: none;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.custom-dropdown__select {
+    padding-right: 66%;
+    margin-left: 0;
+}
+.text-box textarea {
+	margin-left: 0;
+	width: 100%;
+}
+.text-box input {
+	margin: 10px 0;
+	width: 100%;
+}
+.custom-dropdown {
+	margin-top: 12px;
+}
+.flexslider .slides img {
+    width: 100%;
+}
+.member-title h3 {
+    font-size: 18px;
+    margin: 5px 0;
+  line-height: 24px;
+}
+.site-nav .navBars i {
+    color: #fff;
+    background: #34495e;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+}
+.site-nav .menu a {
+	
+    background: #34495e;
+}
+.site-nav .menu a:hover{
+	 border-bottom:2px solid #1abc9c;
+}
+footer {
+    padding: 50px 0;
+}
+#client {
+	padding:100px 0;
+}
+.client-title h2 {
+    font-size: 40px;
+    padding-bottom: 0px;
+}
+.cssload-loader {
+	top:350px;
+}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	
+#back {
+    height: 450px;
+    padding-top: 130px;
+}
+.app-info {
+	margin-top: 30px;
+	text-align:center;
+}
+.app-info p {
+	padding: 20px 0;
+	font-size: 16px;
+	line-height: 28px;
+	text-align:center;
+	width:100%;
+}
+.more {
+	padding: 10px 20px;
+}
+.now {
+	padding: 10px 20px;
+}
+.about-info p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px 0;
+}
+.app-info h2 {
+	font-size: 24px;
+}
+#about {
+    padding: 20px 0;
+}
+
+.app img {
+	display:none;
+}
+.member {
+    float: none;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.member-title {
+    float: none;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.custom-dropdown__select {
+    padding-right: 50%;
+    margin-left: 0;
+}
+.text-box textarea {
+	margin-left: 0;
+	width: 100%;
+}
+.text-box input {
+	margin: 10px 0;
+	width: 100%;
+}
+.custom-dropdown {
+	margin-top: 12px;
+}
+.flexslider .slides img {
+    width: 100%;
+}
+.member-title h3 {
+    font-size: 18px;
+    margin: 5px 0;
+  line-height: 24px;
+}
+.site-nav .navBars i {
+    color: #fff;
+    background: #34495e;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+}
+.site-nav .menu a {
+	
+    background: #34495e;
+}
+.site-nav .menu a:hover{
+	 border-bottom:2px solid #1abc9c;
+}
+footer {
+    padding: 50px 0;
+}
+#client {
+	padding:100px 0;
+}
+.client-title h2 {
+    font-size: 40px;
+    padding-bottom: 0px;
+}
+.cssload-loader {
+	top:250px;
+}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+#back {
+    height: 400px;
+    padding-top: 100px;
+}
+.app-info {
+	margin-top: 30px;
+	text-align:center;
+}
+.app-info p {
+    padding: 24px 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    width: 100%;
+}
+.more {
+	padding: 10px 12px;
+	font-size:14px;
+}
+.now {
+    padding: 10px 12px;
+    font-size: 14px;
+}
+#feature {
+ 
+    height: 300px;
+}
+.about-info p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 0;
+}
+.title-feature h2 {
+    font-size: 20px;
+}
+.title-feature p {
+    font-size: 14px;
+}
+.title-feature {
+    padding: 40px 0 70px 0;
+
+}
+#parts {
+    padding: 50px 0;
+}
+.app-info h2 {
+	font-size: 18px;
+}
+#about {
+    padding: 20px 0;
+}
+
+.app img {
+	display:none;
+}
+.member {
+    float: none;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.member-title {
+    float: none;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.custom-dropdown__select {
+    padding-right: 21%;
+    margin-left: 0;
+}
+.text-box textarea {
+	margin-left: 0;
+	width: 100%;
+}
+.text-box input {
+	margin: 10px 0;
+	width: 100%;
+}
+.custom-dropdown {
+	margin-top: 12px;
+}
+.flexslider .slides img {
+    width: 100%;
+}
+.member-title h3 {
+    font-size: 18px;
+    margin: 5px 0;
+  line-height: 24px;
+}
+.site-nav .navBars i {
+    color: #fff;
+    background: #34495e;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+}
+.site-nav .menu a {
+	
+    background: #34495e;
+}
+.site-nav .menu a:hover{
+	 border-bottom:2px solid #1abc9c;
+}
+footer {
+    padding: 50px 0;
+}
+#client {
+	padding:70px 0;
+}
+.client-title h2 {
+    font-size: 35px;
+    padding-bottom: 0px;
+}
+.team-member {
+    padding-top: 20px;
+}
+.button {
+    text-align: center;
+    margin-top: 10px;
+}
+.reset{
+font-size:12px;
+	width:40%;	
+}
+.submit{
+	font-size:12px;
+	width:40%;
+}
+.cssload-loader {
+	top:180px;
+}
+}

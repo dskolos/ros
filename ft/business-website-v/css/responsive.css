@@ -1,0 +1,277 @@
+
+
+/* #Media Queries
+================================================== */
+
+	@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+		
+		#fourcol figure {
+    		width: 100%;
+		}
+		#fourcol figure img{
+			width:100%;
+		}
+		#fourcol figure figcaption {
+    		padding: 10px;
+		}
+		.sixtextleft i {
+			height: 50px;
+			width: 50px;
+	        padding: 12px;
+		}
+		.imagesix img{
+			width:95%;
+		}
+		.subscribe input[type="text"] {
+    width: 130px;
+		}
+		}
+		
+		@media only screen and (min-width: 960px) and (max-width: 1023px) {
+		
+		#fourcol figure {
+    		width: 100%;
+		}
+		#fourcol figure img{
+			width:100%;
+		}
+		#fourcol figure figcaption {
+    		padding: 10px;
+		}
+		.sixtextleft i {
+			height: 40px;
+			width: 40px;
+	        padding: 10px;
+		}
+		.imagesix img{
+			width:95%;
+		}
+		.subscribe input[type="text"] {
+  		  width: 110px;
+		}
+		.subscribe input[type="submit"] {
+    		width: 60px;
+			font-size: 10px;
+		}
+		}
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		#fourcol figure {
+    		width: 100%;
+			    min-height: 385px;
+		}
+		#fourcol figure img{
+			width:100%;
+		}
+		#fourcol figure figcaption {
+    		padding: 10px;
+		}
+		.sixtextleft i {
+			height: 40px;
+			width: 40px;
+	        padding: 10px;
+		}
+		.imagesix img{
+			width:95%;
+		}
+		.subscribe input[type="text"] {
+    		width: 100px;
+		}
+		.subscribe input[type="submit"] {
+    		width: 60px;
+			font-size: 10px;
+		}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		nav ul li{
+			font-size: 14px;
+			margin:0 7px;
+		}
+		.top{
+			padding: 30px 0;
+		}
+		#mainbanner h2 {
+			font-size: 50px;
+			padding: 80px 0 10px;
+			letter-spacing: 2px;
+		}
+		#mainbanner p {
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+#mainbanner a{
+	    padding: 10px 0;
+		letter-spacing: 1px;
+		font-size:18px;
+}
+#mainbanner{
+	min-height:400px;
+}
+#fourcol {
+    padding: 30px 0 0;
+}
+#fourcol figure{
+	    margin: 0 auto 20px;
+}
+.line{
+	margin-top:20px;
+}
+#middle {
+    padding: 30px 0 0 0;
+}
+.sixone {
+    width: 100%;
+	float:none;
+}
+.sixtwo {
+    width: 100%;
+    float: none;
+}
+.sixtextleft {
+    width: 25%;
+}
+.sixtextright {
+    width: 75%;
+}
+sixsecond{
+	margin-top:50px;
+}
+.sixsecond h3{
+	margin-top:20px;
+}
+.imagesix {
+    width: 100%;
+    float: none;
+    display: block;
+    text-align: center;
+}
+.innerimagetext {
+    width: 100%;
+    float: none;
+    display: block;
+    padding-right: 0;
+    padding: 10px;
+}
+.longtext p{
+	margin:10px;
+	padding-right: 0px;
+}
+.longtext{
+	margin-bottom:40px;
+}
+.longtext a{
+	margin-left:10px;
+}
+#twocol {
+    padding: 30px 0;
+}
+.aside1{
+	margin-bottom:50px;
+}
+.subscribe {
+    width: 100%;
+    float: none;
+    display: block;
+}
+.social {
+    width: 100%;
+    float: none;
+}
+.subscribe h6{
+	margin-bottom:10px;
+}
+.subscribe form{
+	margin-bottom:20px;
+}
+#endfooter{
+	padding:30px 0;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.logo img{
+			width:80%;
+		}
+		.top {
+ 		   padding: 10px 0;
+		}
+		nav {
+   		 padding: 10px 0;
+		}
+		nav ul li {
+    font-size: 12px;
+    margin: 0 2px;
+	letter-spacing:0px;
+	font-weight:400;
+		}
+		#mainbanner h2 {
+    font-size: 30px;
+    padding: 60px 0 10px;
+    letter-spacing: 2px;
+}
+#mainbanner p {
+    font-size: 18px;
+	width:100%;
+}
+#mainbanner a {
+    font-size: 16px;
+	width:140px;
+	    padding: 8px 0;
+}
+#mainbanner {
+    min-height: 340px;
+}
+.mainsix h3 {
+    font-size: 20px;
+}
+.mainsix p {
+    font-size: 16px;
+    line-height: 22px;
+	margin-bottom:20px;
+}
+.sixtextleft i {
+    height: 50px;
+    width: 50px;
+	padding:13px;
+}
+.sixsecond h3{
+	font-size:20px;
+}
+.sixsecond p {
+    font-size: 16px;
+	margin-bottom:20px;
+}
+.ac-container label {
+	font-size:12px;
+	padding: 6px 10px;
+}
+.ac-container article p {
+	font-size: 12px;
+    padding: 10px;
+	line-height:20px;
+}
+.aside1 {
+    width: 100%;
+    float: none;
+}
+.aside1 {
+    margin-bottom: 20px;
+}
+.innerimagetext p{
+	    margin: 10px 0;
+}
+		
+		}
+

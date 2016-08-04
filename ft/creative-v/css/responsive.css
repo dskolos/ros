@@ -1,0 +1,372 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+		nav ul li a {
+   font-size: 18px;
+    padding: 0 8px;
+		}
+		.text-right {
+    padding: 20px 0 0 0;
+}
+.text-right a {
+    padding: 15px 20px;
+    width: 45%;
+    margin: 40px auto 0;
+}
+.test-person {
+    width: 70%;
+}
+.contactform input[type="text"] {
+    width: 46%;
+}
+.contactform textarea {
+    width: 94%;
+    margin: 0 0 0 3%;
+}
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		nav ul li a {
+   font-size: 18px;
+    padding: 0 8px;
+		}
+		.text-right{padding:20px 0 0 0;}
+		.text-right a{width:60%;}
+		.about {
+    padding: 50px 0;
+		}
+		.bx-wrapper .bx-next {
+    right: 10px;
+		}
+		.bx-wrapper .bx-prev {
+    left: 10px;
+		}
+		.test-person {
+    width: 70%;
+		}
+		.textimonials {
+    padding: 70px 0 80px;
+		}
+		.contactform input[type="text"] {
+    width: 46%;
+}
+.contactform textarea {
+    width: 94%;
+    margin: 0 0 0 3%;
+}
+#gallery img{    display: block;
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
+    text-align: center;}
+.roundabout-moveable-item{width:410px !important;}
+#gallery {
+    height: 350px;
+}
+.work {
+    min-height: 800px;
+}
+.banner {
+    min-height: 800px;
+}
+.banner h2 {
+    margin-top: 300px;
+}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.search {
+    width: 100%;
+    float: none;
+}
+.menu {
+    width: 100%;
+    float: none;
+	    bottom: 20px;
+    right: 20px;
+}
+.contactform input[type="text"] {
+    width: 92%;
+	    margin: 1% 1% 1% 1%;
+		padding: 10px 20px;
+}
+.contactform textarea {
+    width: 92%;
+    height: 150px;
+    margin: 1% 0 0 4%;
+}
+.footer-social {
+    text-align: center;
+    margin-top: 10px;
+}
+footer p{text-align:center;}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	bottom:-30px;	
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.banner{
+			min-height:450px;	
+		}
+		.banner h2 {
+    margin-top: 150px;
+    font-size: 32px;
+    line-height: 36px;
+		}
+		.banner p {
+    font-size: 26px;
+		}
+		.about {
+    padding: 30px 0;
+		}
+		.ab-text {
+			    background: url(../images/about.jpg) no-repeat center center;
+    min-height: 350px;
+		}
+		.text-right {
+    padding: 20px 0 0 20px;
+}
+.text-right a{width:70%;}
+.service1, .service2 {
+    width: 50%;
+    float: left;
+}
+.service3 {
+    width: 100%;
+    float: left;
+	min-height: 350px;
+    display: block;
+    padding-top: 50px;
+	background-size: 100%;
+}
+.service3 h4{padding:30px 0;}
+#gallery img{    display: block;
+        width: 82%;
+    height: 75%;
+    margin: 0 auto;
+    text-align: center;}
+.roundabout-moveable-item{width:250px !important;}
+#gallery {
+    height: 330px;
+}
+.work-top h3 {
+    padding: 30px 0 30px;
+}
+.work{min-height:750px;}
+.bx-wrapper .bx-next {
+    right: 10px;
+		}
+		.bx-wrapper .bx-prev {
+    left: 10px;
+		}
+		.test-person {
+    width: 100%;
+		}
+		.test-center {
+    width: 300px;
+		}
+		.test-center span {
+    padding-left: 70px;
+		}
+		.textimonials {
+    padding: 30px 0 60px;
+		}
+		.textimonials h3 {
+    padding-top: 30px;
+}
+.team-top h3 {
+    padding: 30px 0 30px;
+}
+.hedertestimonial h4 {
+    font-size: 24px;
+    padding: 20px 0 30px;
+    width: 95%;
+}
+.team {
+    padding: 30px 0;
+}
+.newsletter p input[type="email"] {
+    margin-top: 25px;
+	margin-left:0;
+}
+.team ul li{
+	margin:0 60px 0 60px !important;	
+}
+.search-box:focus {
+  width: 150px;
+}
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.banner{
+			    min-height: 350px;	
+		}
+		.banner h2 {
+    margin-top: 150px;
+    font-size: 20px;
+    line-height: 24px;
+		}
+		.banner p {
+    font-size: 18px;
+		}
+		.about {
+    padding: 30px 0;
+		}
+		.ab-text {
+    min-height: 300px;
+		}
+		.text-right {
+    padding: 20px 0 0 10px;
+}
+.text-right a {
+    width: 75%;
+	margin:15px auto 0;
+}
+.left-service1, .right-service2 {
+    min-height: 200px;
+    padding-top: 15px;
+}
+.service1, .service2, .service3 {
+    width: 100%;
+    float: left;
+}
+.left-service2, .right-service1 {
+    min-height: 200px;
+    padding-top: 15px;
+}
+.service3 {
+    min-height: 200px;
+    padding-top: 15px;
+}
+.service1 h4, .service2 h4 {
+    font-size: 21px;
+}
+.service3 h4 {
+    font-size: 27px;
+    padding: 10px 0 10px;
+}
+.work-top {
+    padding-top: 20px;
+}
+.work-top h3 {
+    padding: 15px 0;
+    font-size: 28px;
+}
+#gallery img {
+    display: block;
+    width: 70%;
+    height: 80%;
+}
+.roundabout-moveable-item {
+    width: 165px !important;
+}
+.view-gallery{padding-top:0;}
+.work {
+    min-height: 705px;
+}
+.team {
+    padding: 15px 0;
+}
+.team-top h3 {
+    padding: 15px 0;
+    font-size: 28px;
+}
+.image-team img{width:50%;}
+.bx-wrapper .bx-next {
+    right: 10px;
+		}
+		.bx-wrapper .bx-prev {
+    left: 10px;
+		}
+.team-back {
+    min-height: 190px;
+}
+.team-back h4 {
+    padding: 110px 0 20px;
+}
+.bx-wrapper .bx-controls-direction a {
+    top: 38%;
+}
+.textimonials {
+    padding: 30px 0;
+}
+.hedertestimonial h4 {
+    font-size: 18px;
+    padding: 0px 0 10px;
+    width: 98%;
+}
+.test-person {
+    width: 100%;
+}
+.test-image img{width:60%;}
+.test-center {
+    width: 170px;
+    height: 100px;
+}
+.test-center p {
+    padding: 20px 0 5px 43px;
+    font-size: 15px;
+}
+.test-center span {
+    padding-left: 35px;
+    font-size: 14px;
+}
+.test-image {
+    float: left;
+    margin-right: -60px;
+    text-align: center;
+    margin-left: -25px;
+}
+.test-social {
+    float: left;
+    height: 100px;
+    background: #9f9acf;
+    width: 50px;
+}
+.test-social a {
+    margin: 7px 12px;
+    width: 24px;
+    height: 24px;
+}
+.newsletter p input[type="email"] {
+    margin-top: 15px;
+	margin-left:0;
+}
+#effect, #effect1 {
+    position: relative;
+   width: 200px;
+    height: 71px;
+}
+#button{
+    padding: 15px;
+}
+ #button1 {
+    padding: 15px 24px;
+}
+.map {
+    min-height: 740px;
+}
+footer p {
+    font-size: 16px;
+}
+.footer-social a {
+    margin: 0px 5px;
+}
+footer {
+    padding: 30px 0;
+}
+.search-box:focus {
+  width: 150px;
+}
+		}
+

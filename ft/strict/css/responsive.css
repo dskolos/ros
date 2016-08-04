@@ -1,0 +1,266 @@
+
+
+/* #Media Queries
+================================================== */
+	@media only screen and (min-width: 960px) and (max-width: 1200px) {
+		.effects .img img {
+		  display: block;
+		  width: 100%;
+		  height: auto;
+		  margin-bottom: 30px;
+		}
+		.effects .img{
+			width:33.33%;
+			float:left;
+			
+		}
+		#effect-6 .overlay1 {
+			  width: 91%;
+			  margin: 0 auto 30px;
+			  height: auto;
+		}
+		
+	}
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		#ft_mainpart h2 {
+			  font-size: 110px;
+			  margin: 233px 0 5px;
+		}
+		#ft_mainpart span.ft_line{
+			width:500px;
+		}
+		#ft_mainpart {
+			min-height:790px;
+		}
+		a.ft_arrow {
+			margin-top:135px
+		}
+		.effects .img img {
+		  display: block;
+		  width: 100%;
+		  height: auto;
+		  margin-bottom: 30px;
+		}
+		.effects .img{
+			width:33.33%;
+			float:left;
+			
+		}
+		#effect-6 .overlay1 {
+			  width: 88%;
+			  margin: 0 auto 30px;
+			  height: auto;
+		}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		header {
+ 			 padding: 15px 0;
+		}
+		footer p {
+			margin:0 0 20px !important;
+			text-align:center;
+			
+		}
+		footer .social{
+			text-align:center;
+		}
+		
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		
+		header nav ul li{
+			font-size:13px;
+		}
+		#ft_mainpart{
+			min-height:600px;
+		}
+		#ft_mainpart h2 {
+			  font-size: 80px;
+			  margin: 100px 0 5px;
+		}
+		#ft_mainpart span.ft_line{
+			width:340px;
+		}
+		#ft_mainpart p {
+			  line-height: 25px;
+			  margin: 45px 0 55px;
+		}
+		#ft_mainpart a.ft_arrow {
+  			margin-top: 140px;
+		}
+		#ft_threecol{
+			padding:50px 0;
+		}
+		#ft_simple{
+			padding:50px 0;
+		}
+		#ft_simple h3 {
+ 			 font-size: 36px;
+		}
+		#ft_simple p {
+			  font-size: 16px;
+			  line-height: 26px;
+			  margin: 17px 10px 0;
+		}
+		#ft_threecol figure {
+ 			 margin-bottom: 30px;
+		}
+		#ft_gallary{
+			padding:50px 0;
+		}
+		#ft_gallary h3 {
+  			font-size: 36px;
+		}
+		#ft_gallary p {
+  			margin: 15px 0 50px;
+		}
+		.effects .img img {
+			  display: block;
+			  width: 360px;
+			  height: 260;
+			  margin: 0 auto 30px;
+		}
+		#effect-6 .overlay1{
+			margin:0 auto;
+		}
+		#ft_contact{
+			padding:50px 0;
+			min-height:630px;
+		}
+		#ft_contact form input[type="text"] {
+			  width: 425px;
+		}
+		#ft_contact form textarea{
+			width:425px;
+		}
+		#ft_contact .ft_submit{
+			width:425px;
+		}
+		footer p {
+			margin:0 0 20px !important;
+			text-align:center;
+			
+		}
+		footer .social{
+			text-align:center;
+		}
+		header nav ul li {
+			padding:0 4px;
+		}
+	}
+
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		#ft_mainpart{
+			min-height:450px;
+		}
+		#ft_mainpart h2 {
+			  font-size: 40px;
+			  margin: 100px 0 5px;
+		}
+		#ft_mainpart span.ft_line{
+			width:200px;
+		}
+		#ft_mainpart p {
+			  line-height: 25px;
+			  margin: 30px 0 40px;
+		}
+		#ft_mainpart a.ft_arrow {
+  			margin-top: 70px;
+		}
+		#ft_simple {
+			padding:30px 0;
+		}
+		#ft_simple h3{
+			font-size:30px;
+		}
+		#ft_simple p {
+		  font-size: 16px;
+		  line-height: 26px;
+		  margin: 17px 10px 0;
+		}
+		#ft_threecol{
+			padding:30px 0;
+		}
+		#ft_threecol figure{
+			margin-bottom:30px;
+		}
+		#ft_threecol figure figcaption h4{
+			margin: 10px 0 5px;
+		}
+		#ft_gallary{
+			padding:30px 0;
+		}
+		#ft_gallary h3{
+			font-size:30px;
+		}
+		#ft_gallary p{
+			  margin: 15px 0 40px;
+		}
+		.effects .img img {
+			  display: block;
+			  width: 260px;
+			  height: auto;
+			  margin: 0 auto 30px;
+		}
+		#effect-6 .overlay1
+		{
+			margin:0 auto;
+			width:260px;
+			height:auto;
+		}
+		#ft_contact{
+			padding:30px 0;
+			min-height:600px;
+		}
+		#ft_contact h3 {
+			font-size:30px;
+		}
+		#ft_contact form input[type="text"] {
+			width:270px;
+			height:55px;
+		}
+		#ft_contact form textarea {
+			width:270px;
+		}
+		#ft_contact .ft_submit {
+			width:270px;
+			text-align:center;
+		}
+		#ft_contact .ft_submit input[type="submit"]{
+			float:none;
+			margin-top:20px;
+		}
+		header .ft_logo{
+			float:none;
+		}
+		header .ft_logo a {
+			margin:0 auto;
+			background-size:90%;
+		}
+		header nav ul li a {
+			font-size:13px;
+		}
+		header nav ul {
+		  float: none;
+		  margin-top: 2px;
+		  text-align: center;
+		}
+		header {
+			padding:10px 0;
+		}
+		header nav ul li {
+  			padding: 0 4px;
+		}
+	}
+

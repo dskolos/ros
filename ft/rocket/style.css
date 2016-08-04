@@ -1,0 +1,575 @@
+/*................................reset...........................................*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*................................clearfix...........................................*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+
+
+
+a:hover{transition:all 0.5s;}
+/*.........GLOBLE......*/
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 26px;
+	color:#333333;
+	background:#fff;
+	font-weight:400;
+	letter-spacing:0.25px;
+}
+header{position:absolute; width:100%; padding-top:40px; z-index:9998;}
+.logo{width:40%; float:left; padding-top: 15px;}
+.logo h1 a img{
+	display:block;	
+}
+.nav{width:60%; float:right; text-align:right;}
+.nav a{padding-left:54px; color:rgba(255,255,255,0.3); text-decoration:none; font-size:25px;}
+.nav a:hover{color:#fff;}
+a.signup{
+	width:140px;
+	height:53px;
+	line-height:53px;
+	border-radius:40px;
+	color:#fff;
+	background:#1194f6;
+	font-size:21px;
+	display:inline-block;
+	text-align:center;
+	padding-left:0;
+	text-decoration:none;
+	margin-left:54px;	
+}
+a.signup:hover{
+	color:#1194f6;
+	background:#fff;	
+}
+.banner{
+	background:url(images/banner.jpg) no-repeat center center;
+	min-height:892px;
+	width:100%;
+	display:block;
+	background-size:cover;
+	text-align:center;
+	color:#fff;	
+}
+.banner h2{
+	margin-top:350px;
+	font-size:48px;
+	line-height:56px;	
+}
+.banner p{
+	padding:20px 0;
+	font-size:17px;
+	line-height:24px;	
+}
+.banner span{
+	display:inline-block;
+	width:20px;
+	height:1px;
+	background:#fff;
+	margin-bottom:20px;
+}
+.banner a.project{
+	width:157px;
+	height:60px;
+	line-height:60px;
+	font-size:16px;
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	margin:0 auto;
+	border:2px solid #fff;
+	letter-spacing:1px;
+	display:block;	
+}
+.banner a.project:hover{background:#fff; color:#000;}
+.banner img{margin-top:90px;}
+.web{
+	padding:140px 0;
+	border-bottom:1px solid #e0e0e0;
+	text-align:center;	
+}
+.webtitle h2{
+	font-size:53px;
+	line-height:72px;
+	color:#333333;	
+}
+.webtitle span{
+	display:inline-block;
+	width:340px;
+	height:1px;
+	background:#cccccc;
+	margin:10px 0;
+}
+.webtitle p{
+	color:#888888;
+	padding:0 180px 150px;
+}
+.one{
+	color:#1194f6;	
+}
+.two{
+	color:#ea5767;	
+}
+.three{
+	color:#04c3b1;	
+}
+.one span, .two span , .three span{
+	font-size:80px;	
+	padding-bottom:40px;
+	display:inline-block;
+}
+.one h3, .two h3 , .three h3{
+ 	font-size:21px;
+	padding-bottom:12px;
+	line-height:35px;	
+}
+
+.technology{
+	background:#f8f8f7;
+	padding:130px 0 150px;	
+}
+.technology img{display:block; width:100%;}
+.technology h3{
+	font-size:31px; line-height:72px; padding-top:75px;	
+	text-transform:uppercase; font-weight:700;
+}
+.technology span{
+	display:inline-block;
+	width:340px;
+	height:1px;
+	background:#cccccc;
+	margin:10px 0;
+}
+.technology a{
+		width:140px;
+	height:53px;
+	line-height:50px;
+	border-radius:40px;
+	color:#333333;
+	border:2px solid #999;
+	background:none;
+	font-size:21px;
+	display:inline-block;
+	text-align:center;
+	padding-left:0;
+	text-decoration:none;
+	margin-top:35px;	
+}
+.technology a:hover{
+		background:#fff;
+		border:2px solid #333;
+}
+.videosec{
+	padding:110px 0;
+	border-bottom:1px solid #e0e0e0;	
+}
+.videosec h3{
+	font-size:31px; line-height:41px; padding-top:75px;	 text-transform:uppercase; color:#333333; font-weight:700;
+}
+.videosec span{
+	display:inline-block;
+	width:340px;
+	height:1px;
+	background:#cccccc;
+	margin:10px 0;
+}
+#videoimage {
+	background: url(images/video.jpg) no-repeat center center;
+	display: block;
+	width: 100%;
+	min-height: 453px;
+	background-size: cover;
+	text-align: center;
+}
+#videoimage iframe {
+	width: 100%;
+	height: 453px;
+	float: left;
+	display: block;
+}
+.imagecoloroverlay a {
+	display: block;
+	cursor: pointer;
+	text-indent:-9999px;
+	margin: 33% auto 0;
+}
+.rightvideo{
+	padding-left:30px;	
+}
+.rightvideo p{
+	text-align:justify;	
+}
+.rightvideo a{
+		width:140px;
+	height:53px;
+	line-height:50px;
+	border-radius:40px;
+	color:#333333;
+	border:2px solid #999;
+	background:none;
+	font-size:21px;
+	display:inline-block;
+	text-align:center;
+	padding-left:0;
+	text-decoration:none;
+	margin-top:35px;	
+}
+.rightvideo a:hover{
+		background:#fff;
+		border:2px solid #333;
+}
+.testimonials{
+	padding:225px 0 190px;
+	text-align:center;	
+}
+.testimonials p{
+	font-size:43px;
+	line-height:55px;
+	color:#333;
+	padding:0 100px;	
+}
+.testimonials a {
+    width: 180px;
+    height: 53px;
+    line-height: 50px;
+    border-radius: 40px;
+    color: #333333;
+    border: 2px solid #999;
+    background: none;
+    font-size: 21px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 0;
+    text-decoration: none;
+    margin-top: 35px;
+}
+.testimonials a:hover{
+	background:#f8f8f7;
+		border:2px solid #333;	
+}
+.signup1{
+	background:url(images/contactbanner.jpg) no-repeat center center;
+	background-size:cover;	
+	min-height:673px;
+	padding:110px 0;
+}
+.signup1 h3{
+	font-size:31px; line-height:41px; padding-top:100px;	 text-transform:uppercase; color:#333333; font-weight:700;
+}
+.signup1 span{
+	display:inline-block;
+	width:340px;
+	height:1px;
+	background:#333;
+	margin:10px 0;
+}
+.signup1 p{padding-right:100px;}
+.background{
+	background:#fff;
+	padding:25px 20px;	
+	width:400px;
+	    float: right;
+}
+.background h4{
+		font-size:25px;
+		line-height:25px;
+		letter-spacing:0.25px;
+		padding-bottom:35px;
+}
+.background input{
+	display:inline-block;
+	width:100%;
+	height:70px;
+	margin-bottom:20px;	
+}
+.background input[type="text"]{
+	border:1px solid #c1c8cd;
+	padding-left:55px;	
+	 background:url(images/icon1.png) no-repeat 10px ;
+}
+.background input[type="email"]{
+	border:1px solid #c1c8cd;
+	padding-left:55px;	
+	 background:url(images/icon2.png) no-repeat 10px ;
+}
+.background input[type="submit"]{
+	background:#2196f3;
+	color:#fff;
+	border:1px solid #2196f3;
+	font-size:30px;	
+}
+.background input[type="submit"]:hover{
+	background:#fff;
+	color:#2196f3;	
+	transition:all 0.5s;
+}
+.background span{
+	text-align:center;
+	background:#fff;
+	width:100%;	
+	font-size:16px;
+}
+.background input[type="text"]::-webkit-input-placeholder ,.background input[type="email"]::-webkit-input-placeholder { font-size:20px;color:#333;}
+.background input[type="text"]::-moz-placeholder ,.background input[type="email"]::-moz-placeholder { font-size:20px;color:#333;}
+.background input[type="text"]:-ms-input-placeholder , .background input[type="email"]:-ms-input-placeholder { font-size:20px;color:#333;} 
+.background input[type="text"]:-moz-placeholder , .background input[type="email"]:-moz-placeholder{ font-size:20px;color:#333; }
+
+.happyclients{
+	padding:117px 0 140px;
+	color:#fff;	
+}
+.happyclients h2{font-size:50px; line-height:100%;font-weight:700; color:#333; text-align:center; text-transform:uppercase; padding-bottom:65px;}
+.happyclients a img{display:block; margin:0 auto;}
+.clienttest{
+	padding:110px 0;
+	text-align:center;
+	background:#f6f6f6;	
+}
+.clienttest h2{
+	font-size:50px; line-height:100%;font-weight:700; color:#333; text-align:center; text-transform:uppercase; padding-bottom:45px;
+}
+.clienttest p{font-size:22px; line-height:34px; color:#333;}
+.clienttest img{display:block; margin:50px auto 40px;}
+.joinus{
+	background:url(images/lapy.jpg) no-repeat center center;
+	display:block;
+	min-height:714px;
+	background-size:cover;
+	text-align:center;
+	padding:309px 0;	
+}
+.joinus h3{
+	font-size:46px;
+	line-height:55px;
+	color:#eeeeee;	
+}
+.joinus a{
+	width: 180px;
+    height: 53px;
+    line-height: 50px;
+    border-radius: 40px;
+    color: #333333;
+    background: #f6f6f6;
+    font-size: 21px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 0;
+    text-decoration: none;
+    margin-top: 35px;	
+}
+.joinus a:hover{
+	background:#000;
+	color:#fff;	
+}
+footer{
+	background:#eeeeee;
+	padding:65px 0;
+	text-align:center;
+	font-size:25px;
+	line-height:30px;	
+}
+
+/* New */
+
+.os-animation {
+	opacity: 0;
+}
+.os-animation.animated {
+	opacity: 1;
+}
+.staggered-animation {
+	opacity: 0;
+}
+.staggered-animation.animated {
+	opacity: 1;
+}
+/*LOADER EFFECT*/
+/*Paste this css to your style sheet file or under head tag*/
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 9999;
+ background: #f8f8f7;
+}
+
+[role="cssload-progressbar"] {
+	position: relative;
+	width: 45px;
+	height: 45px;
+	background-color: rgb(0,0,0);
+	margin: 97px auto;
+	top:35%;
+}
+[role="cssload-progressbar"]::before, [role="cssload-progressbar"]::after {
+	display: block;
+	position: absolute;
+	content: '';
+}
+[role="cssload-progressbar"]::before {
+	top: 3px;
+	left: 3px;
+	z-index: 2;
+	width: 39px;
+	height: 39px;
+	background-image: radial-gradient(center, ellipse, rgba(0, 0, 0, 0) 8px, rgb(255,255,255) 9px);
+		background-image: -o-radial-gradient(center, ellipse, rgba(0, 0, 0, 0) 8px, rgb(255,255,255) 9px);
+		background-image: -ms-radial-gradient(center, ellipse, rgba(0, 0, 0, 0) 8px, rgb(255,255,255) 9px);
+		background-image: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0) 8px, rgb(255,255,255) 9px);
+		background-image: -moz-radial-gradient(center, ellipse, rgba(0, 0, 0, 0) 8px, rgb(255,255,255) 9px);
+	background-size: 19px 19px;
+	animation: cssload-hypercube infinite linear forwards 4.6s;
+		-o-animation: cssload-hypercube infinite linear forwards 4.6s;
+		-ms-animation: cssload-hypercube infinite linear forwards 4.6s;
+		-webkit-animation: cssload-hypercube infinite linear forwards 4.6s;
+		-moz-animation: cssload-hypercube infinite linear forwards 4.6s;
+	box-shadow: 0 0 0 29px rgb(255,255,255);
+		-o-box-shadow: 0 0 0 29px rgb(255,255,255);
+		-ms-box-shadow: 0 0 0 29px rgb(255,255,255);
+		-webkit-box-shadow: 0 0 0 29px rgb(255,255,255);
+		-moz-box-shadow: 0 0 0 29px rgb(255,255,255);
+}
+[role="cssload-progressbar"]::after {
+	top: 29px;
+	left: 15px;
+	z-index: 1;
+	width: 16px;
+	height: 16px;
+	background-color: rgb(255,255,255);
+	border-radius: 100%;
+		-o-border-radius: 100%;
+		-ms-border-radius: 100%;
+		-webkit-border-radius: 100%;
+		-moz-border-radius: 100%;
+	transform: rotate(15deg);
+		-o-transform: rotate(15deg);
+		-ms-transform: rotate(15deg);
+		-webkit-transform: rotate(15deg);
+		-moz-transform: rotate(15deg);
+	transform-origin: 50% -16px;
+		-o-transform-origin: 50% -16px;
+		-ms-transform-origin: 50% -16px;
+		-webkit-transform-origin: 50% -16px;
+		-moz-transform-origin: 50% -16px;
+	animation: cssload-hyperball infinite reverse ease-in-out 1.15s;
+		-o-animation: cssload-hyperball infinite reverse ease-in-out 1.15s;
+		-ms-animation: cssload-hyperball infinite reverse ease-in-out 1.15s;
+		-webkit-animation: cssload-hyperball infinite reverse ease-in-out 1.15s;
+		-moz-animation: cssload-hyperball infinite reverse ease-in-out 1.15s;
+}
+
+
+
+
+
+@keyframes cssload-hypercube {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@-o-keyframes cssload-hypercube {
+	100% {
+		-o-transform: rotate(360deg);
+	}
+}
+
+@-ms-keyframes cssload-hypercube {
+	100% {
+		-ms-transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes cssload-hypercube {
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes cssload-hypercube {
+	100% {
+		-moz-transform: rotate(360deg);
+	}
+}
+
+@keyframes cssload-hyperball {
+	50% {
+		transform: rotate(-15deg);
+	}
+}
+
+@-o-keyframes cssload-hyperball {
+	50% {
+		-o-transform: rotate(-15deg);
+	}
+}
+
+@-ms-keyframes cssload-hyperball {
+	50% {
+		-ms-transform: rotate(-15deg);
+	}
+}
+
+@-webkit-keyframes cssload-hyperball {
+	50% {
+		-webkit-transform: rotate(-15deg);
+	}
+}
+
+@-moz-keyframes cssload-hyperball {
+	50% {
+		-moz-transform: rotate(-15deg);
+	}
+}

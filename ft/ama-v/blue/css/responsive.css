@@ -1,0 +1,1227 @@
+
+/*--------RESPONSIVE.CSS--------*/
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+.title {
+	top: 280px;
+}
+.title h2 {
+	font-size: 80px;
+}
+.mobile img {
+	width: 57%;
+}
+.slide-one {
+	padding: 75px 0 0 0;
+}
+.title a {
+	font-size: 23px;
+}
+.title ul {
+	padding: 70px 0;
+}
+.grid figcaption span {
+	font-size: 14px;
+}
+.grid figcaption a {
+	font-size: 20px;
+}
+.atitle h2 {
+	font-size: 40px;
+}
+.atitle a {
+	font-size: 20px;
+	padding: 6px 20px;
+}
+.aimage {
+	padding-top: 40px;
+}
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+.title {
+	top: 114px;
+}
+.title h2 {
+	font-size: 40px;
+}
+.mobile img {
+	width: 57%;
+}
+
+.slide-one {
+	padding: 50px 0 0 0;
+}
+.title a {
+	font-size: 18px;
+}
+.title ul {
+	padding: 46px 0;
+}
+.grid figcaption span {
+	font-size: 14px;
+}
+.grid figcaption a {
+    font-size: 20px;
+    right: 0;
+    left: 0;
+    top: 38px;
+    text-align: center;
+}
+.atitle h2 {
+	font-size: 36px;
+	width: 100%;
+}
+.bx-wrapper {
+	margin: 0 auto 40px;
+}
+.atitle a {
+	font-size: 20px;
+	padding: 6px 20px;
+}
+.aimage {
+	padding-top: 0px;
+}
+.bxslider h2 {
+	font-size: 30px;
+}
+.bxslider p {
+	margin-top: 10px;
+	font-size: 15px;
+}
+.bxslider span {
+	font-size: 13px;
+	margin: 20px 0 0 0;
+	line-height: 18p;
+	width: 56%;
+}
+.bxslider img {
+	margin-top: 27px;
+}
+.newfeature h2 {
+	font-size: 40px;
+	color: #fff;
+}
+#feature {
+	padding: 50px 0 0 0;
+}
+.newfeature {
+	padding: 30px 0 0 0;
+}
+.newfeature p {
+	font-size: 14px;
+	padding: 16px 0;
+}
+#slideshow .slide p {
+	width: 60%;
+	line-height: 20px;
+}
+#slideshow .markers {
+	padding: 12px 40px;
+}
+#taken {
+	padding-top: 27px;
+}
+.takentitle p {
+	margin-top: 12px;
+}
+.grid {
+	padding: 30px 0 0 0;
+}
+#wanna {
+	margin-top: 0px;
+}
+#wanna {
+	padding: 36px;
+}
+.grid figcaption {
+    padding: 25px;
+}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.flex-nav-prev{
+	display:none;
+}
+.flex-nav-next{
+	display:none;
+}
+header.sticky .resToggle{
+padding: 15px 15px;
+transition:all 0.3s;
+}
+.logo__title {
+    margin: 0;
+    float: left;
+    width: 9%;
+}
+.menu__list {
+    overflow: hidden;
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    float: right;
+    width: 80%;
+}
+.logo__link {
+    line-height: 38px;
+    margin-top: 3px;
+    padding-left: 6px;
+}
+
+.menu__link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    line-height: 3em;
+    height: 2em;
+    padding: 1px 8px;
+}
+.menu {
+    float: none;
+    padding-top: 0px;
+}
+.menu__link:hover {
+	border-bottom: 0px;
+}
+button {
+    background-color: #75b32b;
+}
+button:hover {
+	background-color: #82c830;
+	transition: all 0.3s;
+}
+.stp-images p {
+    font-size: 18px;
+}
+.menu-btn {
+	right: 10px;
+	top: -15px;
+}
+.title {
+    top: 190px;
+}
+.title h2 {
+	font-size: 40px;
+}
+.mobile img {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.slide-one {
+	padding: 50px 0 0 0;
+}
+.title a {
+	font-size: 18px;
+	padding: 4px 25px;
+}
+.title ul {
+	padding: 36px 0;
+}
+
+.grid figcaption span {
+	font-size: 12px;
+}
+.grid figcaption a {
+    font-size: 20px;
+    right: 0;
+    left: 0;
+    top: 38px;
+    text-align: center;
+}
+.atitle {
+	text-align:center;
+}
+.atitle h2 {
+	font-size: 30px;
+	width: 100%;
+}
+.bx-wrapper {
+	margin: 0 auto 40px;
+	float:none;
+}
+.atitle a {
+	font-size: 20px;
+	padding: 3px 6px;
+}
+.aimage {
+	padding-top: 0px;
+}
+.bxslider h2 {
+	font-size: 26px;
+}
+.bxslider p {
+	margin-top: 10px;
+	font-size: 12px;
+	line-height: 18px;
+}
+.bxslider span {
+    font-size: 12px;
+    margin: 10px 0 0 0;
+    line-height: 15px;
+    width: 36%;
+    float: left;
+}
+.bxslider img {
+    margin-top: 12px;
+    padding-right: 20px;
+}
+.newfeature h2 {
+	font-size: 30px;
+	color: #fff;
+}
+
+.grid figcaption {
+    padding: 10px;
+}
+#feature {
+	padding: 30px 0 0 0;
+}
+.newfeature {
+	padding: 20px 0 0 0;
+}
+.newfeature p {
+	font-size: 14px;
+	padding: 8px 0;
+	line-height: 18px;
+}
+#slideshow .slide p {
+	width: 60%;
+	line-height: 17px;
+	font-size: 12px;
+	left: 130px;
+}
+#slideshow .markers {
+	padding: 12px 40px;
+}
+#taken {
+	padding-top: 27px;
+}
+.takentitle p {
+	margin-top: 12px;
+	width: 100%;
+}
+.takentitle h2 {
+	font-size: 35px;
+}
+.grid {
+	padding: 30px 0 0 0;
+}
+.takentitle {
+	text-align: center;
+}
+#wanna {
+	margin-top: 0px;
+}
+#wanna {
+	padding: 40px 0;
+}
+#amabackimg {
+	padding: 40px 0;
+}
+.step-images span {
+	font-size: 14px;
+	margin:20px 0 0 20px;
+}
+.step-images p {
+	margin: 18px 0 6px 0;
+	font-size: 18px;
+}
+
+.slide h3 {
+	font-size: 16px;
+	margin: 19px 0 7px 0;
+}
+.slide img {
+	padding: 20px 20px;
+}
+.aimage img {
+	width: 20%;
+	text-align:center;
+	margin:0 auto;
+	display:block;
+}
+footer {
+	padding: 40px 0;
+}
+.os p {
+	margin: 5px 0 16px 0;
+	font-size: 15px;
+}
+.os {
+	padding: 20px 0 0 0;
+}
+.android {
+	width: 100%;
+}
+.flexslider .slides img {
+    height: 500px !important;
+    -moz-user-select: none;
+}
+.step-images a {
+ 
+    padding: 38px 78px;
+ 
+    margin-top: 18px;
+  
+    float: left;
+}
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 640px) and (max-width: 766px) {
+header.sticky .resToggle{
+padding: 15px 15px;
+transition:all 0.3s;
+}
+.logo__link {
+	line-height: 44px;
+	margin-top: -5px;
+	padding-left: 8px;
+}
+.menu {
+	float: none;
+	padding-top: 28px;
+}
+.menu__link:hover {
+	border-bottom: 0px;
+}
+button {
+    background-color: #75b32b;
+}
+button:hover {
+	background-color: #82c830;
+	transition: all 0.3s;
+}
+.menu-btn {
+	right: 10px;
+	top: -15px;
+}
+.title {
+	top: 150px;
+}
+.title h2 {
+	font-size: 48px;
+	
+}
+.mobile img {
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+
+.slide-one {
+	padding: 28px 0 0 0;
+}
+.title a {
+    font-size: 20px;
+    padding: 10px 20px;
+    line-height: 35px;
+}
+.title ul {
+	padding: 24px 0;
+}
+.atitle h2 {
+	font-size: 26px;
+	width: 100%;
+}
+.grid figcaption {
+	padding: 16px;
+}
+.title img {
+	width: 30%;
+}
+.cs-style-2 figcaption a {
+	right: 120px;
+	top: 45px;
+	font-size: 21px;
+}
+.grid li {
+	width: 50%;
+}
+.grid figcaption span {
+	float: none;
+	font-size: 16px;
+	text-align: center;
+}
+.bx-wrapper {
+	margin: 0px auto 60px;
+	float: none;
+}
+.atitle a {
+	font-size: 17px;
+	padding: 3px 6px;
+	line-height: 35px;
+}
+.atitle img {
+	padding-right: 5px;
+	width: 30%;
+}
+.title li {
+	margin: 0 5px;
+}
+.aimage {
+	padding-top: 0px;
+}
+.aimage img {
+    width: 24%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.bxslider h2 {
+	font-size: 26px;
+}
+.atitle{
+	text-align:center;
+}
+.atitle li {
+	margin: 0 6px;
+}
+.atitle p {
+	font-size: 20px;
+	padding: 10px 0 19px;
+}
+.bxslider p {
+	margin-top: 10px;
+	font-size: 12px;
+	line-height: 18px;
+}
+.bxslider span {
+	font-size: 12px;
+	margin: 4px 0 0 0;
+	line-height: 15px;
+	width: 60%;
+}
+.bxslider img {
+	margin-top: 12px;
+	padding-right:20px;
+}
+.newfeature h2 {
+	font-size: 30px;
+	color: #fff;
+}
+
+#feature {
+	padding: 30px 0 0 0;
+}
+#slideshow {
+	max-width: 370px;
+}
+.newfeature {
+	padding: 20px 0 20px 0;
+	text-align: center;
+}
+.newfeature p {
+	font-size: 14px;
+	padding: 8px 0;
+	line-height: 18px;
+	width: 100%;
+	text-align:center;
+}
+.mobileone img {
+	width: 50%;
+	text-align: center;
+	margin: 8px auto;
+	display: block;
+}
+#slideshow .slide p {
+	width: 60%;
+	line-height: 17px;
+	font-size: 12px;
+	left: 130px;
+}
+#slideshow .markers {
+	padding: 12px 40px;
+}
+#taken {
+	padding-top: 27px;
+}
+.takentitle p {
+	margin-top: 2px;
+	width: 100%;
+	font-size: 16px;
+	text-align:center;
+}
+.takentitle h2 {
+	font-size: 35px;
+}
+.grid {
+	padding: 30px 0 0 0;
+}
+.takentitle {
+	text-align: center;
+}
+#wanna {
+	margin-top: 0px;
+}
+#wanna {
+	padding: 40px 0;
+}
+#amabackimg {
+	padding: 40px 0;
+}
+.step-images span {
+	font-size: 14px;
+}
+.step-images p {
+	margin: 18px 0 6px 0;
+	font-size: 16px;
+}
+.slide h3 {
+	font-size: 16px;
+	margin: 19px 0 7px 0;
+}
+.slide img {
+	padding: 20px 20px
+}
+footer {
+	padding: 40px 0;
+}
+.os p {
+	margin: 5px 0 16px 0;
+	font-size: 15px;
+}
+.os {
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+.cs-style-2 figcaption a i {
+	padding-right: 5px;
+}
+.captitle h3 {
+	text-align: center;
+}
+.freetemp p {
+    line-height: 50px;
+}
+#email {
+    padding: 18px 0;
+   text-align: center;
+}
+.bxslider span {
+    font-size: 12px;
+    margin: 10px 0 0 20px;
+    line-height: 15px;
+    width: 36%;
+    float: left;
+}
+.flexslider .slides img {
+    height: 450px !important;
+    -moz-user-select: none;
+}
+.step-images img {
+    margin: 30px auto 30px;
+}
+.step-images a {
+  
+    padding: 30px 70px;
+  margin-top:10px;
+    float: left;
+}
+.step-images {
+    margin-top: 0px;
+}
+.flex-nav-prev{
+	display:none;
+}
+.flex-nav-next{
+	display:none;
+}
+}
+ @media only screen and (min-width: 480px) and (max-width: 639px) {
+
+.logo__link {
+	line-height: 44px;
+	margin-top: -5px;
+	padding-left: 8px;
+}
+.menu {
+	float: none;
+	padding-top: 28px;
+}
+.menu__link:hover {
+	border-bottom: 0px;
+}
+button {
+    background-color: #75b32b;
+}
+button:hover {
+	background-color: #82c830;
+	transition: all 0.3s;
+}
+.menu-btn {
+	right: 10px;
+	top: -15px;
+}
+.title {
+	top: 87px;
+}
+.stp-images img {
+    margin: 40px auto 20px;
+}
+.title h2 {
+    font-size: 40px;
+}
+.step-images a {
+    padding: 30px 60px;
+}
+.mobile img {
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+.step-images img {
+	width: 25%;
+}
+.slide-one {
+	padding: 28px 0 0 0;
+}
+.title a {
+    font-size: 15px;
+    padding: 10px 20px;
+    line-height: 30px;
+}
+.title ul {
+	padding: 24px 0;
+}
+.atitle h2 {
+	font-size: 26px;
+	width: 100%;
+}
+.grid figcaption {
+	padding: 16px;
+}
+.title img {
+	width: 30%;
+}
+.grid figcaption a {
+    font-size: 20px;
+    right: 0;
+    left: 0;
+    top: 38px;
+    text-align: center;
+}
+.grid li {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+	float:none;
+}
+.grid figcaption span {
+	float: none;
+	font-size: 16px;
+	text-align: center;
+}
+.bx-wrapper {
+	margin: 0px auto 60px;
+	float: none;
+}
+.atitle a {
+	font-size: 17px;
+	padding: 3px 6px;
+	line-height: 35px;
+}
+.atitle img {
+	padding-right: 5px;
+	width: 30%;
+}
+.title li {
+    margin: 11px 5px;
+    display: block;
+}
+.aimage {
+	padding-top: 0px;
+}
+.aimage img {
+    width: 24%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.bxslider h2 {
+    font-size: 23px;
+}
+.atitle{
+	text-align:center;
+}
+.atitle li {
+	margin: 0 6px;
+}
+.atitle p {
+	font-size: 20px;
+	padding: 10px 0 19px;
+}
+.bxslider p {
+    margin-top: 9px;
+    font-size: 11px;
+    line-height: 16px;
+}
+.bxslider span {
+	font-size: 12px;
+	margin: 4px 0 0 0;
+	line-height: 15px;
+	width: 60%;
+}
+.bxslider img {
+	margin-top: 12px;
+}
+.newfeature h2 {
+	font-size: 30px;
+	color: #fff;
+}
+.bx-wrapper img {
+	width: 37%;
+	height: 81px;
+}
+#feature {
+	padding: 0 0 0 0;
+}
+#slideshow {
+	max-width: 370px;
+}
+.newfeature {
+	padding: 20px 0 20px 0;
+	text-align: center;
+}
+.newfeature p {
+	font-size: 16px;
+	text-align:center;
+	padding: 8px 0;
+	line-height: 18px;
+	width: 100%;
+}
+.mobileone img {
+	width: 50%;
+	text-align: center;
+	margin: 8px auto;
+	display: block;
+}
+#slideshow .slide p {
+	width: 60%;
+	line-height: 17px;
+	font-size: 12px;
+	left: 130px;
+}
+#slideshow .markers {
+	padding: 12px 40px;
+}
+#taken {
+	padding-top: 27px;
+}
+.takentitle p {
+	margin-top: 2px;
+	width: 100%;
+	font-size: 16px;
+	text-align:center;
+}
+.takentitle h2 {
+	font-size: 35px;
+}
+.grid {
+	padding: 30px 0 0 0;
+}
+.takentitle {
+	text-align: center;
+}
+#wanna {
+	margin-top: 0px;
+}
+#wanna {
+	padding: 40px 0;
+}
+#amabackimg {
+	padding: 40px 0;
+}
+.step-images span {
+	font-size: 14px;
+	margin-top:20px;
+}
+.step-images p {
+	margin: 18px 0 6px 0;
+	font-size: 16px;
+}
+.step-images {
+    margin-top: 0px;
+}
+.slide h3 {
+	font-size: 16px;
+	margin: 19px 0 7px 0;
+}
+.slide img {
+	padding: 7px 20px
+}
+footer {
+	padding: 40px 0;
+}
+.os p {
+	margin: 5px 0 16px 0;
+	font-size: 15px;
+}
+.os {
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+.cs-style-2 figcaption a i {
+	padding-right: 5px;
+}
+.captitle h3 {
+	text-align: center;
+}
+.freetemp p {
+    line-height: 50px;
+}
+#email {
+    padding: 18px 0;
+    text-align: center;
+}
+.ama h2 {
+    font-size: 36px;
+}
+#mobile-silde {
+    padding: 30px 0 0 0;
+}
+.title {
+    top: 140px;
+}
+.flexslider .slides img {
+    height: 400px !important;
+    -moz-user-select: none;
+}
+.windows8 {
+	position: relative;
+	width: 120px;
+	height: 120px;
+	margin: auto;
+	top:250px;
+}
+header.sticky .resToggle{
+padding: 15px 15px;
+transition:all 0.3s;
+}
+.flex-nav-prev{
+	display:none;
+}
+.flex-nav-next{
+	display:none;
+}
+.flex-control-nav {
+    bottom: 12px !important;
+}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+.logo__link {
+	padding-left: 8px;
+}
+.menu {
+    float: none;
+    padding-top: 25px;
+}
+.menu__link:hover {
+	border-bottom: 0px;
+}
+button {
+    background-color: #75b32b;
+}
+button:hover {
+	background-color: #82c830;
+	transition: all 0.3s;
+}
+.menu-btn {
+    right: 10px;
+	top:0;
+}
+.title {
+    top: 100px;
+}
+.title h2 {
+    font-size: 30px;
+   
+}
+.mobile img {
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+.step-images img {
+	width: 65%;
+	    margin: 20px auto 15px;
+}
+.slide-one {
+	padding: 28px 0 0 0;
+}
+.title a {
+    font-size: 14px;
+    padding: 4px 10px;
+    line-height: 26px;
+   
+}
+.wrap{
+	margin-top:-16px;
+}
+.title ul {
+    padding: 10px 0;
+}
+
+.atitle h2 {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+.grid figcaption {
+	padding: 16px;
+}
+.title img {
+    width: 24%;
+    padding-right: 1px;
+}
+.grid figcaption a {
+    font-size: 20px;
+    right: 0;
+    left: 0;
+    top: 38px;
+    text-align: center;
+}
+.grid li {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+	float:none;
+}
+.grid figcaption span {
+	float: none;
+	font-size: 16px;
+	text-align: center;
+}
+.bx-wrapper {
+	margin: 0px auto 60px;
+	float: none;
+}
+.atitle a {
+	font-size: 17px;
+	padding: 3px 6px;
+	line-height: 35px;
+}
+.atitle img {
+	padding-right: 5px;
+	width: 30%;
+}
+.title li {
+    margin: 15px 0px;
+	display:block;
+}
+.aimage {
+	padding-top: 0px;
+}
+.aimage img {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.bxslider h2 {
+    font-size: 23px;
+}
+.atitle{
+	text-align:center;
+}
+.atitle li {
+    margin: 3px 6px;
+}
+.atitle p {
+    font-size: 18px;
+    padding: 10px 0 19px;
+    text-align: center;
+}
+.bxslider p {
+    margin-top: 9px;
+    font-size: 11px;
+    line-height: 16px;
+}
+.bxslider span {
+	font-size: 12px;
+	margin: 4px 0 0 0;
+	line-height: 15px;
+	width: 60%;
+}
+.bxslider img {
+	margin-top: 12px;
+}
+.newfeature h2 {
+	font-size: 30px;
+	color: #fff;
+}
+.bx-wrapper img {
+	width: 37%;
+	height: 81px;
+}
+#feature {
+	padding: 30px 0 0 0;
+}
+#slideshow {
+	max-width: 370px;
+}
+.newfeature {
+	padding: 20px 0 20px 0;
+	text-align: center;
+}
+.newfeature p {
+	font-size: 14px;
+	padding: 8px 0;
+	line-height: 18px;
+	width: 100%;
+	text-align:center;
+}
+.mobileone img {
+	width: 50%;
+	text-align: center;
+	margin: 8px auto;
+	display: block;
+}
+#slideshow .slide p {
+   width: 70%;
+    line-height: 16px;
+    font-size: 12px;
+    left: 86px;
+}
+#slideshow .markers {
+	padding: 12px 40px;
+}
+#taken {
+	padding-top: 27px;
+}
+.takentitle p {
+    margin-top: 2px;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+}
+.takentitle h2 {
+	font-size: 30px;
+}
+.grid {
+	padding: 30px 0 0 0;
+}
+.takentitle {
+	text-align: center;
+}
+#wanna {
+	margin-top: 0px;
+}
+#wanna {
+	padding: 40px 0;
+}
+#amabackimg {
+    padding: 20px 0;
+}
+.step-images span {
+    font-size: 11px;
+    margin-top: 20px;
+}
+.step-images p {
+	margin: 18px 0 6px 0;
+	font-size: 14px;
+}
+
+.slide h3 {
+	font-size: 16px;
+	margin: 7px 0 7px 0;
+}
+.slide img {
+    padding: 20px 9px;
+    width: 30%;
+}
+footer {
+	padding: 40px 0;
+}
+.os p {
+	margin: 5px 0 16px 0;
+	font-size: 15px;
+}
+.os {
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+.cs-style-2 figcaption a i {
+	padding-right: 5px;
+}
+.captitle h3 {
+	text-align: center;
+}
+.freetemp p {
+    line-height: 50px;
+}
+#email {
+    padding: 18px 0;
+    text-align: center;
+}
+.ama h2 {
+    font-size: 30px;
+}
+#mobile-silde {
+    padding: 30px 0 0 0;
+}
+
+.logo {
+    float: none;
+}
+.os img{
+	width:80%;
+}
+.flexslider .slides img {
+    height: 320px !important;
+    -moz-user-select: none;
+}
+.windows8 {
+	position: relative;
+	width: 120px;
+	height: 120px;
+	margin: auto;
+	top:200px;
+}
+.textbox input {
+    width: 100%;
+}
+.textbox a {
+
+    margin-top: 5px;
+}
+.stp-images img {
+    margin: 20px auto 14px;
+    width: 50%;
+}
+.step-images a {
+    padding: 28px 40px;
+}
+header.sticky .resToggle{
+padding: 15px 15px;
+transition:all 0.3s;
+}
+.flex-nav-prev{
+	display:none;
+}
+.flex-nav-next{
+	display:none;
+}
+.flex-control-nav {
+    bottom: 15px !important;
+}
+.the-nav li a {
+    padding: 10px 10px !important;
+}
+}

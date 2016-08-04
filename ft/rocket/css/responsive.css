@@ -1,0 +1,392 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+	.banner {
+    min-height: 700px;
+	}
+	.banner h2 {
+    margin-top: 190px;
+	}
+	.joinus {
+    min-height: 600px;
+    padding: 161px 0;
+	}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+	.banner {
+    min-height: 700px;
+	}
+	.banner h2 {
+    margin-top: 190px;
+	    font-size: 46px;
+	}
+	.joinus {
+    min-height: 600px;
+    padding: 161px 0;
+	}
+	.nav {
+    width: 70%;
+	}
+	.logo {
+    width: 30%;
+	}
+	.web {
+    padding: 80px 0;
+	}
+	.webtitle p {
+    padding: 0 100px 100px;
+}
+.technology {
+    padding: 80px 0;
+}
+.technology h3 {
+    font-size: 29px;
+    line-height: 50px;
+    padding-top: 0;
+}
+#videoimage {
+    min-height: 300px;
+}
+.videosec h3 {
+    font-size: 23px;
+    line-height: 34px;
+    padding-top: 0;
+}
+.videosec {
+    padding: 80px 0;
+}
+.testimonials {
+    padding: 80px 0;
+}
+.testimonials p {
+    font-size: 30px;
+    line-height: 42px;
+    padding: 0 10px;
+}
+.background {
+    width: 100%;
+}
+.signup1 {
+    min-height: 624px;
+    padding: 80px 0;
+}
+.happyclients {
+    padding: 80px 0;
+}
+.happyclients a img {
+    width: 100%;
+}
+.clienttest {
+    padding: 80px 0;
+}
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.banner {
+    min-height: 650px;
+	}
+	.banner img {
+    margin-top: 40px;
+}
+	.banner h2 {
+    margin-top: 190px;
+	    font-size: 46px;
+	}
+	.joinus {
+    min-height: 600px;
+    padding: 161px 0;
+	}
+	.nav {
+    width: 70%;
+	}
+	.logo {
+    width: 30%;
+	}
+	.web {
+    padding: 50px 0;
+	}
+	.webtitle p {
+    padding: 0 10px 50px;
+}
+.technology {
+    padding: 50px 0;
+}
+.technology h3 {
+    font-size: 29px;
+    line-height: 50px;
+    padding-top: 0;
+}
+#videoimage {
+    min-height: 300px;
+}
+.videosec h3 {
+    font-size: 23px;
+    line-height: 34px;
+    padding-top: 0;
+}
+.videosec {
+    padding: 80px 0;
+}
+.testimonials {
+    padding: 50px 0;
+}
+.testimonials p {
+    font-size: 30px;
+    line-height: 42px;
+    padding: 0 10px;
+}
+.background {
+    width: 100%;
+}
+.signup1 {
+    min-height: 624px;
+    padding: 50px 0;
+}
+.happyclients {
+    padding: 50px 0;
+}
+.happyclients a img {
+    width: 100%;
+}
+.clienttest {
+    padding: 50px 0;
+}
+.videosec span {
+    width: 200px;
+}
+footer {
+    padding: 50px 0;
+	font-size: 20px;
+}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.nav {
+    width: 100%;
+    float: none;
+    text-align: center;
+	padding-top:20px;
+}
+.logo {
+    width: 100%;
+    float: none;
+    padding-top: 0px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.logo img{display:block; margin:0 auto;}
+a.signup {
+    height: 37px;
+    line-height: 37px;
+    margin-left: 20px;
+	padding-left: 0 !important;
+}
+.nav a {
+    padding-left: 20px;
+}
+.banner h2 {
+    margin-top: 150px;
+    font-size: 26px;
+    line-height: 34px;
+}
+.banner {
+    min-height: 450px;
+}
+.banner img {
+    margin-top: 7px;
+    height: 86px;
+}
+.banner span {
+    margin-bottom: 12px;
+}
+.banner p {
+    padding: 5px 0;
+    font-size: 16px;
+ }
+ .banner a.project {
+    height: 40px;
+    line-height: 40px;
+ }
+ .web {
+    padding: 30px 0;
+ }
+ .webtitle h2 {
+    font-size: 28px;
+    line-height: 32px;
+ }
+ .webtitle p {
+    padding: 0px 10px 30px;
+}
+.one span, .two span, .three span {
+    padding-bottom: 10px;
+}
+.one h3, .two h3, .three h3 {
+    padding-bottom: 5px;
+    line-height: 26px;
+}
+.one p, .two p, .three p {padding-bottom:15px;}
+.technology {
+    padding: 30px 0;
+}
+.technology h3 {
+    font-size: 26px;
+    line-height: 36px;
+	padding-top:0;
+}
+.technology a {
+    margin: 20px 0;
+}
+.videosec {
+    padding: 30px 0;
+}
+#videoimage {
+    min-height: 350px;
+}
+#videoimage iframe {
+    width: 100%;
+    height: 350px;
+}
+.rightvideo {
+    padding-left: 0;
+}
+.videosec h3 {
+    font-size: 25px;
+    line-height: 41px;
+    padding-top: 30px;
+}
+.testimonials {
+    padding: 30px 0;
+}
+.testimonials p {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0 0px;
+}
+.signup1 h3 {
+    padding-top: 0;
+}
+.signup1 {
+    padding: 30px 0;
+}
+.signup1 p {
+    padding-right: 0;
+    padding-bottom: 15px;
+}
+
+.background {
+    width: 100%;
+}
+.happyclients {
+    padding: 30px 0;
+}
+.happyclients h2 {
+    font-size: 34px;
+    padding-bottom: 30px;
+}
+.happyclients a img {
+    margin: 20px auto;
+}
+.clienttest {
+    padding: 30px 0;
+}
+.clienttest p {
+    font-size: 18px;
+    line-height: 24px;
+}
+.joinus {
+    min-height: 300px;
+    padding: 50px 0;
+}
+.joinus h3 {
+    font-size: 30px;
+    line-height: 35px;
+}
+footer {
+    padding: 30px 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+.clienttest h2 {
+    font-size: 34px;
+    padding-bottom: 25px;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.webtitle span , .technology span, .videosec span , .signup1 span{
+    width: 200px;
+		}
+		.nav a {
+    padding-left: 10px;
+	font-size: 20px;
+}
+a.signup {
+    margin-left: 10px;
+	width:100px;
+}
+.webtitle h2 {
+    font-size: 20px;
+    line-height: 26px;
+}
+		
+.webtitle p {
+    padding: 0px 5px 30px;
+    font-size: 16px;
+}
+.technology h3 {
+    font-size: 22px;
+    line-height: 30px;
+ }
+ .technology p, .rightvideo p , .signup1 p ,  .clienttest p{font-size:16px;}
+ .videosec h3 {
+    font-size: 21px; 
+    line-height: 30px;
+ } 	
+ .signup1 h3 {
+    font-size: 20px;
+    line-height: 31px;
+ }
+ .background h4 {
+    font-size: 21px;
+    padding-bottom: 15px;
+}
+.background input {
+    height: 45px;
+}
+.background input[type="submit"] {
+    font-size: 23px;
+}
+.background span {
+    width: 100% !important;
+}
+.happyclients h2, .clienttest h2 {
+    font-size: 23px;
+ }
+ .clienttest p br{display:none;}
+ .clienttest img {
+    margin: 20px auto 20px;
+}
+.joinus h3 {
+    font-size: 22px;
+    line-height: 30px;
+}
+footer {
+    font-size: 16px;
+}
+		}
+

@@ -1,0 +1,394 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+	.cd-header {
+    height: 100px;
+}
+.banner {
+    min-height: 600px;
+}
+.banner h2 {
+    font-size: 45px;
+    margin-top: 200px;
+}
+.bx-wrapper .bx-prev {
+    left: 0;
+}
+.bx-wrapper .bx-next {
+    right: 0px;
+}
+.leftside {
+    padding: 130px 30px 100px;
+}
+.sinner1 {
+    padding: 110px 80px 80px;
+}
+.caption-style-4 .caption-text {
+    width: 301px;
+    top: 85px;
+}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+	.cd-header {
+    height: 100px;
+}
+.banner {
+    min-height: 600px;
+}
+.banner h2 {
+    font-size: 45px;
+    margin-top: 200px;
+}
+.bx-wrapper .bx-prev {
+    left: 0;
+}
+.bx-wrapper .bx-next {
+    right: 0px;
+}
+.leftside {
+    padding: 130px 30px 100px;
+}
+.sinner1 {
+    padding: 110px 40px 80px;
+}
+.caption-style-4 .caption-text {
+    width: 230px;
+    top: 50px;
+}
+.hedabout p {
+    padding: 20px 60px 50px;
+}
+.sinner1 img, .sinner2 img{width:100%; display:block;}
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.cd-header {
+    height: 100px;
+}
+.banner {
+    min-height: 500px;
+}
+.banner h2 {
+    font-size: 45px;
+    margin-top: 170px;
+}
+.bx-wrapper .bx-prev {
+    left: 0;
+}
+.bx-wrapper .bx-next {
+    right: 0px;
+}
+.leftside {
+    padding: 54px 30px 80px;
+}
+.sinner1 {
+    padding: 54px 40px 0px;
+	min-height:360px;
+}
+.sinner2 {
+    padding: 85px 20px 58px;
+	min-height:360px;
+}
+.caption-style-4 .caption-text {
+    width: 230px;
+    top: 50px;
+}
+.hedabout p {
+    padding: 20px 60px 50px;
+}
+.sinner1 img, .sinner2 img{width:100%; display:block;}
+.aboutus {
+    padding: 50px 0;
+		}
+		.work {
+    margin: 50px 0 0 0;
+		}
+		.clinets {
+    min-height: 168px;
+    padding: 56px 0;
+}
+.flex-direction-nav .flex-next {
+    opacity: 1;
+    right: -50px;
+}
+.flex-direction-nav .flex-prev {
+    opacity: 1;
+    left: -50px;
+}
+.whoweare {
+    padding: 50px 0;
+}
+.blog {
+    padding: 50px 0;
+}
+	}
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.cd-header {
+  box-shadow: none;
+		}
+	.topheder .container {
+    padding: 0 !important;
+}
+.hedabout p {
+    padding: 20px 15px 25px;
+}
+.cd-header {
+    height: 70px;
+}
+.banner {
+    min-height: 400px;
+}
+.banner h2 {
+    font-size: 35px;
+    margin-top: 120px;
+    letter-spacing: 1px;
+}
+.banner p {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.scrolldown {
+    margin-top: 10px;
+}
+.bx-wrapper .bx-prev {
+    left: 0;
+}
+.bx-wrapper .bx-next {
+    right: 0px;
+}
+.aboutus {
+    padding: 25px 0;
+}
+.one {
+    margin-bottom: 10px;
+}
+.leftside {
+    width: 100%;
+	 float: none;
+	 padding: 20px;
+    min-height: 270px;
+}
+.rightside {
+    width: 100%;
+    float: none;
+}
+#videoimage {
+    min-height: 270px;
+}
+.imagecoloroverlay a {
+    margin: 85px auto 0;
+}
+.work {
+    margin: 25px 0 0 0;
+}
+#filters li span {
+    font-size: 12px;
+}
+#filters li {
+    padding: 5px 5px;
+}
+.flex-direction-nav .flex-next {
+    opacity: 1;
+    right: -50px;
+}
+.flex-direction-nav .flex-prev {
+    opacity: 1;
+    left: -50px;
+}
+.clinets {
+    min-height: 144px;
+    padding: 50px 0;
+}
+.whoweare {
+    padding: 25px 0;
+}
+.sinner1 {
+    padding: 30px;
+    min-height: 255px;
+}
+.sinner2 {
+    background: #ebebeb;
+    padding: 30px;
+    min-height: 300px;
+}
+.sinner2 img{width:100%; display:block;}
+.whoweare .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+   left:0;
+}
+.features {
+    padding: 25px 0;
+}
+.f-head {
+    padding-bottom: 15px;
+}
+.features p {
+    padding: 10px 0;
+}
+.features h5 {
+    margin-bottom: 20px;
+}
+.blog {
+    padding: 25px 0;
+}
+.imgeblog img {
+    display: block;
+    
+	margin:0 auto;
+	width:100%;
+}
+.imgeblog{
+margin: 0 auto;
+    display: block;
+    width: 54%;
+}
+.contentblog {
+    padding: 15px 10px 10px 10px;
+    width: 54%;
+    margin: 0 auto;
+	margin-bottom:10px;
+}
+.caption-style-4 .caption-text {
+    width: 330px;
+    top: 90px;
+}
+.planmain {
+    width: 100%;
+}
+.getintouch {
+    padding: 25px 0;
+}
+.getintouch form {
+    width: 90%;
+    margin: 0 auto;
+	
+}
+.plans {
+    padding: 25px 0;
+}
+footer {
+    padding: 25px 0;
+}
+.cd-primary-nav a {
+    display: inline-block;
+    padding: 13px 1em;
+}
+.cd-primary-nav {
+    padding: 80px 0 0 0;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+			
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.banner h2 {
+    font-size: 24px;
+		}
+		.banner p {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+		.banner {
+    min-height: 350px;
+}
+
+
+.bx-wrapper .bx-controls-direction a {
+    top: 70%;
+    margin-top: 0;
+}
+h3 {
+    font-size: 30px;
+}
+.hedabout span {
+    width: 100px;
+}
+.one {
+    padding: 10px;
+}
+.leftside h4 {
+    font-size: 20px;
+}
+.leftside p {
+    padding: 10px 0 15px;
+}
+.hedabout p {
+    padding: 10px 5px 15px;
+}
+.flexslider .slides img {
+    width: 100%;
+}
+.sinner1 {
+    padding: 10px;
+    min-height: 250px;
+}
+.sinner2 {
+    padding: 10px;
+    min-height: 250px;
+}
+.whoweare .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: 8px;
+}
+.f-head h4 {
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+.features h5 {
+    font-size: 30px;
+}
+.imgeblog {
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+}
+.contentblog {
+    padding: 15px 10px 10px 10px;
+    width: 90%;
+}
+.cd-logo img {
+    width: 70%;
+}
+.caption-style-4 .caption-text {
+    width: 250px;
+    top: 65px;
+}
+.contentblog h4 {
+    padding-bottom: 10px;
+}
+.plan1 {
+    padding: 20px 0 10px;
+}
+.plan2 {
+    padding: 15px 0 15px;
+}
+.plan2 a.purches {
+    margin: 10px auto 0;
+}
+.planmain {
+    margin-bottom: 10px;
+}
+.textinput {
+    width: 100%;
+    float: left;
+    margin: 10px 0;
+}
+.getintouch form {
+    width: 100%;
+    margin: 0 auto;
+}
+		}
+

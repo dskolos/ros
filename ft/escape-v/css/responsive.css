@@ -1,0 +1,492 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+	#homebanner {
+    min-height: 550px;
+	}
+	.webdevelopment {
+    padding: 70px 0;
+}
+.branding {
+    padding: 70px 0;
+}
+.webdevelopment img {
+     width: 100%;
+}
+.branding img {
+    width: 100%;
+}
+.branding p {
+    padding: 15px 0px 0 0;
+}
+.services {
+    padding: 70px 0 60px;
+}
+#client {
+    padding: 70px 0 60px;	
+}
+.bubble {
+    position: relative;
+    width: 450px;
+    height: 170px;
+}
+.bubble1 {
+    position: relative;
+    width: 450px;
+    height: 170px;
+}
+.leftsec p {
+    padding: 10px 25px 10px;
+}
+.leftsec span {
+    padding-left:25px;
+}
+.rightsec p {
+    padding: 10px 25px 10px;
+}
+.rightsec span {
+    padding-left:25px;
+}
+#contact input {
+    width: 100%;
+}
+#contact textarea {
+    width: 100%;
+}
+.leftcontact ul li i {
+    width: 22px;
+    margin-right: 5px;
+}
+#contact {
+    padding: 70px 0;
+}
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		.webdevelopment img {
+     width: 100%;
+}
+.branding img {
+    width: 100%;
+}	
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		#homebanner {
+    min-height: 500px;
+		}
+		#homebanner p {
+    padding-top: 190px;
+}
+#homebanner h2 {
+    font-size: 48px;
+    line-height: 54px;
+    padding: 30px 0 20px;
+}
+.webdevelopment {
+    padding: 50px 0;
+}
+.branding {
+    padding: 50px 0;
+}
+.webdevelopment h3 {
+    font-size: 46px;
+    line-height: 50px;
+}
+.webdevelopment p {
+    padding: 15px 10px 0 0;
+}
+.branding h3 {
+    font-size: 46px;
+    line-height: 50px;
+}
+.branding p {
+    padding: 10px 5px 0 0;
+}
+.contentone {
+    padding-left: 10px;
+}
+.services {
+    padding: 50px 0 20px;
+}
+.bubble {
+    width: 57%;
+    margin-left: 20px;
+	height:160px;
+ }
+ .leftsec p {
+    font-size: 20px;
+    line-height: 26px;
+    padding: 10px;
+}
+.leftsec span {
+    font-size: 18px;
+    padding-left: 10px;
+}
+.bubble1 {
+    width: 57%;
+    height: 160px;
+    margin-right: 20px;
+}
+ .rightsec p {
+    font-size: 20px;
+    line-height: 26px;
+    padding: 10px;
+}
+.rightsec span {
+    font-size: 18px;
+    padding-left: 10px;
+}
+#icons img{width:100%;}
+.teamone img{width:100%;}
+#team {
+    padding: 50px 0;
+}
+.bottomteam p {
+    width: 90%;
+}
+#contact input {
+    width: 100%;
+}
+#contact textarea {
+    width: 100%;
+}
+.leftcontact ul li i {
+    width: 30px;
+    margin-right: 5px;
+	font-size:28px;
+}
+#contact {
+    padding: 50px 0;
+}
+.leftcontact ul li a {
+    font-size: 18px;
+}
+.leftcontact ul li {
+    width: 100%;
+    padding-top: 5px;
+}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.logos {
+    width: 100%;
+    float: none;
+}
+.nav-toggle {
+    position: absolute;
+    top: -10px;
+    right: 0;
+}
+nav ul li {
+    padding: 4px 15px;
+}
+header.sticky {
+    padding: 15px 0 10px;
+}
+
+#contact input {
+    width: 100%;
+        padding-left: 5px;
+}
+#contact textarea {
+    width: 100%;
+	padding-left: 5px;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 550px) and (max-width: 767px) {
+		#homebanner {
+    min-height: 400px;
+		}
+		#homebanner p {
+    padding-top: 150px;
+	    font-size: 25px;
+}
+#homebanner h2 {
+        font-size: 36px;
+    line-height: 38px;
+    padding: 30px 0 20px;
+}
+.webdevelopment {
+    padding: 30px 0;
+}
+.branding {
+    padding: 30px 0;
+}
+.webdevelopment h3 {
+    font-size: 36px;
+    line-height: 40px;
+}
+.webdevelopment p {
+    padding: 15px 5px 0 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+.branding h3 {
+    font-size: 36px;
+    line-height: 40px;
+}
+.branding p {
+    padding: 15px 5px 0 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+.services {
+    padding: 30px 0 10px;
+}
+.contentone h3 {
+    font-size: 20px;
+}
+.contentone {
+    width: 100%;
+    padding-left: 0px;
+}
+#client {
+    padding: 30px 0 10px;
+}
+.headclient h3 {
+    font-size: 45px;
+    line-height: 55px;
+}
+.leftsec img {
+    width: 25%;
+}
+.rightsec img {
+     width: 25%;
+}
+.bubble {
+      width: 69%;
+    margin-left: 20px;
+    height: 120px;
+    margin-top: 0;
+ }
+ .leftsec p {
+       font-size: 16px;
+    line-height: 20px;
+    padding: 10px;
+}
+.leftsec span {
+    font-size: 15px;
+    padding-left: 10px;
+}
+.bubble1 {
+       width: 69%;
+    margin-left: 0px;
+	margin-right:15px;
+    height: 120px;
+    margin-top: 0;
+}
+ .rightsec p {
+       font-size: 16px;
+    line-height: 20px;
+    padding: 10px;
+}
+.rightsec span {
+    font-size: 15px;
+    padding-left: 10px;
+}
+#icons {
+    padding: 30px 0;
+}
+#team {
+    background: #111111;
+    padding: 30px 0;
+}
+.teamone {
+    padding: 30px 0 16px;
+}
+.teamone h4 {
+    line-height: 20px;
+    font-size: 16px;
+}
+.teamone a i {
+    width: 28px;
+    height: 28px;
+    margin: 3px;
+    font-size: 18px;
+}
+.teamone a i:before {
+    position: relative;
+    top: 6px;
+}
+.bottomteam p {
+    width: 100%;
+}
+.leftcontact ul li i {
+    width: 30px;
+    margin-right: 5px;
+	font-size:28px;
+}
+#contact {
+    padding: 50px 0;
+}
+.leftcontact ul li a {
+    font-size: 18px;
+}
+.leftcontact ul li {
+    width: 100%;
+    padding-top: 5px;
+}
+.leftcontact h3 {
+    font-size: 46px;
+    line-height: 53px;
+}
+#icons img{width:100%;}
+.teamone img{width:100%;}
+		}
+		/*
+		@media only screen and (min-width: 480px) and (max-width: 549px) {
+		
+		}*/
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 549px) {
+		#homebanner {
+    min-height: 350px;
+		}
+		#homebanner p {
+    padding-top: 120px;
+	    font-size: 20px;
+}
+#homebanner h2 {
+        font-size: 26px;
+    line-height: 30px;
+   padding: 15px 0 10px;
+}
+.webdevelopment {
+    padding: 20px 0;
+}
+.branding {
+    padding: 20px 0;
+}
+.button--wayra {
+    overflow: hidden;
+    width: 155px;
+}
+.button {
+    margin: 10px;
+    padding: 7px 0;
+}
+.webdevelopment h3 {
+    font-size: 30px;
+    line-height: 20px;
+}
+.branding h3 {
+    font-size: 30px;
+    line-height: 20px;
+	padding-top:20px;
+}
+.webdevelopment p, .branding p {
+    padding: 10px 0px 0 0;
+}
+.webdevelopment img ,.branding img {
+       margin: 0 auto;
+    display: block;
+	width:auto;
+}
+.services {
+    padding: 20px 0;
+}
+.contentone {
+    padding-left: 5px;
+}
+#client {
+     padding: 20px 0;
+}
+.headclient h3 {
+    font-size: 34px;
+    line-height: 45px;
+}
+.headclient p {
+    font-size: 18px;
+}
+.leftsec img, .rightsec img {
+    width: 25%;
+}
+.bubble {
+      width: 72%;
+    margin-left: 5px;
+    height: 120px;
+    margin-top: 0;
+ }
+ .leftsec p {
+       font-size: 14px;
+    line-height: 15px;
+    padding: 5px;
+}
+.leftsec span {
+       font-size: 12px;
+    padding-left: 5px;
+    line-height: 18px;
+}
+.bubble1 {
+      width: 72%;
+    margin-left: 0px;
+	margin-right:5px;
+    height: 120px;
+    margin-top: 0;
+}
+ .rightsec p {
+      font-size: 14px;
+    line-height: 15px;
+    padding: 5px;
+}
+.rightsec span {
+        font-size: 12px;
+    padding-left: 5px;
+    line-height: 18px;
+}
+#icons {
+    padding: 20px 0;
+	text-align:center;
+}
+#icons img{margin:10px 0;}
+#team {
+    padding: 20px 0;
+}
+.hedteam h3 {
+    font-size: 36px;
+    line-height: 46px;
+}
+.hedteam p {
+    font-size: 18px;
+}
+.teamone {
+    padding: 20px 0 10px;
+}
+.bottomteam p {
+    width: 100%; 
+    font-size: 16px;
+}
+#contact {
+    padding: 20px 0;
+}
+.leftcontact h3 {
+    font-size: 36px;
+    line-height: 46px;
+}
+.leftcontact h5 {
+    padding-top: 2px;
+    font-size: 16px;
+}
+.leftcontact ul li {
+    width: 100%;
+    padding-top: 10px;
+}
+.leftcontact ul{margin-bottom:20px;}
+#contact textarea {
+    height: 100px;
+}
+.last {
+    padding: 20px 0;
+    font-size: 16px;
+}
+		}
+

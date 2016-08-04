@@ -1,0 +1,302 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	#filter {
+    max-width: 720px;
+	}
+	.work h3 {
+    max-width: 250px;
+	}
+	#container ul li img {
+    width: 100%;
+}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 991px) {
+	.banner {
+    min-height: 600px;
+	}
+	.banner h2 {
+    padding-top: 200px;
+}
+.banner p {
+    padding: 10px 0 180px;
+}
+nav ul li {
+    padding: 10px 8px;
+}
+.macsec img{display:block; width:120%;}
+.macsec {
+    padding-top: 70px;
+}
+.macsec h3 {
+    font-size: 28px;
+}
+p.mdl {
+    padding-bottom: 10px;
+}
+.macsec a {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.team {
+    padding: 50px 0 50px;
+    min-height: 650px;
+}
+.services {
+    padding: 50px 0;
+}
+.client {
+    padding: 50px 0 50px;
+    min-height: 430px;
+}
+.work {
+    padding: 50px 0;
+}
+#filter {
+    max-width: 530px;
+	}
+	.work h3 {
+    max-width: 200px;
+	}
+	#container ul li img {
+    width: 100%;
+}
+.imgDescription2 {
+    padding-top: 10px;
+}
+.contact {
+    padding: 50px 0;
+}
+.formsfield .data1 input {
+    max-width: 344px;
+}
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+			.banner {
+    min-height: 600px;
+	}
+	.banner h2 {
+    padding-top: 200px;
+}
+.banner p {
+    padding: 10px 0 180px;
+}
+nav ul li {
+    padding: 10px 8px;
+}
+.macsec img{display:block; width:120%;}
+.macsec {
+    padding-top: 70px;
+}
+.macsec h3 {
+    font-size: 28px;
+}
+p.mdl {
+    padding-bottom: 10px;
+}
+.macsec a {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.team {
+    padding: 50px 0 50px;
+    min-height: 650px;
+}
+.services {
+    padding: 50px 0;
+}
+.client {
+    padding: 50px 0 50px;
+    min-height: 430px;
+}
+.work {
+    padding: 50px 0;
+}
+#filter {
+    max-width: 530px;
+	}
+	.work h3 {
+    max-width: 200px;
+	}
+	#container ul li img {
+    width: 100%;
+}
+.imgDescription2 {
+    padding-top: 10px;
+}
+.contact {
+    padding: 50px 0;
+}
+.formsfield .data1 input {
+    max-width: 344px;
+}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		header {
+    padding: 15px 0 15px;
+		}
+		header.sticky {
+    padding: 10px 0;
+		}
+		.nav-collapse, .nav-collapse ul {
+    text-align: center;
+}
+.logo h1 a {
+    padding: 15px 0;
+}
+.banner {
+    min-height: 400px;
+	}
+	.banner h2 {
+    padding-top:125px;
+	font-size: 30px;
+    line-height: 44px;
+}
+.banner p {
+    padding: 10px 0 50px;
+}
+.macsec img{display:block; width:100%;}
+.macsec {
+    padding-top: 30px;
+}
+.macsec h3 {
+    font-size: 28px;
+}
+p.mdl {
+    padding-bottom: 10px;
+}
+.macsec a {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.team {
+    padding: 30px 0;
+    min-height: 600px;
+}
+h2 {
+    font-size: 30px;
+    line-height: 38px;
+}
+.team span {
+    margin: 7px auto;
+}
+.team h2 {
+    padding-bottom: 0px;
+}
+.services {
+    padding: 30px 0;
+}
+.sertop p {
+    padding: 20px 10px 30px;
+}
+.innerdata p {
+    padding-bottom: 20px;
+}
+.sertop h2 {
+    padding-bottom: 0px;
+}
+.sertop span {
+    margin: 7px auto;
+}
+.client {
+    padding: 30px 0;
+    min-height: 300px;
+}
+.clienttop h2 {
+    padding-bottom: 0px;
+}
+.clienttop span {
+    margin: 7px auto;
+}
+.work {
+    padding: 30px 0;
+}
+.work h3 {
+    max-width: 100%;
+	    padding-bottom: 10px;
+}
+#filter {
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+}
+#container li {
+    width: 48%;
+}
+#container li img{width:100%; display:block;}
+.slider2 p {
+    padding-bottom: 20px;
+}
+.padtop {
+    padding: 30px 0 0 0;
+}
+.contact {
+    padding: 30px 0;
+}
+.data1 {
+    width: 100%;
+}
+.formsfield .data1 input {
+    max-width: 100%;
+}
+.formsfield .data1 input[type=email] {
+    margin-left: 0;
+}
+footer ul {
+    text-align: center;
+    margin-top: 10px;
+}
+footer p {
+    text-align: center;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.banner h2 {
+    padding-top: 125px;
+    font-size: 22px;
+    line-height: 40px;
+}
+		
+		.macsec h3 {
+    font-size: 22px;
+}
+header.sticky {
+    padding: 5px 0;
+}
+p.mdl {
+    font-size: 16px;
+}
+h2 {
+    font-size: 22px;
+    line-height: 32px;
+}
+.innerdata h3 {
+    font-size: 20px;
+    padding: 15px 0 5px;
+}
+#container li {
+    width: 100%;
+	margin:0;
+}
+.slider2 p {
+    font-size: 16px;
+}
+		}
+

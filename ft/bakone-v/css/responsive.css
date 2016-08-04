@@ -1,0 +1,294 @@
+
+
+/* #Media Queries
+================================================== */
+
+	@media only screen and (min-width: 960px) and (max-width: 1200px) {
+		#contactus input[type="text"] {
+			width:160px;
+		}
+		#contactus input[type="email"] {
+			width:160px;
+		}
+		}
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		header ul li {
+			margin: 0 5px;
+		}
+		header ul li a {
+			padding:8px;
+		}
+		#ft_banner p {
+			  margin: 30px 70px 40px;
+		}
+		ul#portfolio-list li {
+			width:33%;
+		}
+		#aboutus figure {
+			width:100%;
+		}
+		.caption-style-1 img {
+			width:100%;
+		}
+		#contactus input[type="text"] {
+			width:100%;
+			margin-bottom:20px;
+		}
+		#contactus input[type="email"] {
+			width:100%;
+		}
+		#contactus textarea {
+			width:100%;
+		}
+		.rightside{
+			margin-left:50px;
+		}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		header ul li {
+			  margin: 0 0px;
+		}
+		header ul li a {
+			  padding: 3px;
+		}
+		#ft_banner h2 {
+			  padding-top: 160px;
+		}
+		#ft_banner p {
+			margin:20px;
+		}
+		#ft_banner {
+  			min-height: 555px;
+		}
+		ul#portfolio-list li {
+			width:50%;
+		}
+		#aboutus figure {
+  			width: 100%;
+		}
+		.caption-style-1 img {
+			width:100%;
+		}
+		.caption-style-1 .caption-text ul {
+			  margin: 59px 10px 0;
+		}
+		.caption-style-1 .caption-text ul li a {
+			  padding: 7px;
+			  font-size: 20px;
+		}
+		#contactus input[type="text"] {
+			width:96%;
+			margin-bottom:20px;
+		}
+		#contactus input[type="email"] {
+			width:96%;
+		}
+		#contactus textarea {
+			width:96%;
+		}
+		.rightside{
+			margin-left:30px;
+		}
+		}
+		@media only screen and (max-width: 640px) {
+			
+			/*Menu*/
+		
+		#menu-icon {
+
+		display:inline-block;
+
+	}
+	nav ul, nav:active ul { 
+
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #16a086;
+		right: 5px;
+		top: 36px;
+		width: 30%;
+		z-index:999;
+		margin-top:5px;
+	}
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+	nav:hover ul {
+		display: block;
+	}
+	header nav {
+			margin-top:5px;
+		}
+
+			
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 639px) {
+		header {
+			padding:15px 0;
+		}
+		#ft_banner h2 {
+			font-size:45px;
+		}
+		#ft_portfolio {
+			padding:30px 0;
+		}
+		ul#portfolio-filter {
+			margin:10px 0;
+		}
+		ul#portfolio-filter a {
+		  margin-right: 5px;
+		  padding: 6px;
+		  letter-spacing:0;
+		}
+		#aboutus {
+			padding:30px 0;
+		}
+		#aboutus figure {
+			width:220px;
+			margin-bottom:20px;
+		}
+		.caption-style-1 .caption-text ul li a {
+			  padding: 10px;
+			  font-size: 30px;
+		}
+		.caption-style-1 .caption-text ul {
+  			 margin: 100px 15px 0;
+		}
+		#contactus {
+			padding:30px 0;
+		}
+		#contactus p {
+			padding: 10px 0 30px 0;
+		}
+		#contactus .submitbtn {
+			margin:10px auto 20px;
+			display:block;
+			float:none;
+		}
+		footer img {
+		  float:none;		
+		  margin: 0 auto;
+		  display: block;
+		}
+		footer {
+			padding:10px 0;
+		}
+		footer p{
+			float:none;
+			text-align:center;
+			margin:10px 0;
+		}	
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		header {
+			padding:15px 0;
+		}
+		header.sticky {
+			padding:5px 0;
+		}
+		header ul li {
+			font-size:13px;
+		}
+		#ft_banner h2 {
+			  padding-top: 130px;
+			  font-size: 33px;
+		}
+		#ft_banner {
+ 			 min-height: 445px;
+		}
+		#ft_banner p {
+			  font-size: 16px;
+			  line-height: 22px;
+			  margin: 10px 0 20px;
+		}
+		#ft_banner img {
+			margin:20px auto 10px;
+		}
+		#ft_portfolio {
+ 			 padding: 20px 0;
+		}
+		#ft_portfolio p {
+			  margin: 15px 0 15px;
+		}
+		ul#portfolio-list li {
+			width:100%;
+		}
+		ul#portfolio-list li a {
+			margin:0 auto;
+		}
+		ul#portfolio-filter a {
+			  display: block;
+			  margin-bottom: 5px;
+		}
+		#aboutus {
+			padding:20px 0;
+		}
+		#aboutus p {
+  			padding: 10px 0 20px 0;
+		}
+		#aboutus figure {
+			width:220px;
+			margin-bottom:20px;
+		}
+		.caption-style-1 .caption-text ul li a {
+			  padding: 10px;
+			  font-size: 30px;
+		}
+		.caption-style-1 .caption-text ul {
+  			 margin: 100px 15px 0;
+		}
+		#contactus {
+			padding:20px 0;
+		}
+		#contactus p {
+			padding: 10px 0 30px 0;
+		}
+		#contactus .submitbtn {
+			margin:10px auto 20px;
+			display:block;
+			float:none;
+		}
+		footer img {
+		  float:none;		
+		  margin: 0 auto;
+		  display: block;
+		}
+		footer {
+			padding:10px 0;
+		}
+		footer p{
+			float:none;
+			text-align:center;
+			margin:10px 0;
+		}
+		.effects .img {
+  			float: none;
+		}
+		.overlay {
+			height:180px;
+			width:180px;
+			margin:0 auto;
+		}
+		ul#portfolio-filter a {
+			margin-right:0px;
+		}
+		
+		
+		}
+
